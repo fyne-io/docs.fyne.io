@@ -40,6 +40,14 @@ exclude:
   - vendor
   - _gen
   - gen.sh
+  - api/v1.2
+  - api/v1.3
+  - api/v1.4
+  - api/v2.0
+  - api/v2.1
+  - api/v2.2
+  - api/v2.3
+
 timezone: Europe/Berlin
 
 defaults:
@@ -53,8 +61,3 @@ defaults:
   values:
     layout: post
     sectionid: blog
-
-collections:
-  api:
-    relative_directory: 'api/v2.4'
-    output: true
