@@ -26,7 +26,7 @@
               {% assign item_url = section.sectionid | prepend: "/" | append: "/" %}
             {% endif %}
             {% assign p = site.pages | where:"url", item_url | first %}
-            <a class="list-group-item {% if item_url == page.url %}active{% endif %}" href="{{ p.url | replace: ".html", "/" | relative_url }}">{{ p.title }}</a>
+            <a class="list-group-item {% if item_url == page.url %}active{% endif %}" href="{{ p.url | replace: ".html", "" | relative_url }}">{{ p.title }}</a>
           {% endfor %}
         </div>
       </div>
