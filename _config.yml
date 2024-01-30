@@ -1,99 +1,60 @@
 repository: fyne-io/docs.fyne.io
 apiversion: v2.4
 
-output: web
-# this property is useful for conditional filtering of content that is separate from the PDF.
+# Site settings
+title: Fyne.io
+email: info@fyne.io
+description: "Developer documentation for the Fyne toolkit"
+lang: en-US
 
-topnav_title: Fyne Develop
-# this appears on the top navigation bar next to the home button
+baseurl: /
+url: https://docs.fyne.io
+git_address: https://github.com/fyne-io/docs.fyne.io
+git_edit_address: https://github.com/fyne-io/docs.fyne.io/tree/main
 
-site_title: Develop using Fyne
-# this appears in the html browser tab for the site title (seen mostly by search engines, not users)
+# theme options from https://bootswatch.com/3/
+# comment out this to use default Bootstrap
+bootwatch: slate # cerulean cosmo custom cyborg darkly flatly journal lumen readable sandstone simplex slate solar spacelab superhero united yeti
 
-company_name: Fyne.io
-# this appears in the footer
-
-#github_editme_path: fyne-io/docs.fyne.io/blob/master/
-# if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
-
-google_analytics:
-# if you have google-analytics ID, put it in. if not, edit this value to blank.
-
-host: 127.0.0.1
-# the preview server used. Leave as is.
-
-port: 4000
-# the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
-
-exclude:
-  - .idea/
-  - .gitignore
-  - vendor
-  - _gen
-  - gen.sh
-# these are the files and directories that jekyll will exclude from the build
-
-highlighter: rouge
-# library used for syntax highlighting
-
+# Build settings
 markdown: kramdown
+highlighter: rouge
 kramdown:
  input: GFM
  auto_ids: true
  hard_wrap: false
  syntax_highlighter: rouge
+# Plugins (previously gems:)
 plugins:
+  - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-# filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
-
-collections:
-  tooltips:
-    output: false
-# collections are declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output unless you change output to true
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .idea/
+  - .gitignore
+  - README.md
+  - vendor
+  - _gen
+  - gen.sh
+timezone: Europe/Berlin
 
 defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-      comments: false
-      search: true
-      sidebar: home_sidebar
-      topnav: topnav
-  -
-    scope:
-      path: ""
-      type: "tooltips"
-    values:
-      layout: "page"
-      search: true
-      tooltip: true
+- scope:
+    path: ""
+  values:
+    layout: "page"
+- scope:
+    path: _posts
+    type: posts
+  values:
+    layout: post
+    sectionid: blog
 
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: false
-      search: true
-      sidebar: home_sidebar
-      topnav: topnav
-
-# these are defaults used for the frontmatter for these file types
-
-sidebars:
-- home_sidebar
-
-description: "Developer documentation for the Fyne toolkit"
-# the description is used in the feed.xml file
-
-# needed for sitemap.xml file only
-# url: http://idratherbewriting.com
-# baseurl: /documentation-theme-jekyll
-baseurl: /
-
-github: [metadata]
+collections:
+  api:
+    relative_directory: 'api/v2.4'
+    output: true

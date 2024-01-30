@@ -1,39 +1,20 @@
 <!DOCTYPE html>
-<html>
-<head>
-    {% include head.html %}
-    {% include head_nav.html %}
-</head>
-<body>
-{% include topnav.html %}
-<!-- Page Content -->
-<div class="container" style="padding-top: 50px; padding-bottom: 50px;">
-  <div id="main">
-    <!-- Content Row -->
-    <div class="row">
-        {% assign content_col_size = "col-md-12" %}
-        {% unless page.hide_sidebar %}
-            <!-- Sidebar Column -->
-            <div class="col-md-3" id="tg-sb-sidebar">
-                {% include sidebar.html %}
-            </div>
-            {% assign content_col_size = "col-md-9" %}
-        {% endunless %}
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-        <!-- Content Column -->
-        <div class="{{content_col_size}}" id="tg-sb-content">
-            {{content}}
+{% include head.html %}
+
+<body>
+
+    {% include topnav.html %}
+
+    <div class="page-content">
+        <div class="wrapper">
+            {{ content }}
         </div>
-    <!-- /.row -->
-</div>
-<!-- /.container -->
-</div>
-<!-- /#main -->
     </div>
 
-{% include footer.html %}
+    {% include footer.html %}
+    {% include js_files.html %}
 </body>
-{% if site.google_analytics %}
-{% include google_analytics.html %}
-{% endif %}
+
 </html>

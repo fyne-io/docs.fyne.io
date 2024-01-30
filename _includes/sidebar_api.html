@@ -1,56 +1,104 @@
 {% assign sidebar = site.pages | group_by: "package" | sort: "name" %}
 
-  <li>
-      <a title="API Documentation" href="#">API Documentation</a>
-      <ul>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-99" aria-expanded="false" aria-controls="collapse-99">
+            API Documentation
+          </a>
+        </h4>
+      </div>
+      {% assign collapsed = true %}
+      {% assign section = page.url | slice: 1, 3 %}
+      {% if section == "api" %}
+        {% assign collapsed = false %}
+      {% endif %}
+      <div class="panel-collapse{% if collapsed %} collapse{% endif %}" id="collapse-99" role="tabpanel" aria-label="Side Navigation">
+        <div class="list-group">
           {% assign pkglink = "/api/" | append: site.apiversion | append: "/upgrading.html" %}
-          {% if page.url == pkglink %}
-          <li class="active"><a title="Upgrade to latest Fyne" href="{{ pkglink }}">Upgrade to {{ site.apiversion }}</a></li>
-          {% else %}
-          <li><a title="Upgrade to latest Fyne" href="{{ pkglink }}">Upgrade to v2.4</a></li>
-          {% endif %}
+          <a class="list-group-item {% if pkglink == page.url %}active{% endif %}" href="{{ pkglink }}">Upgrade to {{ site.apiversion }}</a>
 
           {% for entry in sidebar %}
-          {% assign folder = entry.name %}
-          {% if folder.size == 0 %}{% continue %}{% endif %}
+            {% assign folder = entry.name %}
+            {% if folder.size == 0 %}{% continue %}{% endif %}
 
-          <li class="subfolders">
-              {% assign name = folder | remove: "fyne.io/fyne/v2/" %}
-              {% assign remove = name %}
-              {% assign link = name | append: "/" %}
-              {% if name == "fyne.io/fyne/v2" %}
-              {% assign name = "Fyne API " | append: site.apiversion %}
-              {% assign remove = "fyne" %}
-              {% assign link = "" %}
+            {% assign name = folder | remove: "fyne.io/fyne/v2/" %}
+            {% assign remove = name %}
+            {% assign link = name | append: "/" %}
+            {% if name == "fyne.io/fyne/v2" %}
+            {% assign name = "Fyne API " | append: site.apiversion %}
+            {% assign remove = "fyne" %}
+            {% assign link = "" %}
+            {% endif %}
+
+            {% assign item_url = entry | prepend:"/api/" | append:".html" %}
+            {% if entry == "index" %}
+              {% assign item_url = section.sectionid | prepend: "/" | append: "/" %}
+            {% endif %}
+            {% assign p = site.pages | where:"url", item_url | first %}
+            <a class="list-group-item {% if item_url == page.url %}active{% endif %}" href="/api/{{ site.apiversion }}/{{ link }}">{{ name }}</a>
+
+            {% assign isroot = true %}
+            {% assign items = name | split: '/' %}
+            {% assign prefix = "/api/v2.4/" %}
+            {% assign rootName = "Fyne API " | append: site.apiversion %}
+            {% if name != rootName %}
+            {% assign prefix = "/api/v2.4/" | append: name | append: "/" %}
+            {% assign isroot = false %}
+            {% endif %}
+            {% if items.size > 1 %}
+            {% assign name = items[1] %}
+            {% assign remove = name %}
+            {% assign prefix = "/api/v2.4/" | append: items[0] | append: "/" %}
+            {% assign isroot = false %}
+            {% endif %}
+
+            {% assign folders = page.path | split: '/' | size %}
+            {% assign prefixLen = prefix | size %}
+            {% assign linkPrefix = page.url | slice: 0, prefixLen %}
+            {% if linkPrefix != prefix %}
+              {% continue %}
+            {% endif %}
+            {% if isroot and folders > 3 %}
+              {% continue %}
+            {% endif %}
+
+
+            <div class="list-group" style="padding-left: 20pt; padding-top: 1pt; margin-bottom: 0;">
+              {% assign pkglink = "/api/" | append: site.apiversion | append: "/" | append: link %}
+              {% assign active == false %}
+              {% if page.url == pkglink %}
+              {% assign active = true %}
               {% endif %}
+              <a class="list-group-item {% if item_url == page.url %}active{% endif %}" href="{{ pkglink }}">package {{ remove }}</a>
 
-              <a title="{{ name }}" href="/api/{{ site.apiversion }}/{{ link }}">{{ name }}</a>
-              {% assign items = name | split: '/' %}
-              {% if items.size > 1 %}
-              {% assign name = items[1] %}
-              {% assign remove = name %}
-              {% endif %}
-              <ul>
-                  {% assign pkglink = "/api/"+site.apiversion+"/" | append: link %}
-                  {% if page.url == pkglink %}
-                  <li class="active"><a title="package {{ remove }}" href="{{ pkglink }}">package {{ remove }}</a></li>
-                  {% else %}
-                  <li><a title="package {{ remove }}" href="{{ pkglink }}">package {{ remove }}</a></li>
-                  {% endif %}
+              {% for subfolderitem in entry.items | sort: 'url' %}
+                {% assign strip = remove | append: "." %}
+                {% assign title = subfolderitem.title | remove: '"' | remove: 'Fyne API ' | remove: strip %}
+                {% if title == remove %}{% continue %}{% endif %}
 
-                  {% for subfolderitem in entry.items | sort: 'url' %}
-                  {% assign strip = remove | append: "." %}
-                  {% assign title = subfolderitem.title | remove: '"' | remove: 'Fyne API ' | remove: strip %}
-                  {% if title == remove %}{% continue %}{% endif %}
-                  {% if page.url == subfolderitem.url %}
-                  <li class="active"><a title="{{title}}" href="{{subfolderitem.url}}">{{title}}</a></li>
-                  {% else %}
-                  <li><a title="{{title}}" href="{{subfolderitem.url}}">{{title}}</a></li>
-                  {% endif %}
-                  {% endfor %}
-              </ul>
-          </li>
+                {% assign active == false %}
+                {% if page.url == subfolderitem.url %}
+                {% assign active = true %}
+                {% endif %}
+                <a class="list-group-item {% if item_url == page.url %}active{% endif %}" href="{{ subfolderitem.url }}">{{ title }}</a>
+
+              {% endfor %}
+            </div>
 
           {% endfor %}
-      </ul>
-  </li>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="panel panel-default" style="margin-top: 25pt">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a role="button" href="/submit/">
+            List My App
+          </a>
+        </h4>
+      </div>
+    </div>

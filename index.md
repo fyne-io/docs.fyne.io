@@ -1,6 +1,6 @@
 ---
 title: "Fyne toolkit documentation for developers"
-permalink: index.html
+permalink: /
 ---
 
 This site is home to the documentation and examples for developers working with the
