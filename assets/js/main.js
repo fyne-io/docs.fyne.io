@@ -3,10 +3,13 @@ $(function () {
   function initSearchBox() {
     var pages = new Bloodhound({
       //datumTokenizer: Bloodhound.tokenizers.obj.whitespace('title'),
-      datumTokenizer: Bloodhound.tokenizers.nonword,
+      datumTokenizer: Bloodhound.tokenizers.obj.nonword('title'),
       queryTokenizer: Bloodhound.tokenizers.whitespace,
 
-      prefetch: '/search.json'
+      prefetch: {
+        url: '/search.json',
+        cache: false
+      }
     });
 
     $('#search-box').typeahead({

@@ -5,7 +5,7 @@ layout: none
 [
 {% for p in site.pages %}
   {
-    "title": "{{ p.title | escape }}",
+    "title": "{{ p.title | remove: '"' }}",
     "url": "{{ p.url | relative_url }}"
   }{% unless forloop.last %},{% endunless %}
 {% endfor %}
