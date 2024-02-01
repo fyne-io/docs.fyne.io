@@ -1,3 +1,18 @@
+@media only screen and (max-width: 1199px) {
+div.navbar-container {
+    overflow: hidden;
+    max-height: 36pt;
+}
+}
+
+@media only screen and (max-width: 767px) {
+div.navbar-container {
+    overflow: visible;
+    max-height: 1000px;
+}
+}
+
+
 
 div.deprecated {
     padding: 7pt;
