@@ -2,8 +2,8 @@ $(function () {
 
   function initSearchBox() {
     var pages = new Bloodhound({
-      datumTokenizer: Bloodhound.tokenizers.obj.whitespace('title'),
-      // datumTokenizer: Bloodhound.tokenizers.whitespace,
+      //datumTokenizer: Bloodhound.tokenizers.obj.whitespace('title'),
+      datumTokenizer: Bloodhound.tokenizers.nonword,
       queryTokenizer: Bloodhound.tokenizers.whitespace,
 
       prefetch: '/search.json'
