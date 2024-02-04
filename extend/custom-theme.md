@@ -70,7 +70,7 @@ that was created using [resource embedding](https://developer.fyne.io/tutorial/b
 ```go
 func (m myTheme) Icon(name fyne.ThemeIconName) fyne.Resource {
 	if name == theme.IconNameHome {
-		fyne.NewStaticResource("myHome", homeBytes)
+		return fyne.NewStaticResource("myHome", homeBytes)
 	}
 	
 	return theme.DefaultTheme().Icon(name)
