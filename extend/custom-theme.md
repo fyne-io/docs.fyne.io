@@ -43,6 +43,8 @@ The `Color` function defined in the `Theme` interface asks us to define a
 named color and also provides a hint for the variant that the user desires (for example `theme.VariantLight` or `theme.VariantDark`). In our theme we will return a custom background color - using a different value for light and dark.
 
 ```go
+// The color package has to be imported from "image/color".
+
 func (m myTheme) Color(name fyne.ThemeColorName, variant fyne.ThemeVariant) color.Color {
 	if name == theme.ColorNameBackground {
 		if variant == theme.VariantLight {
