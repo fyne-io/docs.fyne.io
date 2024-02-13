@@ -34,9 +34,9 @@ func main() {
 
 	raster := canvas.NewRasterWithPixels(
 		func(_, _, w, h int) color.Color {
-			return color.RGBA{uint8(rand.Intn(255)),
-				uint8(rand.Intn(255)),
-				uint8(rand.Intn(255)), 0xff}
+			return color.RGBA{R: uint8(rand.Intn(255)),
+				G: uint8(rand.Intn(255)),
+				B: uint8(rand.Intn(255)), A: 0xff}
 		})
 	// raster := canvas.NewRasterFromImage()
 	w.SetContent(raster)

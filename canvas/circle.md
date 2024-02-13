@@ -30,7 +30,7 @@ func main() {
 	w := myApp.NewWindow("Circle")
 
 	circle := canvas.NewCircle(color.White)
-	circle.StrokeColor = color.Gray{0x99}
+	circle.StrokeColor = color.Gray{Y: 0x99}
 	circle.StrokeWidth = 5
 	w.SetContent(circle)
 
