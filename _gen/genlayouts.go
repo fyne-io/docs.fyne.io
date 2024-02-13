@@ -26,10 +26,10 @@ func boxColor() color.Color {
 	base := theme.DisabledButtonColor()
 	r, _, _, _ := base.RGBA()
 	if r>>8 < 0x80 {
-		return color.NRGBA{0x18, 0x18, 0x18, 0xff}
+		return color.NRGBA{R: 0x18, G: 0x18, B: 0x18, A: 0xff}
 	}
 
-	return color.NRGBA{0xe2, 0xe2, 0xe2, 0xff}
+	return color.NRGBA{R: 0xe2, G: 0xe2, B: 0xe2, A: 0xff}
 }
 
 func makeDrawList() []drawItem {
