@@ -12,6 +12,14 @@ div.navbar-container {
 }
 }
 
+.navbar-collapse.in {
+    overflow-y: visible;
+    margin-bottom: 10pt;
+}
+
+.navbar-collapse.in ul {
+    overflow-y: hidden;
+}
 
 
 div.deprecated {
