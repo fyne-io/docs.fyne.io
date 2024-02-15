@@ -46,7 +46,6 @@ exclude:
   - api/v2.0
   - api/v2.1
   - api/v2.2
-  - api/v2.3
 
 timezone: Europe/Berlin
 
@@ -61,3 +60,8 @@ defaults:
   values:
     layout: post
     sectionid: blog
+
+collections:
+  api:
+    output: true
+
