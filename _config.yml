@@ -40,9 +40,6 @@ exclude:
   - vendor
   - _gen
   - gen.sh
-  - api/v1.2
-  - api/v1.3
-  - api/v1.4
 
 timezone: Europe/Berlin
 
