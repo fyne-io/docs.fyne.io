@@ -43,9 +43,6 @@ exclude:
   - api/v1.2
   - api/v1.3
   - api/v1.4
-  - api/v2.0
-  - api/v2.1
-  - api/v2.2
 
 timezone: Europe/Berlin
 
