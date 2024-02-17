@@ -7,7 +7,7 @@ layout: none
   {
     "title": "{{ p.title | remove: '"' }}",
     "url": "{{ p.url | relative_url }}",
-    "content": "{{ p.content | remove: '"' | strip_html | newline_to_br | strip_newlines | replace: "<br />", " " | replace: "	", "  " }}"
+    "content": "{{ p.content | remove: '"' | replace: "\", "\\\\" | strip_html | newline_to_br | strip_newlines | replace: "<br />", " " | replace: "	", "  " }}"
   }{% unless forloop.last %},{% endunless %}
 {% endfor %}
 
@@ -15,7 +15,7 @@ layout: none
   {
     "title": "{{ post.title | escape }}",
     "url": "{{ post.url | relative_url }}",
-    "content": "{{ post.content | remove: '"' | strip_html | newline_to_br | strip_newlines | replace: "<br />", " " | replace: "	", "  " }}"
+    "content": "{{ post.content | remove: '"' | replace: "\", "\\\\" | strip_html | newline_to_br | strip_newlines | replace: "<br />", " " | replace: "	", "  " }}"
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
