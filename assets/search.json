@@ -6,14 +6,16 @@ layout: none
 {% for p in site.pages %}
   {
     "title": "{{ p.title | remove: '"' }}",
-    "url": "{{ p.url | relative_url }}"
+    "url": "{{ p.url | relative_url }}",
+    "content": "{{ p.content | remove: '"' | strip_html | newline_to_br | strip_newlines | replace: "<br />", " " | replace: "	", "  " }}"
   }{% unless forloop.last %},{% endunless %}
 {% endfor %}
 
   {% for post in site.posts %}
   {
-  "title": "{{ post.title | escape }}",
-  "url": "{{ post.url | relative_url }}"
+    "title": "{{ post.title | escape }}",
+    "url": "{{ post.url | relative_url }}",
+    "content": "{{ post.content | remove: '"' | strip_html | newline_to_br | strip_newlines | replace: "<br />", " " | replace: "	", "  " }}"
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
