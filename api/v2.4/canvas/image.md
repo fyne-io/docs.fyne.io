@@ -31,6 +31,8 @@ type Image struct {
 
 Image describes a drawable image area that can render in a Fyne canvas The image may be a vector or a bitmap representation, it will fill the area. The fill mode can be changed by setting FillMode to a different ImageFill.
 
+Text from SVG images is not currently displayed. For the text to be displayed, it must be converted to a path.
+
 #### func  NewImageFromFile
 
 ```go
