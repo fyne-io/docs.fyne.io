@@ -1,4 +1,5 @@
 $(function () {
+  var count = 0;
 
   function initSearchBox() {
     var pages = new Bloodhound({
@@ -23,7 +24,18 @@ $(function () {
       highlight: true
     }, {
         name: 'pages',
+        limit: 10,
         display: 'title',
+        templates: {
+          footer: function(context) {
+            if (context.suggestions.length < 10) {
+              return "";
+            }
+ 
+            var query = $("#search-box").typeahead("val");
+            return '<div class="tt-suggestion"><a href="/search?q=' + query + '">See all results...</a></div>';
+          }
+        },
         source: pages
       });
 
