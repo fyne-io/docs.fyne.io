@@ -9,6 +9,7 @@ With ruby installed it is as easy as running the following commands in a termina
 
 ```bash
 gem install bundler jekyll
+export GEM_HOME=$(ruby -e 'puts Gem.user_dir')
 bundle exec jekyll serve
 ```
 
