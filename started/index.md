@@ -104,7 +104,7 @@ The steps for installing with MSYS2 (recommended) are as follows:
 * **Debian / Ubuntu:**
 `sudo apt-get install golang gcc libgl1-mesa-dev xorg-dev`
 * **Fedora:**
-`sudo dnf install golang golang-misc gcc libXcursor-devel libXrandr-devel mesa-libGL-devel libXi-devel libXinerama-devel libXxf86vm-devel`
+`sudo dnf install golang golang-misc gcc libXcursor-devel libXrandr-devel mesa-libGL-devel libXi-devel libXinerama-devel libXxf86vm-devel libxkbcommon-devel libdecor-devel`
 * **Arch Linux:**
 `sudo pacman -S go xorg-server-devel libxcursor libxrandr libxinerama libxi`
 * **Solus:**
