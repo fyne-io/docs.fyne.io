@@ -102,7 +102,7 @@ The steps for installing with MSYS2 (recommended) are as follows:
 
 * You will need to install Go, gcc and the graphics library header files using your package manager, one of the following commands will probably work.
 * **Debian / Ubuntu:**
-`sudo apt-get install golang gcc libgl1-mesa-dev xorg-dev libxkbcommon-dev libwayland-dev`
+`sudo apt-get install golang gcc libgl1-mesa-dev xorg-dev libxkbcommon-dev`
 * **Fedora:**
 `sudo dnf install golang golang-misc gcc libXcursor-devel libXrandr-devel mesa-libGL-devel libXi-devel libXinerama-devel libXxf86vm-devel libxkbcommon-devel wayland-devel`
 * **Arch Linux:**
@@ -127,7 +127,7 @@ The steps for installing with MSYS2 (recommended) are as follows:
 <div style="text-align: left" markdown="1">
 
 * You will need to install Go, gcc and the graphics library header files using the package manager.
-* `sudo apt-get install golang gcc libegl1-mesa-dev xorg-dev libxkbcommon-dev libwayland-dev`
+* `sudo apt-get install golang gcc libegl1-mesa-dev xorg-dev libxkbcommon-dev`
 
 **NOTE:** Some Wayland compositors (Gnome's compositor Mutter etc.) do not support server side decorations resulting in Fyne applications showing up without window borders. Installing `libdecor` should solve these issues. 
 
