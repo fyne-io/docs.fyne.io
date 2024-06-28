@@ -102,21 +102,23 @@ The steps for installing with MSYS2 (recommended) are as follows:
 
 * You will need to install Go, gcc and the graphics library header files using your package manager, one of the following commands will probably work.
 * **Debian / Ubuntu:**
-`sudo apt-get install golang gcc libgl1-mesa-dev xorg-dev libxkbcommon-dev libdecor-0-dev`
+`sudo apt-get install golang gcc libgl1-mesa-dev xorg-dev libxkbcommon-dev`
 * **Fedora:**
-`sudo dnf install golang golang-misc gcc libXcursor-devel libXrandr-devel mesa-libGL-devel libXi-devel libXinerama-devel libXxf86vm-devel libxkbcommon-devel libdecor-devel`
+`sudo dnf install golang golang-misc gcc libXcursor-devel libXrandr-devel mesa-libGL-devel libXi-devel libXinerama-devel libXxf86vm-devel libxkbcommon-devel`
 * **Arch Linux:**
-`sudo pacman -S go xorg-server-devel libxcursor libxrandr libxinerama libxi libxkbcommon libdecor`
+`sudo pacman -S go xorg-server-devel libxcursor libxrandr libxinerama libxi libxkbcommon`
 * **Solus:**
-`sudo eopkg it -c system.devel golang mesalib-devel libxrandr-devel libxcursor-devel libxi-devel libxinerama-devel libxkbcommon-devel libdecor-devel`
+`sudo eopkg it -c system.devel golang mesalib-devel libxrandr-devel libxcursor-devel libxi-devel libxinerama-devel libxkbcommon-devel`
 * **openSUSE:**
-`sudo zypper install go gcc libXcursor-devel libXrandr-devel Mesa-libGL-devel libXi-devel libXinerama-devel libXxf86vm-devel libxkbcommon-devel libdecor-devel`
+`sudo zypper install go gcc libXcursor-devel libXrandr-devel Mesa-libGL-devel libXi-devel libXinerama-devel libXxf86vm-devel libxkbcommon-devel`
 * **Void Linux:**
-`sudo xbps-install -S go base-devel xorg-server-devel libXrandr-devel libXcursor-devel libXinerama-devel libxkbcommon-devel libdecor-devel`
+`sudo xbps-install -S go base-devel xorg-server-devel libXrandr-devel libXcursor-devel libXinerama-devel libxkbcommon-devel`
 * **Alpine Linux**
-`sudo apk add go gcc libxcursor-dev libxrandr-dev libxinerama-dev libxi-dev linux-headers mesa-dev libxkbcommon-dev libdecor-dev`
+`sudo apk add go gcc libxcursor-dev libxrandr-dev libxinerama-dev libxi-dev linux-headers mesa-dev libxkbcommon-dev`
 * **NixOS**
-`nix-shell -p libGL pkg-config xorg.libX11.dev xorg.libXcursor xorg.libXi xorg.libXinerama xorg.libXrandr xorg.libXxf86vm libxkbcommon libdecor`
+`nix-shell -p libGL pkg-config xorg.libX11.dev xorg.libXcursor xorg.libXi xorg.libXinerama xorg.libXrandr xorg.libXxf86vm libxkbcommon`
+
+**NOTE:** Some Wayland compositors (Gnome's compositor Mutter etc.) do not support server side decorations and Fyne applications may show up without window borders in that case. Installing `libdecor` should solve these issues. 
 
 </div>
 </div>
