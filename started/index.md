@@ -127,7 +127,9 @@ The steps for installing with MSYS2 (recommended) are as follows:
 <div style="text-align: left" markdown="1">
 
 * You will need to install Go, gcc and the graphics library header files using the package manager.
-* `sudo apt-get install golang gcc libegl1-mesa-dev xorg-dev libxkbcommon-dev libdecor-0-dev`
+* `sudo apt-get install golang gcc libegl1-mesa-dev xorg-dev libxkbcommon-dev`
+
+**NOTE:** Some Wayland compositors (Gnome's compositor Mutter etc.) do not support server side decorations resulting in Fyne applications showing up without window borders. Installing `libdecor` should solve these issues. 
 
 </div>
 </div>
