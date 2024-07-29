@@ -40,16 +40,16 @@
 
             {% assign isroot = true %}
             {% assign items = name | split: '/' %}
-            {% assign prefix = "/api/v2.4/" %}
+            {% assign prefix = "/api/v2.5/" %}
             {% assign rootName = "Fyne API " | append: site.apiversion %}
             {% if name != rootName %}
-            {% assign prefix = "/api/v2.4/" | append: name | append: "/" %}
+            {% assign prefix = "/api/v2.5/" | append: name | append: "/" %}
             {% assign isroot = false %}
             {% endif %}
             {% if items.size > 1 %}
             {% assign name = items[1] %}
             {% assign remove = name %}
-            {% assign prefix = "/api/v2.4/" | append: items[0] | append: "/" %}
+            {% assign prefix = "/api/v2.5/" | append: items[0] | append: "/" %}
             {% assign isroot = false %}
             {% endif %}
 
