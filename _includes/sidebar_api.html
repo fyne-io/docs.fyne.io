@@ -16,7 +16,8 @@
       <div class="panel-collapse{% if collapsed %} collapse{% endif %}" id="collapse-99" role="tabpanel" aria-label="Side Navigation">
         <div class="list-group">
           {% assign pkglink = "/api/" | append: site.apiversion | append: "/upgrading.html" %}
-          <a class="list-group-item {% if pkglink == page.url %}active{% endif %}" href="{{ pkglink }}">Upgrade to {{ site.apiversion }}</a>
+          {% assign skiproot = false %}
+          <a class="list-group-item {% if pkglink == page.url %}{% assign skiproot = true %}active{% endif %}" href="{{ pkglink }}">Upgrade to {{ site.apiversion }}</a>
 
           {% for entry in sidebar %}
             {% assign folder = entry.name %}
@@ -59,7 +60,7 @@
             {% if linkPrefix != prefix %}
               {% continue %}
             {% endif %}
-            {% if isroot and folders > 3 %}
+            {% if skiproot or isroot and folders > 3 %}
               {% continue %}
             {% endif %}
 
