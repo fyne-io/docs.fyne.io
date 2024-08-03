@@ -2,7 +2,7 @@
 
 ROOT="`go env GOPATH`/src/fyne.io/fyne/v2"
 bash -c "cd $ROOT; git checkout master; git pull"
-VERSION="v2.4"
+VERSION="v2.5"
 
 cd "$(dirname "$0")"
 cd ..
