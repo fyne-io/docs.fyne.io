@@ -55,6 +55,7 @@ func makeDrawList() []drawItem {
 		{"gridwrap", fyne.NewContainerWithLayout(layout.NewGridWrapLayout(fyne.NewSize(75, 75)), makeObjs()...)},
 		{"max", fyne.NewContainerWithLayout(layout.NewMaxLayout(), makeObjs()...)},
 		{"padded", fyne.NewContainerWithLayout(layout.NewPaddedLayout(), makeObjs()...)},
+		{"custompadded", fyne.NewContainerWithLayout(layout.NewCustomPaddedLayout(5, 15, 10, 20), makeObjs()...)},
 		{"combined", combined},
 	}
 }

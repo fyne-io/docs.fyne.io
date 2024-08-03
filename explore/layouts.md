@@ -87,6 +87,10 @@ to the container (last-most is on top).
 
 {% include layout.html name="padded" %}
 
+You can also specify each site separately using `CustomPadded` layout.
+
+{% include layout.html name="custompadded" %}
+
 ## Combining Layouts
 
 It is possible to build up more complex application structures by using multiple layouts.
