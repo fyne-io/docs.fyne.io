@@ -70,9 +70,9 @@ All items in the container that are not positioned on a border will fill the rem
 
 {% include layout.html name="border" %}
 
-### Max
+### Stack (was Max)
 
-Max layout positions all container elements to fill the available space.
+Stack layout positions all container elements to fill the available space.
 The objects will all be full-sized and drawn in the order they were added
 to the container (last-most is on top).
 
