@@ -13,7 +13,7 @@ Intro
 
 **A:** The position and size of elements in a Fyne app are controlled by the layout of the container that they are within. If the elements of your UI are too small consider using a different [layout](/started/layouts) or container.
 
-A new `Window` will expand whatever element is passed to `SetContent()` to fill its size. Each time you add a container to this it will divide up the available space according to the layout. Layouts like `HBox` and `VBox` will shrink content to its `MinSize()` in one dimension or another to pack contents in. Layouts like `Max` or `Border` will expand content to fill the space. By writing a [custom layout](/extend/custom-layout) you could fully controll the items within a container.
+A new `Window` will expand whatever element is passed to `SetContent()` to fill its size. Each time you add a container to this it will divide up the available space according to the layout. Layouts like `HBox` and `VBox` will shrink content to its `MinSize()` in one dimension or another to pack contents in. Layouts like `Max` or `Border` will expand content to fill the space. By writing a [custom layout](/extend/custom-layout) you could fully control the items within a container.
 
 **Q: Why is my image so small?**
 
