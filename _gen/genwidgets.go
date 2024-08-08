@@ -29,7 +29,11 @@ var (
 
 func makeDrawList() []drawItem {
 	prop := canvas.NewRectangle(color.Transparent)
-	prop.SetMinSize(fyne.NewSize(100, 0))
+	prop.SetMinSize(fyne.NewSize(50, 50))
+	ac := widget.NewActivity()
+	ac.Resize(fyne.NewSize(50, 50))
+	//test.WidgetRenderer(ac).(anim).Animate(0.33)
+
 	se := &widget.SelectEntry{}
 	se.Scroll = container.ScrollNone
 	se.SetOptions([]string{"1", "2"})
@@ -38,6 +42,7 @@ func makeDrawList() []drawItem {
 		{"accordion", widget.NewAccordion(
 			&widget.AccordionItem{Title: "A", Detail: widget.NewLabel("Hidden")},
 			widget.NewAccordionItem("B", widget.NewLabel("Shown item")))},
+		{"activity", container.NewStack(prop, ac)},
 		{"apptabs", container.NewAppTabs(
 			container.NewTabItemWithIcon("Tab1", theme.HomeIcon(), widget.NewLabel("                         ")),
 			container.NewTabItemWithIcon("Tab2", theme.MailSendIcon(), widget.NewLabel("                         ")))},
@@ -52,6 +57,7 @@ func makeDrawList() []drawItem {
 			{Text: "Username", Widget: widget.NewEntry()},
 			{Text: "Password", Widget: widget.NewPasswordEntry()}},
 			OnSubmit: func() {}, OnCancel: func() {}}},
+		{"gridwrap", makeGridWrap()},
 		{"hyperlink", widget.NewHyperlink("fyne.io", nil)},
 		{"icon", widget.NewIcon(theme.ContentPasteIcon())},
 		{"label", widget.NewLabel("Text label")},
@@ -63,6 +69,7 @@ func makeDrawList() []drawItem {
 		{"progress", &widget.ProgressBar{Value: 0.74}},
 		{"progressinf", widget.NewProgressBarInfinite()},
 		{"radiogroup", &widget.RadioGroup{Options: []string{"Item 1", "Item 2"}, OnChanged: func(string) {}, Selected: "Item 1"}},
+		{"richtext", widget.NewRichTextFromMarkdown("## Title\n\n* List item")},
 		{"scroll", container.NewScroll(widget.NewLabel("Scroll"))},
 		{"select", widget.NewSelect([]string{"1", "2"}, func(string) {})},
 		{"selectentry", se},
@@ -79,6 +86,18 @@ func makeDrawList() []drawItem {
 			widget.NewToolbarAction(theme.ContentPasteIcon(), func() {}),
 		)},
 	}
+}
+
+func makeGridWrap() *widget.GridWrap {
+	l := widget.NewGridWrap(func() int { return 5 },
+		func() fyne.CanvasObject {
+			return container.NewHBox(widget.NewIcon(theme.DocumentIcon()), widget.NewLabel("It\n01"))
+		},
+		func(i int, item fyne.CanvasObject) {
+			item.(*fyne.Container).Objects[1].(*widget.Label).SetText(fmt.Sprintf("It\n%d", i+1))
+		})
+
+	return l
 }
 
 func makeInvalidEntry() *widget.Entry {
@@ -165,7 +184,7 @@ func draw(obj fyne.CanvasObject, name string, c fyne.Canvas, themeName string) {
 		time.Sleep(time.Second)
 	} else if name == "separator" {
 		c.(test.WindowlessCanvas).Resize(obj.MinSize().Add(fyne.NewSize(120+theme.Padding()*2, theme.Padding()*2)))
-	} else if name == "list" || name == "table" || name == "tree" || name == "accordion" {
+	} else if name == "list" || name == "table" || name == "tree" || name == "gridwrap" || name == "accordion" {
 		c.(test.WindowlessCanvas).Resize(fyne.NewSize(136, 120))
 		test.TapCanvas(c, fyne.NewPos(50, 60))
 	}

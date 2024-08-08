@@ -17,6 +17,12 @@ Accordion displays a list of AccordionItems. Each item is represented by a butto
 
 {% include widget.html name="accordion" %}
 
+### Activity
+
+Display an animated activity indicator.
+
+{% include widget.html name="activity" %}
+
 ### Button
 
 [Button](/widget/button) widget has a text label and icon, both are optional.
@@ -94,6 +100,13 @@ RadioGroup widget has a list of text labels and radio check icons next to each.
 
 {% include widget.html name="radiogroup" %}
 
+### RichText
+
+RichText widget is a text component that shows various styles and embedded objects.
+It supports markdown parsing to construct the widget with ease.
+
+{% include widget.html name="richtext" %}
+
 ### Select
 
 Select widget has a list of options, with the current one shown, and triggers an event function when clicked.
@@ -155,6 +168,12 @@ Each of these widgets uses a series of callbacks, the minimum set is defined by 
 [Tree](/collection/tree) provides a high performance vertical scroll of items that can be expanded to reveal child elements..
 
 {% include widget.html name="tree" %}
+
+### GridWrap
+
+GridWrap is a collection widget that display each child item at the same size and wraps them to new lines as required.
+
+{% include widget.html name="gridwrap" %}
 
 
 ## Container Widgets (in `container` package)
