@@ -35,7 +35,7 @@ You can see a Fyne app in action to test on any of your devices by visiting [dem
 
 ### Limitations
 
-As of release v2.5.0 the web driver is fullt supported but is not yet 100% complete, so your app may not be able to use
+As of release v2.5.0 the web driver is fully supported but is not yet 100% complete, so your app may not be able to use
 the following features:
 
 * File open/save dialog
