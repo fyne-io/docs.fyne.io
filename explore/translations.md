@@ -65,7 +65,7 @@ When your app starts it will display using the translations for the current user
 In more complex cases the string will change based on the number of items it refers to. For this the `lang.LocalizePlural` function (aliased to `lang.N`) is avaialble.
 
 ```go
-    age := widget.NewLabel(lang.N("{{.Years}} years old", years, map[string]any{"Years": years}))
+    age := widget.NewLabel(lang.N("{% raw %}{{.Years}}{% endraw %} years old", years, map[string]any{"Years": years}))
 ```
 
 You can pass data in this way to any of the calls, using template syntax to insert the value. A struct with exported fields, or a map as illustrated above, can be used to insert data.
@@ -76,7 +76,7 @@ The translation file will look a little more complex for this - the key has two 
 {
   "Age": {
     "one": "1 year old",
-    "other": "{{.Years}} years old"
+    "other": "{% raw %}{{.Years}}{% endraw %} years old"
   }
 }
 ```
