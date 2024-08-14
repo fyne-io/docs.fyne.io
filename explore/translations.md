@@ -14,13 +14,13 @@ To make use of this functionality for your own app strings you make use of the `
 The simplest way to prepare for translations is to use the `L` or `Localize` function to mark a string as translatable - if the translation is not found then the string will be used as a fallback.
 
 ```go
-    title := widget.NewLabel(lang.L("My App Title"))
+title := widget.NewLabel(lang.L("My App Title"))
 ```
 
 In some cases it may be desirable to label a string with a unique ID instead of using the default value - for disambiguation or other reason. In this case you would use `LocalizeKey` or the `X` alias.
 
 ```go
-    title := widget.NewLabel(lang.X("window.title", "My App Window Title"))
+title := widget.NewLabel(lang.X("window.title", "My App Window Title"))
 ```
 
 That may be all you need to know to get started - skip to [translation files[(translation-files).
@@ -53,7 +53,7 @@ var translations embed.FS
 Finally you can tell Fyne to load these translations with a single function call between `app.New` and `Run()` in your `main` function:
 
 ```go
-	lang.AddTranslationsFS(translations, "translation")
+lang.AddTranslationsFS(translations, "translation")
 ```
 
 This uses the embedded filesystem and specifies the name of the directory that the files are stored in.
@@ -65,7 +65,7 @@ When your app starts it will display using the translations for the current user
 In more complex cases the string will change based on the number of items it refers to. For this the `lang.LocalizePlural` function (aliased to `lang.N`) is avaialble.
 
 ```go
-    age := widget.NewLabel(lang.N("{{.Years}} years old", years, map[string]any{"Years": years}))
+age := widget.NewLabel(lang.N("{{.Years}} years old", years, map[string]any{"Years": years}))
 ```
 
 You can pass data in this way to any of the calls, using template syntax to insert the value. A struct with exported fields, or a map as illustrated above, can be used to insert data.
