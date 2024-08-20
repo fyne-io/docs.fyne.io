@@ -51,7 +51,7 @@
   - border
   - form
   - center
-  - max
+  - stack
   - apptabs
 - title: Widgets
   sectionid: widget
