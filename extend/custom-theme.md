@@ -24,6 +24,13 @@ To apply our theme changes we will first define a new type that that implements 
 We start by defining a new type that will be our theme, a simple empty struct will do:
 
 ```go
+import (
+	"image/color"
+
+	"fyne.io/fyne/v2"
+	"fyne.io/fyne/v2/theme"
+)
+
 type myTheme struct {}
 ```
 
