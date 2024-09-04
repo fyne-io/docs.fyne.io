@@ -34,7 +34,7 @@ To test this input behaviour we create a new file (with a name ending
  `_test.go` to mark it as tests) that defines a `TestGreeter` function.
 
  ```go
- package main
+package main
 
 import (
 	"testing"
