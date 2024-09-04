@@ -51,7 +51,7 @@ NewScroll creates a scrollable parent wrapping the specified content. Note that 
 ```go
 func NewVScroll(content fyne.CanvasObject) *Scroll
 ```
-NewVScroll a scrollable parent wrapping the specified content. Note that this may cause the MinSize.Height to be smaller than that of the passed object.
+NewVScroll creates a scrollable parent wrapping the specified content. Note that this may cause the MinSize.Height to be smaller than that of the passed object.
 
 
 <div class="since">Since: <code>
