@@ -29,7 +29,7 @@ Scroll defines a container that is smaller than the Content. The Offset is used 
 ```go
 func NewHScroll(content fyne.CanvasObject) *Scroll
 ```
-NewHScroll create a scrollable parent wrapping the specified content. Note that this may cause the MinSize.Width to be smaller than that of the passed object.
+NewHScroll creates a scrollable parent wrapping the specified content. Note that this may cause the MinSize.Width to be smaller than that of the passed object.
 
 
 <div class="since">Since: <code>
