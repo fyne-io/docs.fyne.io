@@ -38,10 +38,10 @@ func newTappableIcon(res fyne.Resource) *tappableIcon {
 
 > **Note:** a widget constructor like `widget.NewIcon` may not be used for extension since it already calls `ExtendBaseWidget`.
 
-We then add new functions to implement the `fyne.Tappable` interface, with
+We then add new functions to implement the `fyne.Tappable` and `fyne.DoubleTappable` interfaces, with
 those functions added the new `Tapped` function will be called every time the
-user taps our new icon.  The interface required has two functions,
-`Tapped(*PointEvent)` and `TappedSecondary(*PointEvent)`, so we will add both.
+user taps our new icon.  The interfaces required have two functions,
+`Tapped(*PointEvent)` and `DoubleTapped(*PointEvent)` respectively, so we will add both.
 
 ```go
 import "log"
@@ -50,7 +50,7 @@ func (t *tappableIcon) Tapped(_ *fyne.PointEvent) {
 	log.Println("I have been tapped")
 }
 
-func (t *tappableIcon) TappedSecondary(_ *fyne.PointEvent) {
+func (t *tappableIcon) DoubleTapped(_ *fyne.PointEvent) {
 }
 ```
 
