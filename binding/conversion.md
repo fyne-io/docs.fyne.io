@@ -43,7 +43,7 @@ func main() {
 
 	f := binding.NewFloat()
 	str := binding.FloatToString(f)
-	short := binding.FloatToStringWithFormat(f, "%0.0f%%")
+	short := binding.FloatToStringWithFormat(f, "%.0f%%")
 	f.Set(25.0)
 
 	w.SetContent(container.NewVBox(
