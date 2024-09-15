@@ -215,6 +215,7 @@ Since Go 1.16 you will need to set up the module before you can use the package.
 
 Run the following command and replace `MODULE_NAME` with your preferred module name (this should be called in a new folder specific for your application).
 
+    $ mkdir myapp
     $ cd myapp
     $ go mod init MODULE_NAME
 
