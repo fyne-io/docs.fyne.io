@@ -51,3 +51,5 @@ func main() {
 	myWindow.ShowAndRun()
 }
 ```
+
+For more info, for example on how to add headers to the table, see the [widget.Table API documentation](/api/v2.5/widget/table.html).
