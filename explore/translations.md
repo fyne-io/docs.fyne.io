@@ -23,7 +23,7 @@ In some cases it may be desirable to label a string with a unique ID instead of 
     title := widget.NewLabel(lang.X("window.title", "My App Window Title"))
 ```
 
-That may be all you need to know to get started - skip to [translation files[(translation-files).
+That may be all you need to know to get started - skip to [translation files](translation-files).
 
 ## Translation files
 
