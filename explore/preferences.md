@@ -10,7 +10,7 @@ redirect_from:
 
 Storing user configurations and values is a common task for application developers, but implementing it across multiple platforms can be tedious and time-consuming. To make it easier, Fyne has an API for storing values on the filesystem in a clean and understandable way while the complex parts are handled for you.
 
-Lets start with the setup of the API. It is part of the [Preferences](https://pkg.go.dev/fyne.io/fyne/v2?tab=doc#Preferences) interface where storage and loading functions exist for values of Bool, Float, Int and String. They each consist of three different functions, one for loading, one loading with a fallback value and lastly, one for storing values. An example of the three functions and their behaviour can be seen below for the String type:
+Lets start with the setup of the API. It is part of the [Preferences](https://pkg.go.dev/fyne.io/fyne/v2?tab=doc#Preferences) interface where storage and loading functions exist for values of `bool`, `float64`, `int`, and `string` types, and for lists of each type as well. For each type there are three different functions, one for loading, one loading with a fallback value and lastly, one for storing values. An example of the three functions and their behaviour can be seen below for the `string` type:
 ```go
 // String looks up a string value for the key
 String(key string) string
@@ -20,11 +20,12 @@ StringWithFallback(key, fallback string) string
 SetString(key string, value string)
 ```
 
-These functions can be accessed through the created application variable and calling the `Preferences()` method on. Please note that it is necessary to create the apps with a unique ID (usually like a reversed url). This means that the application will need to be created using `app.NewWithID()` to have its own place to store values. It can roughly be used like the example below:
+These functions can be accessed through the created application variable and calling the `Preferences()` method on. Please note that it is necessary to create the apps with a unique ID (usually like a reversed url). This means that the application will need to be created using `app.NewWithID()` (or have ID specified in `FyneApp.toml`) to have its own place to store values. It can roughly be used like the example below:
 ```go
 a := app.NewWithID("com.example.tutorial.preferences")
 [...]
 a.Preferences().SetBool("Boolean", true)
+a.Preferences().SetFloatList("Constants", []float64{3.142, 2.718})
 number := a.Preferences().IntWithFallback("ApplicationLuckyNumber", 21)
 expression := a.Preferences().String("RegularExpression")
 [...]
