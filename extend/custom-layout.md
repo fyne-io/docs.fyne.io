@@ -20,7 +20,7 @@ type Layout interface {
 Any application can provide a custom layout to arrange widgets in a non-standard manner. To do this you need to implement the interface above in your own code.
 To illustrate this we will create a new layout that arranges elements in a diagonal line and is arranged to the bottom left of its container
 
-First we will define a new type, `diagonal`, and define what its minimum size will be. To calculate this we just add the width and height of all child elements (specified as the `[]fyne.CanvasObject` parameter to `MinSize`.
+First we will define a new type, `diagonal`, and define what its minimum size will be. To calculate this we just add the width and height of all child elements (specified as the `[]fyne.CanvasObject` parameter to `MinSize`).
 
 ```go
 import "fyne.io/fyne/v2"

@@ -62,7 +62,7 @@ We update the menu created earlier to show the window that was hidden above.
 ```go
 	fyne.NewMenuItem("Show", func() {
 		w.Show()
-	}))
+	})
 ```
 
 ## Complete app
