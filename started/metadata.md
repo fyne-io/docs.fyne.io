@@ -51,3 +51,15 @@ The contents of this section is as follows (with example data):
 ```
 
 Hint: For instructions on how to define these parameters correctly, please see the [Desktop Entry Specification](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html) from freedesktop.org.
+
+## Custom configuration
+
+You may also provide custom metadata key/value pairs, which can be customized per build type. These values are accessible via the [`AppMetadata.Custom` field](appmetadata.html).
+
+```toml
+[Development]
+  HelperText = "This binary was built with debug symbols"
+
+[Release]
+  HelperText = "This binary was built without debug symbols"
+```
