@@ -71,8 +71,6 @@ func TestStartButtonConnectedToViewModelByAListener(t *testing.T) {
 	vm.IsStarted.AddListener(binding.NewDataListener(
 		func() {
 
-			vm.Start()
-
 			isStarted, _ := vm.IsStarted.Get()
 			if isStarted {
 				startButton.Disable()
