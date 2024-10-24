@@ -37,3 +37,55 @@ NewDataListener is a helper function that creates a new listener type from a sim
 
 <div class="since">Since: <code>
 2.0</code></div>
+
+### Example
+
+```go
+package fynedemo
+
+import (
+	"testing"
+
+	"fyne.io/fyne/v2/data/binding"
+	"fyne.io/fyne/v2/test"
+	"fyne.io/fyne/v2/widget"
+)
+
+type ViewModel struct {
+	IsStarted binding.Bool
+}
+
+func (vm *ViewModel) Start() {
+	vm.IsStarted.Set(true)
+}
+
+func TestStartButtonConnectedToViewModelByAListener(t *testing.T) {
+
+	vm := ViewModel{
+		IsStarted: binding.NewBool(),
+	}
+	vm.IsStarted.Set(false)
+
+	startButton := widget.NewButton("Start", vm.Start)
+
+	vm.IsStarted.AddListener(binding.NewDataListener(
+		func() {
+
+			vm.Start()
+
+			isStarted, _ := vm.IsStarted.Get()
+			if isStarted {
+				startButton.Disable()
+			} else {
+				startButton.Enable()
+			}
+
+			if startButton.Disabled() && !isStarted {
+				t.Errorf("StartButton.Disabled(): `%v` want `%v`", startButton.Disabled(), !startButton.Disabled())
+			}
+		},
+	))
+
+	test.Tap(startButton)
+}
+```
