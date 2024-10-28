@@ -49,8 +49,7 @@ import (
 	"fyne.io/fyne/v2/widget"
 )
 
-func StartButtonToABooleanState() {
-
+func ListenerCanConnectAStartButtonWithABooleanState() {
 	isRunning := binding.NewBool()
 
 	handleTap := func() { isRunning.Set(true) }
@@ -71,6 +70,5 @@ func StartButtonToABooleanState() {
 	time.Sleep(1 * time.Second)
 	isRunning.Set(true)
 	time.Sleep(1 * time.Second)
-
 }
 ```
