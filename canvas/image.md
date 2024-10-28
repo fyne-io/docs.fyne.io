@@ -22,6 +22,7 @@ The most common approach is to create a `canvas.Image` from a `fyne.Resource`.
 package main
 
 import (
+	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/app"
 	"fyne.io/fyne/v2/canvas"
 	"fyne.io/fyne/v2/theme"
@@ -33,14 +34,15 @@ func main() {
 
 	r := theme.AccountIcon()
 	image := canvas.NewImageFromResource(r)
-	image.SetMinSize(fyne.Size{Width: 200, Height: 200})
 	w.SetContent(image)
-
+	w.Resize(fyne.NewSize(200, 200))
 	w.ShowAndRun()
 }
 ```
 
 In our example we use `theme.AccountIcon()`, because it is already available in the Fyne library. To use your own images you can bundle them into your project, which will make them available as Fyne resources. For more information please see [Bundling resources]({% link extend/bundle.md %}).
+
+Please note that we are setting a size for the window. This is necessary, because images normally do not have a minimum size and Fyne would draw a window with zero width and height. For more details please see the section about [Fillmode](#fillmode).
 
 ## Image from a URL
 
@@ -64,9 +66,8 @@ func main() {
 
 	u, _ := storage.ParseURI("https://avatars.githubusercontent.com/u/36045855")
 	image := canvas.NewImageFromURI(u)
-	image.SetMinSize(fyne.Size{Width: 200, Height: 200})
 	w.SetContent(image)
-
+	w.Resize(fyne.NewSize(200, 200))
 	w.ShowAndRun()
 }
 ```
@@ -93,13 +94,17 @@ to fill the space specified (through `Resize()` or layout).
 Alternatively you could use `canvas.ImageFillContain` to ensure that
 the aspect ratio is maintained and the image is within the bounds.
 
-When using `canvas.ImageFillStretch` or `canvas.ImageFillContain` you need to
-specify a minimum size for your image with `Image.SetMinSize()`.
-This ensures that your image is always rendered with the same size on different platforms and screen sizes.
+Please note that with `canvas.ImageFillStretch` and `canvas.ImageFillContain` images
+will use the available space of their container, but do not have a minimum size.
+This means that layouts that shrink their objects to their minimum size
+(e.g. `layout.NewHBoxLayout()`) will shrink images to zero.
+In those cases you can set a minimum size yourself with `Image.SetMinSize()`.
 
 Another available fill mode is `canvas.ImageFillOriginal`.
-This mode ensures that the image will have a minimum size equal to that of the original image size
-and therefore does not require you to set a minimum size.
+It ensures that the container grows to the pixel dimensions required to fit the original image.
+The aspect of the image will be maintained so,
+as with ImageFillContain there may be transparent areas around the image.
+
 Be careful when using original image sizes as they may not
 behave exactly as expected with different user interface scales.
 As Fyne allows the entire user interface to scale, a 25px image file
