@@ -41,49 +41,36 @@ NewDataListener is a helper function that creates a new listener type from a sim
 ### Example
 
 ```go
-package fynedemo
-
+package addlistenerdemo
 import (
-	"testing"
-
+	"time"
 	"fyne.io/fyne/v2/data/binding"
 	"fyne.io/fyne/v2/test"
 	"fyne.io/fyne/v2/widget"
 )
 
-type ViewModel struct {
-	IsStarted binding.Bool
-}
+func StartButtonToABooleanState() {
 
-func (vm *ViewModel) Start() {
-	vm.IsStarted.Set(true)
-}
+	isRunning := binding.NewBool()
 
-func TestStartButtonConnectedToViewModelByAListener(t *testing.T) {
+	handleTap := func() { isRunning.Set(true) }
+	startButton := widget.NewButton("Start", handleTap)
 
-	vm := ViewModel{
-		IsStarted: binding.NewBool(),
-	}
-	vm.IsStarted.Set(false)
-
-	startButton := widget.NewButton("Start", vm.Start)
-
-	vm.IsStarted.AddListener(binding.NewDataListener(
+	isRunning.AddListener(binding.NewDataListener(
 		func() {
-
-			isStarted, _ := vm.IsStarted.Get()
+			isStarted, _ := isRunning.Get()
 			if isStarted {
 				startButton.Disable()
 			} else {
 				startButton.Enable()
 			}
-
-			if startButton.Disabled() && !isStarted {
-				t.Errorf("StartButton.Disabled(): `%v` want `%v`", startButton.Disabled(), !startButton.Disabled())
-			}
 		},
 	))
 
-	test.Tap(startButton)
+	isRunning.Set(false)
+	time.Sleep(1 * time.Second)
+	isRunning.Set(true)
+	time.Sleep(1 * time.Second)
+
 }
 ```
