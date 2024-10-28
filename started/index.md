@@ -60,27 +60,21 @@ Note that these steps are just required for development - your Fyne applications
 <div id="install__windows" class="hidden">
 <div style="text-align: left" markdown="1">
 
-1. Download Go from the [download page](https://golang.org/dl/) and follow instructions
-2. Install one of the available C compilers for windows, the following are tested with Go and Fyne:
-    * MSYS2 with MingW-w64 - [msys2.org](https://www.msys2.org/)
-    * TDM-GCC - [tdm-gcc.tdragon.net](https://jmeubank.github.io/tdm-gcc/download/)
-    * Cygwin - [cygwin.com](https://www.cygwin.com/)
-3. In Windows your graphics driver will already be installed, but it is recommended to ensure they are up to date.
+The MSYS2 is the recommended approach for working on windows, proceed as follows:
 
-The steps for installing with MSYS2 (recommended) are as follows:
-* Install MSYS2 from [msys2.org](https://www.msys2.org/)
-* Once installed do not use the MSYS terminal that opens
-* Open "MSYS2 MinGW 64-bit" from the start menu
-* Execute the following commands (if asked for install options be sure to choose "all"):
+1. Install MSYS2 from [msys2.org](https://www.msys2.org/)
+2. Once installed do not use the MSYS terminal that opens
+3. Open "MSYS2 MinGW 64-bit" from the start menu
+4. Execute the following commands (if asked for install options be sure to choose "all"):
 
         $ pacman -Syu
-        $ pacman -S git mingw-w64-x86_64-toolchain
+        $ pacman -S git mingw-w64-x86_64-toolchain mingw-w64-x86_64-go
 
-* You will need to add /c/Program\ Files/Go/bin and ~/Go/bin to your $PATH, for MSYS2 you can paste the following command into your terminal:
+5. You will need to add ~/Go/bin to your $PATH, for MSYS2 you can paste the following command into your terminal:
 
-        $ echo "export PATH=\$PATH:/c/Program\ Files/Go/bin:~/Go/bin" >> ~/.bashrc
+        $ echo "export PATH=\$PATH:~/Go/bin" >> ~/.bashrc
 
-* For the compiler to work on other terminals you will need to set up the windows %PATH% variable to find these tools. Go to the "Edit the system environment variables" control panel, tap "Advanced" and add "C:\msys64\mingw64\bin" to the Path list.
+6. For the compiler to work on other terminals you will need to set up the windows %PATH% variable to find these tools. Go to the "Edit the system environment variables" control panel, tap "Advanced" and add "C:\msys64\mingw64\bin" to the Path list.
 
 </div>
 </div>
@@ -248,21 +242,11 @@ you can see our [demo app](https://github.com/fyne-io/fyne/tree/master/cmd/fyne_
 
 Please note that the first run has to compile some C-code and can thus take longer than usual. Subsequent builds reuse the cache and will be much faster.
 
-### Older Go version
-
-To run the demo on an older version of Go, simply execute the follwing command instead:
-
-    $ go run fyne.io/fyne/v2/cmd/fyne_demo
-
 ### Installing
 
 If you want to, you can also install the demo using the following command (requires Go 1.16 or later):
 
     $ go install fyne.io/fyne/v2/cmd/fyne_demo@latest
-
-For earlier versions of Go, you need to use the following command instead:
-
-    $ go get fyne.io/fyne/v2/cmd/fyne_demo
 
 If your `GOBIN` environment has been added to path (should be by default on macOS and Windows), you can then run the demo:
 
