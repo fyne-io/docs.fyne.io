@@ -16,8 +16,6 @@ gem install bundler jekyll
 ```bash
 git clone https://github.com/fyne-io/docs.fyne.io.git
 ```
-
-### Change directory in to the repository
 ```bash
 cd docs.fyne.io
 ```
@@ -29,7 +27,7 @@ bundle install
 
 ### Start the local webserver
 ```bash
-bundle exec jekyll serve --host 0.0.0.0
+bundle exec jekyll serve
 ```
 
 ## Run generator scripts
