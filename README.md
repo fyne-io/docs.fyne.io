@@ -7,9 +7,29 @@ This repository contains the source of the https://docs.fyne.io website.
 The website uses [jekyll](https://jekyllrb.com/) to generate the website from markdown files.
 With ruby installed it is as easy as running the following commands in a terminal (the first only needs to run once):
 
+### Install jekyll
 ```bash
 gem install bundler jekyll
-bundle exec jekyll serve
+```
+
+### Clone the Fyne docs repository
+```bash
+git clone https://github.com/fyne-io/docs.fyne.io.git
+```
+
+### Change directory in to the repository
+```bash
+cd docs.fyne.io
+```
+
+### Install dependencies
+```bash
+bundle install
+```
+
+### Start the local webserver
+```bash
+bundle exec jekyll serve --host 0.0.0.0
 ```
 
 ## Run generator scripts
