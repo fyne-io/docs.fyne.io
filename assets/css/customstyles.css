@@ -54,3 +54,14 @@ div.tabcontrol.body {
 div.tabcontrol.body.fullborder {
     padding: 10px 0;
 }
+
+// basic light mode from pjanx https://github.com/fyne-io/docs.fyne.io/issues/36
+@media (prefers-color-scheme: light) {
+    body, table, a, .navbar-default, .panel {
+        color: black !important; background: white !important;
+    }
+    .panel-heading, .panel-heading a {
+         background: #eee !important;
+    }
+}
+
