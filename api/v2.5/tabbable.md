@@ -17,7 +17,7 @@ import "fyne.io/fyne/v2"
 
 ```go
 type Tabbable interface {
-	// AcceptsTab() is a hook called by the key press handling logic.
+	// AcceptsTab is a hook called by the key press handling logic.
 	// If it returns true then the Tab key events will be sent using TypedKey.
 	AcceptsTab() bool
 }

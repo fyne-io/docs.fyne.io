@@ -28,4 +28,4 @@ type OverlayStack interface {
 }
 ```
 
-OverlayStack is a stack of CanvasObjects intended to be used as overlays of a Canvas.
+OverlayStack is a stack of [CanvasObject]s intended to be used as overlays of a [Canvas].

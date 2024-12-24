@@ -22,4 +22,4 @@ type Draggable interface {
 }
 ```
 
-Draggable indicates that a CanvasObject can be dragged. This is used for any item that the user has indicated should be moved across the screen.
+Draggable indicates that a [CanvasObject] can be dragged. This is used for any item that the user has indicated should be moved across the screen.

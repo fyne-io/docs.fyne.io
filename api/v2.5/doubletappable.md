@@ -21,4 +21,4 @@ type DoubleTappable interface {
 }
 ```
 
-DoubleTappable describes any CanvasObject that can also be double tapped.
+DoubleTappable describes any [CanvasObject] that can also be double tapped.

@@ -28,22 +28,22 @@ ShortcutCopy describes a shortcut copy action.
 ```go
 func (se *ShortcutCopy) Key() KeyName
 ```
-Key returns the KeyName for this shortcut.
+Key returns the [KeyName] for this shortcut.
 
 
 <div class="implements">Implements: <code>
-KeyboardShortcut</code></div>
+[KeyboardShortcut]</code></div>
 
 #### func (*ShortcutCopy) Mod
 
 ```go
 func (se *ShortcutCopy) Mod() KeyModifier
 ```
-Mod returns the KeyModifier for this shortcut.
+Mod returns the [KeyModifier] for this shortcut.
 
 
 <div class="implements">Implements: <code>
-KeyboardShortcut</code></div>
+[KeyboardShortcut]</code></div>
 
 #### func (*ShortcutCopy) ShortcutName
 

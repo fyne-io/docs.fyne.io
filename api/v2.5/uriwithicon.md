@@ -23,7 +23,7 @@ type URIWithIcon interface {
 }
 ```
 
-URIWithIcon describes a URI that should be rendered with a certain icon in file browsers.
+URIWithIcon describes a [URI] that should be rendered with a certain icon in file browsers.
 
 
 <div class="since">Since: <code>

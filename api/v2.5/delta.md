@@ -28,14 +28,14 @@ Delta is a generic X, Y coordinate, size or movement representation.
 ```go
 func NewDelta(dx float32, dy float32) Delta
 ```
-NewDelta returns a newly allocated Delta representing a movement in the X and Y axis.
+NewDelta returns a newly allocated [Delta] representing a movement in the X and Y axis.
 
 #### func (Delta) Components
 
 ```go
 func (v Delta) Components() (float32, float32)
 ```
-Components returns the X and Y elements of this Delta.
+Components returns the X and Y elements of v.
 
 #### func (Delta) IsZero
 

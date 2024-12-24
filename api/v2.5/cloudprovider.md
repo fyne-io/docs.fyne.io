@@ -33,7 +33,7 @@ type CloudProvider interface {
 }
 ```
 
-CloudProvider specifies the identifying information of a cloud provider. This information is mostly used by the `fyne.io/cloud ShowSettings' user flow.
+CloudProvider specifies the identifying information of a cloud provider. This information is mostly used by the [fyne.io/cloud.ShowSettings] user flow.
 
 
 <div class="since">Since: <code>

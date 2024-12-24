@@ -24,7 +24,7 @@ type ListableURI interface {
 }
 ```
 
-ListableURI represents a URI that can have child items, most commonly a directory on disk in the native filesystem.
+ListableURI represents a [URI] that can have child items, most commonly a directory on disk in the native filesystem.
 
 
 <div class="since">Since: <code>

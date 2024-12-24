@@ -21,4 +21,4 @@ type Shortcutable interface {
 }
 ```
 
-Shortcutable describes any CanvasObject that can respond to shortcut commands (quit, cut, copy, and paste).
+Shortcutable describes any [CanvasObject] that can respond to shortcut commands (quit, cut, copy, and paste).

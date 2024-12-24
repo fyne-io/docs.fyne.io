@@ -20,7 +20,7 @@ type ShortcutHandler struct {
 }
 ```
 
-ShortcutHandler is a default implementation of the shortcut handler for the canvasObject
+ShortcutHandler is a default implementation of the shortcut handler for [CanvasObject].
 
 #### func (*ShortcutHandler) AddShortcut
 

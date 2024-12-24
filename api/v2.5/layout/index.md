@@ -27,7 +27,7 @@ NewAdaptiveGridLayout returns a new grid layout which uses columns when horizont
 ```go
 func NewBorderLayout(top, bottom, left, right fyne.CanvasObject) fyne.Layout
 ```
-NewBorderLayout creates a new BorderLayout instance with top, bottom, left and right objects set. All other items in the container will fill the centre space
+NewBorderLayout creates a new BorderLayout instance with top, bottom, left and right objects set. All other items in the container will fill the remaining space in the middle. Multiple extra items will be stacked in the specified order as a Stack container.
 
 #### func  NewCenterLayout
 

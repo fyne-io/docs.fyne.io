@@ -28,4 +28,4 @@ Notification represents a user notification that can be sent to the operating sy
 ```go
 func NewNotification(title, content string) *Notification
 ```
-NewNotification creates a notification that can be passed to App.SendNotification.
+NewNotification creates a notification that can be passed to [App.SendNotification].

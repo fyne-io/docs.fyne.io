@@ -80,18 +80,22 @@ ShowError shows a dialog over the specified window for an application error. The
 #### func  ShowFileOpen
 
 ```go
-func ShowFileOpen(callback func(fyne.URIReadCloser, error), parent fyne.Window)
+func ShowFileOpen(callback func(reader fyne.URIReadCloser, err error), parent fyne.Window)
 ```
-ShowFileOpen creates and shows a file dialog allowing the user to choose a file to open. The callback function will run when the dialog closes. The URI will be nil when the user cancels or when nothing is selected.
+ShowFileOpen creates and shows a file dialog allowing the user to choose a file to open.
+
+The callback function will run when the dialog closes and provide a reader for the chosen file. The reader will be nil when the user cancels or when nothing is selected. When the reader isn't nil it must be closed by the callback.
 
 The dialog will appear over the window specified.
 
 #### func  ShowFileSave
 
 ```go
-func ShowFileSave(callback func(fyne.URIWriteCloser, error), parent fyne.Window)
+func ShowFileSave(callback func(writer fyne.URIWriteCloser, err error), parent fyne.Window)
 ```
-ShowFileSave creates and shows a file dialog allowing the user to choose a file to save to (new or overwrite). If the user chooses an existing file they will be asked if they are sure. The callback function will run when the dialog closes. The URI will be nil when the user cancels or when nothing is selected.
+ShowFileSave creates and shows a file dialog allowing the user to choose a file to save to (new or overwrite). If the user chooses an existing file they will be asked if they are sure.
+
+The callback function will run when the dialog closes and provide a writer for the chosen file. The writer will be nil when the user cancels or when nothing is selected. When the writer isn't nil it must be closed by the callback.
 
 The dialog will appear over the window specified.
 

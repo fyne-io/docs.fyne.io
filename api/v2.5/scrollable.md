@@ -21,4 +21,4 @@ type Scrollable interface {
 }
 ```
 
-Scrollable describes any CanvasObject that can also be scrolled. This is mostly used to implement the widget.ScrollContainer.
+Scrollable describes any [CanvasObject] that can also be scrolled. This is mostly used to implement the widget.ScrollContainer.

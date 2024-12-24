@@ -28,7 +28,7 @@ const (
 	// TextTruncate trims the text to the widget's width, no wrapping is applied.
 	// If an entry is asked to truncate it will provide scrolling capabilities.
 	//
-	// Deprecated: Use `TextTruncateClip` value of the widget `Truncation` field instead
+	// Deprecated: Use [TextTruncateClip] value of the widget `Truncation` field instead
 	TextTruncate
 	// TextWrapBreak trims the line of characters to the widget's width adding the excess as new line.
 	// An Entry with text wrapping will scroll vertically if there is not enough space for all the text.

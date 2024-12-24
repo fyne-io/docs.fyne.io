@@ -22,4 +22,4 @@ type PointEvent struct {
 }
 ```
 
-PointEvent describes a pointer input event. The position is relative to the top-left of the CanvasObject this is triggered on.
+PointEvent describes a pointer input event. The position is relative to the top-left of the [CanvasObject] this is triggered on.

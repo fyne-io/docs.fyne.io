@@ -82,14 +82,14 @@ IsZero returns whether the Size has zero width and zero height.
 ```go
 func (s Size) Max(v Vector2) Size
 ```
-Max returns a new Size that is the maximum of the current Size and s2.
+Max returns a new [Size] that is the maximum of the current Size and s2.
 
 #### func (Size) Min
 
 ```go
 func (s Size) Min(v Vector2) Size
 ```
-Min returns a new Size that is the minimum of the current Size and s2.
+Min returns a new [Size] that is the minimum of s and v.
 
 #### func (Size) Subtract
 

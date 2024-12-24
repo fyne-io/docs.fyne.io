@@ -19,46 +19,46 @@ import "fyne.io/fyne/v2"
 type Container struct {
 	Hidden bool // Is this Container hidden
 
-	Layout Layout // The Layout algorithm for arranging child CanvasObjects
+	Layout Layout // The Layout algorithm for arranging child [CanvasObject]s
 
-	Objects []CanvasObject // The set of CanvasObjects this container holds
+	Objects []CanvasObject // The set of [CanvasObject]s this container holds
 }
 ```
 
-Container is a CanvasObject that contains a collection of child objects. The layout of the children is set by the specified Layout.
+Container is a [CanvasObject] that contains a collection of child objects. The layout of the children is set by the specified Layout.
 
 #### func  NewContainer
 
 ```go
 func NewContainer(objects ...CanvasObject) *Container
 ```
-NewContainer returns a new Container instance holding the specified CanvasObjects.
+NewContainer returns a new [Container] instance holding the specified [CanvasObject]s.
 
 
 <div class="deprecated">
-Deprecated: Use container.NewWithoutLayout() to create a container that uses manual layout.</div>
+Deprecated: Use [fyne.io/fyne/v2/container.NewWithoutLayout] to create a container that uses manual layout.</div>
 
 #### func  NewContainerWithLayout
 
 ```go
 func NewContainerWithLayout(layout Layout, objects ...CanvasObject) *Container
 ```
-NewContainerWithLayout returns a new Container instance holding the specified CanvasObjects which will be laid out according to the specified Layout.
+NewContainerWithLayout returns a new [Container] instance holding the specified [CanvasObject]s which will be laid out according to the specified Layout.
 
 
 <div class="deprecated">
-Deprecated: Use container.New() instead</div>
+Deprecated: Use [fyne.io/fyne/v2/container.New] instead.</div>
 
 #### func  NewContainerWithoutLayout
 
 ```go
 func NewContainerWithoutLayout(objects ...CanvasObject) *Container
 ```
-NewContainerWithoutLayout returns a new Container instance holding the specified CanvasObjects that are manually arranged.
+NewContainerWithoutLayout returns a new [Container] instance holding the specified [CanvasObject]s that are manually arranged.
 
 
 <div class="deprecated">
-Deprecated: Use container.NewWithoutLayout() instead</div>
+Deprecated: Use [fyne.io/fyne/v2/container.NewWithoutLayout] instead.</div>
 
 #### func (*Container) Add
 
@@ -76,11 +76,11 @@ Add appends the specified object to the items this container manages.
 ```go
 func (c *Container) AddObject(o CanvasObject)
 ```
-AddObject adds another CanvasObject to the set this Container holds.
+AddObject adds another [CanvasObject] to the set this Container holds.
 
 
 <div class="deprecated">
-Deprecated: Use replacement Add() function</div>
+Deprecated: Use [Container.Add] instead.</div>
 
 #### func (*Container) Hide
 
@@ -94,7 +94,7 @@ Hide sets this container, and all its children, to be not visible.
 ```go
 func (c *Container) MinSize() Size
 ```
-MinSize calculates the minimum size of a Container. This is delegated to the Layout, if specified, otherwise it will mimic MaxLayout.
+MinSize calculates the minimum size of c. This is delegated to the [Container.Layout], if specified, otherwise it will be calculated.
 
 #### func (*Container) Move
 
@@ -108,7 +108,7 @@ Move the container (and all its children) to a new position, relative to its par
 ```go
 func (c *Container) Position() Position
 ```
-Position gets the current position of this Container, relative to its parent.
+Position gets the current position of c relative to its parent.
 
 #### func (*Container) Refresh
 
@@ -122,7 +122,7 @@ Refresh causes this object to be redrawn in it's current state
 ```go
 func (c *Container) Remove(rem CanvasObject)
 ```
-Remove updates the contents of this container to no longer include the specified object. This method is not intended to be used inside a loop, to remove all the elements. It is much more efficient to call RemoveAll() instead.
+Remove updates the contents of this container to no longer include the specified object. This method is not intended to be used inside a loop, to remove all the elements. It is much more efficient to call [Container.RemoveAll) instead.
 
 #### func (*Container) RemoveAll
 
@@ -140,7 +140,7 @@ RemoveAll updates the contents of this container to no longer include any object
 ```go
 func (c *Container) Resize(size Size)
 ```
-Resize sets a new size for the Container.
+Resize sets a new size for c.
 
 #### func (*Container) Show
 
@@ -154,7 +154,7 @@ Show sets this container, and all its children, to be visible.
 ```go
 func (c *Container) Size() Size
 ```
-Size returns the current size of this container.
+Size returns the current size c.
 
 #### func (*Container) Visible
 

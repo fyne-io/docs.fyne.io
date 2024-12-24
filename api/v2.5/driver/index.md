@@ -19,7 +19,7 @@ import "fyne.io/fyne/v2/driver"
 ```go
 func RunNative(fn func(any) error) error
 ```
-RunNative provides a way to execute code within the platform-specific runtime context for various runtimes. On Android this provides the JVM pointers required to execute various NDK calls or use JNI APIs.
+RunNative provides a way to execute code within the platform-specific runtime context for various runtimes. This is mostly useful for Android where the JVM provides functionality that is not accessible directly in CGo. The call for most platforms will just execute passing an `UnknownContext` and returning any error reported.
 
 
 <div class="since">Since: <code>

@@ -58,7 +58,7 @@ NewAdaptiveGrid creates a new container with the specified objects and using the
 ```go
 func NewBorder(top, bottom, left, right fyne.CanvasObject, objects ...fyne.CanvasObject) *fyne.Container
 ```
-NewBorder creates a new container with the specified objects and using the border layout. The top, bottom, left and right parameters specify the items that should be placed around edges, the remaining elements will be in the center. Nil can be used to an edge if it should not be filled.
+NewBorder creates a new container with the specified objects and using the border layout. The top, bottom, left and right parameters specify the items that should be placed around edges. Nil can be used to an edge if it should not be filled. Passed objects not assigned to any edge (parameters 5 onwards) will be used to fill the space remaining in the middle. Parameters 6 onwards will be stacked over the middle content in the specified order as a Stack container.
 
 
 <div class="since">Since: <code>

@@ -36,7 +36,7 @@ Animation represents an animated element within a Fyne canvas. These animations 
 ```go
 func NewAnimation(d time.Duration, fn func(float32)) *Animation
 ```
-NewAnimation creates a very basic animation where the callback function will be called for every rendered frame between time.Now() and the specified duration. The callback values start at 0.0 and will be 1.0 when the animation completes.
+NewAnimation creates a very basic animation where the callback function will be called for every rendered frame between [time.Now] and the specified duration. The callback values start at 0.0 and will be 1.0 when the animation completes.
 
 
 <div class="since">Since: <code>

@@ -29,11 +29,11 @@ Resource represents a single binary resource, such as an image or font. A resour
 ```go
 func LoadResourceFromPath(path string) (Resource, error)
 ```
-LoadResourceFromPath creates a new StaticResource in memory using the contents of the specified file.
+LoadResourceFromPath creates a new [StaticResource] in memory using the contents of the specified file.
 
 #### func  LoadResourceFromURLString
 
 ```go
 func LoadResourceFromURLString(urlStr string) (Resource, error)
 ```
-LoadResourceFromURLString creates a new StaticResource in memory using the body of the specified URL.
+LoadResourceFromURLString creates a new [StaticResource] in memory using the body of the specified URL.

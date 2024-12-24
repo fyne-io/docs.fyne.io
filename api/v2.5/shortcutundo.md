@@ -30,22 +30,22 @@ ShortcutUndo describes a shortcut undo action.
 ```go
 func (se *ShortcutUndo) Key() KeyName
 ```
-Key returns the KeyName for this shortcut.
+Key returns the [KeyName] for this shortcut.
 
 
 <div class="implements">Implements: <code>
-KeyboardShortcut</code></div>
+[KeyboardShortcut]</code></div>
 
 #### func (*ShortcutUndo) Mod
 
 ```go
 func (se *ShortcutUndo) Mod() KeyModifier
 ```
-Mod returns the KeyModifier for this shortcut.
+Mod returns the [KeyModifier] for this shortcut.
 
 
 <div class="implements">Implements: <code>
-KeyboardShortcut</code></div>
+[KeyboardShortcut]</code></div>
 
 #### func (*ShortcutUndo) ShortcutName
 

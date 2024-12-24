@@ -28,22 +28,22 @@ ShortcutCut describes a shortcut cut action.
 ```go
 func (se *ShortcutCut) Key() KeyName
 ```
-Key returns the KeyName for this shortcut.
+Key returns the [KeyName] for this shortcut.
 
 
 <div class="implements">Implements: <code>
-KeyboardShortcut</code></div>
+[KeyboardShortcut]</code></div>
 
 #### func (*ShortcutCut) Mod
 
 ```go
 func (se *ShortcutCut) Mod() KeyModifier
 ```
-Mod returns the KeyModifier for this shortcut.
+Mod returns the [KeyModifier] for this shortcut.
 
 
 <div class="implements">Implements: <code>
-KeyboardShortcut</code></div>
+[KeyboardShortcut]</code></div>
 
 #### func (*ShortcutCut) ShortcutName
 

@@ -330,7 +330,7 @@ Move is backed by the repository system - this function calls into a scheme-spec
 ```go
 func NewFileURI(path string) fyne.URI
 ```
-NewFileURI creates a new URI from the given file path.
+NewFileURI creates a new URI from the given file path. Relative paths will be converted to absolute using filepath.Abs if required.
 
 #### func  NewURI
 

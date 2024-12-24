@@ -22,7 +22,7 @@ type ThemedResource interface {
 }
 ```
 
-ThemedResource is a version of a resource that can be updated to match a certain theme colour. The `ThemeColorName` will be used to look up the color for the current theme and colorize the resource.
+ThemedResource is a version of a resource that can be updated to match a certain theme color. The [ThemeColorName] will be used to look up the color for the current theme and colorize the resource.
 
 
 <div class="since">Since: <code>

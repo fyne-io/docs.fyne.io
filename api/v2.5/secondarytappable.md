@@ -21,4 +21,4 @@ type SecondaryTappable interface {
 }
 ```
 
-SecondaryTappable describes a CanvasObject that can be right-clicked or long-tapped.
+SecondaryTappable describes a [CanvasObject] that can be right-clicked or long-tapped.

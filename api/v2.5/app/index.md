@@ -27,7 +27,7 @@ New returns a new application instance with the default driver and no unique ID 
 ```go
 func NewWithID(id string) fyne.App
 ```
-NewWithID returns a new app instance using the appropriate runtime driver. The ID string should be globally unique to this app.
+NewWithID returns a new app instance using the test (headless) driver. The ID string should be globally unique to this app.
 
 #### func  SetMetadata
 

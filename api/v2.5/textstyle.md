@@ -25,7 +25,7 @@ type TextStyle struct {
 	// Since: 2.1
 	TabWidth int // Width of tabs in spaces
 	// Since: 2.5
-	// Currently only supported by the TextGrid widget.
+	// Currently only supported by [fyne.io/fyne/v2/widget.TextGrid].
 	Underline bool // Should text be underlined.
 }
 ```
