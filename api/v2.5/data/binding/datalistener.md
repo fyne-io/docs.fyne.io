@@ -37,3 +37,38 @@ NewDataListener is a helper function that creates a new listener type from a sim
 
 <div class="since">Since: <code>
 2.0</code></div>
+
+### Example
+
+```go
+package addlistenerdemo
+import (
+	"time"
+	"fyne.io/fyne/v2/data/binding"
+	"fyne.io/fyne/v2/test"
+	"fyne.io/fyne/v2/widget"
+)
+
+func ListenerCanConnectAStartButtonWithABooleanState() {
+	isRunning := binding.NewBool()
+
+	handleTap := func() { isRunning.Set(true) }
+	startButton := widget.NewButton("Start", handleTap)
+
+	isRunning.AddListener(binding.NewDataListener(
+		func() {
+			isStarted, _ := isRunning.Get()
+			if isStarted {
+				startButton.Disable()
+			} else {
+				startButton.Enable()
+			}
+		},
+	))
+
+	isRunning.Set(false)
+	time.Sleep(1 * time.Second)
+	isRunning.Set(true)
+	time.Sleep(1 * time.Second)
+}
+```
