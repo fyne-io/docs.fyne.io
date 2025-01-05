@@ -19,7 +19,7 @@ Package dialog defines standard dialog windows for application GUIs
 ```go
 func NewFileIcon(uri fyne.URI) fyne.CanvasObject
 ```
-NewFileIcon takes a filepath and creates an icon with an overlayed label using the detected mimetype and extension
+NewFileIcon takes a filepath and creates an icon with an overlaid label using the detected mimetype and extension
 
 #### func  ShowConfirm
 

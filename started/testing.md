@@ -44,7 +44,7 @@ func TestGreeting(t *testing.T) {
 }
 ```
 
-We can add an intial test that verifies the initial state, to do this
+We can add an initial test that verifies the initial state, to do this
 we test the `Text` field of the `Label` that is returned from `makeUI`
 and error the test if it is not correct. Add the following code to your test method:
 

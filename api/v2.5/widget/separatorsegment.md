@@ -66,7 +66,7 @@ Unselect does nothing for a separator.
 ```go
 func (s *SeparatorSegment) Update(fyne.CanvasObject)
 ```
-Update doesnt need to change a separator visual.
+Update doesn't need to change a separator visual.
 
 #### func (*SeparatorSegment) Visual
 

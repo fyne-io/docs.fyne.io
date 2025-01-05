@@ -124,7 +124,7 @@ DarkTheme defines the built in dark theme colors and sizes
 ```go
 func DefaultTextBoldFont() fyne.Resource
 ```
-DefaultTextBoldFont retutns the font resource for the built-in bold font style
+DefaultTextBoldFont returns the font resource for the built-in bold font style
 
 #### func  DefaultTextBoldItalicFont
 
@@ -152,7 +152,7 @@ DefaultTextItalicFont returns the font resource for the built-in italic font sty
 ```go
 func DefaultTextMonospaceFont() fyne.Resource
 ```
-DefaultTextMonospaceFont retutns the font resource for the built-in monospace font face
+DefaultTextMonospaceFont returns the font resource for the built-in monospace font face
 
 #### func  DeleteIcon
 
@@ -586,7 +586,7 @@ ShadowColor returns the color (and translucency) for shadows used for indicating
 ```go
 func TextBoldFont() fyne.Resource
 ```
-TextBoldFont retutns the font resource for the bold font style
+TextBoldFont returns the font resource for the bold font style
 
 #### func  TextBoldItalicFont
 
@@ -621,7 +621,7 @@ TextItalicFont returns the font resource for the italic font style
 ```go
 func TextMonospaceFont() fyne.Resource
 ```
-TextMonospaceFont retutns the font resource for the monospace font face
+TextMonospaceFont returns the font resource for the monospace font face
 
 #### func  TextSize
 

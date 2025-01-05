@@ -44,7 +44,7 @@ Content returns the underlying content of the resource adapted to the current te
 ```go
 func (res *ThemedResource) Error() *ErrorThemedResource
 ```
-Error resturns a different resource for indicating an error.
+Error returns a different resource for indicating an error.
 
 #### func (*ThemedResource) Name
 

@@ -74,7 +74,7 @@ Unselect does nothing for a list container.
 ```go
 func (l *ListSegment) Update(fyne.CanvasObject)
 ```
-Update doesnt need to change a list visual.
+Update doesn't need to change a list visual.
 
 #### func (*ListSegment) Visual
 

@@ -73,7 +73,7 @@ Unselect does nothing for a paragraph container.
 ```go
 func (p *ParagraphSegment) Update(fyne.CanvasObject)
 ```
-Update doesnt need to change a paragraph container.
+Update doesn't need to change a paragraph container.
 
 #### func (*ParagraphSegment) Visual
 

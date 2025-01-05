@@ -37,7 +37,7 @@ When a widget state changes then `Refresh()` is called - the
 renderer will then be asked to refresh and it should update the
 display to reflect the new state.
 Custom widgets are recommended to use the current `Theme` but
-can choose to specify thier own sizes, colours and icons where
+can choose to specify their own sizes, colours and icons where
 that seems desirable.
 
 

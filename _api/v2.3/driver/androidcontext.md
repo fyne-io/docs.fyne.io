@@ -20,7 +20,7 @@ type AndroidContext struct {
 }
 ```
 
-AndroidContext is passed to the `RunNative` callback when it is executed on an Android device. The VM, Env and Ctx pointers are reqiured to make various calls into JVM methods.
+AndroidContext is passed to the `RunNative` callback when it is executed on an Android device. The VM, Env and Ctx pointers are required to make various calls into JVM methods.
 
 
 <div class="since">Since: <code>

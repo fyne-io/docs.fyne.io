@@ -32,7 +32,7 @@ bundle exec jekyll serve
 
 ## Run generator scripts
 
-To generate new images etc you can use the following commands:
+To generate new images etc. you can use the following commands:
 
 ```bash
 cd _gen

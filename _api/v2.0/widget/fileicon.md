@@ -34,7 +34,7 @@ FileIcon is an adaption of widget.Icon for showing files and folders
 ```go
 func NewFileIcon(uri fyne.URI) *FileIcon
 ```
-NewFileIcon takes a filepath and creates an icon with an overlayed label using the detected mimetype and extension
+NewFileIcon takes a filepath and creates an icon with an overlaid label using the detected mimetype and extension
 
 
 <div class="since">Since: <code>

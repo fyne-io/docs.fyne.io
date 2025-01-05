@@ -31,7 +31,7 @@ func newNumericalEntry() *numericalEntry {
 
 Now we need to make the entry accept only numbers. This can be done by overriding the `TypedRune(rune)` method that's part of the `fyne.Focusable` interface.
 This will allow us to intercept the standard handling of runes received from key presses and only pass through those that we want.
-Inside this method, we will use a conditional to check if the rune matches any of the numbers between zero and nine. If they do, we delegate it to the standard `TypedRune(rune)` method of the embeded entry. If they do not, we just ignore the inputs.
+Inside this method, we will use a conditional to check if the rune matches any of the numbers between zero and nine. If they do, we delegate it to the standard `TypedRune(rune)` method of the embedded entry. If they do not, we just ignore the inputs.
 This implementation will only allow integers to be entered, but can easily be extended to check for other keys in the future if necessary.
 
 ```go
@@ -42,7 +42,7 @@ func (e *numericalEntry) TypedRune(r rune) {
 }
 ```
 
-If we want to update the implementation to allow for decimal numers as well, we can simply add `.` and `,` to the list of allowed runes (some languages use commas over dots for decimal notations).
+If we want to update the implementation to allow for decimal numbers as well, we can simply add `.` and `,` to the list of allowed runes (some languages use commas over dots for decimal notations).
 
 ```go
 func (e *numericalEntry) TypedRune(r rune) {
@@ -54,8 +54,8 @@ func (e *numericalEntry) TypedRune(r rune) {
 
 With this, the entry now only allows the user to enter numerical values when keys are pressed. However, the paste shortcut will still allow text to be entered.
 To fix this, we can overwrite the `TypedShortcut(fyne.Shortcut)` method that is part of the `fyne.Shortcutable` interface.
-First we need to do a type assertion to check if the given shortcut is of the type `*fyne.ShortcutPaste`. If it is not, we can just delegate the shortcut back to the embeded entry.
-If it is, we check if the clipboard content is numerical, by using `strconv.ParseFloat()` (if you want to only allow integers, `strconv.Atoi()` will be just fine), and then delegating the shortcut back to the embeded entry if the clipboard content could be parsed without errors.
+First we need to do a type assertion to check if the given shortcut is of the type `*fyne.ShortcutPaste`. If it is not, we can just delegate the shortcut back to the embedded entry.
+If it is, we check if the clipboard content is numerical, by using `strconv.ParseFloat()` (if you want to only allow integers, `strconv.Atoi()` will be just fine), and then delegating the shortcut back to the embedded entry if the clipboard content could be parsed without errors.
 
 ```go
 func (e *numericalEntry) TypedShortcut(shortcut fyne.Shortcut) {
@@ -72,7 +72,7 @@ func (e *numericalEntry) TypedShortcut(shortcut fyne.Shortcut) {
 }
 ```
 
-As a bonus, we can also make sure that mobile operating systems open the numerical keyboard instead of the default keyboard. This can be done by by first importng the `fyne.io/fyne/v2/driver/mobile` package and overwriting the `Keyboard() mobile.KeyboardType` method that is part of the `m̀obile.Keyboardable` interface. Inside the function, we then simply return the `mobile.NumberKeyboard` type.
+As a bonus, we can also make sure that mobile operating systems open the numerical keyboard instead of the default keyboard. This can be done by by first importing the `fyne.io/fyne/v2/driver/mobile` package and overwriting the `Keyboard() mobile.KeyboardType` method that is part of the `m̀obile.Keyboardable` interface. Inside the function, we then simply return the `mobile.NumberKeyboard` type.
 
 ```go
 func (e *numericalEntry) Keyboard() mobile.KeyboardType {

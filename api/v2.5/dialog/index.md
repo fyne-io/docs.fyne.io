@@ -53,7 +53,7 @@ ShowCustomConfirm shows a dialog over the specified application using custom con
 ```go
 func ShowCustomWithoutButtons(title string, content fyne.CanvasObject, parent fyne.Window)
 ```
-ShowCustomWithoutButtons shows a dialog, wihout buttons, over the specified application using custom content. The MinSize() of the CanvasObject passed will be used to set the size of the window.
+ShowCustomWithoutButtons shows a dialog, without buttons, over the specified application using custom content. The MinSize() of the CanvasObject passed will be used to set the size of the window.
 
 
 <div class="since">Since: <code>

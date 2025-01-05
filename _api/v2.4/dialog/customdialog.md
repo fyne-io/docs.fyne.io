@@ -79,7 +79,7 @@ Resize dialog, call this function after dialog show
 ```go
 func (d *CustomDialog) SetButtons(buttons []fyne.CanvasObject)
 ```
-SetButtons sets the row of buttons at the bottom of the dialog. Passing an empy slice will result in a dialog with no buttons.
+SetButtons sets the row of buttons at the bottom of the dialog. Passing an empty slice will result in a dialog with no buttons.
 
 
 <div class="since">Since: <code>
