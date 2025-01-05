@@ -6,7 +6,7 @@ title: Upgrading to v2.4
 
 The 2.4 release is fully backward compatible with 2.3.5 and earlier, so upgrading
 is as simple as updating the version of code you compile with.
-From thie v2.4.0 release of Fyne it requires Go 1.17, and so all projects are assumed to be using Go modules.
+As of release v2.4.0, Fyne requires Go 1.17, and so all projects are assumed to be using Go modules.
 
 ## Updating
 

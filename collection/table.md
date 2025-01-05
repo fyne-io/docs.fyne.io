@@ -13,7 +13,7 @@ Because of this the widget is not created with all the data embedded, but instea
 
 The `Table` uses callback functions to ask for data when it is required.
 There are 3 main callbacks, `Length`, `CreateCell` and `UpdateCell`. The Length callback (passed first) is the simplest,
-it returns how many items are in the data to be presented, the two ints it returns represent the row and colum count.
+it returns how many items are in the data to be presented, the two ints it returns represent the row and column count.
 The other two relate to the content templates.
 
 The `CreateCell` callback returns a new template object, just like list.

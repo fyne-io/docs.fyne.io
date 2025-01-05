@@ -165,7 +165,7 @@ Compiling Fyne apps on Android you will need Android 9 or above
 * Install [fdroid](https://f-droid.org/) and from there [termux](https://f-droid.org/packages/com.termux/)
 * Open Termux and install Go and Git:
 `pkg install golang git`
-* Install NDK and SDK to termux from [https://github.com/Lzhiyong/termux-ndk](https://github.com/Lzhiyong/termux-ndk) and set enviroment variables `ANDROID_HOME` and `ANDROID_NDK_HOME`
+* Install NDK and SDK to termux from [https://github.com/Lzhiyong/termux-ndk](https://github.com/Lzhiyong/termux-ndk) and set environment variables `ANDROID_HOME` and `ANDROID_NDK_HOME`
 
 (you can get more help from  [video](https://youtu.be/uGtVjf4_Ivo))
 

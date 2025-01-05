@@ -28,7 +28,7 @@ type Canvas interface {
 	// Scale returns the current scale (multiplication factor) this canvas uses to render
 	// The pixel size of a CanvasObject can be found by multiplying by this value.
 	Scale() float32
-	// SetScale sets ths scale for this canvas only, overriding system and user settings.
+	// SetScale sets this scale for this canvas only, overriding system and user settings.
 	//
 	// Deprecated: Settings are now calculated solely on the user configuration and system setup.
 	SetScale(float32)

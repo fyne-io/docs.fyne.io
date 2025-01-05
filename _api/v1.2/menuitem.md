@@ -21,11 +21,12 @@ type MenuItem struct {
 }
 ```
 
-MenuItem is a sligne item within any menu, it contains a dispay Label and Action function that is called when tapped.
+MenuItem is a single item within any menu, it contains a display Label and Action function that is called when tapped.
 
 #### func  NewMenuItem
 
 ```go
 func NewMenuItem(label string, action func()) *MenuItem
 ```
+
 NewMenuItem creates a new menu item from the passed label and action parameters.
