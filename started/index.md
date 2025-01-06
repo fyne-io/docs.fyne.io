@@ -36,10 +36,6 @@ install:
         name: ios
         title: iOS
         source: ios
-    tab7:
-        name: termux
-        title: Termux (create Android apk without PC - on Android)
-        source: termux
 
 ---
 
@@ -56,7 +52,7 @@ Note that these steps are just required for development - your Fyne applications
 <div id="install__windows" class="hidden">
 <div style="text-align: left" markdown="1">
 
-The MSYS2 is the recommended approach for working on windows, proceed as follows:
+The MSYS2 platform is the recommended approach for working on Windows. Proceed as follows:
 
 1. Install MSYS2 from [msys2.org](https://www.msys2.org/)
 2. Once installed do not use the MSYS terminal that opens
@@ -78,8 +74,8 @@ The MSYS2 is the recommended approach for working on windows, proceed as follows
 <div id="install__macos" class="hidden">
 <div style="text-align: left" markdown="1">
 
-1. Download Go from the [download page](https://golang.org/dl/) and follow instructions
-2. Install Xcode from the [Mac App Store](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
+1. Download Go from the [download page](https://golang.org/dl/) and follow instructions.
+2. Install Xcode from the [Mac App Store](https://apps.apple.com/us/app/xcode/id497799835?mt=12).
 3. Set up the Xcode command line tools by opening a Terminal window and typing the following:
     `xcode-select --install`
 4. In macOS the graphics drivers will already be installed.
@@ -90,7 +86,8 @@ The MSYS2 is the recommended approach for working on windows, proceed as follows
 <div id="install__linux" class="hidden">
 <div style="text-align: left" markdown="1">
 
-* You will need to install Go, GCC and the graphics library header files using your package manager, one of the following commands will probably work.
+You will need to install Go, GCC and the graphics library header files using your package manager. Choose the command corresponding to your distribution:
+
 * **Debian, Ubuntu and Raspberry Pi OS:**
 `sudo apt-get install golang gcc libgl1-mesa-dev xorg-dev libxkbcommon-dev`
 * **Fedora:**
@@ -114,7 +111,8 @@ The MSYS2 is the recommended approach for working on windows, proceed as follows
 <div id="install__bsd" class="hidden">
 <div style="text-align: left" markdown="1">
 
-* You will need to install Go, gcc and the graphics library header files using the package manager.
+You will need to install Go, GCC and the graphics library header files using the package manager. Choose the command corresponding to your BSD system:
+
 * **FreeBSD:**
 `sudo pkg install go gcc xorg pkgconf`
 * **OpenBSD:**
@@ -127,9 +125,18 @@ The MSYS2 is the recommended approach for working on windows, proceed as follows
 <div id="install__android" class="hidden">
 <div style="text-align: left" markdown="1">
 
-* To develop apps for Android you will first need to install the tools for your current computer (Windows, macOS or Linux)
+Compiling to Android from a desktop computer:
+
+* To develop apps for Android you will first need to install the tools for your current computer (Windows, macOS or Linux).
 * Once complete you will need to install the Android SDK and Android NDK - the recommended approach is to install [Android Studio](https://developer.android.com/studio/index.html) and then go to **Tools > SDK Manager** and from **SDK Tools** install the **NDK (Side by side)** package.
 * Alternatively you can download the [Standalone Android NDK](https://github.com/android/ndk/wiki#supported-downloads) which is a more lean approach. Extract the folder and point the `ANDROID_NDK_HOME` environment variable to it.
+
+Compiling on the Android device itself using Termux (video tutorial can be found [here](https://youtu.be/uGtVjf4_Ivo)):
+
+* Install [fdroid](https://f-droid.org/) and then install [termux](https://f-droid.org/packages/com.termux/) from there.
+* Open Termux and install Go and Git:
+`pkg install golang git`
+* Install NDK and SDK to termux from [https://github.com/Lzhiyong/termux-ndk](https://github.com/Lzhiyong/termux-ndk) and set environment variables `ANDROID_HOME` and `ANDROID_NDK_HOME` appropriately.
 
 </div>
 </div>
@@ -143,22 +150,6 @@ The MSYS2 is the recommended approach for working on windows, proceed as follows
 </div>
 </div>
 
-
-<div id="install__termux" class="hidden">
-<div style="text-align: left" markdown="1">
-
-Compiling Fyne apps on Android you will need Android 9 or above
-
-* Install [fdroid](https://f-droid.org/) and from there [termux](https://f-droid.org/packages/com.termux/)
-* Open Termux and install Go and Git:
-`pkg install golang git`
-* Install NDK and SDK to termux from [https://github.com/Lzhiyong/termux-ndk](https://github.com/Lzhiyong/termux-ndk) and set environment variables `ANDROID_HOME` and `ANDROID_NDK_HOME`
-
-(you can get more help from  [video](https://youtu.be/uGtVjf4_Ivo))
-
-
-</div>
-</div>
 <script type="text/javascript">
 
     function clickTab(tab) {
