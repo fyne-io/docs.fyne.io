@@ -96,21 +96,21 @@ The MSYS2 is the recommended approach for working on windows, proceed as follows
 
 * You will need to install Go, gcc and the graphics library header files using your package manager, one of the following commands will probably work.
 * **Debian / Ubuntu:**
-`sudo apt-get install golang gcc libgl1-mesa-dev xorg-dev`
+`sudo apt-get install golang gcc libgl1-mesa-dev xorg-dev libxkbcommon-dev`
 * **Fedora:**
-`sudo dnf install golang golang-misc gcc libXcursor-devel libXrandr-devel mesa-libGL-devel libXi-devel libXinerama-devel libXxf86vm-devel`
+`sudo dnf install golang golang-misc gcc libXcursor-devel libXrandr-devel mesa-libGL-devel libXi-devel libXinerama-devel libXxf86vm-devel libxkbcommon-devel wayland-devel`
 * **Arch Linux:**
-`sudo pacman -S go xorg-server-devel libxcursor libxrandr libxinerama libxi`
+`sudo pacman -S go xorg-server-devel libxcursor libxrandr libxinerama libxi libxkbcommon`
 * **Solus:**
-`sudo eopkg it -c system.devel golang mesalib-devel libxrandr-devel libxcursor-devel libxi-devel libxinerama-devel`
+`sudo eopkg it -c system.devel golang mesalib-devel libxrandr-devel libxcursor-devel libxi-devel libxinerama-devel libxkbcommon-devel`
 * **openSUSE:**
-`sudo zypper install go gcc libXcursor-devel libXrandr-devel Mesa-libGL-devel libXi-devel libXinerama-devel libXxf86vm-devel`
+`sudo zypper install go gcc libXcursor-devel libXrandr-devel Mesa-libGL-devel libXi-devel libXinerama-devel libXxf86vm-devel libxkbcommon-devel`
 * **Void Linux:**
-`sudo xbps-install -S go base-devel xorg-server-devel libXrandr-devel libXcursor-devel libXinerama-devel libXxf86vm-devel`
+`sudo xbps-install -S go base-devel xorg-server-devel libXrandr-devel libXcursor-devel libXinerama-devel libXxf86vm-devel libxkbcommon-devel wayland-devel`
 * **Alpine Linux**
-`sudo apk add go gcc libxcursor-dev libxrandr-dev libxinerama-dev libxi-dev linux-headers mesa-dev`
+`sudo apk add go gcc libxcursor-dev libxrandr-dev libxinerama-dev libxi-dev linux-headers mesa-dev libxkbcommon-dev wayland-dev`
 * **NixOS**
-`nix-shell -p libGL pkg-config xorg.libX11.dev xorg.libXcursor xorg.libXi xorg.libXinerama xorg.libXrandr xorg.libXxf86vm`
+`nix-shell -p libGL pkg-config xorg.libX11.dev xorg.libXcursor xorg.libXi xorg.libXinerama xorg.libXrandr xorg.libXxf86vm libxkbcommon wayland`
 
 </div>
 </div>
@@ -119,7 +119,7 @@ The MSYS2 is the recommended approach for working on windows, proceed as follows
 <div style="text-align: left" markdown="1">
 
 * You will need to install Go, gcc and the graphics library header files using the package manager.
-* `sudo apt-get install golang gcc libegl1-mesa-dev xorg-dev`
+* `sudo apt-get install golang gcc libegl1-mesa-dev xorg-dev libxkbcommon-dev`
 
 </div>
 </div>
