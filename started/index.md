@@ -91,7 +91,7 @@ The MSYS2 is the recommended approach for working on windows, proceed as follows
 <div style="text-align: left" markdown="1">
 
 * You will need to install Go, GCC and the graphics library header files using your package manager, one of the following commands will probably work.
-* **Debian / Ubuntu:**
+* **Debian, Ubuntu and Raspberry Pi OS:**
 `sudo apt-get install golang gcc libgl1-mesa-dev xorg-dev libxkbcommon-dev`
 * **Fedora:**
 `sudo dnf install golang golang-misc gcc libXcursor-devel libXrandr-devel mesa-libGL-devel libXi-devel libXinerama-devel libXxf86vm-devel libxkbcommon-devel wayland-devel`
