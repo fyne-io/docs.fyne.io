@@ -25,22 +25,18 @@ install:
         title: Linux
         source: linux
     tab4:
-        name: rpi
-        title: Raspberry Pi
-        source: rpi
-    tab5:
         name: bsd
         title: BSD
         source: bsd
-    tab6:
+    tab5:
         name: android
         title: Android
         source: android
-    tab7:
+    tab6:
         name: ios
         title: iOS
         source: ios
-    tab8:
+    tab7:
         name: termux
         title: Termux (create Android apk without PC - on Android)
         source: termux
@@ -94,7 +90,7 @@ The MSYS2 is the recommended approach for working on windows, proceed as follows
 <div id="install__linux" class="hidden">
 <div style="text-align: left" markdown="1">
 
-* You will need to install Go, gcc and the graphics library header files using your package manager, one of the following commands will probably work.
+* You will need to install Go, GCC and the graphics library header files using your package manager, one of the following commands will probably work.
 * **Debian / Ubuntu:**
 `sudo apt-get install golang gcc libgl1-mesa-dev xorg-dev libxkbcommon-dev`
 * **Fedora:**
@@ -111,15 +107,6 @@ The MSYS2 is the recommended approach for working on windows, proceed as follows
 `sudo apk add go gcc libxcursor-dev libxrandr-dev libxinerama-dev libxi-dev linux-headers mesa-dev libxkbcommon-dev wayland-dev`
 * **NixOS**
 `nix-shell -p libGL pkg-config xorg.libX11.dev xorg.libXcursor xorg.libXi xorg.libXinerama xorg.libXrandr xorg.libXxf86vm libxkbcommon wayland`
-
-</div>
-</div>
-
-<div id="install__rpi" class="hidden">
-<div style="text-align: left" markdown="1">
-
-* You will need to install Go, gcc and the graphics library header files using the package manager.
-* `sudo apt-get install golang gcc libegl1-mesa-dev xorg-dev libxkbcommon-dev`
 
 </div>
 </div>
@@ -193,10 +180,8 @@ Compiling Fyne apps on Android you will need Android 9 or above
             clickTab("windows");
         } else if (os == "MacIntel") {
             clickTab("macos");
-        } else if (os == "Linux i686" || os == "Linux x86_64") {
+        } else if (os == "Linux i686" || os == "Linux x86_64" || os == "Linux armv7l" || os == "Linux armv8l") {
             clickTab("linux");
-        } else if (os == "Linux armv7l") {
-            clickTab("rpi");
         } else if (os == "FreeBSD i386" || os == "FreeBSD amd64" || os == "OpenBSD i386" || os == "OpenBSD amd64" || os == "NetBSD i386" || os == "NetBSD amd64") {
         	clickTab("bsd");
         }
