@@ -23,7 +23,7 @@ In some cases it may be desirable to label a string with a unique ID instead of 
     title := widget.NewLabel(lang.X("window.title", "My App Window Title"))
 ```
 
-That may be all you need to know to get started - skip to [translation files](translation-files).
+That may be all you need to know to get started - read on to learn how to create your translation files.
 
 ## Translation files
 
@@ -43,7 +43,7 @@ Then your French translation could look like:
 }
 ```
 
-Each file can be most easily loaded using the Go `embed` feature - place each of the files in a directory called "translation" and then define them simply as:
+Each file can be most easily loaded using the Go `embed` feature - place each of the files in a directory called `translation` and then define them simply as:
 
 ```go
 //go:embed translation
