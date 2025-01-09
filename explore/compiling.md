@@ -21,5 +21,5 @@ Fyne will typically configure your application appropriately for the target plat
 | `mobile` | This tag runs an application in a simulated mobile window. Useful when you want to preview your app on a mobile platform without compiling and installing to the device. |
 | `no_animations` | Disable the non-essential animations in standard widgets and containers. |
 | `no_emoji` | Don't include the embedded emoji font. This will disable emoji in  your app but will make the binary smaller. |
-| `no_metadata` | Disable runtime lookup of metadata even when not packaging in release mode. |
+| `no_metadata` | Disable runtime lookup of metadata from FyneApp.toml source files. This is always disabled for release builds. |
 | `no_native_menus` | This flag is specifically for macOS and indicates that the application should not use the macOS native menus. Instead menus will be displayed inside the application window. Most useful for testing an application on macOS to simulate the behavior on Windows or Linux. |
