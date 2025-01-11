@@ -16,6 +16,7 @@ Fyne will typically configure your application appropriately for the target plat
 | Tag      | Description               |
 |----------|---------------------------|
 | `debug`  | Show debug information, including visual layout to help understand your app. |
+| `flatpak` | Build with improved support for running inside the Flatpak sandbox on Linux. |
 | `gles`   | Force use of embedded OpenGL (GLES) instead of full OpenGL. This is normally controlled by the target device and not normally needed. |
 | `hints`  | Display developer hints for improvements or optimisations. Running with `hints` will log when your application does not follow material design or other recommendations. |
 | `mobile` | This tag runs an application in a simulated mobile window. Useful when you want to preview your app on a mobile platform without compiling and installing to the device. |
