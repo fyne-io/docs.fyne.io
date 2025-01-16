@@ -24,3 +24,4 @@ Fyne will typically configure your application appropriately for the target plat
 | `no_emoji` | Don't include the embedded emoji font. This will disable emoji in  your app but will make the binary smaller. |
 | `no_metadata` | Disable runtime lookup of metadata from FyneApp.toml source files. This is always disabled for release builds. |
 | `no_native_menus` | This flag is specifically for macOS and indicates that the application should not use the macOS native menus. Instead menus will be displayed inside the application window. Most useful for testing an application on macOS to simulate the behavior on Windows or Linux. |
+| `wayland` | Build with support for the Wayland window protocol instead of X11. Only relevant on Linux and BSD systems. |
