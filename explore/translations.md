@@ -58,6 +58,18 @@ Finally you can tell Fyne to load these translations with a single function call
 
 This uses the embedded filesystem and specifies the name of the directory that the files are stored in.
 
+The naming of these translation files should follow the format [prefix]{{[language subtag](https://en.wikipedia.org/wiki/IETF_language_tag#List_of_common_primary_language_subtags)}}.json.
+
+For example:
+
+```
+$ tree # at tranlations
+.
+|-- de.json
+|-- en.json
+|-- zh.json
+```
+
 When your app starts it will display using the translations for the current user's language configuration.
 
 ## Plurals
