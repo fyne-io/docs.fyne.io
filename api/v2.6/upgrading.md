@@ -20,7 +20,7 @@ Open your `go.mod` file and alter the the `require` line to use version `v2.6.0`
 or you can execute the following command inside the directory:
 
 ```bash
-go get fyne.io/fyne/v2@v2.6.0
+go get fyne.io/fyne/v2@v2.6.0-alpha1
 ```
 
 The next time you build or run your app it will be using the 2.6 API,
@@ -54,7 +54,7 @@ be required for ensuring widget data safety any more).
 
 **Background access to Fyne APIs must be performed through fyne.Do[AndWait] functions**
 
-Because all Fyne now happens on a single thread (for speed and safety) apps using goroutines need to change.
+Because all Fyne callbacks now happen on a single thread (for speed and safety) apps using goroutines need to be updated.
 If your app launches a goroutine (using the `go` keyword) any Fyne APIs called from within the
 new context must be wrapped in a new accessor.
 
