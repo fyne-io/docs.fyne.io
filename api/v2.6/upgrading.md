@@ -4,7 +4,7 @@ tags: [api]
 title: Upgrading to v2.6
 ---
 
-The 2.6 release is fully backward compatible with 2.5.4 and earlier, 
+The 2.6 release is fully backward compatible with 2.5.5 and earlier, 
 however there are notable changes in how it works internally that may impact some apps.
 
 Changes:
@@ -20,7 +20,7 @@ Open your `go.mod` file and alter the the `require` line to use version `v2.6.0`
 or you can execute the following command inside the directory:
 
 ```bash
-go get fyne.io/fyne/v2@v2.6.0-alpha1
+go get fyne.io/fyne/v2@v2.6.0
 ```
 
 The next time you build or run your app it will be using the 2.6 API,

@@ -43,7 +43,7 @@ Using the Fyne toolkit to build cross platform applications is very simple but d
 
 ## Prerequisites
 
-Fyne requires 3 basic elements to be present, the Go tools (at least version 1.12), a C compiler (to connect with system graphics drivers) and a system graphics driver. The instructions vary depending on your operating system, choose the appropriate tab below for installation instructions.
+Fyne requires 3 basic elements to be present, the Go tools (at least version 1.19), a C compiler (to connect with system graphics drivers) and a system graphics driver. The instructions vary depending on your operating system, choose the appropriate tab below for installation instructions.
 
 Note that these steps are just required for development - your Fyne applications will not require any setup or dependency installation for end users!
 
