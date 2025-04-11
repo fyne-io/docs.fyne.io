@@ -30,7 +30,7 @@ showing the new curved corners in input widgets and selection.
 
 You should update the `fyne` tool for v2.6.0 to get some of the new features and bug fixes.
 This is now done by installing it from the tools repository.
-You can make the upgrade by using the `go get` command similarly to above:
+You can make the upgrade by using a `go install` command similar to above:
 
 ```bash
 go install fyne.io/tools/cmd/fyne@latest
