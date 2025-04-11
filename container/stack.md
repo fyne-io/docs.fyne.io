@@ -1,5 +1,5 @@
 ---
-title: Max
+title: Stack
 
 redirect_from:
 - /tour/layout/maxlayout
