@@ -31,6 +31,9 @@ func main() {
 
 	content := widget.NewLabel("text")
 
+	content.Selectable = true
+	content.SetText("New Label Widget Text")
+
 	myWindow.SetContent(content)
 	myWindow.ShowAndRun()
 }
