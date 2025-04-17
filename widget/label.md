@@ -31,7 +31,10 @@ func main() {
 
 	content := widget.NewLabel("text")
 
+	// Example Allow text selection
 	content.Selectable = true
+
+	// Example Update text
 	content.SetText("New text")
 
 	myWindow.SetContent(content)
