@@ -32,7 +32,7 @@ func main() {
 	content := widget.NewLabel("text")
 
 	content.Selectable = true
-	content.SetText("New Label Widget Text")
+	content.SetText("New text")
 
 	myWindow.SetContent(content)
 	myWindow.ShowAndRun()
