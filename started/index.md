@@ -47,6 +47,8 @@ Fyne requires 3 basic elements to be present, the Go tools (at least version 1.1
 
 Note that these steps are just required for development - your Fyne applications will not require any setup or dependency installation for end users!
 
+Supported Platforms see: [wiki/Supported-Platforms](https://github.com/fyne-io/fyne/wiki/Supported-Platforms)
+
 {% include tabs.html bodyclass="fullborder" tabs=page.install id="install" %}
 
 <div id="install__windows" class="hidden">
