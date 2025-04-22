@@ -65,3 +65,6 @@ func main() {
 When calling `fyne.Do` the code will execute between when you request it and the next frame to draw - which could be up to 15ms later. Some times it is necessary to know when that process has finished. For example if you are updating an image buffer and do not want to start again until after it is processed for the next visual update.
 
 To do this another function, `fyne.DoAndWait` is useful. This takes the same parameter as the `Do` version above, but it will not return until the update is complete. This means the next line in your app will happen after the user interface is updated - very useful if you want to avoid potential issues with accessing shared resources concurrently.
+
+{% include youtube.html id="choFGqOPzDI" %}
+
