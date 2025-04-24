@@ -12,7 +12,7 @@ To prepare your app to be used over the web we use the "fyne" cli app again, whi
 "serve" command for quick testing
 
 ```
-go install fyne.io/fyne/v2/cmd/fyne@latest
+go install fyne.io/tools/cmd/fyne@latest
 fyne serve
 ```
 
