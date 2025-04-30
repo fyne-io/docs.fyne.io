@@ -11,11 +11,11 @@ you can see our [demo app](https://github.com/fyne-io/demo/tree/main).
 
 If you want to, you can run the demo directly using the following command (requires Go 1.16 or later):
 
-    go run github.com/fyne-io/demo@latest
+    go run fyne.io/demo@latest
 
 For earlier versions of Go, you need to use the following command instead:
 
-    go run github.com/fyne-io/demo
+    go run fyne.io/demo
 
 By browsing the different tabs of the app you can see all the features of Fyne toolkit.
 
@@ -29,7 +29,7 @@ First you will need to install the tool:
 
 After that you can simply package and install the demo app:
 
-	fyne install github.com/fyne-io/demo
+	fyne install fyne.io/demo
 
 (This may require admin privileges on your system, and that in turn may 
 require some path changes to include the `fyne` and `go` executables.)
