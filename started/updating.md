@@ -13,8 +13,8 @@ directly into `SetContent()`, to update it we change that to two
 different lines, such as:
 
 ```go
-	clock := widget.NewLabel("")
-	w.SetContent(clock)
+	message := widget.NewLabel("Welcome")
+	w.SetContent(message)
 ```
 
 Once the content has been assigned to a variable we can call functions
@@ -24,36 +24,15 @@ content of our label to the current time, with the help of
 
 ```go
 	formatted := time.Now().Format("Time: 03:04:05")
-	clock.SetText(formatted)
+	message(formatted)
 ```
 
 That is all we need to do to change content of a visible item (see below for the full code).
-However, we can go further and update content on a regular basis.
+In the following example we put that code into a button tap - now each time the
+button is tapped the time will be displayed in the Label widget.
 
-## Running in the background
+## Full example
 
-Most applications will need to have processes that run in the background,
-for example downloading data or responding to events.
-To simulate this we will extend the code above to run every second.
-
-Like with most go code we can create a goroutine (using the `go`
-keyword) and run our code there. If we move the text update code to
-a new function it can be called on initial display as well as
-on a timer for regular updating. By combining a goroutine and the
-`time.Tick` inside a for loop we can update the label every second.
-
-```go
-	go func() {
-		for range time.Tick(time.Second) {
-			updateTime(clock)
-		}
-	}()
-```
-
-It is important to place this code before `ShowAndRun` or `Run` calls
-because they will not return until the application closes.
-With all of this together the code will run and update the user interface
-each second, creating a basic clock widget.
 The full code is as follows:
 
 ```go
@@ -63,27 +42,21 @@ import (
 	"time"
 
 	"fyne.io/fyne/v2/app"
+	"fyne.io/fyne/v2/container"
 	"fyne.io/fyne/v2/widget"
 )
 
-func updateTime(clock *widget.Label) {
-	formatted := time.Now().Format("Time: 03:04:05")
-	clock.SetText(formatted)
-}
-
 func main() {
 	a := app.New()
-	w := a.NewWindow("Clock")
+	w := a.NewWindow("Update Time")
 
-	clock := widget.NewLabel("")
-	updateTime(clock)
+	message := widget.NewLabel("Welcome")
+	button := widget.NewButton("Update", func() {
+		formatted := time.Now().Format("Time: 03:04:05")
+		message.SetText(formatted)
+	})
 
-	w.SetContent(clock)
-	go func() {
-		for range time.Tick(time.Second) {
-			updateTime(clock)
-		}
-	}()
+	w.SetContent(container.NewVBox(message, button))
 	w.ShowAndRun()
 }
 ```
