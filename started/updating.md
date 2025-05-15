@@ -24,7 +24,7 @@ content of our label to the current time, with the help of
 
 ```go
 	formatted := time.Now().Format("Time: 03:04:05")
-	message(formatted)
+	message.SetText(formatted)
 ```
 
 That is all we need to do to change content of a visible item (see below for the full code).
