@@ -1,9 +1,6 @@
 ---
 title: Table Headers
 
-redirect_from:
-  - /tour/widget/table
-  - /widget/table
 --- 
 
 The `Table` collection widget supports a header row and/or column
