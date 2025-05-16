@@ -1,122 +1,196 @@
 ---
 title: Table Styling
 
-redirect_from:
-  - /tour/widget/table
-  - /widget/table
 --- 
 
-The `Table` collection widget allows customization of the appearance 
-of individual cells or whole rows or columns of your table.
+Styling a cell in a table involves determining both how the cell content should be rendered 
+(e.g text bolding or underlining, alignment, truncation) and how wide or high the column or row
+containing the cell should be.
 
-Size, color, alignment or bolding can be changed to achieve such effects as:
+The default styling for each cell in the table determined by 
+the template object returned by the `CreateCell` callback of the [`Table`](/api/widget/table) collection widget.
+The default size of rows and columns is determined by the size of the content of the template object.
 
-* negative numbers in red
-* numeric columns right adjusted
-* different column widths for different columns, or different heights for different rows
+But the default size of a particular column or row can be overridden with
+`Table` methods `.SetColumnWidth()` and `.SetRowHeight()`.
 
+And the styling of a given cell, including sizing the row or column it appears in,
+can be overridden in the `UpdateCell` callback.
 
-## styling cells
+This sample demonstrates several kinds of styling, all accomplished in the `UpdateCell` callback:
 
-The kinds of styling choices available depend on the `fyne.CanvasObject` returned from the `CreateCell` callback.  The most common template is a `widget.Label`, but a `widget.RichText` or `container.Stack` containing multiple widgets can be used.  
+* alternating rows displayed in bold or italic rendition, 
+* text aligned differently in each column
+* row height adjusted to fit content wrapped to multiple lines, but only where needed.
 
-To achieve the desired effect, styling attributes are applied to each cell in
-the `UpdateCell` callback based on the content or row and column position it has in the table. You might set an individual cell containing a negative number to display in red, or set all the cells in a given column to display centered, for example.  
-
-Note that most widgets have transparent background.  To display a cell with a particular background color, the template can be a `container.Stack` containing a `canvas.Rectangle` for the background and a `widget.Label` for the foreground.
-
-When changing an objects's styling attributes in the `UpdateCell` callback:
-
-* call the object's `Refresh` method.  
-However, an explicit `Refresh` is not necessary if the only attribute changes are made via setter methods, such as `label.SetText()`.
-* set a given styling attribute on *all* code paths through the callback.  
-The `fyne.CanvasObject` passed in to `UpdateCell` is not guaranteed to be the one initialized in `CreateCell` nor the one last displayed in that row and column;
-its attribute settings on entry  are unpredictable.
-
-## sizing rows and columns
-
-The default column width and row height for the `Table` are determined by the `MinWidth` of the template object returned from `CreateCell` callback.  `MinWidth` cannot be set directly, but is influenced by content of the template object.  So, for example a template like  
-`widget.NewLabel("123456789012345\nfoo")`  
-would render a table with columns that are 15 characters wide by 2 lines high.  
-
-The size of a particular column or row can be changed by:  
-`func (t *Table) SetColumnWidth(id int, width float32)` and  
-`func (t *Table) SetRowHeight(id int, height float32)`, respectively.
-
-## sample table styling
 
 ```go
 package main
 
 import (
-	"fmt"
+    "fmt"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/app"
-	"fyne.io/fyne/v2/widget"
+    "fyne.io/fyne/v2"
+    "fyne.io/fyne/v2/app"
+    "fyne.io/fyne/v2/widget"
 )
+
+var curTable *widget.Table
+
+// sample content for middle col.
+var col2content = "Centered -- Lorem ipsum dolor sit amet, consectetur adipisci"
 
 func makeTableComponents() *widget.Table {
 
-	table := widget.NewTable(
-		// length: return #rows, #cols
-		func() (int, int) {
-			return 15, 3
-		},
+    table := widget.NewTable(
+        // length: return #rows, #cols
+        func() (rows int, cols int) {
+            return 6, 3
+        },
 
-		// create cell template
-		func() fyne.CanvasObject {
-			return widget.NewLabel("template text")
-		},
+        // create cell template
+        func() fyne.CanvasObject {
+            // default column width is width of template content, here 20 chars.
+            return widget.NewLabel("01234567890123456789")
+        },
 
-		// update cell
-		func(id widget.TableCellID, cellTpl fyne.CanvasObject) {
-			cell := cellTpl.(*widget.Label)
+        // update cell
+        func(id widget.TableCellID, cellTpl fyne.CanvasObject) {
 
-			// style each column differently
-			switch id.Col {
-			case 0:
-				cell.SetText(fmt.Sprintf(
-					"row %d, wider, left aligned", id.Row))
-				cell.Alignment = fyne.TextAlignLeading
-			case 1:
-				cell.SetText("centered")
-				cell.Alignment = fyne.TextAlignCenter
-			case 2:
-				cell.SetText("right aligned")
-				cell.Alignment = fyne.TextAlignTrailing
-			}
+            // recover actual template widget
+            cell := cellTpl.(*widget.Label)
 
-			// style alternating rows differently
-			if id.Row%2 == 1 {
-				cell.TextStyle = fyne.TextStyle{Bold: true}
-				cell.Importance = widget.DangerImportance
-			} else {
-				cell.TextStyle = fyne.TextStyle{}
-				cell.Importance = widget.MediumImportance
-			}
+            // even rows bolded
+            switch id.Row % 2 {
+            case 0: // even numbered rows
+                cell.TextStyle = fyne.TextStyle{Bold: true}
+            case 1:
+                cell.TextStyle = fyne.TextStyle{Italic: true, Underline: true}
+            }
 
-			cell.Refresh() // refresh needed after styling changes
-		},
-	)
+            // first col right adjusted, middle col centered, last col left adjusted
+            switch id.Col {
+            case 0:
+                cell.Alignment = fyne.TextAlignTrailing
+                cell.Wrapping = fyne.TextWrapOff
+                cell.SetText(fmt.Sprintf(
+                    "row %d, flush right", id.Row))
 
-	// set per-column widths as needed
-	table.SetColumnWidth(0, 190)
+            // middle col text word wrapped and height of row adjusted to compensate
+            case 1:
+                cell.Wrapping = fyne.TextWrapWord
+                cell.Alignment = fyne.TextAlignCenter
+                // different size content in each row, to show different row height
+                actLen := len(col2content) / 3 * (1 + id.Row%3)
+                cell.SetText(col2content[0:actLen]) // does cell.Refresh
 
-	return table
+                // make row higher if this cell needs it
+                // cell size updated by SetText()
+                curTable.SetRowHeight(id.Row, cell.MinSize().Height)
+
+            case 2:
+                cell.Wrapping = fyne.TextWrapOff
+                cell.Alignment = fyne.TextAlignLeading
+
+                cell.SetText("col 3, flush left")
+            }
+            // Usually must call .Refresh() after styling the cell.
+            // But .SetText() does that internally,
+            // and, in this sample, is invoked *after* all styling on every code path.
+            // cell.Refresh() // not needed in this sample.
+        },
+    )
+
+    curTable = table
+
+    // all columns of same length, use default from template.
+    // otherwise, could invoke table.SetColumnWidth() here
+
+    return table
 }
 func main() {
-	a := app.NewWithID("com.example.sample.table_style")
-	w := a.NewWindow("table_style")
+    a := app.NewWithID("com.example.sample.table_style_wrapping")
+    w := a.NewWindow("table_style_wrapping")
 
-	table := makeTableComponents()
+    table := makeTableComponents()
 
-	w.SetContent(table)
-	w.Resize(fyne.NewSize(430, 300))
-	w.ShowAndRun()
+    w.SetContent(table)
+    w.Resize(fyne.NewSize(600, 300))
+    w.ShowAndRun()
 }
 
 ```
+
+### Invoking `.Refresh()` on a table cell
+
+In general, a cell's .Refresh() method must be invoked after updating its
+styling attributes in order to render those updates.
+However, "setter" methods, such as `cell.SetText()` invoke  .Refresh() internally
+and may avoid the need to invoke .Refresh() directly.
+
+In the sample code, note that UpdateCell is structured
+to make all the styling changes before setting the text 
+so it does not contain an explicit `cell.Refresh()`.
+
+### Updating all styling attributes in `UpdateCell` callback
+The styling attributes of the object passed into the UpdateCell callback 
+are not predictable; the object may have been newly generated by CreateCell (with default styling),
+or may have been recycled from some other row or column (with styling appropriate to that location).
+So all the attributes that could have different setting in some other table location
+must be set to appropriate values for the current location.
+
+In the sample, `.Alignment`, `.TextStyle` and `.Wrapping` are set on each invocation,
+but `.Truncation` need not be set because it is never changed from its default value.
+
+
+### Table cells other than `widget.Label`
+
+The template object returned by CreateCell need not be a `widget.Label`, though that is the most common case.
+For example, it could be a `container.Stack` with a `canvas.Rectangle` and a `widget.Label` (in that order, so the rectangle
+is underneath the label).  Then the `Rectangle.FillColor` can be used to set 
+the background color of the cell, something which is not possible with a widget alone.
+
+### Measuring size of string before rendering it
+
+To estimate the width of a column before it is rendered, `fyne.MeasureText()` may be used.  
+It reports the `fyne.Size` of a given string in a specified font size and style, 
+not accounting for truncation or word-wrapping.  
+
+This can be used to set the width of each column of a table 
+based on the longest string to be displayed in that column, for example:
+
+```go
+package main
+
+import (
+    "log"
+
+    "fyne.io/fyne/v2"
+    "fyne.io/fyne/v2/app"
+    "fyne.io/fyne/v2/theme" // Required for theme.SizeNameText
+)
+
+func main() {
+
+    app.NewWithID("com.example.sample.measure_text")
+
+    // longest string in each column (e.g, extracted from a db query)
+    maxStrs := []string{"xxx-xx-xxxx", "221B Baker Street", ""}
+
+    // width of M character in standard text font of current theme (not a fyne.Size)
+    stdTextWidth := fyne.CurrentApp().Settings().Theme().Size(theme.SizeNameText)
+
+    for i, s := range maxStrs {
+        strSizeNormal := fyne.MeasureText(s, stdTextWidth, fyne.TextStyle{})
+
+        log.Printf("%d FYI: render size of `%s` is %v", i, s, strSizeNormal)
+
+        // could use this in a table, e.g
+        // table.SetColumnWidth(i, sizeNormal.Width)
+    }
+}
+```
+
 
 
 Next, we'll discuss setting [table headers](table-headers).
