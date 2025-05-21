@@ -22,8 +22,8 @@ everything for you. Be sure to have a unique application identifier as it is
 unwise to change these after your first release.
 
 ```
-fyne package -os android -appID com.example.myapp -icon mobileIcon.png
-fyne package -os ios -appID com.example.myapp -icon mobileIcon.png
+fyne package -os android -app-id com.example.myapp -icon mobileIcon.png
+fyne package -os ios -app-id com.example.myapp -icon mobileIcon.png
 ```
 
 After these commands have completed (which may take some time on first
@@ -45,7 +45,7 @@ the `myapp.app` icon onto your app list.
 If you want to install on a simulator make sure to package your application using `iossimulator` vs `ios` 
 
 ```
-fyne package -os iossimulator -appID com.example.myapp -icon mobileIcon.png
+fyne package -os iossimulator -app-id com.example.myapp -icon mobileIcon.png
 ```
 
 Afterwards you can use the command line tools as follows:
