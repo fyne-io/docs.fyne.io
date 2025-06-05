@@ -25,36 +25,37 @@ and also the minimum size of the table (since it shows at least one cell).
 package main
 
 import (
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/app"
-	"fyne.io/fyne/v2/widget"
+    "fyne.io/fyne/v2"
+    "fyne.io/fyne/v2/app"
+    "fyne.io/fyne/v2/widget"
 )
 
 var data = [][]string{[]string{"top left", "top right"},
-	[]string{"bottom left", "bottom right"}}
+    []string{"bottom left", "bottom right"}}
 
 func main() {
-	myApp := app.New()
-	myWindow := myApp.NewWindow("Table Widget")
+    myApp := app.New()
+    myWindow := myApp.NewWindow("Table Widget")
 
-	list := widget.NewTable(
-		// Length callback
-		func() (int, int) {	
-			return len(data), len(data[0])
-		},
-		// CreateCell callback
-		func() fyne.CanvasObject {
-			return widget.NewLabel("wide content")
-		},
-		// UpdateCell callback
-		func(i widget.TableCellID, o fyne.CanvasObject) {
-			o.(*widget.Label).SetText(data[i.Row][i.Col])
-		})
+    list := widget.NewTable(
+        // Length callback
+        func() (int, int) {    
+            return len(data), len(data[0])
+        },
+        // CreateCell callback
+        func() fyne.CanvasObject {
+            return widget.NewLabel("wide content")
+        },
+        // UpdateCell callback
+        func(i widget.TableCellID, o fyne.CanvasObject) {
+            o.(*widget.Label).SetText(data[i.Row][i.Col])
+        })
 
-	myWindow.SetContent(list)
-	myWindow.ShowAndRun()
+    myWindow.SetContent(list)
+    myWindow.ShowAndRun()
 }
 ```
 
-Next, we'll see how to [style](/collection/table-styling) the rows and columns of a table, 
+---
+Next, we'll see how to [style](/collection/table-styling) the table, 
 and how to display [headers](/collection/table-headers).
