@@ -71,6 +71,8 @@
   docs:
   - list
   - table
+  - table-styling
+  - table-headers
   - tree
 
 - title: Data Binding
