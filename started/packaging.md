@@ -36,7 +36,7 @@ These commands will create:
   * myapp.tar.gz that contains a folder structure starting at usr/local/ that a Linux user could expand to the root of their system.
   * myapp.exe (after the second build, which is required for a windows package) will have the icon and app metadata embedded.
 
-If you don't want to reduce the memory footprint of your application and you don't need debug symbols, you can add `-release` to the packge command
+If you want to reduce the memory footprint of your application and you don't need debug symbols, you can add `-release` to the packge command
 
 ```
 fyne package -os windows -icon myapp.png -release
