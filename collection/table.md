@@ -6,50 +6,56 @@ redirect_from:
   - /widget/table
 --- 
 
-The `Table` collection widget is like the [List](/collection/list) widget (another of the toolkit's collection widgets) with a two-dimensional index.
-Like `List` this is designed to help build really performant
+The `Table` collection widget is like the [List](/collection/list) widget (another of the toolkit's collection widgets), but with a two-dimensional data structure.
+
+It is designed to help build really performant
 interfaces when lots of data is being presented.
-Because of this the widget is not created with all the data embedded, but instead calls out to the data source when needed.
-
 The `Table` uses callback functions to ask for data when it is required.
-There are 3 main callbacks, `Length`, `CreateCell` and `UpdateCell`. The Length callback (passed first) is the simplest,
-it returns how many items are in the data to be presented, the two ints it returns represent the row and column count.
-The other two relate to the content templates.
 
-The `CreateCell` callback returns a new template object, just like list.
-The difference being that `MinSize` will define the standard size of each cell, and the minimum size of the table (it shows at least one cell).
-As previously the `UpdateCell` is called to apply data to a cell template. The index passed in is the same `(row, col)` int pair.
+* The `Length` callback returns the number of rows and columns of data from the data source.
+The `Table` widget will display scrollbars if the layout doesn't have room to display all the data at once.
+
+* The `CreateCell` callback returns an object which will be the template for all cells in the table.  
+`MinSize` of the template object defines the standard size of each cell
+and also the minimum size of the table (since it shows at least one cell).
+
+* The `UpdateCell` callback applies data, content and styling for each cell of the table.  It is invoked for a particular cell only when that cell needs to be displayed, with a `TableCellID` specifying the row and column of the cell.
 
 ```go
 package main
 
 import (
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/app"
-	"fyne.io/fyne/v2/widget"
+    "fyne.io/fyne/v2"
+    "fyne.io/fyne/v2/app"
+    "fyne.io/fyne/v2/widget"
 )
 
 var data = [][]string{[]string{"top left", "top right"},
-	[]string{"bottom left", "bottom right"}}
+    []string{"bottom left", "bottom right"}}
 
 func main() {
-	myApp := app.New()
-	myWindow := myApp.NewWindow("Table Widget")
+    myApp := app.New()
+    myWindow := myApp.NewWindow("Table Widget")
 
-	list := widget.NewTable(
-		func() (int, int) {
-			return len(data), len(data[0])
-		},
-		func() fyne.CanvasObject {
-			return widget.NewLabel("wide content")
-		},
-		func(i widget.TableCellID, o fyne.CanvasObject) {
-			o.(*widget.Label).SetText(data[i.Row][i.Col])
-		})
+    list := widget.NewTable(
+        // Length callback
+        func() (int, int) {    
+            return len(data), len(data[0])
+        },
+        // CreateCell callback
+        func() fyne.CanvasObject {
+            return widget.NewLabel("wide content")
+        },
+        // UpdateCell callback
+        func(i widget.TableCellID, o fyne.CanvasObject) {
+            o.(*widget.Label).SetText(data[i.Row][i.Col])
+        })
 
-	myWindow.SetContent(list)
-	myWindow.ShowAndRun()
+    myWindow.SetContent(list)
+    myWindow.ShowAndRun()
 }
 ```
 
-For more info, for example on how to add headers to the table, see the [widget.Table API documentation](/api/v2.5/widget/table.html).
+---
+Next, we'll see how to [style](/collection/table-styling) the table, 
+and how to display [headers](/collection/table-headers).
