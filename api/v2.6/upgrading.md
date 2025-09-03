@@ -28,7 +28,7 @@ showing the new curved corners in input widgets and selection.
 
 ## Fyne command
 
-You should update the `fyne` tool for v2.6.0 to get some of the new features and bug fixes.
+You should update the `fyne` tool to get some of the new features and bug fixes.
 This is now done by installing it from the tools repository.
 You can make the upgrade by using a `go install` command similar to above:
 

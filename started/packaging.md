@@ -17,14 +17,8 @@ Thankfully the "fyne" app has a "package" command that can handle this automatic
 go install fyne.io/tools/cmd/fyne@latest
 fyne package -os darwin -icon myapp.png
 ```
-If you're using an older version of Go (<1.16), you should install fyne using `go get`
 
-```
-go get fyne.io/tools/cmd/fyne
-fyne package -os darwin -icon myapp.png
-```
-
-Will create myapp.app, a complete bundle structure for distribution to macOS users. You could then build the linux and Windows versions too...
+Executing those lines will create myapp.app, a complete bundle structure for distribution to macOS users. You could then build the linux and Windows versions too...
 
 ```
 fyne package -os linux -icon myapp.png
