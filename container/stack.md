@@ -13,7 +13,7 @@ widgets.
 
 The stack layout will require the container to be at least the size of the
 largest item's minimum size. The objects will be drawn in the order
-the are passed to the container, with the last being drawn top-most.
+they are passed to the container, with the last being drawn top-most.
 
 ```go
 package main
