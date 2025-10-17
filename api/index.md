@@ -1,4 +1,4 @@
 ---
 permalink: /api/
-redirect_to: /api/v2.6/
+redirect_to: /api/v2.7/
 ---
