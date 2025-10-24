@@ -1,0 +1,33 @@
+---
+tags: [api]
+title: widget.ButtonStyle
+slug: buttonstyle
+
+aliases:
+- /api/v2.0/widget/buttonstyle
+- /api/v2.1/widget/buttonstyle
+- /api/v2.2/widget/buttonstyle
+- /api/v2.3/widget/buttonstyle
+- /api/v2.4/widget/buttonstyle
+- /api/v2.5/widget/buttonstyle
+- /api/v2.6/widget/buttonstyle
+- /api/v2.7/widget/buttonstyle
+
+package: fyne.io/fyne/v2/widget
+---
+
+
+---
+```go
+import "fyne.io/fyne/v2/widget"
+```
+
+## Usage
+
+#### type ButtonStyle
+
+```go
+type ButtonStyle int
+```
+
+ButtonStyle determines the behaviour and rendering of a button.

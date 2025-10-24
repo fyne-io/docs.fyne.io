@@ -11,7 +11,7 @@ go install github.com/andydotxyz/godocdown/godocdown@latest
 # generate API docs
 
 DIRS=`find $ROOT -type d | grep -v .git | grep -v vendor | grep -v internal | grep -v testdata | grep -v cmd | grep -v tools`
-PREFIX="content/docs/api/$VERSION"
+PREFIX="content/docs/api/v2"
 mkdir $PREFIX 2>&1 > /dev/null
 
 godocdown -template="_gen/api.md" -outputDir "$PREFIX/" $ROOT 2>&1 | grep -v "Could not find package"
@@ -55,11 +55,21 @@ for DIR in $DIRS; do
 		PKGNAME="fyne"
 		mv $PREFIX/$OUT $PREFIX/fyne/$OUT
 	fi
+
+    declare -a vers=("v2.0" "v2.1" "v2.2" "v2.3" "v2.4" "v2.5" "v2.6" "v2.7")
 	
-    sed -i.bak "s|slug:|slug: $NAME\n\naliases:\n- \/api\/$VERSION\/$PKGPATH|" "$PREFIX/$PKGNAME/$OUT"
-    sed -i.bak "s|# .*||" "$PREFIX/$PKGNAME/$OUT"
+    ALIASLIST=""
+    for i in "${vers[@]}"
+    do
+      ALIASLIST=$ALIASLIST"\n- \/api\/$i\/$PKGPATH"
+    done
+	
+    if [[ "$OUT" != '*.md' ]]; then
+      sed -i.bak "s|slug:|slug: $NAME\n\naliases:$ALIASLIST|" "$PREFIX/$PKGNAME/$OUT"
+      sed -i.bak "s|^# .*||" "$PREFIX/$PKGNAME/$OUT"
+    fi
   done
 done
 
-rm content/docs/api/$VERSION/_index.md
+rm content/docs/api/v2/_index.md
 find content/docs/api/ -name \*.bak -exec rm {} \;
