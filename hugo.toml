@@ -25,9 +25,12 @@ darkMode = true
 sidebarIcons = true
 
 [permalinks]
-[permalinks.page]
-docs = "/:sections[1:]/:slug/"
-[permalinks.section]
-docs =  "/:slug/"
+  [permalinks.page]
+    docs = "/:sections[1:]/:slug/"
+  [permalinks.section]
+    docs =  "/:slug/"
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
