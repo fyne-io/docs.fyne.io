@@ -114,10 +114,11 @@ Compiling on the Android device itself using Termux (video tutorial can be found
 <script type="text/javascript">
 
     function clickTab(tab) {
-        document.querySelector('li.tabcontrol[data-name="'+tab+'"]').click();
+		var tabs = document.querySelectorAll('div.nav-tabs .nav-link');
+        tabs[tab].click();
     }
 
-    $(document).ready(function(){
+    document.addEventListener("DOMContentLoaded", function(event) {
         var ua = navigator.userAgent || navigator.vendor || window.opera;
         if (/android/i.test(ua)) {
             clickTab("android");
@@ -129,13 +130,13 @@ Compiling on the Android device itself using Termux (video tutorial can be found
 
         var os = window.navigator.platform;
         if (os == "win32") {
-            clickTab("windows");
+            clickTab(0);
         } else if (os == "MacIntel") {
-            clickTab("macos");
+            clickTab(1);
         } else if (os == "Linux i686" || os == "Linux x86_64" || os == "Linux armv7l" || os == "Linux armv8l") {
-            clickTab("linux");
+            clickTab(2);
         } else if (os == "FreeBSD i386" || os == "FreeBSD amd64" || os == "OpenBSD i386" || os == "OpenBSD amd64" || os == "NetBSD i386" || os == "NetBSD amd64") {
-        	clickTab("bsd");
+        	clickTab(3);
         }
     });
 </script> 
