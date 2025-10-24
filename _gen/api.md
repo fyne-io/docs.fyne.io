@@ -1,7 +1,8 @@
 ---
-layout: page
 tags: [api]
-title: Fyne API "{{ .Name }}"
+title: {{ .Name }}
+slug:
+
 package: {{ .ImportPath }}
 ---
 

@@ -1,0 +1,4 @@
+{{ $name := .Get "name" }}
+
+<img class="layout light" id="{{ $name }}layout" src="/images/layouts/{{ $name }}-dark.png" onload="this.width/=2;" />
+<img class="layout dark" id="{{ $name }}layout" src="/images/layouts/{{ $name }}-light.png" onload="this.width/=2;" />

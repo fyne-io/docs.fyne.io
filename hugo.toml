@@ -1,0 +1,33 @@
+baseURL = 'https://docs.fyne.io/'
+languageCode = 'en-us'
+title = 'Fyne Documentation'
+enableEmoji = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[module]
+  [[module.imports]]
+    path = "github.com/colinwilson/lotusdocs"
+    disable = false
+  [[module.imports]]
+    path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
+    disable = false
+
+[params]
+  [params.footer]
+    copyright = "© :YEAR: The Fyne.io community. Please consider [**sponsoring**](https://fyne.io/sponsor/) our work."
+
+[params.docs]
+darkMode = true
+sidebarIcons = true
+
+[permalinks]
+[permalinks.page]
+docs = "/:sections[1:]/:slug/"
+[permalinks.section]
+docs =  "/:slug/"
+
+

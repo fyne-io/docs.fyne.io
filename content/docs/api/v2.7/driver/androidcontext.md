@@ -1,0 +1,32 @@
+---
+tags: [api]
+title: driver.AndroidContext
+slug: androidcontext
+
+aliases:
+- /api/v2.7/driver/androidcontext
+
+package: fyne.io/fyne/v2/driver
+---
+
+
+---
+```go
+import "fyne.io/fyne/v2/driver"
+```
+
+#
+
+###
+
+```go
+type AndroidContext struct {
+	VM, Env, Ctx uintptr
+}
+```
+
+AndroidContext is passed to the RunNative callback when it is executed on an Android device. The VM, Env and Ctx pointers are required to make various calls into JVM methods.
+
+
+<div class="since">Since: <code>
+2.3</code></div>

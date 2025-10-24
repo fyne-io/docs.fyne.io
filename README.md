@@ -4,13 +4,10 @@ This repository contains the source of the https://docs.fyne.io website.
 
 ## Running the website locally
 
-The website uses [jekyll](https://jekyllrb.com/) to generate the website from markdown files.
-With ruby installed it is as easy as running the following commands in a terminal (the first only needs to run once):
+The website uses [hugo](https://gohugo.io/) to generate the website from markdown files.
 
-### Install jekyll
-```bash
-gem install bundler jekyll
-```
+### Install hugo
+Follow the steps at [https://gohugo.io/installation/]
 
 ### Clone the Fyne docs repository
 ```bash
@@ -20,14 +17,9 @@ git clone https://github.com/fyne-io/docs.fyne.io.git
 cd docs.fyne.io
 ```
 
-### Install dependencies
-```bash
-bundle install
-```
-
 ### Start the local webserver
 ```bash
-bundle exec jekyll serve
+hugo server -D
 ```
 
 ## Run generator scripts
@@ -39,5 +31,7 @@ cd _gen
 go run genwidgets.go # generate widget images
 go run genlayouts.go # generate layout images
 go run gendialogs.go # generate dialog images
+./genicons.sh # generate icon list html
+./genapi.sh # generate api documentation structure
 ```
 

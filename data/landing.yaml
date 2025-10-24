@@ -1,0 +1,64 @@
+# Note: Template blocks require a 'weight' parameter so they're correctly ordered on the landing page
+
+# Hero
+hero:
+  enable: true
+  weight: 10
+  template: hero
+
+  backgroundImage:
+    path: "images/templates/hero"
+    filename:
+      desktop: "gradient-desktop.webp"
+      mobile: "gradient-mobile.webp"
+
+  badge:
+    text: v2.7.0
+    color: primary
+    pill: false
+    soft: true
+
+  title: "Fyne.io Docs"
+  subtitle: "An easy to learn toolkit for creating graphical apps for desktop, mobile and web.
+Code once and build native apps for all platforms and stores."
+
+  image:
+    filename: "fyne_screenshot.png"
+    alt: "Fyne.io Screenshot"
+
+  ctaButton:
+    icon: rocket_launch
+    btnText: "Get Started"
+    url: "/started/quick/"
+  cta2Button:
+    icon: code
+    btnText: "View on GitHub"
+    url: "https://github.com/fyne-io/fyne"
+
+  info: "**Open Source** BSD Licensed."
+
+# Feature Grid
+featureGrid:
+  enable: true
+  weight: 20
+  template: feature grid
+
+  title: Why use the Fyne toolkit?
+  subtitle: Fyne is simple and easy to use, excellent for quickly building graphical apps that work on all platforms.
+
+  items:
+    - title: Simple
+      icon: sentiment_calm
+      description: For developers with any experience level - our toolkit is designed with ease of development in mind. We want you to enjoy building great apps with Fyne!
+
+    - title: Quality
+      icon: diamond
+      description: Built with the best design, test and validation procedures we aim for the highest level of standard in quality and design. All apps should be clear and simple to use and never fail to meet user expectations.
+
+    - title: Usability
+      icon: heart_check
+      description: The Fyne framework is designed for usability at the core. Fyne widgets and layouts adapt cleanly to the user context allowing developers to focus on functionality and not user interface testing.
+
+# Image Compare
+imageCompare:
+  enable: false

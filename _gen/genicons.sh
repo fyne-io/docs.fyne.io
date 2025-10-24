@@ -24,7 +24,7 @@ function stripDTD() {
 LINES=`grep NewThemedResource\( $ROOT/theme/icons.go | grep -v func | awk -F"IconName" '{print $2}'| awk -F":" '{gsub(/^[ \t]+/, "", $1); gsub(/[ \t]+$/, "", $1); gsub(/^[ \t]+/, "", $2); print $1 "|" $2}' | sed -e "s/NewThemedResource(//g" | sed -e "s/),//g"`
 SORTED=`echo $LINES | sed -e "s/ /\n/g" | sort`
 
-OUT="_includes/iconlist.html"
+OUT="layout/_shortcodes/iconlist.html"
 echo '<ul class="theme-icon-list">' > $OUT
 for LINE in $SORTED; do
   IFS='|'; parts=($LINE); unset IFS;
@@ -41,3 +41,5 @@ for LINE in $SORTED; do
   echo "<figcaption>${ICON}Icon</figcaption></figure></li>" >> $OUT
 done
 echo '</ul>' >> $OUT
+
+sed -i.bak 's/<?xml.*?>//' $OUT

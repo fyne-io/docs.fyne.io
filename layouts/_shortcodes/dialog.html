@@ -1,0 +1,4 @@
+{{ $name := .Get "name" }}
+
+<img class="dialog light" id="{{ $name }}dialog" src="/images/dialogs/{{ $name }}-light.png" onload="this.width/=2;" />
+<img class="dialog dark" id="{{ $name }}dialog" src="/images/dialogs/{{ $name }}-dark.png" onload="this.width/=2;" />
