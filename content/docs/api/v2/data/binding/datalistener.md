@@ -4,14 +4,23 @@ title: binding.DataListener
 slug: datalistener
 
 aliases:
+- /api/v2/data/binding/datalistener.html
 - /api/v2.0/data/binding/datalistener
+- /api/v2.0/data/binding/datalistener.html
 - /api/v2.1/data/binding/datalistener
+- /api/v2.1/data/binding/datalistener.html
 - /api/v2.2/data/binding/datalistener
+- /api/v2.2/data/binding/datalistener.html
 - /api/v2.3/data/binding/datalistener
+- /api/v2.3/data/binding/datalistener.html
 - /api/v2.4/data/binding/datalistener
+- /api/v2.4/data/binding/datalistener.html
 - /api/v2.5/data/binding/datalistener
+- /api/v2.5/data/binding/datalistener.html
 - /api/v2.6/data/binding/datalistener
+- /api/v2.6/data/binding/datalistener.html
 - /api/v2.7/data/binding/datalistener
+- /api/v2.7/data/binding/datalistener.html
 
 package: fyne.io/fyne/v2/data/binding
 ---

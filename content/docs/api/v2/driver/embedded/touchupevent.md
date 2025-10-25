@@ -4,14 +4,23 @@ title: embedded.TouchUpEvent
 slug: touchupevent
 
 aliases:
+- /api/v2/driver/embedded/touchupevent.html
 - /api/v2.0/driver/embedded/touchupevent
+- /api/v2.0/driver/embedded/touchupevent.html
 - /api/v2.1/driver/embedded/touchupevent
+- /api/v2.1/driver/embedded/touchupevent.html
 - /api/v2.2/driver/embedded/touchupevent
+- /api/v2.2/driver/embedded/touchupevent.html
 - /api/v2.3/driver/embedded/touchupevent
+- /api/v2.3/driver/embedded/touchupevent.html
 - /api/v2.4/driver/embedded/touchupevent
+- /api/v2.4/driver/embedded/touchupevent.html
 - /api/v2.5/driver/embedded/touchupevent
+- /api/v2.5/driver/embedded/touchupevent.html
 - /api/v2.6/driver/embedded/touchupevent
+- /api/v2.6/driver/embedded/touchupevent.html
 - /api/v2.7/driver/embedded/touchupevent
+- /api/v2.7/driver/embedded/touchupevent.html
 
 package: fyne.io/fyne/v2/driver/embedded
 ---

@@ -4,14 +4,23 @@ title: widget.Menu
 slug: menu
 
 aliases:
+- /api/v2/widget/menu.html
 - /api/v2.0/widget/menu
+- /api/v2.0/widget/menu.html
 - /api/v2.1/widget/menu
+- /api/v2.1/widget/menu.html
 - /api/v2.2/widget/menu
+- /api/v2.2/widget/menu.html
 - /api/v2.3/widget/menu
+- /api/v2.3/widget/menu.html
 - /api/v2.4/widget/menu
+- /api/v2.4/widget/menu.html
 - /api/v2.5/widget/menu
+- /api/v2.5/widget/menu.html
 - /api/v2.6/widget/menu
+- /api/v2.6/widget/menu.html
 - /api/v2.7/widget/menu
+- /api/v2.7/widget/menu.html
 
 package: fyne.io/fyne/v2/widget
 ---

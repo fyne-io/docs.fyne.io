@@ -4,14 +4,23 @@ title: widget.ListSegment
 slug: listsegment
 
 aliases:
+- /api/v2/widget/listsegment.html
 - /api/v2.0/widget/listsegment
+- /api/v2.0/widget/listsegment.html
 - /api/v2.1/widget/listsegment
+- /api/v2.1/widget/listsegment.html
 - /api/v2.2/widget/listsegment
+- /api/v2.2/widget/listsegment.html
 - /api/v2.3/widget/listsegment
+- /api/v2.3/widget/listsegment.html
 - /api/v2.4/widget/listsegment
+- /api/v2.4/widget/listsegment.html
 - /api/v2.5/widget/listsegment
+- /api/v2.5/widget/listsegment.html
 - /api/v2.6/widget/listsegment
+- /api/v2.6/widget/listsegment.html
 - /api/v2.7/widget/listsegment
+- /api/v2.7/widget/listsegment.html
 
 package: fyne.io/fyne/v2/widget
 ---

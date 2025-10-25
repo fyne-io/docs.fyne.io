@@ -4,6 +4,7 @@ title: Form
 weight: 4050
 
 aliases:
+- /container/form.html
 - /tour/layout/formlayout
 ---
 

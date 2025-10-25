@@ -4,6 +4,7 @@ title: Button
 weight: 5020
 
 aliases:
+- /widget/button.html
   - /tour/widget/button
 ---
 

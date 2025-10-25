@@ -4,14 +4,23 @@ title: fyne.URIWithIcon
 slug: uriwithicon
 
 aliases:
+- /api/v2/fyne/uriwithicon.html
 - /api/v2.0//uriwithicon
+- /api/v2.0//uriwithicon.html
 - /api/v2.1//uriwithicon
+- /api/v2.1//uriwithicon.html
 - /api/v2.2//uriwithicon
+- /api/v2.2//uriwithicon.html
 - /api/v2.3//uriwithicon
+- /api/v2.3//uriwithicon.html
 - /api/v2.4//uriwithicon
+- /api/v2.4//uriwithicon.html
 - /api/v2.5//uriwithicon
+- /api/v2.5//uriwithicon.html
 - /api/v2.6//uriwithicon
+- /api/v2.6//uriwithicon.html
 - /api/v2.7//uriwithicon
+- /api/v2.7//uriwithicon.html
 
 package: fyne.io/fyne/v2
 ---

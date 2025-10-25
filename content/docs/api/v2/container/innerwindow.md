@@ -4,14 +4,23 @@ title: container.InnerWindow
 slug: innerwindow
 
 aliases:
+- /api/v2/container/innerwindow.html
 - /api/v2.0/container/innerwindow
+- /api/v2.0/container/innerwindow.html
 - /api/v2.1/container/innerwindow
+- /api/v2.1/container/innerwindow.html
 - /api/v2.2/container/innerwindow
+- /api/v2.2/container/innerwindow.html
 - /api/v2.3/container/innerwindow
+- /api/v2.3/container/innerwindow.html
 - /api/v2.4/container/innerwindow
+- /api/v2.4/container/innerwindow.html
 - /api/v2.5/container/innerwindow
+- /api/v2.5/container/innerwindow.html
 - /api/v2.6/container/innerwindow
+- /api/v2.6/container/innerwindow.html
 - /api/v2.7/container/innerwindow
+- /api/v2.7/container/innerwindow.html
 
 package: fyne.io/fyne/v2/container
 ---

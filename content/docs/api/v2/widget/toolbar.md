@@ -4,14 +4,23 @@ title: widget.Toolbar
 slug: toolbar
 
 aliases:
+- /api/v2/widget/toolbar.html
 - /api/v2.0/widget/toolbar
+- /api/v2.0/widget/toolbar.html
 - /api/v2.1/widget/toolbar
+- /api/v2.1/widget/toolbar.html
 - /api/v2.2/widget/toolbar
+- /api/v2.2/widget/toolbar.html
 - /api/v2.3/widget/toolbar
+- /api/v2.3/widget/toolbar.html
 - /api/v2.4/widget/toolbar
+- /api/v2.4/widget/toolbar.html
 - /api/v2.5/widget/toolbar
+- /api/v2.5/widget/toolbar.html
 - /api/v2.6/widget/toolbar
+- /api/v2.6/widget/toolbar.html
 - /api/v2.7/widget/toolbar
+- /api/v2.7/widget/toolbar.html
 
 package: fyne.io/fyne/v2/widget
 ---

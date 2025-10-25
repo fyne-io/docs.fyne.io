@@ -7,6 +7,7 @@ slug: widgets
 weight: 2030
 
 aliases:
+- /explore/widgets.html
 - /started/widgets
 ---
 

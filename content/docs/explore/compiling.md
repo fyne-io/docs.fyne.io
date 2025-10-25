@@ -6,6 +6,7 @@ slug: compiling
 weight: 2130
 
 aliases:
+- /explore/compiling.html
 - /started/compiling
 ---
 

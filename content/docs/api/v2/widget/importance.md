@@ -4,14 +4,23 @@ title: widget.Importance
 slug: importance
 
 aliases:
+- /api/v2/widget/importance.html
 - /api/v2.0/widget/importance
+- /api/v2.0/widget/importance.html
 - /api/v2.1/widget/importance
+- /api/v2.1/widget/importance.html
 - /api/v2.2/widget/importance
+- /api/v2.2/widget/importance.html
 - /api/v2.3/widget/importance
+- /api/v2.3/widget/importance.html
 - /api/v2.4/widget/importance
+- /api/v2.4/widget/importance.html
 - /api/v2.5/widget/importance
+- /api/v2.5/widget/importance.html
 - /api/v2.6/widget/importance
+- /api/v2.6/widget/importance.html
 - /api/v2.7/widget/importance
+- /api/v2.7/widget/importance.html
 
 package: fyne.io/fyne/v2/widget
 ---

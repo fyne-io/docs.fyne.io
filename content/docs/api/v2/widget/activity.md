@@ -4,14 +4,23 @@ title: widget.Activity
 slug: activity
 
 aliases:
+- /api/v2/widget/activity.html
 - /api/v2.0/widget/activity
+- /api/v2.0/widget/activity.html
 - /api/v2.1/widget/activity
+- /api/v2.1/widget/activity.html
 - /api/v2.2/widget/activity
+- /api/v2.2/widget/activity.html
 - /api/v2.3/widget/activity
+- /api/v2.3/widget/activity.html
 - /api/v2.4/widget/activity
+- /api/v2.4/widget/activity.html
 - /api/v2.5/widget/activity
+- /api/v2.5/widget/activity.html
 - /api/v2.6/widget/activity
+- /api/v2.6/widget/activity.html
 - /api/v2.7/widget/activity
+- /api/v2.7/widget/activity.html
 
 package: fyne.io/fyne/v2/widget
 ---

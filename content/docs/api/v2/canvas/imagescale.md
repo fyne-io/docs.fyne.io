@@ -4,14 +4,23 @@ title: canvas.ImageScale
 slug: imagescale
 
 aliases:
+- /api/v2/canvas/imagescale.html
 - /api/v2.0/canvas/imagescale
+- /api/v2.0/canvas/imagescale.html
 - /api/v2.1/canvas/imagescale
+- /api/v2.1/canvas/imagescale.html
 - /api/v2.2/canvas/imagescale
+- /api/v2.2/canvas/imagescale.html
 - /api/v2.3/canvas/imagescale
+- /api/v2.3/canvas/imagescale.html
 - /api/v2.4/canvas/imagescale
+- /api/v2.4/canvas/imagescale.html
 - /api/v2.5/canvas/imagescale
+- /api/v2.5/canvas/imagescale.html
 - /api/v2.6/canvas/imagescale
+- /api/v2.6/canvas/imagescale.html
 - /api/v2.7/canvas/imagescale
+- /api/v2.7/canvas/imagescale.html
 
 package: fyne.io/fyne/v2/canvas
 ---

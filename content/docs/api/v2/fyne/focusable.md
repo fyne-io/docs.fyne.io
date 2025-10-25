@@ -4,14 +4,23 @@ title: fyne.Focusable
 slug: focusable
 
 aliases:
+- /api/v2/fyne/focusable.html
 - /api/v2.0//focusable
+- /api/v2.0//focusable.html
 - /api/v2.1//focusable
+- /api/v2.1//focusable.html
 - /api/v2.2//focusable
+- /api/v2.2//focusable.html
 - /api/v2.3//focusable
+- /api/v2.3//focusable.html
 - /api/v2.4//focusable
+- /api/v2.4//focusable.html
 - /api/v2.5//focusable
+- /api/v2.5//focusable.html
 - /api/v2.6//focusable
+- /api/v2.6//focusable.html
 - /api/v2.7//focusable
+- /api/v2.7//focusable.html
 
 package: fyne.io/fyne/v2
 ---

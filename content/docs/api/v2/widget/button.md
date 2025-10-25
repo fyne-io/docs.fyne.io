@@ -4,14 +4,23 @@ title: widget.Button
 slug: button
 
 aliases:
+- /api/v2/widget/button.html
 - /api/v2.0/widget/button
+- /api/v2.0/widget/button.html
 - /api/v2.1/widget/button
+- /api/v2.1/widget/button.html
 - /api/v2.2/widget/button
+- /api/v2.2/widget/button.html
 - /api/v2.3/widget/button
+- /api/v2.3/widget/button.html
 - /api/v2.4/widget/button
+- /api/v2.4/widget/button.html
 - /api/v2.5/widget/button
+- /api/v2.5/widget/button.html
 - /api/v2.6/widget/button
+- /api/v2.6/widget/button.html
 - /api/v2.7/widget/button
+- /api/v2.7/widget/button.html
 
 package: fyne.io/fyne/v2/widget
 ---

@@ -4,14 +4,23 @@ title: widget.TextGridRow
 slug: textgridrow
 
 aliases:
+- /api/v2/widget/textgridrow.html
 - /api/v2.0/widget/textgridrow
+- /api/v2.0/widget/textgridrow.html
 - /api/v2.1/widget/textgridrow
+- /api/v2.1/widget/textgridrow.html
 - /api/v2.2/widget/textgridrow
+- /api/v2.2/widget/textgridrow.html
 - /api/v2.3/widget/textgridrow
+- /api/v2.3/widget/textgridrow.html
 - /api/v2.4/widget/textgridrow
+- /api/v2.4/widget/textgridrow.html
 - /api/v2.5/widget/textgridrow
+- /api/v2.5/widget/textgridrow.html
 - /api/v2.6/widget/textgridrow
+- /api/v2.6/widget/textgridrow.html
 - /api/v2.7/widget/textgridrow
+- /api/v2.7/widget/textgridrow.html
 
 package: fyne.io/fyne/v2/widget
 ---

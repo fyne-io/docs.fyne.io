@@ -4,14 +4,23 @@ title: dialog.FileDialog
 slug: filedialog
 
 aliases:
+- /api/v2/dialog/filedialog.html
 - /api/v2.0/dialog/filedialog
+- /api/v2.0/dialog/filedialog.html
 - /api/v2.1/dialog/filedialog
+- /api/v2.1/dialog/filedialog.html
 - /api/v2.2/dialog/filedialog
+- /api/v2.2/dialog/filedialog.html
 - /api/v2.3/dialog/filedialog
+- /api/v2.3/dialog/filedialog.html
 - /api/v2.4/dialog/filedialog
+- /api/v2.4/dialog/filedialog.html
 - /api/v2.5/dialog/filedialog
+- /api/v2.5/dialog/filedialog.html
 - /api/v2.6/dialog/filedialog
+- /api/v2.6/dialog/filedialog.html
 - /api/v2.7/dialog/filedialog
+- /api/v2.7/dialog/filedialog.html
 
 package: fyne.io/fyne/v2/dialog
 ---

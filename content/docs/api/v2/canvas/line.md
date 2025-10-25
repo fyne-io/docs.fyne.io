@@ -4,14 +4,23 @@ title: canvas.Line
 slug: line
 
 aliases:
+- /api/v2/canvas/line.html
 - /api/v2.0/canvas/line
+- /api/v2.0/canvas/line.html
 - /api/v2.1/canvas/line
+- /api/v2.1/canvas/line.html
 - /api/v2.2/canvas/line
+- /api/v2.2/canvas/line.html
 - /api/v2.3/canvas/line
+- /api/v2.3/canvas/line.html
 - /api/v2.4/canvas/line
+- /api/v2.4/canvas/line.html
 - /api/v2.5/canvas/line
+- /api/v2.5/canvas/line.html
 - /api/v2.6/canvas/line
+- /api/v2.6/canvas/line.html
 - /api/v2.7/canvas/line
+- /api/v2.7/canvas/line.html
 
 package: fyne.io/fyne/v2/canvas
 ---

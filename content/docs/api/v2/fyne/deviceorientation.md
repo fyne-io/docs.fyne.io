@@ -4,14 +4,23 @@ title: fyne.DeviceOrientation
 slug: deviceorientation
 
 aliases:
+- /api/v2/fyne/deviceorientation.html
 - /api/v2.0//deviceorientation
+- /api/v2.0//deviceorientation.html
 - /api/v2.1//deviceorientation
+- /api/v2.1//deviceorientation.html
 - /api/v2.2//deviceorientation
+- /api/v2.2//deviceorientation.html
 - /api/v2.3//deviceorientation
+- /api/v2.3//deviceorientation.html
 - /api/v2.4//deviceorientation
+- /api/v2.4//deviceorientation.html
 - /api/v2.5//deviceorientation
+- /api/v2.5//deviceorientation.html
 - /api/v2.6//deviceorientation
+- /api/v2.6//deviceorientation.html
 - /api/v2.7//deviceorientation
+- /api/v2.7//deviceorientation.html
 
 package: fyne.io/fyne/v2
 ---

@@ -4,6 +4,7 @@ title: Stack
 weight: 4070
 
 aliases:
+- /container/stack.html
 - /tour/layout/maxlayout
 - /container/max
 ---

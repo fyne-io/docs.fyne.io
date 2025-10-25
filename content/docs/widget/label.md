@@ -4,6 +4,7 @@ title: Label
 weight: 5010
 
 aliases:
+- /widget/label.html
   - /widget/
   - /tour/widget/label
   - /tour/widget/

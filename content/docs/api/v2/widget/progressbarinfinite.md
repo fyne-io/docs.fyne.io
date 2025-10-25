@@ -4,14 +4,23 @@ title: widget.ProgressBarInfinite
 slug: progressbarinfinite
 
 aliases:
+- /api/v2/widget/progressbarinfinite.html
 - /api/v2.0/widget/progressbarinfinite
+- /api/v2.0/widget/progressbarinfinite.html
 - /api/v2.1/widget/progressbarinfinite
+- /api/v2.1/widget/progressbarinfinite.html
 - /api/v2.2/widget/progressbarinfinite
+- /api/v2.2/widget/progressbarinfinite.html
 - /api/v2.3/widget/progressbarinfinite
+- /api/v2.3/widget/progressbarinfinite.html
 - /api/v2.4/widget/progressbarinfinite
+- /api/v2.4/widget/progressbarinfinite.html
 - /api/v2.5/widget/progressbarinfinite
+- /api/v2.5/widget/progressbarinfinite.html
 - /api/v2.6/widget/progressbarinfinite
+- /api/v2.6/widget/progressbarinfinite.html
 - /api/v2.7/widget/progressbarinfinite
+- /api/v2.7/widget/progressbarinfinite.html
 
 package: fyne.io/fyne/v2/widget
 ---

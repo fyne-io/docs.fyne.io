@@ -4,14 +4,23 @@ title: widget.TextGrid
 slug: textgrid
 
 aliases:
+- /api/v2/widget/textgrid.html
 - /api/v2.0/widget/textgrid
+- /api/v2.0/widget/textgrid.html
 - /api/v2.1/widget/textgrid
+- /api/v2.1/widget/textgrid.html
 - /api/v2.2/widget/textgrid
+- /api/v2.2/widget/textgrid.html
 - /api/v2.3/widget/textgrid
+- /api/v2.3/widget/textgrid.html
 - /api/v2.4/widget/textgrid
+- /api/v2.4/widget/textgrid.html
 - /api/v2.5/widget/textgrid
+- /api/v2.5/widget/textgrid.html
 - /api/v2.6/widget/textgrid
+- /api/v2.6/widget/textgrid.html
 - /api/v2.7/widget/textgrid
+- /api/v2.7/widget/textgrid.html
 
 package: fyne.io/fyne/v2/widget
 ---

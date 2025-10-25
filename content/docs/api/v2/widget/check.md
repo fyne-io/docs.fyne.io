@@ -4,14 +4,23 @@ title: widget.Check
 slug: check
 
 aliases:
+- /api/v2/widget/check.html
 - /api/v2.0/widget/check
+- /api/v2.0/widget/check.html
 - /api/v2.1/widget/check
+- /api/v2.1/widget/check.html
 - /api/v2.2/widget/check
+- /api/v2.2/widget/check.html
 - /api/v2.3/widget/check
+- /api/v2.3/widget/check.html
 - /api/v2.4/widget/check
+- /api/v2.4/widget/check.html
 - /api/v2.5/widget/check
+- /api/v2.5/widget/check.html
 - /api/v2.6/widget/check
+- /api/v2.6/widget/check.html
 - /api/v2.7/widget/check
+- /api/v2.7/widget/check.html
 
 package: fyne.io/fyne/v2/widget
 ---

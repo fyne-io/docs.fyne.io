@@ -7,6 +7,7 @@ slug: layouts
 weight: 2040
 
 aliases:
+- /explore/layouts.html
 - /started/layouts
 ---
 

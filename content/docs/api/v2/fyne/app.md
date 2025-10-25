@@ -4,14 +4,23 @@ title: fyne.App
 slug: app
 
 aliases:
+- /api/v2/fyne/app.html
 - /api/v2.0//app
+- /api/v2.0//app.html
 - /api/v2.1//app
+- /api/v2.1//app.html
 - /api/v2.2//app
+- /api/v2.2//app.html
 - /api/v2.3//app
+- /api/v2.3//app.html
 - /api/v2.4//app
+- /api/v2.4//app.html
 - /api/v2.5//app
+- /api/v2.5//app.html
 - /api/v2.6//app
+- /api/v2.6//app.html
 - /api/v2.7//app
+- /api/v2.7//app.html
 
 package: fyne.io/fyne/v2
 ---

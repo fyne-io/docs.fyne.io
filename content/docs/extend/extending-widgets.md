@@ -4,6 +4,7 @@ title: Extending Widgets
 weight: 8050
 
 aliases:
+- /extend/extending-widgets.html
  - /develop/extending-widgets.html
  - /tutorial/extending-widgets
  - /tutorial/

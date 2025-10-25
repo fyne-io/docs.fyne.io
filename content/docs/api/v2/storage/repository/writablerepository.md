@@ -4,14 +4,23 @@ title: repository.WritableRepository
 slug: writablerepository
 
 aliases:
+- /api/v2/storage/repository/writablerepository.html
 - /api/v2.0/storage/repository/writablerepository
+- /api/v2.0/storage/repository/writablerepository.html
 - /api/v2.1/storage/repository/writablerepository
+- /api/v2.1/storage/repository/writablerepository.html
 - /api/v2.2/storage/repository/writablerepository
+- /api/v2.2/storage/repository/writablerepository.html
 - /api/v2.3/storage/repository/writablerepository
+- /api/v2.3/storage/repository/writablerepository.html
 - /api/v2.4/storage/repository/writablerepository
+- /api/v2.4/storage/repository/writablerepository.html
 - /api/v2.5/storage/repository/writablerepository
+- /api/v2.5/storage/repository/writablerepository.html
 - /api/v2.6/storage/repository/writablerepository
+- /api/v2.6/storage/repository/writablerepository.html
 - /api/v2.7/storage/repository/writablerepository
+- /api/v2.7/storage/repository/writablerepository.html
 
 package: fyne.io/fyne/v2/storage/repository
 ---

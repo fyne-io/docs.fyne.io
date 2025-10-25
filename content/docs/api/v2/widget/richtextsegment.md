@@ -4,14 +4,23 @@ title: widget.RichTextSegment
 slug: richtextsegment
 
 aliases:
+- /api/v2/widget/richtextsegment.html
 - /api/v2.0/widget/richtextsegment
+- /api/v2.0/widget/richtextsegment.html
 - /api/v2.1/widget/richtextsegment
+- /api/v2.1/widget/richtextsegment.html
 - /api/v2.2/widget/richtextsegment
+- /api/v2.2/widget/richtextsegment.html
 - /api/v2.3/widget/richtextsegment
+- /api/v2.3/widget/richtextsegment.html
 - /api/v2.4/widget/richtextsegment
+- /api/v2.4/widget/richtextsegment.html
 - /api/v2.5/widget/richtextsegment
+- /api/v2.5/widget/richtextsegment.html
 - /api/v2.6/widget/richtextsegment
+- /api/v2.6/widget/richtextsegment.html
 - /api/v2.7/widget/richtextsegment
+- /api/v2.7/widget/richtextsegment.html
 
 package: fyne.io/fyne/v2/widget
 ---

@@ -4,14 +4,23 @@ title: container.Navigation
 slug: navigation
 
 aliases:
+- /api/v2/container/navigation.html
 - /api/v2.0/container/navigation
+- /api/v2.0/container/navigation.html
 - /api/v2.1/container/navigation
+- /api/v2.1/container/navigation.html
 - /api/v2.2/container/navigation
+- /api/v2.2/container/navigation.html
 - /api/v2.3/container/navigation
+- /api/v2.3/container/navigation.html
 - /api/v2.4/container/navigation
+- /api/v2.4/container/navigation.html
 - /api/v2.5/container/navigation
+- /api/v2.5/container/navigation.html
 - /api/v2.6/container/navigation
+- /api/v2.6/container/navigation.html
 - /api/v2.7/container/navigation
+- /api/v2.7/container/navigation.html
 
 package: fyne.io/fyne/v2/container
 ---

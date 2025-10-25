@@ -4,14 +4,23 @@ title: binding.ExternalURITree
 slug: externaluritree
 
 aliases:
+- /api/v2/data/binding/externaluritree.html
 - /api/v2.0/data/binding/externaluritree
+- /api/v2.0/data/binding/externaluritree.html
 - /api/v2.1/data/binding/externaluritree
+- /api/v2.1/data/binding/externaluritree.html
 - /api/v2.2/data/binding/externaluritree
+- /api/v2.2/data/binding/externaluritree.html
 - /api/v2.3/data/binding/externaluritree
+- /api/v2.3/data/binding/externaluritree.html
 - /api/v2.4/data/binding/externaluritree
+- /api/v2.4/data/binding/externaluritree.html
 - /api/v2.5/data/binding/externaluritree
+- /api/v2.5/data/binding/externaluritree.html
 - /api/v2.6/data/binding/externaluritree
+- /api/v2.6/data/binding/externaluritree.html
 - /api/v2.7/data/binding/externaluritree
+- /api/v2.7/data/binding/externaluritree.html
 
 package: fyne.io/fyne/v2/data/binding
 ---

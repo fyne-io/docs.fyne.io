@@ -4,14 +4,23 @@ title: container.Clip
 slug: clip
 
 aliases:
+- /api/v2/container/clip.html
 - /api/v2.0/container/clip
+- /api/v2.0/container/clip.html
 - /api/v2.1/container/clip
+- /api/v2.1/container/clip.html
 - /api/v2.2/container/clip
+- /api/v2.2/container/clip.html
 - /api/v2.3/container/clip
+- /api/v2.3/container/clip.html
 - /api/v2.4/container/clip
+- /api/v2.4/container/clip.html
 - /api/v2.5/container/clip
+- /api/v2.5/container/clip.html
 - /api/v2.6/container/clip
+- /api/v2.6/container/clip.html
 - /api/v2.7/container/clip
+- /api/v2.7/container/clip.html
 
 package: fyne.io/fyne/v2/container
 ---

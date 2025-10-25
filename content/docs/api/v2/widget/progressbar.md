@@ -4,14 +4,23 @@ title: widget.ProgressBar
 slug: progressbar
 
 aliases:
+- /api/v2/widget/progressbar.html
 - /api/v2.0/widget/progressbar
+- /api/v2.0/widget/progressbar.html
 - /api/v2.1/widget/progressbar
+- /api/v2.1/widget/progressbar.html
 - /api/v2.2/widget/progressbar
+- /api/v2.2/widget/progressbar.html
 - /api/v2.3/widget/progressbar
+- /api/v2.3/widget/progressbar.html
 - /api/v2.4/widget/progressbar
+- /api/v2.4/widget/progressbar.html
 - /api/v2.5/widget/progressbar
+- /api/v2.5/widget/progressbar.html
 - /api/v2.6/widget/progressbar
+- /api/v2.6/widget/progressbar.html
 - /api/v2.7/widget/progressbar
+- /api/v2.7/widget/progressbar.html
 
 package: fyne.io/fyne/v2/widget
 ---

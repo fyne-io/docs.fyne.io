@@ -4,14 +4,23 @@ title: storage.MimeTypeFileFilter
 slug: mimetypefilefilter
 
 aliases:
+- /api/v2/storage/mimetypefilefilter.html
 - /api/v2.0/storage/mimetypefilefilter
+- /api/v2.0/storage/mimetypefilefilter.html
 - /api/v2.1/storage/mimetypefilefilter
+- /api/v2.1/storage/mimetypefilefilter.html
 - /api/v2.2/storage/mimetypefilefilter
+- /api/v2.2/storage/mimetypefilefilter.html
 - /api/v2.3/storage/mimetypefilefilter
+- /api/v2.3/storage/mimetypefilefilter.html
 - /api/v2.4/storage/mimetypefilefilter
+- /api/v2.4/storage/mimetypefilefilter.html
 - /api/v2.5/storage/mimetypefilefilter
+- /api/v2.5/storage/mimetypefilefilter.html
 - /api/v2.6/storage/mimetypefilefilter
+- /api/v2.6/storage/mimetypefilefilter.html
 - /api/v2.7/storage/mimetypefilefilter
+- /api/v2.7/storage/mimetypefilefilter.html
 
 package: fyne.io/fyne/v2/storage
 ---

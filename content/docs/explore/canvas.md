@@ -5,6 +5,7 @@ slug: canvas
 weight: 2010
 
 aliases:
+- /explore/canvas.html
 - /tour/basics/canvas
 - /tour/basics/widget
 - /explore/

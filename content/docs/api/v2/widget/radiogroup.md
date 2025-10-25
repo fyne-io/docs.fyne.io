@@ -4,14 +4,23 @@ title: widget.RadioGroup
 slug: radiogroup
 
 aliases:
+- /api/v2/widget/radiogroup.html
 - /api/v2.0/widget/radiogroup
+- /api/v2.0/widget/radiogroup.html
 - /api/v2.1/widget/radiogroup
+- /api/v2.1/widget/radiogroup.html
 - /api/v2.2/widget/radiogroup
+- /api/v2.2/widget/radiogroup.html
 - /api/v2.3/widget/radiogroup
+- /api/v2.3/widget/radiogroup.html
 - /api/v2.4/widget/radiogroup
+- /api/v2.4/widget/radiogroup.html
 - /api/v2.5/widget/radiogroup
+- /api/v2.5/widget/radiogroup.html
 - /api/v2.6/widget/radiogroup
+- /api/v2.6/widget/radiogroup.html
 - /api/v2.7/widget/radiogroup
+- /api/v2.7/widget/radiogroup.html
 
 package: fyne.io/fyne/v2/widget
 ---

@@ -4,6 +4,7 @@ title: ProgressBar
 weight: 5060
 
 aliases:
+- /widget/progressbar.html
   - /tour/widget/progressbar
 ---
 

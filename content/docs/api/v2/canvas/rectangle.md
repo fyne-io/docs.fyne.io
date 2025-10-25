@@ -4,14 +4,23 @@ title: canvas.Rectangle
 slug: rectangle
 
 aliases:
+- /api/v2/canvas/rectangle.html
 - /api/v2.0/canvas/rectangle
+- /api/v2.0/canvas/rectangle.html
 - /api/v2.1/canvas/rectangle
+- /api/v2.1/canvas/rectangle.html
 - /api/v2.2/canvas/rectangle
+- /api/v2.2/canvas/rectangle.html
 - /api/v2.3/canvas/rectangle
+- /api/v2.3/canvas/rectangle.html
 - /api/v2.4/canvas/rectangle
+- /api/v2.4/canvas/rectangle.html
 - /api/v2.5/canvas/rectangle
+- /api/v2.5/canvas/rectangle.html
 - /api/v2.6/canvas/rectangle
+- /api/v2.6/canvas/rectangle.html
 - /api/v2.7/canvas/rectangle
+- /api/v2.7/canvas/rectangle.html
 
 package: fyne.io/fyne/v2/canvas
 ---

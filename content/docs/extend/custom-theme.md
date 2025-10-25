@@ -5,6 +5,7 @@ slug: custom-theme
 weight: 8040
 
 aliases:
+- /extend/custom-theme.html
  - /tutorial/custom-theme
 ---
 

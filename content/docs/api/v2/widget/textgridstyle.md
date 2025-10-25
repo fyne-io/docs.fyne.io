@@ -4,14 +4,23 @@ title: widget.TextGridStyle
 slug: textgridstyle
 
 aliases:
+- /api/v2/widget/textgridstyle.html
 - /api/v2.0/widget/textgridstyle
+- /api/v2.0/widget/textgridstyle.html
 - /api/v2.1/widget/textgridstyle
+- /api/v2.1/widget/textgridstyle.html
 - /api/v2.2/widget/textgridstyle
+- /api/v2.2/widget/textgridstyle.html
 - /api/v2.3/widget/textgridstyle
+- /api/v2.3/widget/textgridstyle.html
 - /api/v2.4/widget/textgridstyle
+- /api/v2.4/widget/textgridstyle.html
 - /api/v2.5/widget/textgridstyle
+- /api/v2.5/widget/textgridstyle.html
 - /api/v2.6/widget/textgridstyle
+- /api/v2.6/widget/textgridstyle.html
 - /api/v2.7/widget/textgridstyle
+- /api/v2.7/widget/textgridstyle.html
 
 package: fyne.io/fyne/v2/widget
 ---

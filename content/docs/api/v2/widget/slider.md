@@ -4,14 +4,23 @@ title: widget.Slider
 slug: slider
 
 aliases:
+- /api/v2/widget/slider.html
 - /api/v2.0/widget/slider
+- /api/v2.0/widget/slider.html
 - /api/v2.1/widget/slider
+- /api/v2.1/widget/slider.html
 - /api/v2.2/widget/slider
+- /api/v2.2/widget/slider.html
 - /api/v2.3/widget/slider
+- /api/v2.3/widget/slider.html
 - /api/v2.4/widget/slider
+- /api/v2.4/widget/slider.html
 - /api/v2.5/widget/slider
+- /api/v2.5/widget/slider.html
 - /api/v2.6/widget/slider
+- /api/v2.6/widget/slider.html
 - /api/v2.7/widget/slider
+- /api/v2.7/widget/slider.html
 
 package: fyne.io/fyne/v2/widget
 ---

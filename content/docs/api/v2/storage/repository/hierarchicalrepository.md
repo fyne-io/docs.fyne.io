@@ -4,14 +4,23 @@ title: repository.HierarchicalRepository
 slug: hierarchicalrepository
 
 aliases:
+- /api/v2/storage/repository/hierarchicalrepository.html
 - /api/v2.0/storage/repository/hierarchicalrepository
+- /api/v2.0/storage/repository/hierarchicalrepository.html
 - /api/v2.1/storage/repository/hierarchicalrepository
+- /api/v2.1/storage/repository/hierarchicalrepository.html
 - /api/v2.2/storage/repository/hierarchicalrepository
+- /api/v2.2/storage/repository/hierarchicalrepository.html
 - /api/v2.3/storage/repository/hierarchicalrepository
+- /api/v2.3/storage/repository/hierarchicalrepository.html
 - /api/v2.4/storage/repository/hierarchicalrepository
+- /api/v2.4/storage/repository/hierarchicalrepository.html
 - /api/v2.5/storage/repository/hierarchicalrepository
+- /api/v2.5/storage/repository/hierarchicalrepository.html
 - /api/v2.6/storage/repository/hierarchicalrepository
+- /api/v2.6/storage/repository/hierarchicalrepository.html
 - /api/v2.7/storage/repository/hierarchicalrepository
+- /api/v2.7/storage/repository/hierarchicalrepository.html
 
 package: fyne.io/fyne/v2/storage/repository
 ---

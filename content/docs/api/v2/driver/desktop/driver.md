@@ -4,14 +4,23 @@ title: desktop.Driver
 slug: driver
 
 aliases:
+- /api/v2/driver/desktop/driver.html
 - /api/v2.0/driver/desktop/driver
+- /api/v2.0/driver/desktop/driver.html
 - /api/v2.1/driver/desktop/driver
+- /api/v2.1/driver/desktop/driver.html
 - /api/v2.2/driver/desktop/driver
+- /api/v2.2/driver/desktop/driver.html
 - /api/v2.3/driver/desktop/driver
+- /api/v2.3/driver/desktop/driver.html
 - /api/v2.4/driver/desktop/driver
+- /api/v2.4/driver/desktop/driver.html
 - /api/v2.5/driver/desktop/driver
+- /api/v2.5/driver/desktop/driver.html
 - /api/v2.6/driver/desktop/driver
+- /api/v2.6/driver/desktop/driver.html
 - /api/v2.7/driver/desktop/driver
+- /api/v2.7/driver/desktop/driver.html
 
 package: fyne.io/fyne/v2/driver/desktop
 ---

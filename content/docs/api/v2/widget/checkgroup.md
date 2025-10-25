@@ -4,14 +4,23 @@ title: widget.CheckGroup
 slug: checkgroup
 
 aliases:
+- /api/v2/widget/checkgroup.html
 - /api/v2.0/widget/checkgroup
+- /api/v2.0/widget/checkgroup.html
 - /api/v2.1/widget/checkgroup
+- /api/v2.1/widget/checkgroup.html
 - /api/v2.2/widget/checkgroup
+- /api/v2.2/widget/checkgroup.html
 - /api/v2.3/widget/checkgroup
+- /api/v2.3/widget/checkgroup.html
 - /api/v2.4/widget/checkgroup
+- /api/v2.4/widget/checkgroup.html
 - /api/v2.5/widget/checkgroup
+- /api/v2.5/widget/checkgroup.html
 - /api/v2.6/widget/checkgroup
+- /api/v2.6/widget/checkgroup.html
 - /api/v2.7/widget/checkgroup
+- /api/v2.7/widget/checkgroup.html
 
 package: fyne.io/fyne/v2/widget
 ---

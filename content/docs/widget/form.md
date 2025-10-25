@@ -4,6 +4,7 @@ title: Form
 weight: 5050
 
 aliases:
+- /widget/form.html
   - /tour/widget/form
 ---
 

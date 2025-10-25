@@ -4,14 +4,23 @@ title: fyne.Size
 slug: size
 
 aliases:
+- /api/v2/fyne/size.html
 - /api/v2.0//size
+- /api/v2.0//size.html
 - /api/v2.1//size
+- /api/v2.1//size.html
 - /api/v2.2//size
+- /api/v2.2//size.html
 - /api/v2.3//size
+- /api/v2.3//size.html
 - /api/v2.4//size
+- /api/v2.4//size.html
 - /api/v2.5//size
+- /api/v2.5//size.html
 - /api/v2.6//size
+- /api/v2.6//size.html
 - /api/v2.7//size
+- /api/v2.7//size.html
 
 package: fyne.io/fyne/v2
 ---

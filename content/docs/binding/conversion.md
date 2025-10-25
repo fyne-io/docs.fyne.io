@@ -5,6 +5,7 @@ slug: conversion
 weight: 7040
 
 aliases:
+- /binding/conversion.html
 - /tour/binding/conversion
 ---
 

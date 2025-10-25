@@ -6,6 +6,7 @@ weight: 3070
 since: 1.1
 
 aliases:
+- /canvas/gradient.html
   - /tour/canvas/gradient
 ---
 

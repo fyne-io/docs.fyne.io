@@ -4,14 +4,23 @@ title: container.DocTabs
 slug: doctabs
 
 aliases:
+- /api/v2/container/doctabs.html
 - /api/v2.0/container/doctabs
+- /api/v2.0/container/doctabs.html
 - /api/v2.1/container/doctabs
+- /api/v2.1/container/doctabs.html
 - /api/v2.2/container/doctabs
+- /api/v2.2/container/doctabs.html
 - /api/v2.3/container/doctabs
+- /api/v2.3/container/doctabs.html
 - /api/v2.4/container/doctabs
+- /api/v2.4/container/doctabs.html
 - /api/v2.5/container/doctabs
+- /api/v2.5/container/doctabs.html
 - /api/v2.6/container/doctabs
+- /api/v2.6/container/doctabs.html
 - /api/v2.7/container/doctabs
+- /api/v2.7/container/doctabs.html
 
 package: fyne.io/fyne/v2/container
 ---

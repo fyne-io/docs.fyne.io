@@ -4,14 +4,23 @@ title: container.TabItem
 slug: tabitem
 
 aliases:
+- /api/v2/container/tabitem.html
 - /api/v2.0/container/tabitem
+- /api/v2.0/container/tabitem.html
 - /api/v2.1/container/tabitem
+- /api/v2.1/container/tabitem.html
 - /api/v2.2/container/tabitem
+- /api/v2.2/container/tabitem.html
 - /api/v2.3/container/tabitem
+- /api/v2.3/container/tabitem.html
 - /api/v2.4/container/tabitem
+- /api/v2.4/container/tabitem.html
 - /api/v2.5/container/tabitem
+- /api/v2.5/container/tabitem.html
 - /api/v2.6/container/tabitem
+- /api/v2.6/container/tabitem.html
 - /api/v2.7/container/tabitem
+- /api/v2.7/container/tabitem.html
 
 package: fyne.io/fyne/v2/container
 ---

@@ -4,6 +4,7 @@ title: Table
 weight: 6020
 
 aliases:
+- /collection/table.html
   - /tour/widget/table
   - /widget/table
 --- 

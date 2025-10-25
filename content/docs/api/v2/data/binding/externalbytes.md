@@ -4,14 +4,23 @@ title: binding.ExternalBytes
 slug: externalbytes
 
 aliases:
+- /api/v2/data/binding/externalbytes.html
 - /api/v2.0/data/binding/externalbytes
+- /api/v2.0/data/binding/externalbytes.html
 - /api/v2.1/data/binding/externalbytes
+- /api/v2.1/data/binding/externalbytes.html
 - /api/v2.2/data/binding/externalbytes
+- /api/v2.2/data/binding/externalbytes.html
 - /api/v2.3/data/binding/externalbytes
+- /api/v2.3/data/binding/externalbytes.html
 - /api/v2.4/data/binding/externalbytes
+- /api/v2.4/data/binding/externalbytes.html
 - /api/v2.5/data/binding/externalbytes
+- /api/v2.5/data/binding/externalbytes.html
 - /api/v2.6/data/binding/externalbytes
+- /api/v2.6/data/binding/externalbytes.html
 - /api/v2.7/data/binding/externalbytes
+- /api/v2.7/data/binding/externalbytes.html
 
 package: fyne.io/fyne/v2/data/binding
 ---

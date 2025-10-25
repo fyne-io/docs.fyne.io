@@ -4,14 +4,23 @@ title: fyne.Delta
 slug: delta
 
 aliases:
+- /api/v2/fyne/delta.html
 - /api/v2.0//delta
+- /api/v2.0//delta.html
 - /api/v2.1//delta
+- /api/v2.1//delta.html
 - /api/v2.2//delta
+- /api/v2.2//delta.html
 - /api/v2.3//delta
+- /api/v2.3//delta.html
 - /api/v2.4//delta
+- /api/v2.4//delta.html
 - /api/v2.5//delta
+- /api/v2.5//delta.html
 - /api/v2.6//delta
+- /api/v2.6//delta.html
 - /api/v2.7//delta
+- /api/v2.7//delta.html
 
 package: fyne.io/fyne/v2
 ---

@@ -4,14 +4,23 @@ title: fyne.TextStyle
 slug: textstyle
 
 aliases:
+- /api/v2/fyne/textstyle.html
 - /api/v2.0//textstyle
+- /api/v2.0//textstyle.html
 - /api/v2.1//textstyle
+- /api/v2.1//textstyle.html
 - /api/v2.2//textstyle
+- /api/v2.2//textstyle.html
 - /api/v2.3//textstyle
+- /api/v2.3//textstyle.html
 - /api/v2.4//textstyle
+- /api/v2.4//textstyle.html
 - /api/v2.5//textstyle
+- /api/v2.5//textstyle.html
 - /api/v2.6//textstyle
+- /api/v2.6//textstyle.html
 - /api/v2.7//textstyle
+- /api/v2.7//textstyle.html
 
 package: fyne.io/fyne/v2
 ---

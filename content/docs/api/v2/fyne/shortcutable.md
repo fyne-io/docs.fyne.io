@@ -4,14 +4,23 @@ title: fyne.Shortcutable
 slug: shortcutable
 
 aliases:
+- /api/v2/fyne/shortcutable.html
 - /api/v2.0//shortcutable
+- /api/v2.0//shortcutable.html
 - /api/v2.1//shortcutable
+- /api/v2.1//shortcutable.html
 - /api/v2.2//shortcutable
+- /api/v2.2//shortcutable.html
 - /api/v2.3//shortcutable
+- /api/v2.3//shortcutable.html
 - /api/v2.4//shortcutable
+- /api/v2.4//shortcutable.html
 - /api/v2.5//shortcutable
+- /api/v2.5//shortcutable.html
 - /api/v2.6//shortcutable
+- /api/v2.6//shortcutable.html
 - /api/v2.7//shortcutable
+- /api/v2.7//shortcutable.html
 
 package: fyne.io/fyne/v2
 ---

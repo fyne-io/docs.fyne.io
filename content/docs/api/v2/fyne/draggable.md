@@ -4,14 +4,23 @@ title: fyne.Draggable
 slug: draggable
 
 aliases:
+- /api/v2/fyne/draggable.html
 - /api/v2.0//draggable
+- /api/v2.0//draggable.html
 - /api/v2.1//draggable
+- /api/v2.1//draggable.html
 - /api/v2.2//draggable
+- /api/v2.2//draggable.html
 - /api/v2.3//draggable
+- /api/v2.3//draggable.html
 - /api/v2.4//draggable
+- /api/v2.4//draggable.html
 - /api/v2.5//draggable
+- /api/v2.5//draggable.html
 - /api/v2.6//draggable
+- /api/v2.6//draggable.html
 - /api/v2.7//draggable
+- /api/v2.7//draggable.html
 
 package: fyne.io/fyne/v2
 ---

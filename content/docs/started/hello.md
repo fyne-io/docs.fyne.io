@@ -6,6 +6,7 @@ slug: hello
 weight: 1020
 
 aliases:
+- /started/hello.html
 - /started/firstapp
 ---
 

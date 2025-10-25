@@ -4,14 +4,23 @@ title: desktop.StandardCursor
 slug: standardcursor
 
 aliases:
+- /api/v2/driver/desktop/standardcursor.html
 - /api/v2.0/driver/desktop/standardcursor
+- /api/v2.0/driver/desktop/standardcursor.html
 - /api/v2.1/driver/desktop/standardcursor
+- /api/v2.1/driver/desktop/standardcursor.html
 - /api/v2.2/driver/desktop/standardcursor
+- /api/v2.2/driver/desktop/standardcursor.html
 - /api/v2.3/driver/desktop/standardcursor
+- /api/v2.3/driver/desktop/standardcursor.html
 - /api/v2.4/driver/desktop/standardcursor
+- /api/v2.4/driver/desktop/standardcursor.html
 - /api/v2.5/driver/desktop/standardcursor
+- /api/v2.5/driver/desktop/standardcursor.html
 - /api/v2.6/driver/desktop/standardcursor
+- /api/v2.6/driver/desktop/standardcursor.html
 - /api/v2.7/driver/desktop/standardcursor
+- /api/v2.7/driver/desktop/standardcursor.html
 
 package: fyne.io/fyne/v2/driver/desktop
 ---

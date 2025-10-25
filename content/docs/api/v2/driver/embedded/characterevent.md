@@ -4,14 +4,23 @@ title: embedded.CharacterEvent
 slug: characterevent
 
 aliases:
+- /api/v2/driver/embedded/characterevent.html
 - /api/v2.0/driver/embedded/characterevent
+- /api/v2.0/driver/embedded/characterevent.html
 - /api/v2.1/driver/embedded/characterevent
+- /api/v2.1/driver/embedded/characterevent.html
 - /api/v2.2/driver/embedded/characterevent
+- /api/v2.2/driver/embedded/characterevent.html
 - /api/v2.3/driver/embedded/characterevent
+- /api/v2.3/driver/embedded/characterevent.html
 - /api/v2.4/driver/embedded/characterevent
+- /api/v2.4/driver/embedded/characterevent.html
 - /api/v2.5/driver/embedded/characterevent
+- /api/v2.5/driver/embedded/characterevent.html
 - /api/v2.6/driver/embedded/characterevent
+- /api/v2.6/driver/embedded/characterevent.html
 - /api/v2.7/driver/embedded/characterevent
+- /api/v2.7/driver/embedded/characterevent.html
 
 package: fyne.io/fyne/v2/driver/embedded
 ---

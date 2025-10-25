@@ -4,6 +4,7 @@ title: AppTabs
 weight: 4070
 
 aliases:
+- /container/apptabs.html
 - /tour/container/apptabs
 ---
 

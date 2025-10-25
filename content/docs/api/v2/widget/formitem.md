@@ -4,14 +4,23 @@ title: widget.FormItem
 slug: formitem
 
 aliases:
+- /api/v2/widget/formitem.html
 - /api/v2.0/widget/formitem
+- /api/v2.0/widget/formitem.html
 - /api/v2.1/widget/formitem
+- /api/v2.1/widget/formitem.html
 - /api/v2.2/widget/formitem
+- /api/v2.2/widget/formitem.html
 - /api/v2.3/widget/formitem
+- /api/v2.3/widget/formitem.html
 - /api/v2.4/widget/formitem
+- /api/v2.4/widget/formitem.html
 - /api/v2.5/widget/formitem
+- /api/v2.5/widget/formitem.html
 - /api/v2.6/widget/formitem
+- /api/v2.6/widget/formitem.html
 - /api/v2.7/widget/formitem
+- /api/v2.7/widget/formitem.html
 
 package: fyne.io/fyne/v2/widget
 ---

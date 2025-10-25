@@ -4,14 +4,23 @@ title: binding.ExternalUntypedMap
 slug: externaluntypedmap
 
 aliases:
+- /api/v2/data/binding/externaluntypedmap.html
 - /api/v2.0/data/binding/externaluntypedmap
+- /api/v2.0/data/binding/externaluntypedmap.html
 - /api/v2.1/data/binding/externaluntypedmap
+- /api/v2.1/data/binding/externaluntypedmap.html
 - /api/v2.2/data/binding/externaluntypedmap
+- /api/v2.2/data/binding/externaluntypedmap.html
 - /api/v2.3/data/binding/externaluntypedmap
+- /api/v2.3/data/binding/externaluntypedmap.html
 - /api/v2.4/data/binding/externaluntypedmap
+- /api/v2.4/data/binding/externaluntypedmap.html
 - /api/v2.5/data/binding/externaluntypedmap
+- /api/v2.5/data/binding/externaluntypedmap.html
 - /api/v2.6/data/binding/externaluntypedmap
+- /api/v2.6/data/binding/externaluntypedmap.html
 - /api/v2.7/data/binding/externaluntypedmap
+- /api/v2.7/data/binding/externaluntypedmap.html
 
 package: fyne.io/fyne/v2/data/binding
 ---

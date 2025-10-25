@@ -4,6 +4,7 @@ title: Choices
 weight: 5040
 
 aliases:
+- /widget/choices.html
   - /tour/widget/choices
 ---
 

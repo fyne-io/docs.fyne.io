@@ -4,6 +4,7 @@ title: Circle
 weight: 3040
 
 aliases:
+- /canvas/circle.html
   - /tour/canvas/circle
 ---
 

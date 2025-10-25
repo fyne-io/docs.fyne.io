@@ -5,6 +5,7 @@ slug: windows
 weight: 1060
 
 aliases:
+- /started/windows.html
 - /tour/basics/windows
 ---
 

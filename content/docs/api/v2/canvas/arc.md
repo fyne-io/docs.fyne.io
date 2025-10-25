@@ -4,14 +4,23 @@ title: canvas.Arc
 slug: arc
 
 aliases:
+- /api/v2/canvas/arc.html
 - /api/v2.0/canvas/arc
+- /api/v2.0/canvas/arc.html
 - /api/v2.1/canvas/arc
+- /api/v2.1/canvas/arc.html
 - /api/v2.2/canvas/arc
+- /api/v2.2/canvas/arc.html
 - /api/v2.3/canvas/arc
+- /api/v2.3/canvas/arc.html
 - /api/v2.4/canvas/arc
+- /api/v2.4/canvas/arc.html
 - /api/v2.5/canvas/arc
+- /api/v2.5/canvas/arc.html
 - /api/v2.6/canvas/arc
+- /api/v2.6/canvas/arc.html
 - /api/v2.7/canvas/arc
+- /api/v2.7/canvas/arc.html
 
 package: fyne.io/fyne/v2/canvas
 ---

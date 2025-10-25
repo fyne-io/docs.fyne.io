@@ -5,6 +5,7 @@ slug: simple
 weight: 7020
 
 aliases:
+- /binding/simple.html
 - /tour/binding/simple
 ---
 

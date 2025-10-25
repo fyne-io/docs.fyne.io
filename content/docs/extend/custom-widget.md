@@ -4,7 +4,8 @@ slug: custom-widget
 
 weight: 8020
 
-aliases: 
+aliases:
+- /extend/custom-widget.html 
  - /develop/custom-widget.html
  - /tutorial/write-custom-widget
 ---

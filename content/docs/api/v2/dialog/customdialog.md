@@ -4,14 +4,23 @@ title: dialog.CustomDialog
 slug: customdialog
 
 aliases:
+- /api/v2/dialog/customdialog.html
 - /api/v2.0/dialog/customdialog
+- /api/v2.0/dialog/customdialog.html
 - /api/v2.1/dialog/customdialog
+- /api/v2.1/dialog/customdialog.html
 - /api/v2.2/dialog/customdialog
+- /api/v2.2/dialog/customdialog.html
 - /api/v2.3/dialog/customdialog
+- /api/v2.3/dialog/customdialog.html
 - /api/v2.4/dialog/customdialog
+- /api/v2.4/dialog/customdialog.html
 - /api/v2.5/dialog/customdialog
+- /api/v2.5/dialog/customdialog.html
 - /api/v2.6/dialog/customdialog
+- /api/v2.6/dialog/customdialog.html
 - /api/v2.7/dialog/customdialog
+- /api/v2.7/dialog/customdialog.html
 
 package: fyne.io/fyne/v2/dialog
 ---

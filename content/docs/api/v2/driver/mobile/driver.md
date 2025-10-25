@@ -4,14 +4,23 @@ title: mobile.Driver
 slug: driver
 
 aliases:
+- /api/v2/driver/mobile/driver.html
 - /api/v2.0/driver/mobile/driver
+- /api/v2.0/driver/mobile/driver.html
 - /api/v2.1/driver/mobile/driver
+- /api/v2.1/driver/mobile/driver.html
 - /api/v2.2/driver/mobile/driver
+- /api/v2.2/driver/mobile/driver.html
 - /api/v2.3/driver/mobile/driver
+- /api/v2.3/driver/mobile/driver.html
 - /api/v2.4/driver/mobile/driver
+- /api/v2.4/driver/mobile/driver.html
 - /api/v2.5/driver/mobile/driver
+- /api/v2.5/driver/mobile/driver.html
 - /api/v2.6/driver/mobile/driver
+- /api/v2.6/driver/mobile/driver.html
 - /api/v2.7/driver/mobile/driver
+- /api/v2.7/driver/mobile/driver.html
 
 package: fyne.io/fyne/v2/driver/mobile
 ---

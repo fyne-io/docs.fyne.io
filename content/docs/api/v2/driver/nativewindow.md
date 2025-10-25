@@ -4,14 +4,23 @@ title: driver.NativeWindow
 slug: nativewindow
 
 aliases:
+- /api/v2/driver/nativewindow.html
 - /api/v2.0/driver/nativewindow
+- /api/v2.0/driver/nativewindow.html
 - /api/v2.1/driver/nativewindow
+- /api/v2.1/driver/nativewindow.html
 - /api/v2.2/driver/nativewindow
+- /api/v2.2/driver/nativewindow.html
 - /api/v2.3/driver/nativewindow
+- /api/v2.3/driver/nativewindow.html
 - /api/v2.4/driver/nativewindow
+- /api/v2.4/driver/nativewindow.html
 - /api/v2.5/driver/nativewindow
+- /api/v2.5/driver/nativewindow.html
 - /api/v2.6/driver/nativewindow
+- /api/v2.6/driver/nativewindow.html
 - /api/v2.7/driver/nativewindow
+- /api/v2.7/driver/nativewindow.html
 
 package: fyne.io/fyne/v2/driver
 ---

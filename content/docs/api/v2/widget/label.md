@@ -4,14 +4,23 @@ title: widget.Label
 slug: label
 
 aliases:
+- /api/v2/widget/label.html
 - /api/v2.0/widget/label
+- /api/v2.0/widget/label.html
 - /api/v2.1/widget/label
+- /api/v2.1/widget/label.html
 - /api/v2.2/widget/label
+- /api/v2.2/widget/label.html
 - /api/v2.3/widget/label
+- /api/v2.3/widget/label.html
 - /api/v2.4/widget/label
+- /api/v2.4/widget/label.html
 - /api/v2.5/widget/label
+- /api/v2.5/widget/label.html
 - /api/v2.6/widget/label
+- /api/v2.6/widget/label.html
 - /api/v2.7/widget/label
+- /api/v2.7/widget/label.html
 
 package: fyne.io/fyne/v2/widget
 ---

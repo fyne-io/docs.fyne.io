@@ -4,6 +4,7 @@ title: Box
 weight: 4010
 
 aliases:
+- /container/box.html
 - /tour/layout/boxlayout
 - /container/
 ---

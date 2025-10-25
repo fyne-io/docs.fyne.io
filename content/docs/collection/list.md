@@ -4,6 +4,7 @@ title: List
 weight: 6010
 
 aliases:
+- /collection/list.html
   - /tour/widget/list
   - /widget/list
 ---

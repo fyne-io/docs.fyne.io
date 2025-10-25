@@ -4,14 +4,23 @@ title: fyne.Locale
 slug: locale
 
 aliases:
+- /api/v2/fyne/locale.html
 - /api/v2.0//locale
+- /api/v2.0//locale.html
 - /api/v2.1//locale
+- /api/v2.1//locale.html
 - /api/v2.2//locale
+- /api/v2.2//locale.html
 - /api/v2.3//locale
+- /api/v2.3//locale.html
 - /api/v2.4//locale
+- /api/v2.4//locale.html
 - /api/v2.5//locale
+- /api/v2.5//locale.html
 - /api/v2.6//locale
+- /api/v2.6//locale.html
 - /api/v2.7//locale
+- /api/v2.7//locale.html
 
 package: fyne.io/fyne/v2
 ---

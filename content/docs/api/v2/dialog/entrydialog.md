@@ -4,14 +4,23 @@ title: dialog.EntryDialog
 slug: entrydialog
 
 aliases:
+- /api/v2/dialog/entrydialog.html
 - /api/v2.0/dialog/entrydialog
+- /api/v2.0/dialog/entrydialog.html
 - /api/v2.1/dialog/entrydialog
+- /api/v2.1/dialog/entrydialog.html
 - /api/v2.2/dialog/entrydialog
+- /api/v2.2/dialog/entrydialog.html
 - /api/v2.3/dialog/entrydialog
+- /api/v2.3/dialog/entrydialog.html
 - /api/v2.4/dialog/entrydialog
+- /api/v2.4/dialog/entrydialog.html
 - /api/v2.5/dialog/entrydialog
+- /api/v2.5/dialog/entrydialog.html
 - /api/v2.6/dialog/entrydialog
+- /api/v2.6/dialog/entrydialog.html
 - /api/v2.7/dialog/entrydialog
+- /api/v2.7/dialog/entrydialog.html
 
 package: fyne.io/fyne/v2/dialog
 ---

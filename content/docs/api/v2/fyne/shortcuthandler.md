@@ -4,14 +4,23 @@ title: fyne.ShortcutHandler
 slug: shortcuthandler
 
 aliases:
+- /api/v2/fyne/shortcuthandler.html
 - /api/v2.0//shortcuthandler
+- /api/v2.0//shortcuthandler.html
 - /api/v2.1//shortcuthandler
+- /api/v2.1//shortcuthandler.html
 - /api/v2.2//shortcuthandler
+- /api/v2.2//shortcuthandler.html
 - /api/v2.3//shortcuthandler
+- /api/v2.3//shortcuthandler.html
 - /api/v2.4//shortcuthandler
+- /api/v2.4//shortcuthandler.html
 - /api/v2.5//shortcuthandler
+- /api/v2.5//shortcuthandler.html
 - /api/v2.6//shortcuthandler
+- /api/v2.6//shortcuthandler.html
 - /api/v2.7//shortcuthandler
+- /api/v2.7//shortcuthandler.html
 
 package: fyne.io/fyne/v2
 ---

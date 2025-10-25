@@ -4,14 +4,23 @@ title: widget.ImageSegment
 slug: imagesegment
 
 aliases:
+- /api/v2/widget/imagesegment.html
 - /api/v2.0/widget/imagesegment
+- /api/v2.0/widget/imagesegment.html
 - /api/v2.1/widget/imagesegment
+- /api/v2.1/widget/imagesegment.html
 - /api/v2.2/widget/imagesegment
+- /api/v2.2/widget/imagesegment.html
 - /api/v2.3/widget/imagesegment
+- /api/v2.3/widget/imagesegment.html
 - /api/v2.4/widget/imagesegment
+- /api/v2.4/widget/imagesegment.html
 - /api/v2.5/widget/imagesegment
+- /api/v2.5/widget/imagesegment.html
 - /api/v2.6/widget/imagesegment
+- /api/v2.6/widget/imagesegment.html
 - /api/v2.7/widget/imagesegment
+- /api/v2.7/widget/imagesegment.html
 
 package: fyne.io/fyne/v2/widget
 ---

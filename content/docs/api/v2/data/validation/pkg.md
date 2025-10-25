@@ -4,14 +4,23 @@ title: validation (package)
 slug: (package)
 
 aliases:
+- /api/v2/data/validation/pkg.html
 - /api/v2.0/data/validation
+- /api/v2.0/data/validation.html
 - /api/v2.1/data/validation
+- /api/v2.1/data/validation.html
 - /api/v2.2/data/validation
+- /api/v2.2/data/validation.html
 - /api/v2.3/data/validation
+- /api/v2.3/data/validation.html
 - /api/v2.4/data/validation
+- /api/v2.4/data/validation.html
 - /api/v2.5/data/validation
+- /api/v2.5/data/validation.html
 - /api/v2.6/data/validation
+- /api/v2.6/data/validation.html
 - /api/v2.7/data/validation
+- /api/v2.7/data/validation.html
 
 package: fyne.io/fyne/v2/data/validation
 ---

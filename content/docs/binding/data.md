@@ -5,6 +5,7 @@ slug: data
 weight: 7010
 
 aliases:
+- /binding/data.html
 - /tour/binding
 ---
 

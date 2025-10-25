@@ -4,6 +4,7 @@ title: Toolbar
 weight: 5070
 
 aliases:
+- /widget/toolbar.html
   - /tour/widget/toolbar
 ---
 

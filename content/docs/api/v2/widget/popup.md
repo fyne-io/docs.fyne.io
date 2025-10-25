@@ -4,14 +4,23 @@ title: widget.PopUp
 slug: popup
 
 aliases:
+- /api/v2/widget/popup.html
 - /api/v2.0/widget/popup
+- /api/v2.0/widget/popup.html
 - /api/v2.1/widget/popup
+- /api/v2.1/widget/popup.html
 - /api/v2.2/widget/popup
+- /api/v2.2/widget/popup.html
 - /api/v2.3/widget/popup
+- /api/v2.3/widget/popup.html
 - /api/v2.4/widget/popup
+- /api/v2.4/widget/popup.html
 - /api/v2.5/widget/popup
+- /api/v2.5/widget/popup.html
 - /api/v2.6/widget/popup
+- /api/v2.6/widget/popup.html
 - /api/v2.7/widget/popup
+- /api/v2.7/widget/popup.html
 
 package: fyne.io/fyne/v2/widget
 ---

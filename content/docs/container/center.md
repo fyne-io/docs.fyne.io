@@ -4,6 +4,7 @@ title: Center
 weight: 4060
 
 aliases:
+- /container/center.html
 - /tour/layout/centerlayout
 ---
 

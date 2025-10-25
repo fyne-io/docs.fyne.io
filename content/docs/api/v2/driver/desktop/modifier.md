@@ -4,14 +4,23 @@ title: desktop.Modifier
 slug: modifier
 
 aliases:
+- /api/v2/driver/desktop/modifier.html
 - /api/v2.0/driver/desktop/modifier
+- /api/v2.0/driver/desktop/modifier.html
 - /api/v2.1/driver/desktop/modifier
+- /api/v2.1/driver/desktop/modifier.html
 - /api/v2.2/driver/desktop/modifier
+- /api/v2.2/driver/desktop/modifier.html
 - /api/v2.3/driver/desktop/modifier
+- /api/v2.3/driver/desktop/modifier.html
 - /api/v2.4/driver/desktop/modifier
+- /api/v2.4/driver/desktop/modifier.html
 - /api/v2.5/driver/desktop/modifier
+- /api/v2.5/driver/desktop/modifier.html
 - /api/v2.6/driver/desktop/modifier
+- /api/v2.6/driver/desktop/modifier.html
 - /api/v2.7/driver/desktop/modifier
+- /api/v2.7/driver/desktop/modifier.html
 
 package: fyne.io/fyne/v2/driver/desktop
 ---

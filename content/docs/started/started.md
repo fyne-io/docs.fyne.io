@@ -5,7 +5,8 @@ slug: quick
 
 weight: 1010
 
-aliases: 
+aliases:
+- /started/started.html 
 - /started/
 - /tour/introduction/
 - /tour/introduction/hello

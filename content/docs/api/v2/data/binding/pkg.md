@@ -4,14 +4,23 @@ title: binding (package)
 slug: (package)
 
 aliases:
+- /api/v2/data/binding/pkg.html
 - /api/v2.0/data/binding
+- /api/v2.0/data/binding.html
 - /api/v2.1/data/binding
+- /api/v2.1/data/binding.html
 - /api/v2.2/data/binding
+- /api/v2.2/data/binding.html
 - /api/v2.3/data/binding
+- /api/v2.3/data/binding.html
 - /api/v2.4/data/binding
+- /api/v2.4/data/binding.html
 - /api/v2.5/data/binding
+- /api/v2.5/data/binding.html
 - /api/v2.6/data/binding
+- /api/v2.6/data/binding.html
 - /api/v2.7/data/binding
+- /api/v2.7/data/binding.html
 
 package: fyne.io/fyne/v2/data/binding
 ---

@@ -4,14 +4,23 @@ title: fyne.ScrollDirection
 slug: scrolldirection
 
 aliases:
+- /api/v2/fyne/scrolldirection.html
 - /api/v2.0//scrolldirection
+- /api/v2.0//scrolldirection.html
 - /api/v2.1//scrolldirection
+- /api/v2.1//scrolldirection.html
 - /api/v2.2//scrolldirection
+- /api/v2.2//scrolldirection.html
 - /api/v2.3//scrolldirection
+- /api/v2.3//scrolldirection.html
 - /api/v2.4//scrolldirection
+- /api/v2.4//scrolldirection.html
 - /api/v2.5//scrolldirection
+- /api/v2.5//scrolldirection.html
 - /api/v2.6//scrolldirection
+- /api/v2.6//scrolldirection.html
 - /api/v2.7//scrolldirection
+- /api/v2.7//scrolldirection.html
 
 package: fyne.io/fyne/v2
 ---

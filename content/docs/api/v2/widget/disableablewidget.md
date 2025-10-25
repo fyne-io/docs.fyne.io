@@ -4,14 +4,23 @@ title: widget.DisableableWidget
 slug: disableablewidget
 
 aliases:
+- /api/v2/widget/disableablewidget.html
 - /api/v2.0/widget/disableablewidget
+- /api/v2.0/widget/disableablewidget.html
 - /api/v2.1/widget/disableablewidget
+- /api/v2.1/widget/disableablewidget.html
 - /api/v2.2/widget/disableablewidget
+- /api/v2.2/widget/disableablewidget.html
 - /api/v2.3/widget/disableablewidget
+- /api/v2.3/widget/disableablewidget.html
 - /api/v2.4/widget/disableablewidget
+- /api/v2.4/widget/disableablewidget.html
 - /api/v2.5/widget/disableablewidget
+- /api/v2.5/widget/disableablewidget.html
 - /api/v2.6/widget/disableablewidget
+- /api/v2.6/widget/disableablewidget.html
 - /api/v2.7/widget/disableablewidget
+- /api/v2.7/widget/disableablewidget.html
 
 package: fyne.io/fyne/v2/widget
 ---

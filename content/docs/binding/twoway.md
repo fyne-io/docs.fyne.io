@@ -5,6 +5,7 @@ slug: twoway
 weight: 7030
 
 aliases:
+- /binding/twoway.html
 - /tour/binding/twoway
 ---
 

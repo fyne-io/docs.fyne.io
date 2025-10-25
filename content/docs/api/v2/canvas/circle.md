@@ -4,14 +4,23 @@ title: canvas.Circle
 slug: circle
 
 aliases:
+- /api/v2/canvas/circle.html
 - /api/v2.0/canvas/circle
+- /api/v2.0/canvas/circle.html
 - /api/v2.1/canvas/circle
+- /api/v2.1/canvas/circle.html
 - /api/v2.2/canvas/circle
+- /api/v2.2/canvas/circle.html
 - /api/v2.3/canvas/circle
+- /api/v2.3/canvas/circle.html
 - /api/v2.4/canvas/circle
+- /api/v2.4/canvas/circle.html
 - /api/v2.5/canvas/circle
+- /api/v2.5/canvas/circle.html
 - /api/v2.6/canvas/circle
+- /api/v2.6/canvas/circle.html
 - /api/v2.7/canvas/circle
+- /api/v2.7/canvas/circle.html
 
 package: fyne.io/fyne/v2/canvas
 ---

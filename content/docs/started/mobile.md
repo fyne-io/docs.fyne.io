@@ -6,6 +6,7 @@ slug: mobile
 weight: 1100
 
 aliases:
+- /started/mobile.html
 - /started/packaging-mobile
 ---
 

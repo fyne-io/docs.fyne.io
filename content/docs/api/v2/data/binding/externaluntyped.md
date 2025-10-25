@@ -4,14 +4,23 @@ title: binding.ExternalUntyped
 slug: externaluntyped
 
 aliases:
+- /api/v2/data/binding/externaluntyped.html
 - /api/v2.0/data/binding/externaluntyped
+- /api/v2.0/data/binding/externaluntyped.html
 - /api/v2.1/data/binding/externaluntyped
+- /api/v2.1/data/binding/externaluntyped.html
 - /api/v2.2/data/binding/externaluntyped
+- /api/v2.2/data/binding/externaluntyped.html
 - /api/v2.3/data/binding/externaluntyped
+- /api/v2.3/data/binding/externaluntyped.html
 - /api/v2.4/data/binding/externaluntyped
+- /api/v2.4/data/binding/externaluntyped.html
 - /api/v2.5/data/binding/externaluntyped
+- /api/v2.5/data/binding/externaluntyped.html
 - /api/v2.6/data/binding/externaluntyped
+- /api/v2.6/data/binding/externaluntyped.html
 - /api/v2.7/data/binding/externaluntyped
+- /api/v2.7/data/binding/externaluntyped.html
 
 package: fyne.io/fyne/v2/data/binding
 ---

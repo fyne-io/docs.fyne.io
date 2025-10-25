@@ -4,14 +4,23 @@ title: canvas.LinearGradient
 slug: lineargradient
 
 aliases:
+- /api/v2/canvas/lineargradient.html
 - /api/v2.0/canvas/lineargradient
+- /api/v2.0/canvas/lineargradient.html
 - /api/v2.1/canvas/lineargradient
+- /api/v2.1/canvas/lineargradient.html
 - /api/v2.2/canvas/lineargradient
+- /api/v2.2/canvas/lineargradient.html
 - /api/v2.3/canvas/lineargradient
+- /api/v2.3/canvas/lineargradient.html
 - /api/v2.4/canvas/lineargradient
+- /api/v2.4/canvas/lineargradient.html
 - /api/v2.5/canvas/lineargradient
+- /api/v2.5/canvas/lineargradient.html
 - /api/v2.6/canvas/lineargradient
+- /api/v2.6/canvas/lineargradient.html
 - /api/v2.7/canvas/lineargradient
+- /api/v2.7/canvas/lineargradient.html
 
 package: fyne.io/fyne/v2/canvas
 ---

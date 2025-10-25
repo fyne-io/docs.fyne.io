@@ -4,14 +4,23 @@ title: binding.Struct
 slug: struct
 
 aliases:
+- /api/v2/data/binding/struct.html
 - /api/v2.0/data/binding/struct
+- /api/v2.0/data/binding/struct.html
 - /api/v2.1/data/binding/struct
+- /api/v2.1/data/binding/struct.html
 - /api/v2.2/data/binding/struct
+- /api/v2.2/data/binding/struct.html
 - /api/v2.3/data/binding/struct
+- /api/v2.3/data/binding/struct.html
 - /api/v2.4/data/binding/struct
+- /api/v2.4/data/binding/struct.html
 - /api/v2.5/data/binding/struct
+- /api/v2.5/data/binding/struct.html
 - /api/v2.6/data/binding/struct
+- /api/v2.6/data/binding/struct.html
 - /api/v2.7/data/binding/struct
+- /api/v2.7/data/binding/struct.html
 
 package: fyne.io/fyne/v2/data/binding
 ---

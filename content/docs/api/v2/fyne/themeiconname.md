@@ -4,14 +4,23 @@ title: fyne.ThemeIconName
 slug: themeiconname
 
 aliases:
+- /api/v2/fyne/themeiconname.html
 - /api/v2.0//themeiconname
+- /api/v2.0//themeiconname.html
 - /api/v2.1//themeiconname
+- /api/v2.1//themeiconname.html
 - /api/v2.2//themeiconname
+- /api/v2.2//themeiconname.html
 - /api/v2.3//themeiconname
+- /api/v2.3//themeiconname.html
 - /api/v2.4//themeiconname
+- /api/v2.4//themeiconname.html
 - /api/v2.5//themeiconname
+- /api/v2.5//themeiconname.html
 - /api/v2.6//themeiconname
+- /api/v2.6//themeiconname.html
 - /api/v2.7//themeiconname
+- /api/v2.7//themeiconname.html
 
 package: fyne.io/fyne/v2
 ---

@@ -4,14 +4,23 @@ title: desktop.CustomShortcut
 slug: customshortcut
 
 aliases:
+- /api/v2/driver/desktop/customshortcut.html
 - /api/v2.0/driver/desktop/customshortcut
+- /api/v2.0/driver/desktop/customshortcut.html
 - /api/v2.1/driver/desktop/customshortcut
+- /api/v2.1/driver/desktop/customshortcut.html
 - /api/v2.2/driver/desktop/customshortcut
+- /api/v2.2/driver/desktop/customshortcut.html
 - /api/v2.3/driver/desktop/customshortcut
+- /api/v2.3/driver/desktop/customshortcut.html
 - /api/v2.4/driver/desktop/customshortcut
+- /api/v2.4/driver/desktop/customshortcut.html
 - /api/v2.5/driver/desktop/customshortcut
+- /api/v2.5/driver/desktop/customshortcut.html
 - /api/v2.6/driver/desktop/customshortcut
+- /api/v2.6/driver/desktop/customshortcut.html
 - /api/v2.7/driver/desktop/customshortcut
+- /api/v2.7/driver/desktop/customshortcut.html
 
 package: fyne.io/fyne/v2/driver/desktop
 ---

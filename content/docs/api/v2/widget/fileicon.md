@@ -4,14 +4,23 @@ title: widget.FileIcon
 slug: fileicon
 
 aliases:
+- /api/v2/widget/fileicon.html
 - /api/v2.0/widget/fileicon
+- /api/v2.0/widget/fileicon.html
 - /api/v2.1/widget/fileicon
+- /api/v2.1/widget/fileicon.html
 - /api/v2.2/widget/fileicon
+- /api/v2.2/widget/fileicon.html
 - /api/v2.3/widget/fileicon
+- /api/v2.3/widget/fileicon.html
 - /api/v2.4/widget/fileicon
+- /api/v2.4/widget/fileicon.html
 - /api/v2.5/widget/fileicon
+- /api/v2.5/widget/fileicon.html
 - /api/v2.6/widget/fileicon
+- /api/v2.6/widget/fileicon.html
 - /api/v2.7/widget/fileicon
+- /api/v2.7/widget/fileicon.html
 
 package: fyne.io/fyne/v2/widget
 ---

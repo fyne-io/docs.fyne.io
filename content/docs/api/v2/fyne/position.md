@@ -4,14 +4,23 @@ title: fyne.Position
 slug: position
 
 aliases:
+- /api/v2/fyne/position.html
 - /api/v2.0//position
+- /api/v2.0//position.html
 - /api/v2.1//position
+- /api/v2.1//position.html
 - /api/v2.2//position
+- /api/v2.2//position.html
 - /api/v2.3//position
+- /api/v2.3//position.html
 - /api/v2.4//position
+- /api/v2.4//position.html
 - /api/v2.5//position
+- /api/v2.5//position.html
 - /api/v2.6//position
+- /api/v2.6//position.html
 - /api/v2.7//position
+- /api/v2.7//position.html
 
 package: fyne.io/fyne/v2
 ---

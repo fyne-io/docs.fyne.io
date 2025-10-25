@@ -4,14 +4,23 @@ title: widget.ToolbarSeparator
 slug: toolbarseparator
 
 aliases:
+- /api/v2/widget/toolbarseparator.html
 - /api/v2.0/widget/toolbarseparator
+- /api/v2.0/widget/toolbarseparator.html
 - /api/v2.1/widget/toolbarseparator
+- /api/v2.1/widget/toolbarseparator.html
 - /api/v2.2/widget/toolbarseparator
+- /api/v2.2/widget/toolbarseparator.html
 - /api/v2.3/widget/toolbarseparator
+- /api/v2.3/widget/toolbarseparator.html
 - /api/v2.4/widget/toolbarseparator
+- /api/v2.4/widget/toolbarseparator.html
 - /api/v2.5/widget/toolbarseparator
+- /api/v2.5/widget/toolbarseparator.html
 - /api/v2.6/widget/toolbarseparator
+- /api/v2.6/widget/toolbarseparator.html
 - /api/v2.7/widget/toolbarseparator
+- /api/v2.7/widget/toolbarseparator.html
 
 package: fyne.io/fyne/v2/widget
 ---

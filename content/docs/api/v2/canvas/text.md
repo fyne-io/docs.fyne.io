@@ -4,14 +4,23 @@ title: canvas.Text
 slug: text
 
 aliases:
+- /api/v2/canvas/text.html
 - /api/v2.0/canvas/text
+- /api/v2.0/canvas/text.html
 - /api/v2.1/canvas/text
+- /api/v2.1/canvas/text.html
 - /api/v2.2/canvas/text
+- /api/v2.2/canvas/text.html
 - /api/v2.3/canvas/text
+- /api/v2.3/canvas/text.html
 - /api/v2.4/canvas/text
+- /api/v2.4/canvas/text.html
 - /api/v2.5/canvas/text
+- /api/v2.5/canvas/text.html
 - /api/v2.6/canvas/text
+- /api/v2.6/canvas/text.html
 - /api/v2.7/canvas/text
+- /api/v2.7/canvas/text.html
 
 package: fyne.io/fyne/v2/canvas
 ---

@@ -4,14 +4,23 @@ title: canvas.Polygon
 slug: polygon
 
 aliases:
+- /api/v2/canvas/polygon.html
 - /api/v2.0/canvas/polygon
+- /api/v2.0/canvas/polygon.html
 - /api/v2.1/canvas/polygon
+- /api/v2.1/canvas/polygon.html
 - /api/v2.2/canvas/polygon
+- /api/v2.2/canvas/polygon.html
 - /api/v2.3/canvas/polygon
+- /api/v2.3/canvas/polygon.html
 - /api/v2.4/canvas/polygon
+- /api/v2.4/canvas/polygon.html
 - /api/v2.5/canvas/polygon
+- /api/v2.5/canvas/polygon.html
 - /api/v2.6/canvas/polygon
+- /api/v2.6/canvas/polygon.html
 - /api/v2.7/canvas/polygon
+- /api/v2.7/canvas/polygon.html
 
 package: fyne.io/fyne/v2/canvas
 ---

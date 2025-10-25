@@ -4,14 +4,23 @@ title: widget.BaseWidget
 slug: basewidget
 
 aliases:
+- /api/v2/widget/basewidget.html
 - /api/v2.0/widget/basewidget
+- /api/v2.0/widget/basewidget.html
 - /api/v2.1/widget/basewidget
+- /api/v2.1/widget/basewidget.html
 - /api/v2.2/widget/basewidget
+- /api/v2.2/widget/basewidget.html
 - /api/v2.3/widget/basewidget
+- /api/v2.3/widget/basewidget.html
 - /api/v2.4/widget/basewidget
+- /api/v2.4/widget/basewidget.html
 - /api/v2.5/widget/basewidget
+- /api/v2.5/widget/basewidget.html
 - /api/v2.6/widget/basewidget
+- /api/v2.6/widget/basewidget.html
 - /api/v2.7/widget/basewidget
+- /api/v2.7/widget/basewidget.html
 
 package: fyne.io/fyne/v2/widget
 ---

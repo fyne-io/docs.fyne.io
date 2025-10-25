@@ -4,14 +4,23 @@ title: fyne.Widget
 slug: widget
 
 aliases:
+- /api/v2/fyne/widget.html
 - /api/v2.0//widget
+- /api/v2.0//widget.html
 - /api/v2.1//widget
+- /api/v2.1//widget.html
 - /api/v2.2//widget
+- /api/v2.2//widget.html
 - /api/v2.3//widget
+- /api/v2.3//widget.html
 - /api/v2.4//widget
+- /api/v2.4//widget.html
 - /api/v2.5//widget
+- /api/v2.5//widget.html
 - /api/v2.6//widget
+- /api/v2.6//widget.html
 - /api/v2.7//widget
+- /api/v2.7//widget.html
 
 package: fyne.io/fyne/v2
 ---

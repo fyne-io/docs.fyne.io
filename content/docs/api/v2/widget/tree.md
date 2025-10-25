@@ -4,14 +4,23 @@ title: widget.Tree
 slug: tree
 
 aliases:
+- /api/v2/widget/tree.html
 - /api/v2.0/widget/tree
+- /api/v2.0/widget/tree.html
 - /api/v2.1/widget/tree
+- /api/v2.1/widget/tree.html
 - /api/v2.2/widget/tree
+- /api/v2.2/widget/tree.html
 - /api/v2.3/widget/tree
+- /api/v2.3/widget/tree.html
 - /api/v2.4/widget/tree
+- /api/v2.4/widget/tree.html
 - /api/v2.5/widget/tree
+- /api/v2.5/widget/tree.html
 - /api/v2.6/widget/tree
+- /api/v2.6/widget/tree.html
 - /api/v2.7/widget/tree
+- /api/v2.7/widget/tree.html
 
 package: fyne.io/fyne/v2/widget
 ---

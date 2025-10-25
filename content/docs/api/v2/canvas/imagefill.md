@@ -4,14 +4,23 @@ title: canvas.ImageFill
 slug: imagefill
 
 aliases:
+- /api/v2/canvas/imagefill.html
 - /api/v2.0/canvas/imagefill
+- /api/v2.0/canvas/imagefill.html
 - /api/v2.1/canvas/imagefill
+- /api/v2.1/canvas/imagefill.html
 - /api/v2.2/canvas/imagefill
+- /api/v2.2/canvas/imagefill.html
 - /api/v2.3/canvas/imagefill
+- /api/v2.3/canvas/imagefill.html
 - /api/v2.4/canvas/imagefill
+- /api/v2.4/canvas/imagefill.html
 - /api/v2.5/canvas/imagefill
+- /api/v2.5/canvas/imagefill.html
 - /api/v2.6/canvas/imagefill
+- /api/v2.6/canvas/imagefill.html
 - /api/v2.7/canvas/imagefill
+- /api/v2.7/canvas/imagefill.html
 
 package: fyne.io/fyne/v2/canvas
 ---

@@ -4,6 +4,7 @@ title: Image
 weight: 3050
 
 aliases:
+- /canvas/image.html
   - /tour/canvas/image
 ---
 

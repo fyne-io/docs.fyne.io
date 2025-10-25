@@ -4,14 +4,23 @@ title: widget.Separator
 slug: separator
 
 aliases:
+- /api/v2/widget/separator.html
 - /api/v2.0/widget/separator
+- /api/v2.0/widget/separator.html
 - /api/v2.1/widget/separator
+- /api/v2.1/widget/separator.html
 - /api/v2.2/widget/separator
+- /api/v2.2/widget/separator.html
 - /api/v2.3/widget/separator
+- /api/v2.3/widget/separator.html
 - /api/v2.4/widget/separator
+- /api/v2.4/widget/separator.html
 - /api/v2.5/widget/separator
+- /api/v2.5/widget/separator.html
 - /api/v2.6/widget/separator
+- /api/v2.6/widget/separator.html
 - /api/v2.7/widget/separator
+- /api/v2.7/widget/separator.html
 
 package: fyne.io/fyne/v2/widget
 ---

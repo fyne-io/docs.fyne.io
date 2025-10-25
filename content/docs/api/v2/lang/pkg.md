@@ -4,14 +4,23 @@ title: lang (package)
 slug: (package)
 
 aliases:
+- /api/v2/lang/pkg.html
 - /api/v2.0/lang
+- /api/v2.0/lang.html
 - /api/v2.1/lang
+- /api/v2.1/lang.html
 - /api/v2.2/lang
+- /api/v2.2/lang.html
 - /api/v2.3/lang
+- /api/v2.3/lang.html
 - /api/v2.4/lang
+- /api/v2.4/lang.html
 - /api/v2.5/lang
+- /api/v2.5/lang.html
 - /api/v2.6/lang
+- /api/v2.6/lang.html
 - /api/v2.7/lang
+- /api/v2.7/lang.html
 
 package: fyne.io/fyne/v2/lang
 ---

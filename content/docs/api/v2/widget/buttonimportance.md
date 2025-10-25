@@ -4,14 +4,23 @@ title: widget.ButtonImportance
 slug: buttonimportance
 
 aliases:
+- /api/v2/widget/buttonimportance.html
 - /api/v2.0/widget/buttonimportance
+- /api/v2.0/widget/buttonimportance.html
 - /api/v2.1/widget/buttonimportance
+- /api/v2.1/widget/buttonimportance.html
 - /api/v2.2/widget/buttonimportance
+- /api/v2.2/widget/buttonimportance.html
 - /api/v2.3/widget/buttonimportance
+- /api/v2.3/widget/buttonimportance.html
 - /api/v2.4/widget/buttonimportance
+- /api/v2.4/widget/buttonimportance.html
 - /api/v2.5/widget/buttonimportance
+- /api/v2.5/widget/buttonimportance.html
 - /api/v2.6/widget/buttonimportance
+- /api/v2.6/widget/buttonimportance.html
 - /api/v2.7/widget/buttonimportance
+- /api/v2.7/widget/buttonimportance.html
 
 package: fyne.io/fyne/v2/widget
 ---

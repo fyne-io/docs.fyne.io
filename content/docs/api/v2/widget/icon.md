@@ -4,14 +4,23 @@ title: widget.Icon
 slug: icon
 
 aliases:
+- /api/v2/widget/icon.html
 - /api/v2.0/widget/icon
+- /api/v2.0/widget/icon.html
 - /api/v2.1/widget/icon
+- /api/v2.1/widget/icon.html
 - /api/v2.2/widget/icon
+- /api/v2.2/widget/icon.html
 - /api/v2.3/widget/icon
+- /api/v2.3/widget/icon.html
 - /api/v2.4/widget/icon
+- /api/v2.4/widget/icon.html
 - /api/v2.5/widget/icon
+- /api/v2.5/widget/icon.html
 - /api/v2.6/widget/icon
+- /api/v2.6/widget/icon.html
 - /api/v2.7/widget/icon
+- /api/v2.7/widget/icon.html
 
 package: fyne.io/fyne/v2/widget
 ---

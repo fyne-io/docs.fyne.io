@@ -5,6 +5,7 @@ slug: bundle
 weight: 8030
 
 aliases:
+- /extend/bundle.html
  - /tutorial/bundle
 ---
 

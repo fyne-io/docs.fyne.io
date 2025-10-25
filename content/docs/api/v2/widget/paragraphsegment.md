@@ -4,14 +4,23 @@ title: widget.ParagraphSegment
 slug: paragraphsegment
 
 aliases:
+- /api/v2/widget/paragraphsegment.html
 - /api/v2.0/widget/paragraphsegment
+- /api/v2.0/widget/paragraphsegment.html
 - /api/v2.1/widget/paragraphsegment
+- /api/v2.1/widget/paragraphsegment.html
 - /api/v2.2/widget/paragraphsegment
+- /api/v2.2/widget/paragraphsegment.html
 - /api/v2.3/widget/paragraphsegment
+- /api/v2.3/widget/paragraphsegment.html
 - /api/v2.4/widget/paragraphsegment
+- /api/v2.4/widget/paragraphsegment.html
 - /api/v2.5/widget/paragraphsegment
+- /api/v2.5/widget/paragraphsegment.html
 - /api/v2.6/widget/paragraphsegment
+- /api/v2.6/widget/paragraphsegment.html
 - /api/v2.7/widget/paragraphsegment
+- /api/v2.7/widget/paragraphsegment.html
 
 package: fyne.io/fyne/v2/widget
 ---

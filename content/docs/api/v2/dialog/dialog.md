@@ -4,14 +4,23 @@ title: dialog.Dialog
 slug: dialog
 
 aliases:
+- /api/v2/dialog/dialog.html
 - /api/v2.0/dialog/dialog
+- /api/v2.0/dialog/dialog.html
 - /api/v2.1/dialog/dialog
+- /api/v2.1/dialog/dialog.html
 - /api/v2.2/dialog/dialog
+- /api/v2.2/dialog/dialog.html
 - /api/v2.3/dialog/dialog
+- /api/v2.3/dialog/dialog.html
 - /api/v2.4/dialog/dialog
+- /api/v2.4/dialog/dialog.html
 - /api/v2.5/dialog/dialog
+- /api/v2.5/dialog/dialog.html
 - /api/v2.6/dialog/dialog
+- /api/v2.6/dialog/dialog.html
 - /api/v2.7/dialog/dialog
+- /api/v2.7/dialog/dialog.html
 
 package: fyne.io/fyne/v2/dialog
 ---

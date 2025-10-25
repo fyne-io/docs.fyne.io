@@ -4,14 +4,23 @@ title: fyne.ShortcutCopy
 slug: shortcutcopy
 
 aliases:
+- /api/v2/fyne/shortcutcopy.html
 - /api/v2.0//shortcutcopy
+- /api/v2.0//shortcutcopy.html
 - /api/v2.1//shortcutcopy
+- /api/v2.1//shortcutcopy.html
 - /api/v2.2//shortcutcopy
+- /api/v2.2//shortcutcopy.html
 - /api/v2.3//shortcutcopy
+- /api/v2.3//shortcutcopy.html
 - /api/v2.4//shortcutcopy
+- /api/v2.4//shortcutcopy.html
 - /api/v2.5//shortcutcopy
+- /api/v2.5//shortcutcopy.html
 - /api/v2.6//shortcutcopy
+- /api/v2.6//shortcutcopy.html
 - /api/v2.7//shortcutcopy
+- /api/v2.7//shortcutcopy.html
 
 package: fyne.io/fyne/v2
 ---

@@ -4,14 +4,23 @@ title: container.AppTabs
 slug: apptabs
 
 aliases:
+- /api/v2/container/apptabs.html
 - /api/v2.0/container/apptabs
+- /api/v2.0/container/apptabs.html
 - /api/v2.1/container/apptabs
+- /api/v2.1/container/apptabs.html
 - /api/v2.2/container/apptabs
+- /api/v2.2/container/apptabs.html
 - /api/v2.3/container/apptabs
+- /api/v2.3/container/apptabs.html
 - /api/v2.4/container/apptabs
+- /api/v2.4/container/apptabs.html
 - /api/v2.5/container/apptabs
+- /api/v2.5/container/apptabs.html
 - /api/v2.6/container/apptabs
+- /api/v2.6/container/apptabs.html
 - /api/v2.7/container/apptabs
+- /api/v2.7/container/apptabs.html
 
 package: fyne.io/fyne/v2/container
 ---

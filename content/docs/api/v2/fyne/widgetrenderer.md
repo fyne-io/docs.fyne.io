@@ -4,14 +4,23 @@ title: fyne.WidgetRenderer
 slug: widgetrenderer
 
 aliases:
+- /api/v2/fyne/widgetrenderer.html
 - /api/v2.0//widgetrenderer
+- /api/v2.0//widgetrenderer.html
 - /api/v2.1//widgetrenderer
+- /api/v2.1//widgetrenderer.html
 - /api/v2.2//widgetrenderer
+- /api/v2.2//widgetrenderer.html
 - /api/v2.3//widgetrenderer
+- /api/v2.3//widgetrenderer.html
 - /api/v2.4//widgetrenderer
+- /api/v2.4//widgetrenderer.html
 - /api/v2.5//widgetrenderer
+- /api/v2.5//widgetrenderer.html
 - /api/v2.6//widgetrenderer
+- /api/v2.6//widgetrenderer.html
 - /api/v2.7//widgetrenderer
+- /api/v2.7//widgetrenderer.html
 
 package: fyne.io/fyne/v2
 ---

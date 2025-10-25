@@ -5,6 +5,7 @@ slug: list
 weight: 7050
 
 aliases:
+- /binding/list.html
 - /tour/binding/list
 ---
 

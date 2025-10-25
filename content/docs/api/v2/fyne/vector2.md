@@ -4,14 +4,23 @@ title: fyne.Vector2
 slug: vector2
 
 aliases:
+- /api/v2/fyne/vector2.html
 - /api/v2.0//vector2
+- /api/v2.0//vector2.html
 - /api/v2.1//vector2
+- /api/v2.1//vector2.html
 - /api/v2.2//vector2
+- /api/v2.2//vector2.html
 - /api/v2.3//vector2
+- /api/v2.3//vector2.html
 - /api/v2.4//vector2
+- /api/v2.4//vector2.html
 - /api/v2.5//vector2
+- /api/v2.5//vector2.html
 - /api/v2.6//vector2
+- /api/v2.6//vector2.html
 - /api/v2.7//vector2
+- /api/v2.7//vector2.html
 
 package: fyne.io/fyne/v2
 ---

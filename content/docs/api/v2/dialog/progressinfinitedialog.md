@@ -4,14 +4,23 @@ title: dialog.ProgressInfiniteDialog
 slug: progressinfinitedialog
 
 aliases:
+- /api/v2/dialog/progressinfinitedialog.html
 - /api/v2.0/dialog/progressinfinitedialog
+- /api/v2.0/dialog/progressinfinitedialog.html
 - /api/v2.1/dialog/progressinfinitedialog
+- /api/v2.1/dialog/progressinfinitedialog.html
 - /api/v2.2/dialog/progressinfinitedialog
+- /api/v2.2/dialog/progressinfinitedialog.html
 - /api/v2.3/dialog/progressinfinitedialog
+- /api/v2.3/dialog/progressinfinitedialog.html
 - /api/v2.4/dialog/progressinfinitedialog
+- /api/v2.4/dialog/progressinfinitedialog.html
 - /api/v2.5/dialog/progressinfinitedialog
+- /api/v2.5/dialog/progressinfinitedialog.html
 - /api/v2.6/dialog/progressinfinitedialog
+- /api/v2.6/dialog/progressinfinitedialog.html
 - /api/v2.7/dialog/progressinfinitedialog
+- /api/v2.7/dialog/progressinfinitedialog.html
 
 package: fyne.io/fyne/v2/dialog
 ---

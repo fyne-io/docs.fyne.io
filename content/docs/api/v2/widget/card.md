@@ -4,14 +4,23 @@ title: widget.Card
 slug: card
 
 aliases:
+- /api/v2/widget/card.html
 - /api/v2.0/widget/card
+- /api/v2.0/widget/card.html
 - /api/v2.1/widget/card
+- /api/v2.1/widget/card.html
 - /api/v2.2/widget/card
+- /api/v2.2/widget/card.html
 - /api/v2.3/widget/card
+- /api/v2.3/widget/card.html
 - /api/v2.4/widget/card
+- /api/v2.4/widget/card.html
 - /api/v2.5/widget/card
+- /api/v2.5/widget/card.html
 - /api/v2.6/widget/card
+- /api/v2.6/widget/card.html
 - /api/v2.7/widget/card
+- /api/v2.7/widget/card.html
 
 package: fyne.io/fyne/v2/widget
 ---

@@ -4,14 +4,23 @@ title: fyne.TextAlign
 slug: textalign
 
 aliases:
+- /api/v2/fyne/textalign.html
 - /api/v2.0//textalign
+- /api/v2.0//textalign.html
 - /api/v2.1//textalign
+- /api/v2.1//textalign.html
 - /api/v2.2//textalign
+- /api/v2.2//textalign.html
 - /api/v2.3//textalign
+- /api/v2.3//textalign.html
 - /api/v2.4//textalign
+- /api/v2.4//textalign.html
 - /api/v2.5//textalign
+- /api/v2.5//textalign.html
 - /api/v2.6//textalign
+- /api/v2.6//textalign.html
 - /api/v2.7//textalign
+- /api/v2.7//textalign.html
 
 package: fyne.io/fyne/v2
 ---

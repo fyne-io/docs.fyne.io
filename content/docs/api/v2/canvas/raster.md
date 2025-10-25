@@ -4,14 +4,23 @@ title: canvas.Raster
 slug: raster
 
 aliases:
+- /api/v2/canvas/raster.html
 - /api/v2.0/canvas/raster
+- /api/v2.0/canvas/raster.html
 - /api/v2.1/canvas/raster
+- /api/v2.1/canvas/raster.html
 - /api/v2.2/canvas/raster
+- /api/v2.2/canvas/raster.html
 - /api/v2.3/canvas/raster
+- /api/v2.3/canvas/raster.html
 - /api/v2.4/canvas/raster
+- /api/v2.4/canvas/raster.html
 - /api/v2.5/canvas/raster
+- /api/v2.5/canvas/raster.html
 - /api/v2.6/canvas/raster
+- /api/v2.6/canvas/raster.html
 - /api/v2.7/canvas/raster
+- /api/v2.7/canvas/raster.html
 
 package: fyne.io/fyne/v2/canvas
 ---

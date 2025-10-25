@@ -4,6 +4,7 @@ title: Text
 weight: 3020
 
 aliases:
+- /canvas/text.html
   - /tour/canvas/text
 ---
 

@@ -4,6 +4,7 @@ title: Border
 weight: 4040
 
 aliases:
+- /container/border.html
 - /tour/layout/borderlayout
 ---
 

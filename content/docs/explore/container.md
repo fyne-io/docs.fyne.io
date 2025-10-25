@@ -5,6 +5,7 @@ slug: container
 weight: 2020
 
 aliases:
+- /explore/container.html
 - /tour/basics/container
 ---
 

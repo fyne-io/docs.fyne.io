@@ -4,14 +4,23 @@ title: widget.HyperlinkSegment
 slug: hyperlinksegment
 
 aliases:
+- /api/v2/widget/hyperlinksegment.html
 - /api/v2.0/widget/hyperlinksegment
+- /api/v2.0/widget/hyperlinksegment.html
 - /api/v2.1/widget/hyperlinksegment
+- /api/v2.1/widget/hyperlinksegment.html
 - /api/v2.2/widget/hyperlinksegment
+- /api/v2.2/widget/hyperlinksegment.html
 - /api/v2.3/widget/hyperlinksegment
+- /api/v2.3/widget/hyperlinksegment.html
 - /api/v2.4/widget/hyperlinksegment
+- /api/v2.4/widget/hyperlinksegment.html
 - /api/v2.5/widget/hyperlinksegment
+- /api/v2.5/widget/hyperlinksegment.html
 - /api/v2.6/widget/hyperlinksegment
+- /api/v2.6/widget/hyperlinksegment.html
 - /api/v2.7/widget/hyperlinksegment
+- /api/v2.7/widget/hyperlinksegment.html
 
 package: fyne.io/fyne/v2/widget
 ---

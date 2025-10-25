@@ -4,14 +4,23 @@ title: widget.RichTextBlock
 slug: richtextblock
 
 aliases:
+- /api/v2/widget/richtextblock.html
 - /api/v2.0/widget/richtextblock
+- /api/v2.0/widget/richtextblock.html
 - /api/v2.1/widget/richtextblock
+- /api/v2.1/widget/richtextblock.html
 - /api/v2.2/widget/richtextblock
+- /api/v2.2/widget/richtextblock.html
 - /api/v2.3/widget/richtextblock
+- /api/v2.3/widget/richtextblock.html
 - /api/v2.4/widget/richtextblock
+- /api/v2.4/widget/richtextblock.html
 - /api/v2.5/widget/richtextblock
+- /api/v2.5/widget/richtextblock.html
 - /api/v2.6/widget/richtextblock
+- /api/v2.6/widget/richtextblock.html
 - /api/v2.7/widget/richtextblock
+- /api/v2.7/widget/richtextblock.html
 
 package: fyne.io/fyne/v2/widget
 ---

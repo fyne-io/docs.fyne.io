@@ -4,14 +4,23 @@ title: desktop.Keyable
 slug: keyable
 
 aliases:
+- /api/v2/driver/desktop/keyable.html
 - /api/v2.0/driver/desktop/keyable
+- /api/v2.0/driver/desktop/keyable.html
 - /api/v2.1/driver/desktop/keyable
+- /api/v2.1/driver/desktop/keyable.html
 - /api/v2.2/driver/desktop/keyable
+- /api/v2.2/driver/desktop/keyable.html
 - /api/v2.3/driver/desktop/keyable
+- /api/v2.3/driver/desktop/keyable.html
 - /api/v2.4/driver/desktop/keyable
+- /api/v2.4/driver/desktop/keyable.html
 - /api/v2.5/driver/desktop/keyable
+- /api/v2.5/driver/desktop/keyable.html
 - /api/v2.6/driver/desktop/keyable
+- /api/v2.6/driver/desktop/keyable.html
 - /api/v2.7/driver/desktop/keyable
+- /api/v2.7/driver/desktop/keyable.html
 
 package: fyne.io/fyne/v2/driver/desktop
 ---

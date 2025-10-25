@@ -4,14 +4,23 @@ title: canvas.Image
 slug: image
 
 aliases:
+- /api/v2/canvas/image.html
 - /api/v2.0/canvas/image
+- /api/v2.0/canvas/image.html
 - /api/v2.1/canvas/image
+- /api/v2.1/canvas/image.html
 - /api/v2.2/canvas/image
+- /api/v2.2/canvas/image.html
 - /api/v2.3/canvas/image
+- /api/v2.3/canvas/image.html
 - /api/v2.4/canvas/image
+- /api/v2.4/canvas/image.html
 - /api/v2.5/canvas/image
+- /api/v2.5/canvas/image.html
 - /api/v2.6/canvas/image
+- /api/v2.6/canvas/image.html
 - /api/v2.7/canvas/image
+- /api/v2.7/canvas/image.html
 
 package: fyne.io/fyne/v2/canvas
 ---

@@ -4,6 +4,7 @@ title: Line
 weight: 3030
 
 aliases:
+- /canvas/line.html
   - /tour/canvas/line
 ---
 

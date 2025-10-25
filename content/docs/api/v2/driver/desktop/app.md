@@ -4,14 +4,23 @@ title: desktop.App
 slug: app
 
 aliases:
+- /api/v2/driver/desktop/app.html
 - /api/v2.0/driver/desktop/app
+- /api/v2.0/driver/desktop/app.html
 - /api/v2.1/driver/desktop/app
+- /api/v2.1/driver/desktop/app.html
 - /api/v2.2/driver/desktop/app
+- /api/v2.2/driver/desktop/app.html
 - /api/v2.3/driver/desktop/app
+- /api/v2.3/driver/desktop/app.html
 - /api/v2.4/driver/desktop/app
+- /api/v2.4/driver/desktop/app.html
 - /api/v2.5/driver/desktop/app
+- /api/v2.5/driver/desktop/app.html
 - /api/v2.6/driver/desktop/app
+- /api/v2.6/driver/desktop/app.html
 - /api/v2.7/driver/desktop/app
+- /api/v2.7/driver/desktop/app.html
 
 package: fyne.io/fyne/v2/driver/desktop
 ---

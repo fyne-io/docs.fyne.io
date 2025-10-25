@@ -4,14 +4,23 @@ title: fyne.LegacyTheme
 slug: legacytheme
 
 aliases:
+- /api/v2/fyne/legacytheme.html
 - /api/v2.0//legacytheme
+- /api/v2.0//legacytheme.html
 - /api/v2.1//legacytheme
+- /api/v2.1//legacytheme.html
 - /api/v2.2//legacytheme
+- /api/v2.2//legacytheme.html
 - /api/v2.3//legacytheme
+- /api/v2.3//legacytheme.html
 - /api/v2.4//legacytheme
+- /api/v2.4//legacytheme.html
 - /api/v2.5//legacytheme
+- /api/v2.5//legacytheme.html
 - /api/v2.6//legacytheme
+- /api/v2.6//legacytheme.html
 - /api/v2.7//legacytheme
+- /api/v2.7//legacytheme.html
 
 package: fyne.io/fyne/v2
 ---

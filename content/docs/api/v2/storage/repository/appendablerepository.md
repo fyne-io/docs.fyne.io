@@ -4,14 +4,23 @@ title: repository.AppendableRepository
 slug: appendablerepository
 
 aliases:
+- /api/v2/storage/repository/appendablerepository.html
 - /api/v2.0/storage/repository/appendablerepository
+- /api/v2.0/storage/repository/appendablerepository.html
 - /api/v2.1/storage/repository/appendablerepository
+- /api/v2.1/storage/repository/appendablerepository.html
 - /api/v2.2/storage/repository/appendablerepository
+- /api/v2.2/storage/repository/appendablerepository.html
 - /api/v2.3/storage/repository/appendablerepository
+- /api/v2.3/storage/repository/appendablerepository.html
 - /api/v2.4/storage/repository/appendablerepository
+- /api/v2.4/storage/repository/appendablerepository.html
 - /api/v2.5/storage/repository/appendablerepository
+- /api/v2.5/storage/repository/appendablerepository.html
 - /api/v2.6/storage/repository/appendablerepository
+- /api/v2.6/storage/repository/appendablerepository.html
 - /api/v2.7/storage/repository/appendablerepository
+- /api/v2.7/storage/repository/appendablerepository.html
 
 package: fyne.io/fyne/v2/storage/repository
 ---

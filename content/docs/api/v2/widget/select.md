@@ -4,14 +4,23 @@ title: widget.Select
 slug: select
 
 aliases:
+- /api/v2/widget/select.html
 - /api/v2.0/widget/select
+- /api/v2.0/widget/select.html
 - /api/v2.1/widget/select
+- /api/v2.1/widget/select.html
 - /api/v2.2/widget/select
+- /api/v2.2/widget/select.html
 - /api/v2.3/widget/select
+- /api/v2.3/widget/select.html
 - /api/v2.4/widget/select
+- /api/v2.4/widget/select.html
 - /api/v2.5/widget/select
+- /api/v2.5/widget/select.html
 - /api/v2.6/widget/select
+- /api/v2.6/widget/select.html
 - /api/v2.7/widget/select
+- /api/v2.7/widget/select.html
 
 package: fyne.io/fyne/v2/widget
 ---

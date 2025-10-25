@@ -4,14 +4,23 @@ title: driver (package)
 slug: (package)
 
 aliases:
+- /api/v2/driver/pkg.html
 - /api/v2.0/driver
+- /api/v2.0/driver.html
 - /api/v2.1/driver
+- /api/v2.1/driver.html
 - /api/v2.2/driver
+- /api/v2.2/driver.html
 - /api/v2.3/driver
+- /api/v2.3/driver.html
 - /api/v2.4/driver
+- /api/v2.4/driver.html
 - /api/v2.5/driver
+- /api/v2.5/driver.html
 - /api/v2.6/driver
+- /api/v2.6/driver.html
 - /api/v2.7/driver
+- /api/v2.7/driver.html
 
 package: fyne.io/fyne/v2/driver
 ---

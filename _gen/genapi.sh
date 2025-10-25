@@ -61,7 +61,7 @@ for DIR in $DIRS; do
     ALIASLIST=""
     for i in "${vers[@]}"
     do
-      ALIASLIST=$ALIASLIST"\n- \/api\/$i\/$PKGPATH"
+      ALIASLIST=$ALIASLIST"\n- \/api\/$i\/$PKGPATH\n- \/api\/$i\/$PKGPATH.html"
     done
 	
     if [[ "$OUT" != '*.md' ]]; then

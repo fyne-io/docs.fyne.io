@@ -4,14 +4,23 @@ title: fyne.Lifecycle
 slug: lifecycle
 
 aliases:
+- /api/v2/fyne/lifecycle.html
 - /api/v2.0//lifecycle
+- /api/v2.0//lifecycle.html
 - /api/v2.1//lifecycle
+- /api/v2.1//lifecycle.html
 - /api/v2.2//lifecycle
+- /api/v2.2//lifecycle.html
 - /api/v2.3//lifecycle
+- /api/v2.3//lifecycle.html
 - /api/v2.4//lifecycle
+- /api/v2.4//lifecycle.html
 - /api/v2.5//lifecycle
+- /api/v2.5//lifecycle.html
 - /api/v2.6//lifecycle
+- /api/v2.6//lifecycle.html
 - /api/v2.7//lifecycle
+- /api/v2.7//lifecycle.html
 
 package: fyne.io/fyne/v2
 ---

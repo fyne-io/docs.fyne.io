@@ -4,6 +4,7 @@ title: Numerical Entry
 weight: 8060
 
 aliases:
+- /extend/numerical-entry.html
  - /tutorial/keypress-on-entry.html
  - /tutorial/numerical-entry
 ---

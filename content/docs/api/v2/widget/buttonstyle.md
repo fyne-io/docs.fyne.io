@@ -4,14 +4,23 @@ title: widget.ButtonStyle
 slug: buttonstyle
 
 aliases:
+- /api/v2/widget/buttonstyle.html
 - /api/v2.0/widget/buttonstyle
+- /api/v2.0/widget/buttonstyle.html
 - /api/v2.1/widget/buttonstyle
+- /api/v2.1/widget/buttonstyle.html
 - /api/v2.2/widget/buttonstyle
+- /api/v2.2/widget/buttonstyle.html
 - /api/v2.3/widget/buttonstyle
+- /api/v2.3/widget/buttonstyle.html
 - /api/v2.4/widget/buttonstyle
+- /api/v2.4/widget/buttonstyle.html
 - /api/v2.5/widget/buttonstyle
+- /api/v2.5/widget/buttonstyle.html
 - /api/v2.6/widget/buttonstyle
+- /api/v2.6/widget/buttonstyle.html
 - /api/v2.7/widget/buttonstyle
+- /api/v2.7/widget/buttonstyle.html
 
 package: fyne.io/fyne/v2/widget
 ---

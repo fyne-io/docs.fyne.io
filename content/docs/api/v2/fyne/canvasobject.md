@@ -4,14 +4,23 @@ title: fyne.CanvasObject
 slug: canvasobject
 
 aliases:
+- /api/v2/fyne/canvasobject.html
 - /api/v2.0//canvasobject
+- /api/v2.0//canvasobject.html
 - /api/v2.1//canvasobject
+- /api/v2.1//canvasobject.html
 - /api/v2.2//canvasobject
+- /api/v2.2//canvasobject.html
 - /api/v2.3//canvasobject
+- /api/v2.3//canvasobject.html
 - /api/v2.4//canvasobject
+- /api/v2.4//canvasobject.html
 - /api/v2.5//canvasobject
+- /api/v2.5//canvasobject.html
 - /api/v2.6//canvasobject
+- /api/v2.6//canvasobject.html
 - /api/v2.7//canvasobject
+- /api/v2.7//canvasobject.html
 
 package: fyne.io/fyne/v2
 ---

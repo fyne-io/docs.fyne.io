@@ -7,6 +7,7 @@ slug: dialogs
 weight: 2050
 
 aliases:
+- /explore/dialogs.html
 - /started/dialogs
 ---
 

@@ -4,14 +4,23 @@ title: widget.RichTextStyle
 slug: richtextstyle
 
 aliases:
+- /api/v2/widget/richtextstyle.html
 - /api/v2.0/widget/richtextstyle
+- /api/v2.0/widget/richtextstyle.html
 - /api/v2.1/widget/richtextstyle
+- /api/v2.1/widget/richtextstyle.html
 - /api/v2.2/widget/richtextstyle
+- /api/v2.2/widget/richtextstyle.html
 - /api/v2.3/widget/richtextstyle
+- /api/v2.3/widget/richtextstyle.html
 - /api/v2.4/widget/richtextstyle
+- /api/v2.4/widget/richtextstyle.html
 - /api/v2.5/widget/richtextstyle
+- /api/v2.5/widget/richtextstyle.html
 - /api/v2.6/widget/richtextstyle
+- /api/v2.6/widget/richtextstyle.html
 - /api/v2.7/widget/richtextstyle
+- /api/v2.7/widget/richtextstyle.html
 
 package: fyne.io/fyne/v2/widget
 ---

@@ -4,6 +4,7 @@ title: Rectangle
 weight: 3010
 
 aliases:
+- /canvas/rectangle.html
   - /tour/canvas/rectangle
   - /tour/canvas/
   - /canvas/

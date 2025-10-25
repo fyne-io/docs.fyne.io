@@ -5,6 +5,7 @@ slug: organisation
 weight: 9040
 
 aliases:
+- /architecture/organisation.html
 - /tour/introduction/organisation
 ---
 

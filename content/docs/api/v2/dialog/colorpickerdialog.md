@@ -4,14 +4,23 @@ title: dialog.ColorPickerDialog
 slug: colorpickerdialog
 
 aliases:
+- /api/v2/dialog/colorpickerdialog.html
 - /api/v2.0/dialog/colorpickerdialog
+- /api/v2.0/dialog/colorpickerdialog.html
 - /api/v2.1/dialog/colorpickerdialog
+- /api/v2.1/dialog/colorpickerdialog.html
 - /api/v2.2/dialog/colorpickerdialog
+- /api/v2.2/dialog/colorpickerdialog.html
 - /api/v2.3/dialog/colorpickerdialog
+- /api/v2.3/dialog/colorpickerdialog.html
 - /api/v2.4/dialog/colorpickerdialog
+- /api/v2.4/dialog/colorpickerdialog.html
 - /api/v2.5/dialog/colorpickerdialog
+- /api/v2.5/dialog/colorpickerdialog.html
 - /api/v2.6/dialog/colorpickerdialog
+- /api/v2.6/dialog/colorpickerdialog.html
 - /api/v2.7/dialog/colorpickerdialog
+- /api/v2.7/dialog/colorpickerdialog.html
 
 package: fyne.io/fyne/v2/dialog
 ---

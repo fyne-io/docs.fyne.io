@@ -4,14 +4,23 @@ title: widget.List
 slug: list
 
 aliases:
+- /api/v2/widget/list.html
 - /api/v2.0/widget/list
+- /api/v2.0/widget/list.html
 - /api/v2.1/widget/list
+- /api/v2.1/widget/list.html
 - /api/v2.2/widget/list
+- /api/v2.2/widget/list.html
 - /api/v2.3/widget/list
+- /api/v2.3/widget/list.html
 - /api/v2.4/widget/list
+- /api/v2.4/widget/list.html
 - /api/v2.5/widget/list
+- /api/v2.5/widget/list.html
 - /api/v2.6/widget/list
+- /api/v2.6/widget/list.html
 - /api/v2.7/widget/list
+- /api/v2.7/widget/list.html
 
 package: fyne.io/fyne/v2/widget
 ---

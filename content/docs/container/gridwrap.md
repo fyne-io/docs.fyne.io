@@ -5,6 +5,7 @@ slug: gridwrap
 weight: 4030
 
 aliases:
+- /container/gridwrap.html
 - /tour/layout/gridwraplayout
 ---
 

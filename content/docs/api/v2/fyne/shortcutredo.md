@@ -4,14 +4,23 @@ title: fyne.ShortcutRedo
 slug: shortcutredo
 
 aliases:
+- /api/v2/fyne/shortcutredo.html
 - /api/v2.0//shortcutredo
+- /api/v2.0//shortcutredo.html
 - /api/v2.1//shortcutredo
+- /api/v2.1//shortcutredo.html
 - /api/v2.2//shortcutredo
+- /api/v2.2//shortcutredo.html
 - /api/v2.3//shortcutredo
+- /api/v2.3//shortcutredo.html
 - /api/v2.4//shortcutredo
+- /api/v2.4//shortcutredo.html
 - /api/v2.5//shortcutredo
+- /api/v2.5//shortcutredo.html
 - /api/v2.6//shortcutredo
+- /api/v2.6//shortcutredo.html
 - /api/v2.7//shortcutredo
+- /api/v2.7//shortcutredo.html
 
 package: fyne.io/fyne/v2
 ---

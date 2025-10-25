@@ -4,14 +4,23 @@ title: widget.Accordion
 slug: accordion
 
 aliases:
+- /api/v2/widget/accordion.html
 - /api/v2.0/widget/accordion
+- /api/v2.0/widget/accordion.html
 - /api/v2.1/widget/accordion
+- /api/v2.1/widget/accordion.html
 - /api/v2.2/widget/accordion
+- /api/v2.2/widget/accordion.html
 - /api/v2.3/widget/accordion
+- /api/v2.3/widget/accordion.html
 - /api/v2.4/widget/accordion
+- /api/v2.4/widget/accordion.html
 - /api/v2.5/widget/accordion
+- /api/v2.5/widget/accordion.html
 - /api/v2.6/widget/accordion
+- /api/v2.6/widget/accordion.html
 - /api/v2.7/widget/accordion
+- /api/v2.7/widget/accordion.html
 
 package: fyne.io/fyne/v2/widget
 ---

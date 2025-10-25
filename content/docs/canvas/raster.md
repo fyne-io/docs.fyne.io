@@ -4,6 +4,7 @@ title: Raster
 weight: 3060
 
 aliases:
+- /canvas/raster.html
   - /tour/canvas/raster
 ---
 

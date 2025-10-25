@@ -4,14 +4,23 @@ title: dialog.ConfirmDialog
 slug: confirmdialog
 
 aliases:
+- /api/v2/dialog/confirmdialog.html
 - /api/v2.0/dialog/confirmdialog
+- /api/v2.0/dialog/confirmdialog.html
 - /api/v2.1/dialog/confirmdialog
+- /api/v2.1/dialog/confirmdialog.html
 - /api/v2.2/dialog/confirmdialog
+- /api/v2.2/dialog/confirmdialog.html
 - /api/v2.3/dialog/confirmdialog
+- /api/v2.3/dialog/confirmdialog.html
 - /api/v2.4/dialog/confirmdialog
+- /api/v2.4/dialog/confirmdialog.html
 - /api/v2.5/dialog/confirmdialog
+- /api/v2.5/dialog/confirmdialog.html
 - /api/v2.6/dialog/confirmdialog
+- /api/v2.6/dialog/confirmdialog.html
 - /api/v2.7/dialog/confirmdialog
+- /api/v2.7/dialog/confirmdialog.html
 
 package: fyne.io/fyne/v2/dialog
 ---

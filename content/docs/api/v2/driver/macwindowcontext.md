@@ -4,14 +4,23 @@ title: driver.MacWindowContext
 slug: macwindowcontext
 
 aliases:
+- /api/v2/driver/macwindowcontext.html
 - /api/v2.0/driver/macwindowcontext
+- /api/v2.0/driver/macwindowcontext.html
 - /api/v2.1/driver/macwindowcontext
+- /api/v2.1/driver/macwindowcontext.html
 - /api/v2.2/driver/macwindowcontext
+- /api/v2.2/driver/macwindowcontext.html
 - /api/v2.3/driver/macwindowcontext
+- /api/v2.3/driver/macwindowcontext.html
 - /api/v2.4/driver/macwindowcontext
+- /api/v2.4/driver/macwindowcontext.html
 - /api/v2.5/driver/macwindowcontext
+- /api/v2.5/driver/macwindowcontext.html
 - /api/v2.6/driver/macwindowcontext
+- /api/v2.6/driver/macwindowcontext.html
 - /api/v2.7/driver/macwindowcontext
+- /api/v2.7/driver/macwindowcontext.html
 
 package: fyne.io/fyne/v2/driver
 ---

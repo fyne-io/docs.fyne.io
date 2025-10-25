@@ -4,14 +4,23 @@ title: widget.Entry
 slug: entry
 
 aliases:
+- /api/v2/widget/entry.html
 - /api/v2.0/widget/entry
+- /api/v2.0/widget/entry.html
 - /api/v2.1/widget/entry
+- /api/v2.1/widget/entry.html
 - /api/v2.2/widget/entry
+- /api/v2.2/widget/entry.html
 - /api/v2.3/widget/entry
+- /api/v2.3/widget/entry.html
 - /api/v2.4/widget/entry
+- /api/v2.4/widget/entry.html
 - /api/v2.5/widget/entry
+- /api/v2.5/widget/entry.html
 - /api/v2.6/widget/entry
+- /api/v2.6/widget/entry.html
 - /api/v2.7/widget/entry
+- /api/v2.7/widget/entry.html
 
 package: fyne.io/fyne/v2/widget
 ---

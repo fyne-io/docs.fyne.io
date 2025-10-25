@@ -4,14 +4,23 @@ title: fyne.Device
 slug: device
 
 aliases:
+- /api/v2/fyne/device.html
 - /api/v2.0//device
+- /api/v2.0//device.html
 - /api/v2.1//device
+- /api/v2.1//device.html
 - /api/v2.2//device
+- /api/v2.2//device.html
 - /api/v2.3//device
+- /api/v2.3//device.html
 - /api/v2.4//device
+- /api/v2.4//device.html
 - /api/v2.5//device
+- /api/v2.5//device.html
 - /api/v2.6//device
+- /api/v2.6//device.html
 - /api/v2.7//device
+- /api/v2.7//device.html
 
 package: fyne.io/fyne/v2
 ---

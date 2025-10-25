@@ -6,6 +6,7 @@ slug: shortcuts
 weight: 2070
 
 aliases:
+- /explore/shortcuts.html
 - /tutorial/shortcuts
 ---
 

@@ -4,14 +4,23 @@ title: widget.SeparatorSegment
 slug: separatorsegment
 
 aliases:
+- /api/v2/widget/separatorsegment.html
 - /api/v2.0/widget/separatorsegment
+- /api/v2.0/widget/separatorsegment.html
 - /api/v2.1/widget/separatorsegment
+- /api/v2.1/widget/separatorsegment.html
 - /api/v2.2/widget/separatorsegment
+- /api/v2.2/widget/separatorsegment.html
 - /api/v2.3/widget/separatorsegment
+- /api/v2.3/widget/separatorsegment.html
 - /api/v2.4/widget/separatorsegment
+- /api/v2.4/widget/separatorsegment.html
 - /api/v2.5/widget/separatorsegment
+- /api/v2.5/widget/separatorsegment.html
 - /api/v2.6/widget/separatorsegment
+- /api/v2.6/widget/separatorsegment.html
 - /api/v2.7/widget/separatorsegment
+- /api/v2.7/widget/separatorsegment.html
 
 package: fyne.io/fyne/v2/widget
 ---

@@ -4,14 +4,23 @@ title: dialog.ProgressDialog
 slug: progressdialog
 
 aliases:
+- /api/v2/dialog/progressdialog.html
 - /api/v2.0/dialog/progressdialog
+- /api/v2.0/dialog/progressdialog.html
 - /api/v2.1/dialog/progressdialog
+- /api/v2.1/dialog/progressdialog.html
 - /api/v2.2/dialog/progressdialog
+- /api/v2.2/dialog/progressdialog.html
 - /api/v2.3/dialog/progressdialog
+- /api/v2.3/dialog/progressdialog.html
 - /api/v2.4/dialog/progressdialog
+- /api/v2.4/dialog/progressdialog.html
 - /api/v2.5/dialog/progressdialog
+- /api/v2.5/dialog/progressdialog.html
 - /api/v2.6/dialog/progressdialog
+- /api/v2.6/dialog/progressdialog.html
 - /api/v2.7/dialog/progressdialog
+- /api/v2.7/dialog/progressdialog.html
 
 package: fyne.io/fyne/v2/dialog
 ---

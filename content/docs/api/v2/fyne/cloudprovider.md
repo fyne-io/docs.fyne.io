@@ -4,14 +4,23 @@ title: fyne.CloudProvider
 slug: cloudprovider
 
 aliases:
+- /api/v2/fyne/cloudprovider.html
 - /api/v2.0//cloudprovider
+- /api/v2.0//cloudprovider.html
 - /api/v2.1//cloudprovider
+- /api/v2.1//cloudprovider.html
 - /api/v2.2//cloudprovider
+- /api/v2.2//cloudprovider.html
 - /api/v2.3//cloudprovider
+- /api/v2.3//cloudprovider.html
 - /api/v2.4//cloudprovider
+- /api/v2.4//cloudprovider.html
 - /api/v2.5//cloudprovider
+- /api/v2.5//cloudprovider.html
 - /api/v2.6//cloudprovider
+- /api/v2.6//cloudprovider.html
 - /api/v2.7//cloudprovider
+- /api/v2.7//cloudprovider.html
 
 package: fyne.io/fyne/v2
 ---

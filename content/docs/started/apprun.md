@@ -4,6 +4,7 @@ slug: apprun
 weight: 1040
 
 aliases:
+- /started/apprun.html
 - /tour/basics/
 - /tour/basics/apprun
 

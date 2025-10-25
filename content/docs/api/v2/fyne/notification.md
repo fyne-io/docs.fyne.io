@@ -4,14 +4,23 @@ title: fyne.Notification
 slug: notification
 
 aliases:
+- /api/v2/fyne/notification.html
 - /api/v2.0//notification
+- /api/v2.0//notification.html
 - /api/v2.1//notification
+- /api/v2.1//notification.html
 - /api/v2.2//notification
+- /api/v2.2//notification.html
 - /api/v2.3//notification
+- /api/v2.3//notification.html
 - /api/v2.4//notification
+- /api/v2.4//notification.html
 - /api/v2.5//notification
+- /api/v2.5//notification.html
 - /api/v2.6//notification
+- /api/v2.6//notification.html
 - /api/v2.7//notification
+- /api/v2.7//notification.html
 
 package: fyne.io/fyne/v2
 ---

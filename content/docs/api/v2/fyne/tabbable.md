@@ -4,14 +4,23 @@ title: fyne.Tabbable
 slug: tabbable
 
 aliases:
+- /api/v2/fyne/tabbable.html
 - /api/v2.0//tabbable
+- /api/v2.0//tabbable.html
 - /api/v2.1//tabbable
+- /api/v2.1//tabbable.html
 - /api/v2.2//tabbable
+- /api/v2.2//tabbable.html
 - /api/v2.3//tabbable
+- /api/v2.3//tabbable.html
 - /api/v2.4//tabbable
+- /api/v2.4//tabbable.html
 - /api/v2.5//tabbable
+- /api/v2.5//tabbable.html
 - /api/v2.6//tabbable
+- /api/v2.6//tabbable.html
 - /api/v2.7//tabbable
+- /api/v2.7//tabbable.html
 
 package: fyne.io/fyne/v2
 ---

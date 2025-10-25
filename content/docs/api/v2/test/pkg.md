@@ -4,14 +4,23 @@ title: test (package)
 slug: (package)
 
 aliases:
+- /api/v2/test/pkg.html
 - /api/v2.0/test
+- /api/v2.0/test.html
 - /api/v2.1/test
+- /api/v2.1/test.html
 - /api/v2.2/test
+- /api/v2.2/test.html
 - /api/v2.3/test
+- /api/v2.3/test.html
 - /api/v2.4/test
+- /api/v2.4/test.html
 - /api/v2.5/test
+- /api/v2.5/test.html
 - /api/v2.6/test
+- /api/v2.6/test.html
 - /api/v2.7/test
+- /api/v2.7/test.html
 
 package: fyne.io/fyne/v2/test
 ---

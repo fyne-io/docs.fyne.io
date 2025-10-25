@@ -4,14 +4,23 @@ title: widget.GridWrap
 slug: gridwrap
 
 aliases:
+- /api/v2/widget/gridwrap.html
 - /api/v2.0/widget/gridwrap
+- /api/v2.0/widget/gridwrap.html
 - /api/v2.1/widget/gridwrap
+- /api/v2.1/widget/gridwrap.html
 - /api/v2.2/widget/gridwrap
+- /api/v2.2/widget/gridwrap.html
 - /api/v2.3/widget/gridwrap
+- /api/v2.3/widget/gridwrap.html
 - /api/v2.4/widget/gridwrap
+- /api/v2.4/widget/gridwrap.html
 - /api/v2.5/widget/gridwrap
+- /api/v2.5/widget/gridwrap.html
 - /api/v2.6/widget/gridwrap
+- /api/v2.6/widget/gridwrap.html
 - /api/v2.7/widget/gridwrap
+- /api/v2.7/widget/gridwrap.html
 
 package: fyne.io/fyne/v2/widget
 ---

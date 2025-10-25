@@ -4,14 +4,23 @@ title: container.MultipleWindows
 slug: multiplewindows
 
 aliases:
+- /api/v2/container/multiplewindows.html
 - /api/v2.0/container/multiplewindows
+- /api/v2.0/container/multiplewindows.html
 - /api/v2.1/container/multiplewindows
+- /api/v2.1/container/multiplewindows.html
 - /api/v2.2/container/multiplewindows
+- /api/v2.2/container/multiplewindows.html
 - /api/v2.3/container/multiplewindows
+- /api/v2.3/container/multiplewindows.html
 - /api/v2.4/container/multiplewindows
+- /api/v2.4/container/multiplewindows.html
 - /api/v2.5/container/multiplewindows
+- /api/v2.5/container/multiplewindows.html
 - /api/v2.6/container/multiplewindows
+- /api/v2.6/container/multiplewindows.html
 - /api/v2.7/container/multiplewindows
+- /api/v2.7/container/multiplewindows.html
 
 package: fyne.io/fyne/v2/container
 ---

@@ -4,14 +4,23 @@ title: widget.SelectEntry
 slug: selectentry
 
 aliases:
+- /api/v2/widget/selectentry.html
 - /api/v2.0/widget/selectentry
+- /api/v2.0/widget/selectentry.html
 - /api/v2.1/widget/selectentry
+- /api/v2.1/widget/selectentry.html
 - /api/v2.2/widget/selectentry
+- /api/v2.2/widget/selectentry.html
 - /api/v2.3/widget/selectentry
+- /api/v2.3/widget/selectentry.html
 - /api/v2.4/widget/selectentry
+- /api/v2.4/widget/selectentry.html
 - /api/v2.5/widget/selectentry
+- /api/v2.5/widget/selectentry.html
 - /api/v2.6/widget/selectentry
+- /api/v2.6/widget/selectentry.html
 - /api/v2.7/widget/selectentry
+- /api/v2.7/widget/selectentry.html
 
 package: fyne.io/fyne/v2/widget
 ---

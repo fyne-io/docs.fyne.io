@@ -4,14 +4,23 @@ title: repository.DeleteAllRepository
 slug: deleteallrepository
 
 aliases:
+- /api/v2/storage/repository/deleteallrepository.html
 - /api/v2.0/storage/repository/deleteallrepository
+- /api/v2.0/storage/repository/deleteallrepository.html
 - /api/v2.1/storage/repository/deleteallrepository
+- /api/v2.1/storage/repository/deleteallrepository.html
 - /api/v2.2/storage/repository/deleteallrepository
+- /api/v2.2/storage/repository/deleteallrepository.html
 - /api/v2.3/storage/repository/deleteallrepository
+- /api/v2.3/storage/repository/deleteallrepository.html
 - /api/v2.4/storage/repository/deleteallrepository
+- /api/v2.4/storage/repository/deleteallrepository.html
 - /api/v2.5/storage/repository/deleteallrepository
+- /api/v2.5/storage/repository/deleteallrepository.html
 - /api/v2.6/storage/repository/deleteallrepository
+- /api/v2.6/storage/repository/deleteallrepository.html
 - /api/v2.7/storage/repository/deleteallrepository
+- /api/v2.7/storage/repository/deleteallrepository.html
 
 package: fyne.io/fyne/v2/storage/repository
 ---

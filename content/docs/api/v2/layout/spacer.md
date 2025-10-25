@@ -4,14 +4,23 @@ title: layout.Spacer
 slug: spacer
 
 aliases:
+- /api/v2/layout/spacer.html
 - /api/v2.0/layout/spacer
+- /api/v2.0/layout/spacer.html
 - /api/v2.1/layout/spacer
+- /api/v2.1/layout/spacer.html
 - /api/v2.2/layout/spacer
+- /api/v2.2/layout/spacer.html
 - /api/v2.3/layout/spacer
+- /api/v2.3/layout/spacer.html
 - /api/v2.4/layout/spacer
+- /api/v2.4/layout/spacer.html
 - /api/v2.5/layout/spacer
+- /api/v2.5/layout/spacer.html
 - /api/v2.6/layout/spacer
+- /api/v2.6/layout/spacer.html
 - /api/v2.7/layout/spacer
+- /api/v2.7/layout/spacer.html
 
 package: fyne.io/fyne/v2/layout
 ---

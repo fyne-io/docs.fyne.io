@@ -4,14 +4,23 @@ title: fyne.Animation
 slug: animation
 
 aliases:
+- /api/v2/fyne/animation.html
 - /api/v2.0//animation
+- /api/v2.0//animation.html
 - /api/v2.1//animation
+- /api/v2.1//animation.html
 - /api/v2.2//animation
+- /api/v2.2//animation.html
 - /api/v2.3//animation
+- /api/v2.3//animation.html
 - /api/v2.4//animation
+- /api/v2.4//animation.html
 - /api/v2.5//animation
+- /api/v2.5//animation.html
 - /api/v2.6//animation
+- /api/v2.6//animation.html
 - /api/v2.7//animation
+- /api/v2.7//animation.html
 
 package: fyne.io/fyne/v2
 ---

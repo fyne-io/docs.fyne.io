@@ -4,14 +4,23 @@ title: widget.Table
 slug: table
 
 aliases:
+- /api/v2/widget/table.html
 - /api/v2.0/widget/table
+- /api/v2.0/widget/table.html
 - /api/v2.1/widget/table
+- /api/v2.1/widget/table.html
 - /api/v2.2/widget/table
+- /api/v2.2/widget/table.html
 - /api/v2.3/widget/table
+- /api/v2.3/widget/table.html
 - /api/v2.4/widget/table
+- /api/v2.4/widget/table.html
 - /api/v2.5/widget/table
+- /api/v2.5/widget/table.html
 - /api/v2.6/widget/table
+- /api/v2.6/widget/table.html
 - /api/v2.7/widget/table
+- /api/v2.7/widget/table.html
 
 package: fyne.io/fyne/v2/widget
 ---

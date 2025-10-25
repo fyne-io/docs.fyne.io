@@ -4,14 +4,23 @@ title: widget.ToolbarSpacer
 slug: toolbarspacer
 
 aliases:
+- /api/v2/widget/toolbarspacer.html
 - /api/v2.0/widget/toolbarspacer
+- /api/v2.0/widget/toolbarspacer.html
 - /api/v2.1/widget/toolbarspacer
+- /api/v2.1/widget/toolbarspacer.html
 - /api/v2.2/widget/toolbarspacer
+- /api/v2.2/widget/toolbarspacer.html
 - /api/v2.3/widget/toolbarspacer
+- /api/v2.3/widget/toolbarspacer.html
 - /api/v2.4/widget/toolbarspacer
+- /api/v2.4/widget/toolbarspacer.html
 - /api/v2.5/widget/toolbarspacer
+- /api/v2.5/widget/toolbarspacer.html
 - /api/v2.6/widget/toolbarspacer
+- /api/v2.6/widget/toolbarspacer.html
 - /api/v2.7/widget/toolbarspacer
+- /api/v2.7/widget/toolbarspacer.html
 
 package: fyne.io/fyne/v2/widget
 ---

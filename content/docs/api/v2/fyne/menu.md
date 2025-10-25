@@ -4,14 +4,23 @@ title: fyne.Menu
 slug: menu
 
 aliases:
+- /api/v2/fyne/menu.html
 - /api/v2.0//menu
+- /api/v2.0//menu.html
 - /api/v2.1//menu
+- /api/v2.1//menu.html
 - /api/v2.2//menu
+- /api/v2.2//menu.html
 - /api/v2.3//menu
+- /api/v2.3//menu.html
 - /api/v2.4//menu
+- /api/v2.4//menu.html
 - /api/v2.5//menu
+- /api/v2.5//menu.html
 - /api/v2.6//menu
+- /api/v2.6//menu.html
 - /api/v2.7//menu
+- /api/v2.7//menu.html
 
 package: fyne.io/fyne/v2
 ---

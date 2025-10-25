@@ -4,14 +4,23 @@ title: storage.ExtensionFileFilter
 slug: extensionfilefilter
 
 aliases:
+- /api/v2/storage/extensionfilefilter.html
 - /api/v2.0/storage/extensionfilefilter
+- /api/v2.0/storage/extensionfilefilter.html
 - /api/v2.1/storage/extensionfilefilter
+- /api/v2.1/storage/extensionfilefilter.html
 - /api/v2.2/storage/extensionfilefilter
+- /api/v2.2/storage/extensionfilefilter.html
 - /api/v2.3/storage/extensionfilefilter
+- /api/v2.3/storage/extensionfilefilter.html
 - /api/v2.4/storage/extensionfilefilter
+- /api/v2.4/storage/extensionfilefilter.html
 - /api/v2.5/storage/extensionfilefilter
+- /api/v2.5/storage/extensionfilefilter.html
 - /api/v2.6/storage/extensionfilefilter
+- /api/v2.6/storage/extensionfilefilter.html
 - /api/v2.7/storage/extensionfilefilter
+- /api/v2.7/storage/extensionfilefilter.html
 
 package: fyne.io/fyne/v2/storage
 ---

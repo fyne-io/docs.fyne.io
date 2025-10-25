@@ -5,6 +5,7 @@ slug: custom-layout
 weight: 8010
 
 aliases:
+- /extend/custom-layout.html
  - /tutorial/custom-layout
 ---
 

@@ -4,14 +4,23 @@ title: dialog.FormDialog
 slug: formdialog
 
 aliases:
+- /api/v2/dialog/formdialog.html
 - /api/v2.0/dialog/formdialog
+- /api/v2.0/dialog/formdialog.html
 - /api/v2.1/dialog/formdialog
+- /api/v2.1/dialog/formdialog.html
 - /api/v2.2/dialog/formdialog
+- /api/v2.2/dialog/formdialog.html
 - /api/v2.3/dialog/formdialog
+- /api/v2.3/dialog/formdialog.html
 - /api/v2.4/dialog/formdialog
+- /api/v2.4/dialog/formdialog.html
 - /api/v2.5/dialog/formdialog
+- /api/v2.5/dialog/formdialog.html
 - /api/v2.6/dialog/formdialog
+- /api/v2.6/dialog/formdialog.html
 - /api/v2.7/dialog/formdialog
+- /api/v2.7/dialog/formdialog.html
 
 package: fyne.io/fyne/v2/dialog
 ---

@@ -4,14 +4,23 @@ title: fyne.URI
 slug: uri
 
 aliases:
+- /api/v2/fyne/uri.html
 - /api/v2.0//uri
+- /api/v2.0//uri.html
 - /api/v2.1//uri
+- /api/v2.1//uri.html
 - /api/v2.2//uri
+- /api/v2.2//uri.html
 - /api/v2.3//uri
+- /api/v2.3//uri.html
 - /api/v2.4//uri
+- /api/v2.4//uri.html
 - /api/v2.5//uri
+- /api/v2.5//uri.html
 - /api/v2.6//uri
+- /api/v2.6//uri.html
 - /api/v2.7//uri
+- /api/v2.7//uri.html
 
 package: fyne.io/fyne/v2
 ---

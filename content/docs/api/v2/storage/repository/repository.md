@@ -4,14 +4,23 @@ title: repository.Repository
 slug: repository
 
 aliases:
+- /api/v2/storage/repository/repository.html
 - /api/v2.0/storage/repository/repository
+- /api/v2.0/storage/repository/repository.html
 - /api/v2.1/storage/repository/repository
+- /api/v2.1/storage/repository/repository.html
 - /api/v2.2/storage/repository/repository
+- /api/v2.2/storage/repository/repository.html
 - /api/v2.3/storage/repository/repository
+- /api/v2.3/storage/repository/repository.html
 - /api/v2.4/storage/repository/repository
+- /api/v2.4/storage/repository/repository.html
 - /api/v2.5/storage/repository/repository
+- /api/v2.5/storage/repository/repository.html
 - /api/v2.6/storage/repository/repository
+- /api/v2.6/storage/repository/repository.html
 - /api/v2.7/storage/repository/repository
+- /api/v2.7/storage/repository/repository.html
 
 package: fyne.io/fyne/v2/storage/repository
 ---

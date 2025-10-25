@@ -4,14 +4,23 @@ title: app.SettingsSchema
 slug: settingsschema
 
 aliases:
+- /api/v2/app/settingsschema.html
 - /api/v2.0/app/settingsschema
+- /api/v2.0/app/settingsschema.html
 - /api/v2.1/app/settingsschema
+- /api/v2.1/app/settingsschema.html
 - /api/v2.2/app/settingsschema
+- /api/v2.2/app/settingsschema.html
 - /api/v2.3/app/settingsschema
+- /api/v2.3/app/settingsschema.html
 - /api/v2.4/app/settingsschema
+- /api/v2.4/app/settingsschema.html
 - /api/v2.5/app/settingsschema
+- /api/v2.5/app/settingsschema.html
 - /api/v2.6/app/settingsschema
+- /api/v2.6/app/settingsschema.html
 - /api/v2.7/app/settingsschema
+- /api/v2.7/app/settingsschema.html
 
 package: fyne.io/fyne/v2/app
 ---

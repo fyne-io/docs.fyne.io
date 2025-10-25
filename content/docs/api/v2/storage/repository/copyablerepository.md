@@ -4,14 +4,23 @@ title: repository.CopyableRepository
 slug: copyablerepository
 
 aliases:
+- /api/v2/storage/repository/copyablerepository.html
 - /api/v2.0/storage/repository/copyablerepository
+- /api/v2.0/storage/repository/copyablerepository.html
 - /api/v2.1/storage/repository/copyablerepository
+- /api/v2.1/storage/repository/copyablerepository.html
 - /api/v2.2/storage/repository/copyablerepository
+- /api/v2.2/storage/repository/copyablerepository.html
 - /api/v2.3/storage/repository/copyablerepository
+- /api/v2.3/storage/repository/copyablerepository.html
 - /api/v2.4/storage/repository/copyablerepository
+- /api/v2.4/storage/repository/copyablerepository.html
 - /api/v2.5/storage/repository/copyablerepository
+- /api/v2.5/storage/repository/copyablerepository.html
 - /api/v2.6/storage/repository/copyablerepository
+- /api/v2.6/storage/repository/copyablerepository.html
 - /api/v2.7/storage/repository/copyablerepository
+- /api/v2.7/storage/repository/copyablerepository.html
 
 package: fyne.io/fyne/v2/storage/repository
 ---

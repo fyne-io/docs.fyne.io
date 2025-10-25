@@ -4,6 +4,7 @@ title: Entry
 weight: 5030
 
 aliases:
+- /widget/entry.html
   - /tour/widget/entry
 ---
 

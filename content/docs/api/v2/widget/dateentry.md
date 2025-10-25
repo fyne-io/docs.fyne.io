@@ -4,14 +4,23 @@ title: widget.DateEntry
 slug: dateentry
 
 aliases:
+- /api/v2/widget/dateentry.html
 - /api/v2.0/widget/dateentry
+- /api/v2.0/widget/dateentry.html
 - /api/v2.1/widget/dateentry
+- /api/v2.1/widget/dateentry.html
 - /api/v2.2/widget/dateentry
+- /api/v2.2/widget/dateentry.html
 - /api/v2.3/widget/dateentry
+- /api/v2.3/widget/dateentry.html
 - /api/v2.4/widget/dateentry
+- /api/v2.4/widget/dateentry.html
 - /api/v2.5/widget/dateentry
+- /api/v2.5/widget/dateentry.html
 - /api/v2.6/widget/dateentry
+- /api/v2.6/widget/dateentry.html
 - /api/v2.7/widget/dateentry
+- /api/v2.7/widget/dateentry.html
 
 package: fyne.io/fyne/v2/widget
 ---

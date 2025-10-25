@@ -4,14 +4,23 @@ title: widget.Calendar
 slug: calendar
 
 aliases:
+- /api/v2/widget/calendar.html
 - /api/v2.0/widget/calendar
+- /api/v2.0/widget/calendar.html
 - /api/v2.1/widget/calendar
+- /api/v2.1/widget/calendar.html
 - /api/v2.2/widget/calendar
+- /api/v2.2/widget/calendar.html
 - /api/v2.3/widget/calendar
+- /api/v2.3/widget/calendar.html
 - /api/v2.4/widget/calendar
+- /api/v2.4/widget/calendar.html
 - /api/v2.5/widget/calendar
+- /api/v2.5/widget/calendar.html
 - /api/v2.6/widget/calendar
+- /api/v2.6/widget/calendar.html
 - /api/v2.7/widget/calendar
+- /api/v2.7/widget/calendar.html
 
 package: fyne.io/fyne/v2/widget
 ---

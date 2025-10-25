@@ -4,14 +4,23 @@ title: fyne.Validatable
 slug: validatable
 
 aliases:
+- /api/v2/fyne/validatable.html
 - /api/v2.0//validatable
+- /api/v2.0//validatable.html
 - /api/v2.1//validatable
+- /api/v2.1//validatable.html
 - /api/v2.2//validatable
+- /api/v2.2//validatable.html
 - /api/v2.3//validatable
+- /api/v2.3//validatable.html
 - /api/v2.4//validatable
+- /api/v2.4//validatable.html
 - /api/v2.5//validatable
+- /api/v2.5//validatable.html
 - /api/v2.6//validatable
+- /api/v2.6//validatable.html
 - /api/v2.7//validatable
+- /api/v2.7//validatable.html
 
 package: fyne.io/fyne/v2
 ---

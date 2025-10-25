@@ -4,14 +4,23 @@ title: container.Split
 slug: split
 
 aliases:
+- /api/v2/container/split.html
 - /api/v2.0/container/split
+- /api/v2.0/container/split.html
 - /api/v2.1/container/split
+- /api/v2.1/container/split.html
 - /api/v2.2/container/split
+- /api/v2.2/container/split.html
 - /api/v2.3/container/split
+- /api/v2.3/container/split.html
 - /api/v2.4/container/split
+- /api/v2.4/container/split.html
 - /api/v2.5/container/split
+- /api/v2.5/container/split.html
 - /api/v2.6/container/split
+- /api/v2.6/container/split.html
 - /api/v2.7/container/split
+- /api/v2.7/container/split.html
 
 package: fyne.io/fyne/v2/container
 ---

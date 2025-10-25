@@ -4,14 +4,23 @@ title: fyne.ShortcutPaste
 slug: shortcutpaste
 
 aliases:
+- /api/v2/fyne/shortcutpaste.html
 - /api/v2.0//shortcutpaste
+- /api/v2.0//shortcutpaste.html
 - /api/v2.1//shortcutpaste
+- /api/v2.1//shortcutpaste.html
 - /api/v2.2//shortcutpaste
+- /api/v2.2//shortcutpaste.html
 - /api/v2.3//shortcutpaste
+- /api/v2.3//shortcutpaste.html
 - /api/v2.4//shortcutpaste
+- /api/v2.4//shortcutpaste.html
 - /api/v2.5//shortcutpaste
+- /api/v2.5//shortcutpaste.html
 - /api/v2.6//shortcutpaste
+- /api/v2.6//shortcutpaste.html
 - /api/v2.7//shortcutpaste
+- /api/v2.7//shortcutpaste.html
 
 package: fyne.io/fyne/v2
 ---

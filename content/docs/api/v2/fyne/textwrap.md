@@ -4,14 +4,23 @@ title: fyne.TextWrap
 slug: textwrap
 
 aliases:
+- /api/v2/fyne/textwrap.html
 - /api/v2.0//textwrap
+- /api/v2.0//textwrap.html
 - /api/v2.1//textwrap
+- /api/v2.1//textwrap.html
 - /api/v2.2//textwrap
+- /api/v2.2//textwrap.html
 - /api/v2.3//textwrap
+- /api/v2.3//textwrap.html
 - /api/v2.4//textwrap
+- /api/v2.4//textwrap.html
 - /api/v2.5//textwrap
+- /api/v2.5//textwrap.html
 - /api/v2.6//textwrap
+- /api/v2.6//textwrap.html
 - /api/v2.7//textwrap
+- /api/v2.7//textwrap.html
 
 package: fyne.io/fyne/v2
 ---

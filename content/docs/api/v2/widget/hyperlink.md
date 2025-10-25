@@ -4,14 +4,23 @@ title: widget.Hyperlink
 slug: hyperlink
 
 aliases:
+- /api/v2/widget/hyperlink.html
 - /api/v2.0/widget/hyperlink
+- /api/v2.0/widget/hyperlink.html
 - /api/v2.1/widget/hyperlink
+- /api/v2.1/widget/hyperlink.html
 - /api/v2.2/widget/hyperlink
+- /api/v2.2/widget/hyperlink.html
 - /api/v2.3/widget/hyperlink
+- /api/v2.3/widget/hyperlink.html
 - /api/v2.4/widget/hyperlink
+- /api/v2.4/widget/hyperlink.html
 - /api/v2.5/widget/hyperlink
+- /api/v2.5/widget/hyperlink.html
 - /api/v2.6/widget/hyperlink
+- /api/v2.6/widget/hyperlink.html
 - /api/v2.7/widget/hyperlink
+- /api/v2.7/widget/hyperlink.html
 
 package: fyne.io/fyne/v2/widget
 ---

@@ -4,6 +4,7 @@ title: Grid
 weight: 4020
 
 aliases:
+- /container/grid.html
 - /tour/layout/gridlayout
 ---
 

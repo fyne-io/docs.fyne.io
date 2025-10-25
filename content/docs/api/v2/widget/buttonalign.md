@@ -4,14 +4,23 @@ title: widget.ButtonAlign
 slug: buttonalign
 
 aliases:
+- /api/v2/widget/buttonalign.html
 - /api/v2.0/widget/buttonalign
+- /api/v2.0/widget/buttonalign.html
 - /api/v2.1/widget/buttonalign
+- /api/v2.1/widget/buttonalign.html
 - /api/v2.2/widget/buttonalign
+- /api/v2.2/widget/buttonalign.html
 - /api/v2.3/widget/buttonalign
+- /api/v2.3/widget/buttonalign.html
 - /api/v2.4/widget/buttonalign
+- /api/v2.4/widget/buttonalign.html
 - /api/v2.5/widget/buttonalign
+- /api/v2.5/widget/buttonalign.html
 - /api/v2.6/widget/buttonalign
+- /api/v2.6/widget/buttonalign.html
 - /api/v2.7/widget/buttonalign
+- /api/v2.7/widget/buttonalign.html
 
 package: fyne.io/fyne/v2/widget
 ---

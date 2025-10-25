@@ -6,6 +6,7 @@ slug: preferences
 weight: 2080
 
 aliases:
+- /explore/preferences.html
 - /develop/preferences-api.html
 - /tutorial/preferences-api
 - /tutorial/preferences

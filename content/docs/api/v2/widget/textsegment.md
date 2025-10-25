@@ -4,14 +4,23 @@ title: widget.TextSegment
 slug: textsegment
 
 aliases:
+- /api/v2/widget/textsegment.html
 - /api/v2.0/widget/textsegment
+- /api/v2.0/widget/textsegment.html
 - /api/v2.1/widget/textsegment
+- /api/v2.1/widget/textsegment.html
 - /api/v2.2/widget/textsegment
+- /api/v2.2/widget/textsegment.html
 - /api/v2.3/widget/textsegment
+- /api/v2.3/widget/textsegment.html
 - /api/v2.4/widget/textsegment
+- /api/v2.4/widget/textsegment.html
 - /api/v2.5/widget/textsegment
+- /api/v2.5/widget/textsegment.html
 - /api/v2.6/widget/textsegment
+- /api/v2.6/widget/textsegment.html
 - /api/v2.7/widget/textsegment
+- /api/v2.7/widget/textsegment.html
 
 package: fyne.io/fyne/v2/widget
 ---

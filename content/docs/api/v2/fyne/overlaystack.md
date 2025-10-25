@@ -4,14 +4,23 @@ title: fyne.OverlayStack
 slug: overlaystack
 
 aliases:
+- /api/v2/fyne/overlaystack.html
 - /api/v2.0//overlaystack
+- /api/v2.0//overlaystack.html
 - /api/v2.1//overlaystack
+- /api/v2.1//overlaystack.html
 - /api/v2.2//overlaystack
+- /api/v2.2//overlaystack.html
 - /api/v2.3//overlaystack
+- /api/v2.3//overlaystack.html
 - /api/v2.4//overlaystack
+- /api/v2.4//overlaystack.html
 - /api/v2.5//overlaystack
+- /api/v2.5//overlaystack.html
 - /api/v2.6//overlaystack
+- /api/v2.6//overlaystack.html
 - /api/v2.7//overlaystack
+- /api/v2.7//overlaystack.html
 
 package: fyne.io/fyne/v2
 ---
