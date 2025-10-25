@@ -5,7 +5,7 @@ weight: 3030
 
 aliases:
 - /canvas/line.html
-  - /tour/canvas/line
+- /tour/canvas/line
 ---
 
 The `canvas.Line` object draws a line from the `Position1` (default

@@ -5,8 +5,8 @@ weight: 6010
 
 aliases:
 - /collection/list.html
-  - /tour/widget/list
-  - /widget/list
+- /tour/widget/list
+- /widget/list
 ---
 
 The `List` collection widget is one of the toolkit's collection widgets.

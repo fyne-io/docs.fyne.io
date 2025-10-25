@@ -5,7 +5,7 @@ weight: 3050
 
 aliases:
 - /canvas/image.html
-  - /tour/canvas/image
+- /tour/canvas/image
 ---
 
 A `canvas.Image` represents a scalable image resource in Fyne.

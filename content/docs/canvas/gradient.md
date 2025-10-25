@@ -7,7 +7,7 @@ since: 1.1
 
 aliases:
 - /canvas/gradient.html
-  - /tour/canvas/gradient
+- /tour/canvas/gradient
 ---
 
 The last canvas primitive type is Gradient, available as

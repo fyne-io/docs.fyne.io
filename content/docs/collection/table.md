@@ -5,8 +5,8 @@ weight: 6020
 
 aliases:
 - /collection/table.html
-  - /tour/widget/table
-  - /widget/table
+- /tour/widget/table
+- /widget/table
 --- 
 
 The `Table` collection widget is like the [List](/collection/list) widget (another of the toolkit's collection widgets) with a two-dimensional index.

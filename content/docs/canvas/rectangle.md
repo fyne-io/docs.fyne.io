@@ -5,9 +5,9 @@ weight: 3010
 
 aliases:
 - /canvas/rectangle.html
-  - /tour/canvas/rectangle
-  - /tour/canvas/
-  - /canvas/
+- /tour/canvas/rectangle
+- /tour/canvas/
+- /canvas/
 ---
 
 `canvas.Rectangle` is the simplest canvas object in Fyne. It displays

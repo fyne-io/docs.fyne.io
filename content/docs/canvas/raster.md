@@ -5,7 +5,7 @@ weight: 3060
 
 aliases:
 - /canvas/raster.html
-  - /tour/canvas/raster
+- /tour/canvas/raster
 ---
 
 The `canvas.Raster` is like an image but draws exactly one spot

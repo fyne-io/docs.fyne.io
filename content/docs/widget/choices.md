@@ -5,7 +5,7 @@ weight: 5040
 
 aliases:
 - /widget/choices.html
-  - /tour/widget/choices
+- /tour/widget/choices
 ---
 
 There are various widgets available to present the user with

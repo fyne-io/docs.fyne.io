@@ -6,7 +6,7 @@ weight: 8030
 
 aliases:
 - /extend/bundle.html
- - /tutorial/bundle
+- /tutorial/bundle
 ---
 
 Go based applications are usually built as a single binary executable, and this is the same for Fyne applications.

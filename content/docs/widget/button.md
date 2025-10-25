@@ -5,7 +5,7 @@ weight: 5020
 
 aliases:
 - /widget/button.html
-  - /tour/widget/button
+- /tour/widget/button
 ---
 
 The button widget can contain text, an icon or both, the constructor

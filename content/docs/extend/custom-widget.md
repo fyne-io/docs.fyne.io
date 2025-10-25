@@ -6,8 +6,8 @@ weight: 8020
 
 aliases:
 - /extend/custom-widget.html 
- - /develop/custom-widget.html
- - /tutorial/write-custom-widget
+- /develop/custom-widget.html
+- /tutorial/write-custom-widget
 ---
 
 The standard widgets included with Fyne are designed to support standard user interactions and requirements.

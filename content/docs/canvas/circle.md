@@ -5,7 +5,7 @@ weight: 3040
 
 aliases:
 - /canvas/circle.html
-  - /tour/canvas/circle
+- /tour/canvas/circle
 ---
 
 `canvas.Circle` defines a circle shape filled by the specified

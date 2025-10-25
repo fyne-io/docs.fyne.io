@@ -5,8 +5,8 @@ weight: 8060
 
 aliases:
 - /extend/numerical-entry.html
- - /tutorial/keypress-on-entry.html
- - /tutorial/numerical-entry
+- /tutorial/keypress-on-entry.html
+- /tutorial/numerical-entry
 ---
 
 In the traditional sense, GUI programs have used callbacks to customize actions for widgets. Fyne does not expose inserting custom callbacks to capture events on widgets, but it does not need to. The Go language is plenty extensible to make this work.

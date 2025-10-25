@@ -5,7 +5,7 @@ weight: 5070
 
 aliases:
 - /widget/toolbar.html
-  - /tour/widget/toolbar
+- /tour/widget/toolbar
 ---
 
 The toolbar widget creates a row of action buttons using

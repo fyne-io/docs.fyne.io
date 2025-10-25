@@ -6,7 +6,7 @@ weight: 8040
 
 aliases:
 - /extend/custom-theme.html
- - /tutorial/custom-theme
+- /tutorial/custom-theme
 ---
 
 Applications are able to load custom themes that can apply small changes to the standard theme or provide a completely unique look. A theme will need to implement the functions of `fyne.Theme` interface, which is defined as follows:

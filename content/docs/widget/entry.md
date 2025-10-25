@@ -5,7 +5,7 @@ weight: 5030
 
 aliases:
 - /widget/entry.html
-  - /tour/widget/entry
+- /tour/widget/entry
 ---
 
 The entry widget is used for user input of simple text content.

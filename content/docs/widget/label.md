@@ -5,9 +5,9 @@ weight: 5010
 
 aliases:
 - /widget/label.html
-  - /widget/
-  - /tour/widget/label
-  - /tour/widget/
+- /widget/
+- /tour/widget/label
+- /tour/widget/
 ---
 
 Widgets are the main components of a Fyne application GUI, they can be

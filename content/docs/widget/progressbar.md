@@ -5,7 +5,7 @@ weight: 5060
 
 aliases:
 - /widget/progressbar.html
-  - /tour/widget/progressbar
+- /tour/widget/progressbar
 ---
 
 The progress bar widget has two forms, the standard progress bar

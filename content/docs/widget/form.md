@@ -5,7 +5,7 @@ weight: 5050
 
 aliases:
 - /widget/form.html
-  - /tour/widget/form
+- /tour/widget/form
 ---
 
 The form widget is used to lay out many input fields with

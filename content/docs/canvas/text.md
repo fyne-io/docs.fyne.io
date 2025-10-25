@@ -5,7 +5,7 @@ weight: 3020
 
 aliases:
 - /canvas/text.html
-  - /tour/canvas/text
+- /tour/canvas/text
 ---
 
 `canvas.Text` is used for all text rendering within Fyne.

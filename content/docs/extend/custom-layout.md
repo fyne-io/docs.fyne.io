@@ -6,7 +6,7 @@ weight: 8010
 
 aliases:
 - /extend/custom-layout.html
- - /tutorial/custom-layout
+- /tutorial/custom-layout
 ---
 
 In a Fyne application each `Container` arranges its child elements using a simple layout algorithm.

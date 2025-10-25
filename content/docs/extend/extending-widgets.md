@@ -5,9 +5,9 @@ weight: 8050
 
 aliases:
 - /extend/extending-widgets.html
- - /develop/extending-widgets.html
- - /tutorial/extending-widgets
- - /tutorial/
+- /develop/extending-widgets.html
+- /tutorial/extending-widgets
+- /tutorial/
 ---
 
 The standard Fyne widgets provide the minimum functionality and customisation
