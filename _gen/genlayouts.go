@@ -55,6 +55,7 @@ func makeDrawList() []drawItem {
 		{"gridwrap", fyne.NewContainerWithLayout(layout.NewGridWrapLayout(fyne.NewSize(75, 75)), makeObjs()...)},
 		{"max", fyne.NewContainerWithLayout(layout.NewMaxLayout(), makeObjs()...)},
 		{"padded", fyne.NewContainerWithLayout(layout.NewPaddedLayout(), makeObjs()...)},
+		{"rowwrap", fyne.NewContainerWithLayout(layout.NewRowWrapLayout(), makeMoreObjs()...)},
 		{"custompadded", fyne.NewContainerWithLayout(layout.NewCustomPaddedLayout(10, 20, 30, 15), makeObjs()...)},
 		{"combined", combined},
 	}
@@ -68,6 +69,18 @@ func makeObjs() []fyne.CanvasObject {
 	prop3 := canvas.NewRectangle(boxColor())
 	prop3.SetMinSize(fyne.NewSize(75, 75))
 	return []fyne.CanvasObject{prop1, prop2, prop3}
+}
+
+func makeMoreObjs() []fyne.CanvasObject {
+	prop1 := canvas.NewRectangle(boxColor())
+	prop1.SetMinSize(fyne.NewSize(50, 50))
+	prop2 := canvas.NewRectangle(boxColor())
+	prop2.SetMinSize(fyne.NewSize(100, 25))
+	prop3 := canvas.NewRectangle(boxColor())
+	prop3.SetMinSize(fyne.NewSize(50, 75))
+	prop4 := canvas.NewRectangle(boxColor())
+	prop4.SetMinSize(fyne.NewSize(75, 75))
+	return []fyne.CanvasObject{prop1, prop2, prop3, prop4}
 }
 
 func draw(scene fyne.CanvasObject, name string, c test.WindowlessCanvas, themeName string) {
@@ -98,7 +111,7 @@ func main() {
 	c := w.Canvas().(test.WindowlessCanvas)
 
 	pwd, _ := os.Getwd()
-	imgDir = filepath.Join(pwd, "..", "images", "layouts")
+	imgDir = filepath.Join(pwd, "..", "static", "images", "layouts")
 
 	fyne.CurrentApp().Settings().SetTheme(transparentBGTheme(theme.LightTheme()))
 	for _, item := range makeDrawList() {

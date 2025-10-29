@@ -6,7 +6,7 @@ cd "$(dirname "$0")"
 cd ..
 
 function srcFromRes() {
-  echo $1 | sed -e "s/IconRes/.svg/g" | sed --expression 's/\([A-Z]\)/-\L\1/g' --expression 's/^-//' \
+  echo $1 | sed -e "s/IconRes/.svg/g" | sed -e 's/\([A-Z]\)/-\L\1/g' -e 's/^-//' | sed -e "s/dragcorner/drag-corner-/g" \
     | sed -e "s/radiobutton/radio-button-/g" | sed -e "s/search/search-/g" | sed -e "s/color/color-/g" | sed -e "s/content/content-/g" \
     | sed -e "s/checkbox/check-box-/g" | sed -e "s/document/document-/g" | sed -e "s/more/more-/g" | sed -e "s/menu/menu-/g" \
     | sed -e "s/mail/mail-/g" | sed -e "s/media/media-/g" | sed -e "s/fast/fast-/g" | sed -e "s/skip/skip-/g" \
@@ -24,7 +24,7 @@ function stripDTD() {
 LINES=`grep NewThemedResource\( $ROOT/theme/icons.go | grep -v func | awk -F"IconName" '{print $2}'| awk -F":" '{gsub(/^[ \t]+/, "", $1); gsub(/[ \t]+$/, "", $1); gsub(/^[ \t]+/, "", $2); print $1 "|" $2}' | sed -e "s/NewThemedResource(//g" | sed -e "s/),//g"`
 SORTED=`echo $LINES | sed -e "s/ /\n/g" | sort`
 
-OUT="layout/_shortcodes/iconlist.html"
+OUT="layouts/_shortcodes/iconlist.html"
 echo '<ul class="theme-icon-list">' > $OUT
 for LINE in $SORTED; do
   IFS='|'; parts=($LINE); unset IFS;
@@ -43,3 +43,4 @@ done
 echo '</ul>' >> $OUT
 
 sed -i.bak 's/<?xml.*?>//' $OUT
+rm $OUT.bak

@@ -49,6 +49,9 @@ func makeDrawList() []drawItem {
 		{"button", widget.NewButtonWithIcon("Cancel", theme.CancelIcon(), func() {})},
 		{"card", &widget.Card{Title: "Card Title", Subtitle: "Subtitle", Image: canvas.NewImageFromResource(theme.FyneLogo())}},
 		{"check", &widget.Check{Text: "Check", Checked: true}},
+		{"clip", container.NewGridWithColumns(2, container.NewClip(container.NewStack(
+			canvas.NewCircle(theme.ButtonColor()),
+			widget.NewLabel("A long line of text\nLine two is long"))))},
 		{"entry", &widget.Entry{PlaceHolder: "Entry", Scroll: container.ScrollNone}},
 		{"entry-invalid", makeInvalidEntry()},
 		{"entry-valid", &widget.Entry{Validator: func(_ string) error { return nil }, Text: "Valid", Scroll: container.ScrollNone}},
@@ -62,6 +65,7 @@ func makeDrawList() []drawItem {
 		{"icon", widget.NewIcon(theme.ContentPasteIcon())},
 		{"label", widget.NewLabel("Text label")},
 		{"list", makeList()},
+		{"navigation", container.NewNavigation(widget.NewLabel("Root item"))},
 		{"table", makeTable()},
 		{"tree", makeTree()},
 		{"password", &widget.Entry{PlaceHolder: "Password", Password: true, Scroll: container.ScrollNone}},
@@ -184,11 +188,18 @@ func draw(obj fyne.CanvasObject, name string, c fyne.Canvas, themeName string) {
 		time.Sleep(time.Second)
 	} else if name == "separator" {
 		c.(test.WindowlessCanvas).Resize(obj.MinSize().Add(fyne.NewSize(120+theme.Padding()*2, theme.Padding()*2)))
-	} else if name == "list" || name == "table" || name == "tree" || name == "gridwrap" || name == "accordion" {
+	} else if name == "list" || name == "table" || name == "tree" || name == "gridwrap" || name == "accordion" || name == "clip" {
 		c.(test.WindowlessCanvas).Resize(fyne.NewSize(136, 120))
 		test.TapCanvas(c, fyne.NewPos(50, 60))
 	}
 	img := c.Capture()
+	
+	if name == "navigation" {
+		c.Content().(*container.Navigation).PushWithTitle(widget.NewLabel("Child Content"), "Title")
+		c.(test.WindowlessCanvas).Resize(c.Size().AddWidthHeight(1, 1))
+		img = c.Capture()
+	}
+	
 	err = png.Encode(file, img)
 	if err != nil {
 		fyne.LogError("Unable to write image", err)
@@ -200,7 +211,7 @@ func main() {
 	c := w.Canvas()
 
 	pwd, _ := os.Getwd()
-	imgDir = filepath.Join(pwd, "..", "images", "widgets")
+	imgDir = filepath.Join(pwd, "..", "static", "images", "widgets")
 
 	fyne.CurrentApp().Settings().SetTheme(theme.LightTheme())
 	for _, item := range makeDrawList() {
