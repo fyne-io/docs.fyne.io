@@ -4,7 +4,8 @@ title: fyne.ShortcutSelectAll
 slug: shortcutselectall
 
 aliases:
-- /api/v2/fyne/shortcutselectall.html
+- /api//shortcutselectall
+- /api//shortcutselectall.html
 - /api/v2.0//shortcutselectall
 - /api/v2.0//shortcutselectall.html
 - /api/v2.1//shortcutselectall

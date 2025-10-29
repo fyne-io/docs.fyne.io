@@ -4,7 +4,8 @@ title: fyne.StringValidator
 slug: stringvalidator
 
 aliases:
-- /api/v2/fyne/stringvalidator.html
+- /api//stringvalidator
+- /api//stringvalidator.html
 - /api/v2.0//stringvalidator
 - /api/v2.0//stringvalidator.html
 - /api/v2.1//stringvalidator

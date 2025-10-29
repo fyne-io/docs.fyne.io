@@ -4,7 +4,8 @@ title: binding.IntTree
 slug: inttree
 
 aliases:
-- /api/v2/data/binding/inttree.html
+- /api/data/binding/inttree
+- /api/data/binding/inttree.html
 - /api/v2.0/data/binding/inttree
 - /api/v2.0/data/binding/inttree.html
 - /api/v2.1/data/binding/inttree

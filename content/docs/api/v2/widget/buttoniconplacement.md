@@ -4,7 +4,8 @@ title: widget.ButtonIconPlacement
 slug: buttoniconplacement
 
 aliases:
-- /api/v2/widget/buttoniconplacement.html
+- /api/widget/buttoniconplacement
+- /api/widget/buttoniconplacement.html
 - /api/v2.0/widget/buttoniconplacement
 - /api/v2.0/widget/buttoniconplacement.html
 - /api/v2.1/widget/buttoniconplacement

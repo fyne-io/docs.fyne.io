@@ -4,7 +4,8 @@ title: widget.Entry
 slug: entry
 
 aliases:
-- /api/v2/widget/entry.html
+- /api/widget/entry
+- /api/widget/entry.html
 - /api/v2.0/widget/entry
 - /api/v2.0/widget/entry.html
 - /api/v2.1/widget/entry

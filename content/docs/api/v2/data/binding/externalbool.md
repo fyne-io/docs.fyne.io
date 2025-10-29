@@ -4,7 +4,8 @@ title: binding.ExternalBool
 slug: externalbool
 
 aliases:
-- /api/v2/data/binding/externalbool.html
+- /api/data/binding/externalbool
+- /api/data/binding/externalbool.html
 - /api/v2.0/data/binding/externalbool
 - /api/v2.0/data/binding/externalbool.html
 - /api/v2.1/data/binding/externalbool

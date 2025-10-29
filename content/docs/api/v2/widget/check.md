@@ -4,7 +4,8 @@ title: widget.Check
 slug: check
 
 aliases:
-- /api/v2/widget/check.html
+- /api/widget/check
+- /api/widget/check.html
 - /api/v2.0/widget/check
 - /api/v2.0/widget/check.html
 - /api/v2.1/widget/check

@@ -4,7 +4,8 @@ title: binding.BytesList
 slug: byteslist
 
 aliases:
-- /api/v2/data/binding/byteslist.html
+- /api/data/binding/byteslist
+- /api/data/binding/byteslist.html
 - /api/v2.0/data/binding/byteslist
 - /api/v2.0/data/binding/byteslist.html
 - /api/v2.1/data/binding/byteslist

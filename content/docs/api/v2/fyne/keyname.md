@@ -4,7 +4,8 @@ title: fyne.KeyName
 slug: keyname
 
 aliases:
-- /api/v2/fyne/keyname.html
+- /api//keyname
+- /api//keyname.html
 - /api/v2.0//keyname
 - /api/v2.0//keyname.html
 - /api/v2.1//keyname

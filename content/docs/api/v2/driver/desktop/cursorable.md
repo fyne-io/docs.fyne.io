@@ -4,7 +4,8 @@ title: desktop.Cursorable
 slug: cursorable
 
 aliases:
-- /api/v2/driver/desktop/cursorable.html
+- /api/driver/desktop/cursorable
+- /api/driver/desktop/cursorable.html
 - /api/v2.0/driver/desktop/cursorable
 - /api/v2.0/driver/desktop/cursorable.html
 - /api/v2.1/driver/desktop/cursorable

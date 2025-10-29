@@ -4,7 +4,8 @@ title: storage (package)
 slug: (package)
 
 aliases:
-- /api/v2/storage/pkg.html
+- /api/storage
+- /api/storage.html
 - /api/v2.0/storage
 - /api/v2.0/storage.html
 - /api/v2.1/storage

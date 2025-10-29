@@ -4,7 +4,8 @@ title: binding.ExternalFloatTree
 slug: externalfloattree
 
 aliases:
-- /api/v2/data/binding/externalfloattree.html
+- /api/data/binding/externalfloattree
+- /api/data/binding/externalfloattree.html
 - /api/v2.0/data/binding/externalfloattree
 - /api/v2.0/data/binding/externalfloattree.html
 - /api/v2.1/data/binding/externalfloattree

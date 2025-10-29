@@ -4,7 +4,8 @@ title: layout.SpacerObject
 slug: spacerobject
 
 aliases:
-- /api/v2/layout/spacerobject.html
+- /api/layout/spacerobject
+- /api/layout/spacerobject.html
 - /api/v2.0/layout/spacerobject
 - /api/v2.0/layout/spacerobject.html
 - /api/v2.1/layout/spacerobject

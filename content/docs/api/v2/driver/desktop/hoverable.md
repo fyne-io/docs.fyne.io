@@ -4,7 +4,8 @@ title: desktop.Hoverable
 slug: hoverable
 
 aliases:
-- /api/v2/driver/desktop/hoverable.html
+- /api/driver/desktop/hoverable
+- /api/driver/desktop/hoverable.html
 - /api/v2.0/driver/desktop/hoverable
 - /api/v2.0/driver/desktop/hoverable.html
 - /api/v2.1/driver/desktop/hoverable

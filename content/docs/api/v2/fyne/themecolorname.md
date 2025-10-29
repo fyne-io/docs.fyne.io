@@ -4,7 +4,8 @@ title: fyne.ThemeColorName
 slug: themecolorname
 
 aliases:
-- /api/v2/fyne/themecolorname.html
+- /api//themecolorname
+- /api//themecolorname.html
 - /api/v2.0//themecolorname
 - /api/v2.0//themecolorname.html
 - /api/v2.1//themecolorname

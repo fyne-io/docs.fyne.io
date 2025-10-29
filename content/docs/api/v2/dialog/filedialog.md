@@ -4,7 +4,8 @@ title: dialog.FileDialog
 slug: filedialog
 
 aliases:
-- /api/v2/dialog/filedialog.html
+- /api/dialog/filedialog
+- /api/dialog/filedialog.html
 - /api/v2.0/dialog/filedialog
 - /api/v2.0/dialog/filedialog.html
 - /api/v2.1/dialog/filedialog

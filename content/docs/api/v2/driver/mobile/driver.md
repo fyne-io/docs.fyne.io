@@ -4,7 +4,8 @@ title: mobile.Driver
 slug: driver
 
 aliases:
-- /api/v2/driver/mobile/driver.html
+- /api/driver/mobile/driver
+- /api/driver/mobile/driver.html
 - /api/v2.0/driver/mobile/driver
 - /api/v2.0/driver/mobile/driver.html
 - /api/v2.1/driver/mobile/driver

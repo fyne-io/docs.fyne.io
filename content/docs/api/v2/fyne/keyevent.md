@@ -4,7 +4,8 @@ title: fyne.KeyEvent
 slug: keyevent
 
 aliases:
-- /api/v2/fyne/keyevent.html
+- /api//keyevent
+- /api//keyevent.html
 - /api/v2.0//keyevent
 - /api/v2.0//keyevent.html
 - /api/v2.1//keyevent

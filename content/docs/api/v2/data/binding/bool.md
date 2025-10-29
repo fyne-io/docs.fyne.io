@@ -4,7 +4,8 @@ title: binding.Bool
 slug: bool
 
 aliases:
-- /api/v2/data/binding/bool.html
+- /api/data/binding/bool
+- /api/data/binding/bool.html
 - /api/v2.0/data/binding/bool
 - /api/v2.0/data/binding/bool.html
 - /api/v2.1/data/binding/bool

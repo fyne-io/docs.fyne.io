@@ -4,7 +4,8 @@ title: widget.ParagraphSegment
 slug: paragraphsegment
 
 aliases:
-- /api/v2/widget/paragraphsegment.html
+- /api/widget/paragraphsegment
+- /api/widget/paragraphsegment.html
 - /api/v2.0/widget/paragraphsegment
 - /api/v2.0/widget/paragraphsegment.html
 - /api/v2.1/widget/paragraphsegment

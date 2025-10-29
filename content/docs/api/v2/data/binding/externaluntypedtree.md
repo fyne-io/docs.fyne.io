@@ -4,7 +4,8 @@ title: binding.ExternalUntypedTree
 slug: externaluntypedtree
 
 aliases:
-- /api/v2/data/binding/externaluntypedtree.html
+- /api/data/binding/externaluntypedtree
+- /api/data/binding/externaluntypedtree.html
 - /api/v2.0/data/binding/externaluntypedtree
 - /api/v2.0/data/binding/externaluntypedtree.html
 - /api/v2.1/data/binding/externaluntypedtree

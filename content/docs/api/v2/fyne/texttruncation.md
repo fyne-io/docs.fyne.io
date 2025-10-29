@@ -4,7 +4,8 @@ title: fyne.TextTruncation
 slug: texttruncation
 
 aliases:
-- /api/v2/fyne/texttruncation.html
+- /api//texttruncation
+- /api//texttruncation.html
 - /api/v2.0//texttruncation
 - /api/v2.0//texttruncation.html
 - /api/v2.1//texttruncation

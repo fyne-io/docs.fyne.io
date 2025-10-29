@@ -4,7 +4,8 @@ title: driver.WaylandWindowContext
 slug: waylandwindowcontext
 
 aliases:
-- /api/v2/driver/waylandwindowcontext.html
+- /api/driver/waylandwindowcontext
+- /api/driver/waylandwindowcontext.html
 - /api/v2.0/driver/waylandwindowcontext
 - /api/v2.0/driver/waylandwindowcontext.html
 - /api/v2.1/driver/waylandwindowcontext

@@ -4,7 +4,8 @@ title: binding.List
 slug: list
 
 aliases:
-- /api/v2/data/binding/list.html
+- /api/data/binding/list
+- /api/data/binding/list.html
 - /api/v2.0/data/binding/list
 - /api/v2.0/data/binding/list.html
 - /api/v2.1/data/binding/list

@@ -4,7 +4,8 @@ title: binding.ExternalRune
 slug: externalrune
 
 aliases:
-- /api/v2/data/binding/externalrune.html
+- /api/data/binding/externalrune
+- /api/data/binding/externalrune.html
 - /api/v2.0/data/binding/externalrune
 - /api/v2.0/data/binding/externalrune.html
 - /api/v2.1/data/binding/externalrune

@@ -4,7 +4,8 @@ title: binding.ExternalBoolTree
 slug: externalbooltree
 
 aliases:
-- /api/v2/data/binding/externalbooltree.html
+- /api/data/binding/externalbooltree
+- /api/data/binding/externalbooltree.html
 - /api/v2.0/data/binding/externalbooltree
 - /api/v2.0/data/binding/externalbooltree.html
 - /api/v2.1/data/binding/externalbooltree

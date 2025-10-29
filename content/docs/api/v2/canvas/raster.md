@@ -4,7 +4,8 @@ title: canvas.Raster
 slug: raster
 
 aliases:
-- /api/v2/canvas/raster.html
+- /api/canvas/raster
+- /api/canvas/raster.html
 - /api/v2.0/canvas/raster
 - /api/v2.0/canvas/raster.html
 - /api/v2.1/canvas/raster

@@ -4,7 +4,8 @@ title: test (package)
 slug: (package)
 
 aliases:
-- /api/v2/test/pkg.html
+- /api/test
+- /api/test.html
 - /api/v2.0/test
 - /api/v2.0/test.html
 - /api/v2.1/test

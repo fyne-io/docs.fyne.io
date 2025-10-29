@@ -4,7 +4,8 @@ title: binding.DataTree
 slug: datatree
 
 aliases:
-- /api/v2/data/binding/datatree.html
+- /api/data/binding/datatree
+- /api/data/binding/datatree.html
 - /api/v2.0/data/binding/datatree
 - /api/v2.0/data/binding/datatree.html
 - /api/v2.1/data/binding/datatree

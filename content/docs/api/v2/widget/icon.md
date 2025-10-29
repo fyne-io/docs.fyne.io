@@ -4,7 +4,8 @@ title: widget.Icon
 slug: icon
 
 aliases:
-- /api/v2/widget/icon.html
+- /api/widget/icon
+- /api/widget/icon.html
 - /api/v2.0/widget/icon
 - /api/v2.0/widget/icon.html
 - /api/v2.1/widget/icon

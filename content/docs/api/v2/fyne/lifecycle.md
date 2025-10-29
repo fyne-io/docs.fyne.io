@@ -4,7 +4,8 @@ title: fyne.Lifecycle
 slug: lifecycle
 
 aliases:
-- /api/v2/fyne/lifecycle.html
+- /api//lifecycle
+- /api//lifecycle.html
 - /api/v2.0//lifecycle
 - /api/v2.0//lifecycle.html
 - /api/v2.1//lifecycle

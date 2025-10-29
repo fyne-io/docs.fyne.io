@@ -4,7 +4,8 @@ title: repository.MovableRepository
 slug: movablerepository
 
 aliases:
-- /api/v2/storage/repository/movablerepository.html
+- /api/storage/repository/movablerepository
+- /api/storage/repository/movablerepository.html
 - /api/v2.0/storage/repository/movablerepository
 - /api/v2.0/storage/repository/movablerepository.html
 - /api/v2.1/storage/repository/movablerepository

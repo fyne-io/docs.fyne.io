@@ -4,7 +4,8 @@ title: driver.MacWindowContext
 slug: macwindowcontext
 
 aliases:
-- /api/v2/driver/macwindowcontext.html
+- /api/driver/macwindowcontext
+- /api/driver/macwindowcontext.html
 - /api/v2.0/driver/macwindowcontext
 - /api/v2.0/driver/macwindowcontext.html
 - /api/v2.1/driver/macwindowcontext

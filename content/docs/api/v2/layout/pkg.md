@@ -4,7 +4,8 @@ title: layout (package)
 slug: (package)
 
 aliases:
-- /api/v2/layout/pkg.html
+- /api/layout
+- /api/layout.html
 - /api/v2.0/layout
 - /api/v2.0/layout.html
 - /api/v2.1/layout

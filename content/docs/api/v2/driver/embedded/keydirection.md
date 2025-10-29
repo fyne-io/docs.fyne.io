@@ -4,7 +4,8 @@ title: embedded.KeyDirection
 slug: keydirection
 
 aliases:
-- /api/v2/driver/embedded/keydirection.html
+- /api/driver/embedded/keydirection
+- /api/driver/embedded/keydirection.html
 - /api/v2.0/driver/embedded/keydirection
 - /api/v2.0/driver/embedded/keydirection.html
 - /api/v2.1/driver/embedded/keydirection

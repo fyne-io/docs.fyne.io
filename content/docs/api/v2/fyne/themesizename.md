@@ -4,7 +4,8 @@ title: fyne.ThemeSizeName
 slug: themesizename
 
 aliases:
-- /api/v2/fyne/themesizename.html
+- /api//themesizename
+- /api//themesizename.html
 - /api/v2.0//themesizename
 - /api/v2.0//themesizename.html
 - /api/v2.1//themesizename

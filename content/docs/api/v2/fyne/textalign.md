@@ -4,7 +4,8 @@ title: fyne.TextAlign
 slug: textalign
 
 aliases:
-- /api/v2/fyne/textalign.html
+- /api//textalign
+- /api//textalign.html
 - /api/v2.0//textalign
 - /api/v2.0//textalign.html
 - /api/v2.1//textalign

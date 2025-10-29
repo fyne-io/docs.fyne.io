@@ -4,7 +4,8 @@ title: driver.AndroidWindowContext
 slug: androidwindowcontext
 
 aliases:
-- /api/v2/driver/androidwindowcontext.html
+- /api/driver/androidwindowcontext
+- /api/driver/androidwindowcontext.html
 - /api/v2.0/driver/androidwindowcontext
 - /api/v2.0/driver/androidwindowcontext.html
 - /api/v2.1/driver/androidwindowcontext

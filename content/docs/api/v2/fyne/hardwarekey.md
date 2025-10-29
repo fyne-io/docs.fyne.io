@@ -4,7 +4,8 @@ title: fyne.HardwareKey
 slug: hardwarekey
 
 aliases:
-- /api/v2/fyne/hardwarekey.html
+- /api//hardwarekey
+- /api//hardwarekey.html
 - /api/v2.0//hardwarekey
 - /api/v2.0//hardwarekey.html
 - /api/v2.1//hardwarekey

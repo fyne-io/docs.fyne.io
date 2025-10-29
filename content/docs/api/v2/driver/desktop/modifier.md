@@ -4,7 +4,8 @@ title: desktop.Modifier
 slug: modifier
 
 aliases:
-- /api/v2/driver/desktop/modifier.html
+- /api/driver/desktop/modifier
+- /api/driver/desktop/modifier.html
 - /api/v2.0/driver/desktop/modifier
 - /api/v2.0/driver/desktop/modifier.html
 - /api/v2.1/driver/desktop/modifier

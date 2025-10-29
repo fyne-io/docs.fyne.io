@@ -4,7 +4,8 @@ title: widget.CheckGroup
 slug: checkgroup
 
 aliases:
-- /api/v2/widget/checkgroup.html
+- /api/widget/checkgroup
+- /api/widget/checkgroup.html
 - /api/v2.0/widget/checkgroup
 - /api/v2.0/widget/checkgroup.html
 - /api/v2.1/widget/checkgroup

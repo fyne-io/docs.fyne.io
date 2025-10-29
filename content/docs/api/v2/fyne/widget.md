@@ -4,7 +4,8 @@ title: fyne.Widget
 slug: widget
 
 aliases:
-- /api/v2/fyne/widget.html
+- /api//widget
+- /api//widget.html
 - /api/v2.0//widget
 - /api/v2.0//widget.html
 - /api/v2.1//widget

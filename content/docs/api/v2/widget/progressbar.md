@@ -4,7 +4,8 @@ title: widget.ProgressBar
 slug: progressbar
 
 aliases:
-- /api/v2/widget/progressbar.html
+- /api/widget/progressbar
+- /api/widget/progressbar.html
 - /api/v2.0/widget/progressbar
 - /api/v2.0/widget/progressbar.html
 - /api/v2.1/widget/progressbar

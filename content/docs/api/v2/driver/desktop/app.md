@@ -4,7 +4,8 @@ title: desktop.App
 slug: app
 
 aliases:
-- /api/v2/driver/desktop/app.html
+- /api/driver/desktop/app
+- /api/driver/desktop/app.html
 - /api/v2.0/driver/desktop/app
 - /api/v2.0/driver/desktop/app.html
 - /api/v2.1/driver/desktop/app

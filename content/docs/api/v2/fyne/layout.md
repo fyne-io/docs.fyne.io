@@ -4,7 +4,8 @@ title: fyne.Layout
 slug: layout
 
 aliases:
-- /api/v2/fyne/layout.html
+- /api//layout
+- /api//layout.html
 - /api/v2.0//layout
 - /api/v2.0//layout.html
 - /api/v2.1//layout

@@ -4,7 +4,8 @@ title: repository.WritableRepository
 slug: writablerepository
 
 aliases:
-- /api/v2/storage/repository/writablerepository.html
+- /api/storage/repository/writablerepository
+- /api/storage/repository/writablerepository.html
 - /api/v2.0/storage/repository/writablerepository
 - /api/v2.0/storage/repository/writablerepository.html
 - /api/v2.1/storage/repository/writablerepository

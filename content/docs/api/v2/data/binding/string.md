@@ -4,7 +4,8 @@ title: binding.String
 slug: string
 
 aliases:
-- /api/v2/data/binding/string.html
+- /api/data/binding/string
+- /api/data/binding/string.html
 - /api/v2.0/data/binding/string
 - /api/v2.0/data/binding/string.html
 - /api/v2.1/data/binding/string

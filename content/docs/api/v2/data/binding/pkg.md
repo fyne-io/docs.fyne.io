@@ -4,7 +4,8 @@ title: binding (package)
 slug: (package)
 
 aliases:
-- /api/v2/data/binding/pkg.html
+- /api/data/binding
+- /api/data/binding.html
 - /api/v2.0/data/binding
 - /api/v2.0/data/binding.html
 - /api/v2.1/data/binding

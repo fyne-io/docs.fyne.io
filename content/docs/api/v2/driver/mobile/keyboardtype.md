@@ -4,7 +4,8 @@ title: mobile.KeyboardType
 slug: keyboardtype
 
 aliases:
-- /api/v2/driver/mobile/keyboardtype.html
+- /api/driver/mobile/keyboardtype
+- /api/driver/mobile/keyboardtype.html
 - /api/v2.0/driver/mobile/keyboardtype
 - /api/v2.0/driver/mobile/keyboardtype.html
 - /api/v2.1/driver/mobile/keyboardtype

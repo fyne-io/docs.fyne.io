@@ -4,7 +4,8 @@ title: driver.UnknownContext
 slug: unknowncontext
 
 aliases:
-- /api/v2/driver/unknowncontext.html
+- /api/driver/unknowncontext
+- /api/driver/unknowncontext.html
 - /api/v2.0/driver/unknowncontext
 - /api/v2.0/driver/unknowncontext.html
 - /api/v2.1/driver/unknowncontext

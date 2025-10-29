@@ -4,7 +4,8 @@ title: repository.CopyableRepository
 slug: copyablerepository
 
 aliases:
-- /api/v2/storage/repository/copyablerepository.html
+- /api/storage/repository/copyablerepository
+- /api/storage/repository/copyablerepository.html
 - /api/v2.0/storage/repository/copyablerepository
 - /api/v2.0/storage/repository/copyablerepository.html
 - /api/v2.1/storage/repository/copyablerepository

@@ -4,7 +4,8 @@ title: mobile.TouchEvent
 slug: touchevent
 
 aliases:
-- /api/v2/driver/mobile/touchevent.html
+- /api/driver/mobile/touchevent
+- /api/driver/mobile/touchevent.html
 - /api/v2.0/driver/mobile/touchevent
 - /api/v2.0/driver/mobile/touchevent.html
 - /api/v2.1/driver/mobile/touchevent

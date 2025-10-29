@@ -4,7 +4,8 @@ title: widget.List
 slug: list
 
 aliases:
-- /api/v2/widget/list.html
+- /api/widget/list
+- /api/widget/list.html
 - /api/v2.0/widget/list
 - /api/v2.0/widget/list.html
 - /api/v2.1/widget/list

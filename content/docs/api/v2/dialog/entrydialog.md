@@ -4,7 +4,8 @@ title: dialog.EntryDialog
 slug: entrydialog
 
 aliases:
-- /api/v2/dialog/entrydialog.html
+- /api/dialog/entrydialog
+- /api/dialog/entrydialog.html
 - /api/v2.0/dialog/entrydialog
 - /api/v2.0/dialog/entrydialog.html
 - /api/v2.1/dialog/entrydialog

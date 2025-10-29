@@ -4,7 +4,8 @@ title: fyne.TextWrap
 slug: textwrap
 
 aliases:
-- /api/v2/fyne/textwrap.html
+- /api//textwrap
+- /api//textwrap.html
 - /api/v2.0//textwrap
 - /api/v2.0//textwrap.html
 - /api/v2.1//textwrap

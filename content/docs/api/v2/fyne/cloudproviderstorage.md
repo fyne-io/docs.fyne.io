@@ -4,7 +4,8 @@ title: fyne.CloudProviderStorage
 slug: cloudproviderstorage
 
 aliases:
-- /api/v2/fyne/cloudproviderstorage.html
+- /api//cloudproviderstorage
+- /api//cloudproviderstorage.html
 - /api/v2.0//cloudproviderstorage
 - /api/v2.0//cloudproviderstorage.html
 - /api/v2.1//cloudproviderstorage

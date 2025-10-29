@@ -4,7 +4,8 @@ title: widget.DateEntry
 slug: dateentry
 
 aliases:
-- /api/v2/widget/dateentry.html
+- /api/widget/dateentry
+- /api/widget/dateentry.html
 - /api/v2.0/widget/dateentry
 - /api/v2.0/widget/dateentry.html
 - /api/v2.1/widget/dateentry

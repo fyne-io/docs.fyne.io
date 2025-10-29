@@ -4,7 +4,8 @@ title: storage.ExtensionFileFilter
 slug: extensionfilefilter
 
 aliases:
-- /api/v2/storage/extensionfilefilter.html
+- /api/storage/extensionfilefilter
+- /api/storage/extensionfilefilter.html
 - /api/v2.0/storage/extensionfilefilter
 - /api/v2.0/storage/extensionfilefilter.html
 - /api/v2.1/storage/extensionfilefilter

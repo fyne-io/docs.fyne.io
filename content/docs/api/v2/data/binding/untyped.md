@@ -4,7 +4,8 @@ title: binding.Untyped
 slug: untyped
 
 aliases:
-- /api/v2/data/binding/untyped.html
+- /api/data/binding/untyped
+- /api/data/binding/untyped.html
 - /api/v2.0/data/binding/untyped
 - /api/v2.0/data/binding/untyped.html
 - /api/v2.1/data/binding/untyped

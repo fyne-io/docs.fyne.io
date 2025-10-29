@@ -4,7 +4,8 @@ title: widget.Activity
 slug: activity
 
 aliases:
-- /api/v2/widget/activity.html
+- /api/widget/activity
+- /api/widget/activity.html
 - /api/v2.0/widget/activity
 - /api/v2.0/widget/activity.html
 - /api/v2.1/widget/activity

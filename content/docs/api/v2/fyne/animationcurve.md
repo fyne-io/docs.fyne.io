@@ -4,7 +4,8 @@ title: fyne.AnimationCurve
 slug: animationcurve
 
 aliases:
-- /api/v2/fyne/animationcurve.html
+- /api//animationcurve
+- /api//animationcurve.html
 - /api/v2.0//animationcurve
 - /api/v2.0//animationcurve.html
 - /api/v2.1//animationcurve

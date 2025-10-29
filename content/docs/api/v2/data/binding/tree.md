@@ -4,7 +4,8 @@ title: binding.Tree
 slug: tree
 
 aliases:
-- /api/v2/data/binding/tree.html
+- /api/data/binding/tree
+- /api/data/binding/tree.html
 - /api/v2.0/data/binding/tree
 - /api/v2.0/data/binding/tree.html
 - /api/v2.1/data/binding/tree

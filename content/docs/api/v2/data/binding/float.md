@@ -4,7 +4,8 @@ title: binding.Float
 slug: float
 
 aliases:
-- /api/v2/data/binding/float.html
+- /api/data/binding/float
+- /api/data/binding/float.html
 - /api/v2.0/data/binding/float
 - /api/v2.0/data/binding/float.html
 - /api/v2.1/data/binding/float

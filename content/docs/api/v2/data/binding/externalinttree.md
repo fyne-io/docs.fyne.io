@@ -4,7 +4,8 @@ title: binding.ExternalIntTree
 slug: externalinttree
 
 aliases:
-- /api/v2/data/binding/externalinttree.html
+- /api/data/binding/externalinttree
+- /api/data/binding/externalinttree.html
 - /api/v2.0/data/binding/externalinttree
 - /api/v2.0/data/binding/externalinttree.html
 - /api/v2.1/data/binding/externalinttree

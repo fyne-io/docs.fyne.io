@@ -4,7 +4,8 @@ title: dialog.ColorPickerDialog
 slug: colorpickerdialog
 
 aliases:
-- /api/v2/dialog/colorpickerdialog.html
+- /api/dialog/colorpickerdialog
+- /api/dialog/colorpickerdialog.html
 - /api/v2.0/dialog/colorpickerdialog
 - /api/v2.0/dialog/colorpickerdialog.html
 - /api/v2.1/dialog/colorpickerdialog

@@ -4,7 +4,8 @@ title: fyne.Tappable
 slug: tappable
 
 aliases:
-- /api/v2/fyne/tappable.html
+- /api//tappable
+- /api//tappable.html
 - /api/v2.0//tappable
 - /api/v2.0//tappable.html
 - /api/v2.1//tappable

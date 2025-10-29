@@ -4,7 +4,8 @@ title: app.SettingsSchema
 slug: settingsschema
 
 aliases:
-- /api/v2/app/settingsschema.html
+- /api/app/settingsschema
+- /api/app/settingsschema.html
 - /api/v2.0/app/settingsschema
 - /api/v2.0/app/settingsschema.html
 - /api/v2.1/app/settingsschema

@@ -4,7 +4,8 @@ title: binding.URIList
 slug: urilist
 
 aliases:
-- /api/v2/data/binding/urilist.html
+- /api/data/binding/urilist
+- /api/data/binding/urilist.html
 - /api/v2.0/data/binding/urilist
 - /api/v2.0/data/binding/urilist.html
 - /api/v2.1/data/binding/urilist

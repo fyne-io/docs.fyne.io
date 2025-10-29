@@ -4,7 +4,8 @@ title: widget.RichTextBlock
 slug: richtextblock
 
 aliases:
-- /api/v2/widget/richtextblock.html
+- /api/widget/richtextblock
+- /api/widget/richtextblock.html
 - /api/v2.0/widget/richtextblock
 - /api/v2.0/widget/richtextblock.html
 - /api/v2.1/widget/richtextblock

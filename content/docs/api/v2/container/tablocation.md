@@ -4,7 +4,8 @@ title: container.TabLocation
 slug: tablocation
 
 aliases:
-- /api/v2/container/tablocation.html
+- /api/container/tablocation
+- /api/container/tablocation.html
 - /api/v2.0/container/tablocation
 - /api/v2.0/container/tablocation.html
 - /api/v2.1/container/tablocation

@@ -4,7 +4,8 @@ title: mobile.Touchable
 slug: touchable
 
 aliases:
-- /api/v2/driver/mobile/touchable.html
+- /api/driver/mobile/touchable
+- /api/driver/mobile/touchable.html
 - /api/v2.0/driver/mobile/touchable
 - /api/v2.0/driver/mobile/touchable.html
 - /api/v2.1/driver/mobile/touchable

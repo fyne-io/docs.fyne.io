@@ -4,7 +4,8 @@ title: storage.FileFilter
 slug: filefilter
 
 aliases:
-- /api/v2/storage/filefilter.html
+- /api/storage/filefilter
+- /api/storage/filefilter.html
 - /api/v2.0/storage/filefilter
 - /api/v2.0/storage/filefilter.html
 - /api/v2.1/storage/filefilter

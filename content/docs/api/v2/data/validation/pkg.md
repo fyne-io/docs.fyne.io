@@ -4,7 +4,8 @@ title: validation (package)
 slug: (package)
 
 aliases:
-- /api/v2/data/validation/pkg.html
+- /api/data/validation
+- /api/data/validation.html
 - /api/v2.0/data/validation
 - /api/v2.0/data/validation.html
 - /api/v2.1/data/validation

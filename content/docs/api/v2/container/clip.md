@@ -4,7 +4,8 @@ title: container.Clip
 slug: clip
 
 aliases:
-- /api/v2/container/clip.html
+- /api/container/clip
+- /api/container/clip.html
 - /api/v2.0/container/clip
 - /api/v2.0/container/clip.html
 - /api/v2.1/container/clip

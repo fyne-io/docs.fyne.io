@@ -4,7 +4,8 @@ title: widget.Button
 slug: button
 
 aliases:
-- /api/v2/widget/button.html
+- /api/widget/button
+- /api/widget/button.html
 - /api/v2.0/widget/button
 - /api/v2.0/widget/button.html
 - /api/v2.1/widget/button

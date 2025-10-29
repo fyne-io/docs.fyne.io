@@ -4,7 +4,8 @@ title: binding.RuneList
 slug: runelist
 
 aliases:
-- /api/v2/data/binding/runelist.html
+- /api/data/binding/runelist
+- /api/data/binding/runelist.html
 - /api/v2.0/data/binding/runelist
 - /api/v2.0/data/binding/runelist.html
 - /api/v2.1/data/binding/runelist

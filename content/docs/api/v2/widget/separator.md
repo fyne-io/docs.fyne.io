@@ -4,7 +4,8 @@ title: widget.Separator
 slug: separator
 
 aliases:
-- /api/v2/widget/separator.html
+- /api/widget/separator
+- /api/widget/separator.html
 - /api/v2.0/widget/separator
 - /api/v2.0/widget/separator.html
 - /api/v2.1/widget/separator

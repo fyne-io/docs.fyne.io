@@ -4,7 +4,8 @@ title: widget.RichTextSegment
 slug: richtextsegment
 
 aliases:
-- /api/v2/widget/richtextsegment.html
+- /api/widget/richtextsegment
+- /api/widget/richtextsegment.html
 - /api/v2.0/widget/richtextsegment
 - /api/v2.0/widget/richtextsegment.html
 - /api/v2.1/widget/richtextsegment

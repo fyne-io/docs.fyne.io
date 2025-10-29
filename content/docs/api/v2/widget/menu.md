@@ -4,7 +4,8 @@ title: widget.Menu
 slug: menu
 
 aliases:
-- /api/v2/widget/menu.html
+- /api/widget/menu
+- /api/widget/menu.html
 - /api/v2.0/widget/menu
 - /api/v2.0/widget/menu.html
 - /api/v2.1/widget/menu

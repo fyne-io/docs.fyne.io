@@ -4,7 +4,8 @@ title: canvas.RadialGradient
 slug: radialgradient
 
 aliases:
-- /api/v2/canvas/radialgradient.html
+- /api/canvas/radialgradient
+- /api/canvas/radialgradient.html
 - /api/v2.0/canvas/radialgradient
 - /api/v2.0/canvas/radialgradient.html
 - /api/v2.1/canvas/radialgradient

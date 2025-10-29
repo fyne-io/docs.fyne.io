@@ -4,7 +4,8 @@ title: embedded.CharacterEvent
 slug: characterevent
 
 aliases:
-- /api/v2/driver/embedded/characterevent.html
+- /api/driver/embedded/characterevent
+- /api/driver/embedded/characterevent.html
 - /api/v2.0/driver/embedded/characterevent
 - /api/v2.0/driver/embedded/characterevent.html
 - /api/v2.1/driver/embedded/characterevent

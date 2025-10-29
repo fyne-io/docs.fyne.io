@@ -4,7 +4,8 @@ title: binding.Struct
 slug: struct
 
 aliases:
-- /api/v2/data/binding/struct.html
+- /api/data/binding/struct
+- /api/data/binding/struct.html
 - /api/v2.0/data/binding/struct
 - /api/v2.0/data/binding/struct.html
 - /api/v2.1/data/binding/struct

@@ -4,7 +4,8 @@ title: widget.FormItem
 slug: formitem
 
 aliases:
-- /api/v2/widget/formitem.html
+- /api/widget/formitem
+- /api/widget/formitem.html
 - /api/v2.0/widget/formitem
 - /api/v2.0/widget/formitem.html
 - /api/v2.1/widget/formitem

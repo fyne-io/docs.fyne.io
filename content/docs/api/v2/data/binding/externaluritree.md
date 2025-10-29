@@ -4,7 +4,8 @@ title: binding.ExternalURITree
 slug: externaluritree
 
 aliases:
-- /api/v2/data/binding/externaluritree.html
+- /api/data/binding/externaluritree
+- /api/data/binding/externaluritree.html
 - /api/v2.0/data/binding/externaluritree
 - /api/v2.0/data/binding/externaluritree.html
 - /api/v2.1/data/binding/externaluritree

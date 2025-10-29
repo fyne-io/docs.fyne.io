@@ -4,7 +4,8 @@ title: repository.DeleteAllRepository
 slug: deleteallrepository
 
 aliases:
-- /api/v2/storage/repository/deleteallrepository.html
+- /api/storage/repository/deleteallrepository
+- /api/storage/repository/deleteallrepository.html
 - /api/v2.0/storage/repository/deleteallrepository
 - /api/v2.0/storage/repository/deleteallrepository.html
 - /api/v2.1/storage/repository/deleteallrepository

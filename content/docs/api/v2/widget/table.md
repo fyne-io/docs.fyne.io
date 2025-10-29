@@ -4,7 +4,8 @@ title: widget.Table
 slug: table
 
 aliases:
-- /api/v2/widget/table.html
+- /api/widget/table
+- /api/widget/table.html
 - /api/v2.0/widget/table
 - /api/v2.0/widget/table.html
 - /api/v2.1/widget/table

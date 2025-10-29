@@ -4,7 +4,8 @@ title: widget.Card
 slug: card
 
 aliases:
-- /api/v2/widget/card.html
+- /api/widget/card
+- /api/widget/card.html
 - /api/v2.0/widget/card
 - /api/v2.0/widget/card.html
 - /api/v2.1/widget/card

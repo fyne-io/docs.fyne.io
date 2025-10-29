@@ -4,7 +4,8 @@ title: container.Split
 slug: split
 
 aliases:
-- /api/v2/container/split.html
+- /api/container/split
+- /api/container/split.html
 - /api/v2.0/container/split
 - /api/v2.0/container/split.html
 - /api/v2.1/container/split

@@ -4,7 +4,8 @@ title: desktop.Keyable
 slug: keyable
 
 aliases:
-- /api/v2/driver/desktop/keyable.html
+- /api/driver/desktop/keyable
+- /api/driver/desktop/keyable.html
 - /api/v2.0/driver/desktop/keyable
 - /api/v2.0/driver/desktop/keyable.html
 - /api/v2.1/driver/desktop/keyable

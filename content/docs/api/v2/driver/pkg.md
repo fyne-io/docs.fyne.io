@@ -4,7 +4,8 @@ title: driver (package)
 slug: (package)
 
 aliases:
-- /api/v2/driver/pkg.html
+- /api/driver
+- /api/driver.html
 - /api/v2.0/driver
 - /api/v2.0/driver.html
 - /api/v2.1/driver

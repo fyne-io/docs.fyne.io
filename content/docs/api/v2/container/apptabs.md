@@ -4,7 +4,8 @@ title: container.AppTabs
 slug: apptabs
 
 aliases:
-- /api/v2/container/apptabs.html
+- /api/container/apptabs
+- /api/container/apptabs.html
 - /api/v2.0/container/apptabs
 - /api/v2.0/container/apptabs.html
 - /api/v2.1/container/apptabs

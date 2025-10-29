@@ -4,7 +4,8 @@ title: repository.ListableRepository
 slug: listablerepository
 
 aliases:
-- /api/v2/storage/repository/listablerepository.html
+- /api/storage/repository/listablerepository
+- /api/storage/repository/listablerepository.html
 - /api/v2.0/storage/repository/listablerepository
 - /api/v2.0/storage/repository/listablerepository.html
 - /api/v2.1/storage/repository/listablerepository

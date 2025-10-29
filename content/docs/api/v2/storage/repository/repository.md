@@ -4,7 +4,8 @@ title: repository.Repository
 slug: repository
 
 aliases:
-- /api/v2/storage/repository/repository.html
+- /api/storage/repository/repository
+- /api/storage/repository/repository.html
 - /api/v2.0/storage/repository/repository
 - /api/v2.0/storage/repository/repository.html
 - /api/v2.1/storage/repository/repository

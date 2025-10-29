@@ -4,7 +4,8 @@ title: fyne.ThemedResource
 slug: themedresource
 
 aliases:
-- /api/v2/fyne/themedresource.html
+- /api//themedresource
+- /api//themedresource.html
 - /api/v2.0//themedresource
 - /api/v2.0//themedresource.html
 - /api/v2.1//themedresource

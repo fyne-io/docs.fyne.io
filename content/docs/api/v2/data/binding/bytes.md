@@ -4,7 +4,8 @@ title: binding.Bytes
 slug: bytes
 
 aliases:
-- /api/v2/data/binding/bytes.html
+- /api/data/binding/bytes
+- /api/data/binding/bytes.html
 - /api/v2.0/data/binding/bytes
 - /api/v2.0/data/binding/bytes.html
 - /api/v2.1/data/binding/bytes

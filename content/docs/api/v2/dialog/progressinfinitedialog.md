@@ -4,7 +4,8 @@ title: dialog.ProgressInfiniteDialog
 slug: progressinfinitedialog
 
 aliases:
-- /api/v2/dialog/progressinfinitedialog.html
+- /api/dialog/progressinfinitedialog
+- /api/dialog/progressinfinitedialog.html
 - /api/v2.0/dialog/progressinfinitedialog
 - /api/v2.0/dialog/progressinfinitedialog.html
 - /api/v2.1/dialog/progressinfinitedialog

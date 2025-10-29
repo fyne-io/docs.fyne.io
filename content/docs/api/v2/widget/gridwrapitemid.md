@@ -4,7 +4,8 @@ title: widget.GridWrapItemID
 slug: gridwrapitemid
 
 aliases:
-- /api/v2/widget/gridwrapitemid.html
+- /api/widget/gridwrapitemid
+- /api/widget/gridwrapitemid.html
 - /api/v2.0/widget/gridwrapitemid
 - /api/v2.0/widget/gridwrapitemid.html
 - /api/v2.1/widget/gridwrapitemid

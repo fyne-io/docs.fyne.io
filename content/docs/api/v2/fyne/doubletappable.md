@@ -4,7 +4,8 @@ title: fyne.DoubleTappable
 slug: doubletappable
 
 aliases:
-- /api/v2/fyne/doubletappable.html
+- /api//doubletappable
+- /api//doubletappable.html
 - /api/v2.0//doubletappable
 - /api/v2.0//doubletappable.html
 - /api/v2.1//doubletappable

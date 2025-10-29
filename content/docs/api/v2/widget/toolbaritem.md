@@ -4,7 +4,8 @@ title: widget.ToolbarItem
 slug: toolbaritem
 
 aliases:
-- /api/v2/widget/toolbaritem.html
+- /api/widget/toolbaritem
+- /api/widget/toolbaritem.html
 - /api/v2.0/widget/toolbaritem
 - /api/v2.0/widget/toolbaritem.html
 - /api/v2.1/widget/toolbaritem

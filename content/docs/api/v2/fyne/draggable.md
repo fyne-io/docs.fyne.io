@@ -4,7 +4,8 @@ title: fyne.Draggable
 slug: draggable
 
 aliases:
-- /api/v2/fyne/draggable.html
+- /api//draggable
+- /api//draggable.html
 - /api/v2.0//draggable
 - /api/v2.0//draggable.html
 - /api/v2.1//draggable

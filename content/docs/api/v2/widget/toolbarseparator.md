@@ -4,7 +4,8 @@ title: widget.ToolbarSeparator
 slug: toolbarseparator
 
 aliases:
-- /api/v2/widget/toolbarseparator.html
+- /api/widget/toolbarseparator
+- /api/widget/toolbarseparator.html
 - /api/v2.0/widget/toolbarseparator
 - /api/v2.0/widget/toolbarseparator.html
 - /api/v2.1/widget/toolbarseparator

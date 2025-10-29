@@ -4,7 +4,8 @@ title: binding.ExternalBytesList
 slug: externalbyteslist
 
 aliases:
-- /api/v2/data/binding/externalbyteslist.html
+- /api/data/binding/externalbyteslist
+- /api/data/binding/externalbyteslist.html
 - /api/v2.0/data/binding/externalbyteslist
 - /api/v2.0/data/binding/externalbyteslist.html
 - /api/v2.1/data/binding/externalbyteslist

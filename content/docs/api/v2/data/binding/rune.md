@@ -4,7 +4,8 @@ title: binding.Rune
 slug: rune
 
 aliases:
-- /api/v2/data/binding/rune.html
+- /api/data/binding/rune
+- /api/data/binding/rune.html
 - /api/v2.0/data/binding/rune
 - /api/v2.0/data/binding/rune.html
 - /api/v2.1/data/binding/rune

@@ -4,7 +4,8 @@ title: binding.ExternalInt
 slug: externalint
 
 aliases:
-- /api/v2/data/binding/externalint.html
+- /api/data/binding/externalint
+- /api/data/binding/externalint.html
 - /api/v2.0/data/binding/externalint
 - /api/v2.0/data/binding/externalint.html
 - /api/v2.1/data/binding/externalint

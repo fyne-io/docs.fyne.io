@@ -4,7 +4,8 @@ title: test.WindowlessCanvas
 slug: windowlesscanvas
 
 aliases:
-- /api/v2/test/windowlesscanvas.html
+- /api/test/windowlesscanvas
+- /api/test/windowlesscanvas.html
 - /api/v2.0/test/windowlesscanvas
 - /api/v2.0/test/windowlesscanvas.html
 - /api/v2.1/test/windowlesscanvas

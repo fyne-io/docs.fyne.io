@@ -4,7 +4,8 @@ title: widget.RichTextStyle
 slug: richtextstyle
 
 aliases:
-- /api/v2/widget/richtextstyle.html
+- /api/widget/richtextstyle
+- /api/widget/richtextstyle.html
 - /api/v2.0/widget/richtextstyle
 - /api/v2.0/widget/richtextstyle.html
 - /api/v2.1/widget/richtextstyle

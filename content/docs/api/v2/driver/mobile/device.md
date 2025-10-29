@@ -4,7 +4,8 @@ title: mobile.Device
 slug: device
 
 aliases:
-- /api/v2/driver/mobile/device.html
+- /api/driver/mobile/device
+- /api/driver/mobile/device.html
 - /api/v2.0/driver/mobile/device
 - /api/v2.0/driver/mobile/device.html
 - /api/v2.1/driver/mobile/device

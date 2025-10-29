@@ -4,7 +4,8 @@ title: widget.ProgressBarInfinite
 slug: progressbarinfinite
 
 aliases:
-- /api/v2/widget/progressbarinfinite.html
+- /api/widget/progressbarinfinite
+- /api/widget/progressbarinfinite.html
 - /api/v2.0/widget/progressbarinfinite
 - /api/v2.0/widget/progressbarinfinite.html
 - /api/v2.1/widget/progressbarinfinite

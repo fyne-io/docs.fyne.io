@@ -4,7 +4,8 @@ title: fyne.LegacyTheme
 slug: legacytheme
 
 aliases:
-- /api/v2/fyne/legacytheme.html
+- /api//legacytheme
+- /api//legacytheme.html
 - /api/v2.0//legacytheme
 - /api/v2.0//legacytheme.html
 - /api/v2.1//legacytheme

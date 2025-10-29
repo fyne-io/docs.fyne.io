@@ -4,7 +4,8 @@ title: repository.AppendableRepository
 slug: appendablerepository
 
 aliases:
-- /api/v2/storage/repository/appendablerepository.html
+- /api/storage/repository/appendablerepository
+- /api/storage/repository/appendablerepository.html
 - /api/v2.0/storage/repository/appendablerepository
 - /api/v2.0/storage/repository/appendablerepository.html
 - /api/v2.1/storage/repository/appendablerepository

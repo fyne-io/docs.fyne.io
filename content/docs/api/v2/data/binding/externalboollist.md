@@ -4,7 +4,8 @@ title: binding.ExternalBoolList
 slug: externalboollist
 
 aliases:
-- /api/v2/data/binding/externalboollist.html
+- /api/data/binding/externalboollist
+- /api/data/binding/externalboollist.html
 - /api/v2.0/data/binding/externalboollist
 - /api/v2.0/data/binding/externalboollist.html
 - /api/v2.1/data/binding/externalboollist

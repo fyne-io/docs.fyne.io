@@ -4,7 +4,8 @@ title: repository.CustomURIRepository
 slug: customurirepository
 
 aliases:
-- /api/v2/storage/repository/customurirepository.html
+- /api/storage/repository/customurirepository
+- /api/storage/repository/customurirepository.html
 - /api/v2.0/storage/repository/customurirepository
 - /api/v2.0/storage/repository/customurirepository.html
 - /api/v2.1/storage/repository/customurirepository

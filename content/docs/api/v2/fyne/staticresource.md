@@ -4,7 +4,8 @@ title: fyne.StaticResource
 slug: staticresource
 
 aliases:
-- /api/v2/fyne/staticresource.html
+- /api//staticresource
+- /api//staticresource.html
 - /api/v2.0//staticresource
 - /api/v2.0//staticresource.html
 - /api/v2.1//staticresource

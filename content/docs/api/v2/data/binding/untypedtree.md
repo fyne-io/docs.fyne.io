@@ -4,7 +4,8 @@ title: binding.UntypedTree
 slug: untypedtree
 
 aliases:
-- /api/v2/data/binding/untypedtree.html
+- /api/data/binding/untypedtree
+- /api/data/binding/untypedtree.html
 - /api/v2.0/data/binding/untypedtree
 - /api/v2.0/data/binding/untypedtree.html
 - /api/v2.1/data/binding/untypedtree

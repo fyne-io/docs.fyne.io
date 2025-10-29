@@ -4,7 +4,8 @@ title: binding.UntypedList
 slug: untypedlist
 
 aliases:
-- /api/v2/data/binding/untypedlist.html
+- /api/data/binding/untypedlist
+- /api/data/binding/untypedlist.html
 - /api/v2.0/data/binding/untypedlist
 - /api/v2.0/data/binding/untypedlist.html
 - /api/v2.1/data/binding/untypedlist

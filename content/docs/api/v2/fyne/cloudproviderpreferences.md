@@ -4,7 +4,8 @@ title: fyne.CloudProviderPreferences
 slug: cloudproviderpreferences
 
 aliases:
-- /api/v2/fyne/cloudproviderpreferences.html
+- /api//cloudproviderpreferences
+- /api//cloudproviderpreferences.html
 - /api/v2.0//cloudproviderpreferences
 - /api/v2.0//cloudproviderpreferences.html
 - /api/v2.1//cloudproviderpreferences

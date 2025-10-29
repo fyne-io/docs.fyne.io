@@ -4,7 +4,8 @@ title: desktop.StandardCursor
 slug: standardcursor
 
 aliases:
-- /api/v2/driver/desktop/standardcursor.html
+- /api/driver/desktop/standardcursor
+- /api/driver/desktop/standardcursor.html
 - /api/v2.0/driver/desktop/standardcursor
 - /api/v2.0/driver/desktop/standardcursor.html
 - /api/v2.1/driver/desktop/standardcursor

@@ -4,7 +4,8 @@ title: binding.ExternalStringTree
 slug: externalstringtree
 
 aliases:
-- /api/v2/data/binding/externalstringtree.html
+- /api/data/binding/externalstringtree
+- /api/data/binding/externalstringtree.html
 - /api/v2.0/data/binding/externalstringtree
 - /api/v2.0/data/binding/externalstringtree.html
 - /api/v2.1/data/binding/externalstringtree

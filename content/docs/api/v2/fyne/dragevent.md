@@ -4,7 +4,8 @@ title: fyne.DragEvent
 slug: dragevent
 
 aliases:
-- /api/v2/fyne/dragevent.html
+- /api//dragevent
+- /api//dragevent.html
 - /api/v2.0//dragevent
 - /api/v2.0//dragevent.html
 - /api/v2.1//dragevent

@@ -4,7 +4,8 @@ title: fyne.BuildType
 slug: buildtype
 
 aliases:
-- /api/v2/fyne/buildtype.html
+- /api//buildtype
+- /api//buildtype.html
 - /api/v2.0//buildtype
 - /api/v2.0//buildtype.html
 - /api/v2.1//buildtype

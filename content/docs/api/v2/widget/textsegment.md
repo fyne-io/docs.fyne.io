@@ -4,7 +4,8 @@ title: widget.TextSegment
 slug: textsegment
 
 aliases:
-- /api/v2/widget/textsegment.html
+- /api/widget/textsegment
+- /api/widget/textsegment.html
 - /api/v2.0/widget/textsegment
 - /api/v2.0/widget/textsegment.html
 - /api/v2.1/widget/textsegment

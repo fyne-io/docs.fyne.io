@@ -4,7 +4,8 @@ title: widget.Orientation
 slug: orientation
 
 aliases:
-- /api/v2/widget/orientation.html
+- /api/widget/orientation
+- /api/widget/orientation.html
 - /api/v2.0/widget/orientation
 - /api/v2.0/widget/orientation.html
 - /api/v2.1/widget/orientation

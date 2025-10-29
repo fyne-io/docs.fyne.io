@@ -4,7 +4,8 @@ title: canvas.Circle
 slug: circle
 
 aliases:
-- /api/v2/canvas/circle.html
+- /api/canvas/circle
+- /api/canvas/circle.html
 - /api/v2.0/canvas/circle
 - /api/v2.0/canvas/circle.html
 - /api/v2.1/canvas/circle

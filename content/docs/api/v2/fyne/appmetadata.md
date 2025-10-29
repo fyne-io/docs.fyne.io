@@ -4,7 +4,8 @@ title: fyne.AppMetadata
 slug: appmetadata
 
 aliases:
-- /api/v2/fyne/appmetadata.html
+- /api//appmetadata
+- /api//appmetadata.html
 - /api/v2.0//appmetadata
 - /api/v2.0//appmetadata.html
 - /api/v2.1//appmetadata

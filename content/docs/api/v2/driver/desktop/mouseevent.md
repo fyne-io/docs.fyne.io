@@ -4,7 +4,8 @@ title: desktop.MouseEvent
 slug: mouseevent
 
 aliases:
-- /api/v2/driver/desktop/mouseevent.html
+- /api/driver/desktop/mouseevent
+- /api/driver/desktop/mouseevent.html
 - /api/v2.0/driver/desktop/mouseevent
 - /api/v2.0/driver/desktop/mouseevent.html
 - /api/v2.1/driver/desktop/mouseevent

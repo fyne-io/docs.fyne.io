@@ -4,7 +4,8 @@ title: dialog.FormDialog
 slug: formdialog
 
 aliases:
-- /api/v2/dialog/formdialog.html
+- /api/dialog/formdialog
+- /api/dialog/formdialog.html
 - /api/v2.0/dialog/formdialog
 - /api/v2.0/dialog/formdialog.html
 - /api/v2.1/dialog/formdialog

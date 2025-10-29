@@ -4,7 +4,8 @@ title: dialog.CustomDialog
 slug: customdialog
 
 aliases:
-- /api/v2/dialog/customdialog.html
+- /api/dialog/customdialog
+- /api/dialog/customdialog.html
 - /api/v2.0/dialog/customdialog
 - /api/v2.0/dialog/customdialog.html
 - /api/v2.1/dialog/customdialog

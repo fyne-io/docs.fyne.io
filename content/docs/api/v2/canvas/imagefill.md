@@ -4,7 +4,8 @@ title: canvas.ImageFill
 slug: imagefill
 
 aliases:
-- /api/v2/canvas/imagefill.html
+- /api/canvas/imagefill
+- /api/canvas/imagefill.html
 - /api/v2.0/canvas/imagefill
 - /api/v2.0/canvas/imagefill.html
 - /api/v2.1/canvas/imagefill

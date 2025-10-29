@@ -4,7 +4,8 @@ title: container.TabItem
 slug: tabitem
 
 aliases:
-- /api/v2/container/tabitem.html
+- /api/container/tabitem
+- /api/container/tabitem.html
 - /api/v2.0/container/tabitem
 - /api/v2.0/container/tabitem.html
 - /api/v2.1/container/tabitem

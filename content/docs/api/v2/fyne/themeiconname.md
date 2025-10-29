@@ -4,7 +4,8 @@ title: fyne.ThemeIconName
 slug: themeiconname
 
 aliases:
-- /api/v2/fyne/themeiconname.html
+- /api//themeiconname
+- /api//themeiconname.html
 - /api/v2.0//themeiconname
 - /api/v2.0//themeiconname.html
 - /api/v2.1//themeiconname

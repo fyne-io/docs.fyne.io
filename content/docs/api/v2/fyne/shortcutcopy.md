@@ -4,7 +4,8 @@ title: fyne.ShortcutCopy
 slug: shortcutcopy
 
 aliases:
-- /api/v2/fyne/shortcutcopy.html
+- /api//shortcutcopy
+- /api//shortcutcopy.html
 - /api/v2.0//shortcutcopy
 - /api/v2.0//shortcutcopy.html
 - /api/v2.1//shortcutcopy

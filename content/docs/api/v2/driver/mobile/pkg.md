@@ -4,7 +4,8 @@ title: mobile (package)
 slug: (package)
 
 aliases:
-- /api/v2/driver/mobile/pkg.html
+- /api/driver/mobile
+- /api/driver/mobile.html
 - /api/v2.0/driver/mobile
 - /api/v2.0/driver/mobile.html
 - /api/v2.1/driver/mobile

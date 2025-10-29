@@ -4,7 +4,8 @@ title: binding.Int
 slug: int
 
 aliases:
-- /api/v2/data/binding/int.html
+- /api/data/binding/int
+- /api/data/binding/int.html
 - /api/v2.0/data/binding/int
 - /api/v2.0/data/binding/int.html
 - /api/v2.1/data/binding/int

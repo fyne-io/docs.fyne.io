@@ -4,7 +4,8 @@ title: embedded.TouchDownEvent
 slug: touchdownevent
 
 aliases:
-- /api/v2/driver/embedded/touchdownevent.html
+- /api/driver/embedded/touchdownevent
+- /api/driver/embedded/touchdownevent.html
 - /api/v2.0/driver/embedded/touchdownevent
 - /api/v2.0/driver/embedded/touchdownevent.html
 - /api/v2.1/driver/embedded/touchdownevent

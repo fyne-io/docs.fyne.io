@@ -4,7 +4,8 @@ title: embedded.Event
 slug: event
 
 aliases:
-- /api/v2/driver/embedded/event.html
+- /api/driver/embedded/event
+- /api/driver/embedded/event.html
 - /api/v2.0/driver/embedded/event
 - /api/v2.0/driver/embedded/event.html
 - /api/v2.1/driver/embedded/event

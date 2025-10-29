@@ -4,7 +4,8 @@ title: fyne.URIWithIcon
 slug: uriwithicon
 
 aliases:
-- /api/v2/fyne/uriwithicon.html
+- /api//uriwithicon
+- /api//uriwithicon.html
 - /api/v2.0//uriwithicon
 - /api/v2.0//uriwithicon.html
 - /api/v2.1//uriwithicon

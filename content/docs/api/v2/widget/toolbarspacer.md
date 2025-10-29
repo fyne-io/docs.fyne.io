@@ -4,7 +4,8 @@ title: widget.ToolbarSpacer
 slug: toolbarspacer
 
 aliases:
-- /api/v2/widget/toolbarspacer.html
+- /api/widget/toolbarspacer
+- /api/widget/toolbarspacer.html
 - /api/v2.0/widget/toolbarspacer
 - /api/v2.0/widget/toolbarspacer.html
 - /api/v2.1/widget/toolbarspacer

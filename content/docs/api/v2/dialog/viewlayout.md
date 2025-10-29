@@ -4,7 +4,8 @@ title: dialog.ViewLayout
 slug: viewlayout
 
 aliases:
-- /api/v2/dialog/viewlayout.html
+- /api/dialog/viewlayout
+- /api/dialog/viewlayout.html
 - /api/v2.0/dialog/viewlayout
 - /api/v2.0/dialog/viewlayout.html
 - /api/v2.1/dialog/viewlayout

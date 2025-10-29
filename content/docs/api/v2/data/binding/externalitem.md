@@ -4,7 +4,8 @@ title: binding.ExternalItem
 slug: externalitem
 
 aliases:
-- /api/v2/data/binding/externalitem.html
+- /api/data/binding/externalitem
+- /api/data/binding/externalitem.html
 - /api/v2.0/data/binding/externalitem
 - /api/v2.0/data/binding/externalitem.html
 - /api/v2.1/data/binding/externalitem

@@ -4,7 +4,8 @@ title: widget.ImageSegment
 slug: imagesegment
 
 aliases:
-- /api/v2/widget/imagesegment.html
+- /api/widget/imagesegment
+- /api/widget/imagesegment.html
 - /api/v2.0/widget/imagesegment
 - /api/v2.0/widget/imagesegment.html
 - /api/v2.1/widget/imagesegment

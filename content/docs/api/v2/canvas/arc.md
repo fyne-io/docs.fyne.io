@@ -4,7 +4,8 @@ title: canvas.Arc
 slug: arc
 
 aliases:
-- /api/v2/canvas/arc.html
+- /api/canvas/arc
+- /api/canvas/arc.html
 - /api/v2.0/canvas/arc
 - /api/v2.0/canvas/arc.html
 - /api/v2.1/canvas/arc

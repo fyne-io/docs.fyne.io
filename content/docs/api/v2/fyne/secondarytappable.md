@@ -4,7 +4,8 @@ title: fyne.SecondaryTappable
 slug: secondarytappable
 
 aliases:
-- /api/v2/fyne/secondarytappable.html
+- /api//secondarytappable
+- /api//secondarytappable.html
 - /api/v2.0//secondarytappable
 - /api/v2.0//secondarytappable.html
 - /api/v2.1//secondarytappable

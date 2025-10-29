@@ -4,7 +4,8 @@ title: widget.SelectEntry
 slug: selectentry
 
 aliases:
-- /api/v2/widget/selectentry.html
+- /api/widget/selectentry
+- /api/widget/selectentry.html
 - /api/v2.0/widget/selectentry
 - /api/v2.0/widget/selectentry.html
 - /api/v2.1/widget/selectentry

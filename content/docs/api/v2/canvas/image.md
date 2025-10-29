@@ -4,7 +4,8 @@ title: canvas.Image
 slug: image
 
 aliases:
-- /api/v2/canvas/image.html
+- /api/canvas/image
+- /api/canvas/image.html
 - /api/v2.0/canvas/image
 - /api/v2.0/canvas/image.html
 - /api/v2.1/canvas/image

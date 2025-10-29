@@ -4,7 +4,8 @@ title: binding.StringTree
 slug: stringtree
 
 aliases:
-- /api/v2/data/binding/stringtree.html
+- /api/data/binding/stringtree
+- /api/data/binding/stringtree.html
 - /api/v2.0/data/binding/stringtree
 - /api/v2.0/data/binding/stringtree.html
 - /api/v2.1/data/binding/stringtree

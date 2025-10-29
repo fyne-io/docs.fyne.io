@@ -58,7 +58,7 @@ for DIR in $DIRS; do
 
     declare -a vers=("v2.0" "v2.1" "v2.2" "v2.3" "v2.4" "v2.5" "v2.6" "v2.7")
 	
-    ALIASLIST=""
+    ALIASLIST="\n- \/api\/$PKGPATH\n- \/api\/$PKGPATH.html"
     for i in "${vers[@]}"
     do
       ALIASLIST=$ALIASLIST"\n- \/api\/$i\/$PKGPATH\n- \/api\/$i\/$PKGPATH.html"

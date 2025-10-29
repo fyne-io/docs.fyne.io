@@ -4,7 +4,8 @@ title: binding.UntypedMap
 slug: untypedmap
 
 aliases:
-- /api/v2/data/binding/untypedmap.html
+- /api/data/binding/untypedmap
+- /api/data/binding/untypedmap.html
 - /api/v2.0/data/binding/untypedmap
 - /api/v2.0/data/binding/untypedmap.html
 - /api/v2.1/data/binding/untypedmap

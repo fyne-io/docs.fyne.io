@@ -4,7 +4,8 @@ title: container.ScrollDirection
 slug: scrolldirection
 
 aliases:
-- /api/v2/container/scrolldirection.html
+- /api/container/scrolldirection
+- /api/container/scrolldirection.html
 - /api/v2.0/container/scrolldirection
 - /api/v2.0/container/scrolldirection.html
 - /api/v2.1/container/scrolldirection

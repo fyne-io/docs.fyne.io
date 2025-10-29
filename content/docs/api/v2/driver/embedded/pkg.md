@@ -4,7 +4,8 @@ title: embedded (package)
 slug: (package)
 
 aliases:
-- /api/v2/driver/embedded/pkg.html
+- /api/driver/embedded
+- /api/driver/embedded.html
 - /api/v2.0/driver/embedded
 - /api/v2.0/driver/embedded.html
 - /api/v2.1/driver/embedded

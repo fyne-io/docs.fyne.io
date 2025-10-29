@@ -4,7 +4,8 @@ title: fyne.Resource
 slug: resource
 
 aliases:
-- /api/v2/fyne/resource.html
+- /api//resource
+- /api//resource.html
 - /api/v2.0//resource
 - /api/v2.0//resource.html
 - /api/v2.1//resource

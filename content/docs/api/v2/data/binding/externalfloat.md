@@ -4,7 +4,8 @@ title: binding.ExternalFloat
 slug: externalfloat
 
 aliases:
-- /api/v2/data/binding/externalfloat.html
+- /api/data/binding/externalfloat
+- /api/data/binding/externalfloat.html
 - /api/v2.0/data/binding/externalfloat
 - /api/v2.0/data/binding/externalfloat.html
 - /api/v2.1/data/binding/externalfloat

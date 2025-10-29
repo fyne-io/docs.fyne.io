@@ -4,7 +4,8 @@ title: software (package)
 slug: (package)
 
 aliases:
-- /api/v2/driver/software/pkg.html
+- /api/driver/software
+- /api/driver/software.html
 - /api/v2.0/driver/software
 - /api/v2.0/driver/software.html
 - /api/v2.1/driver/software

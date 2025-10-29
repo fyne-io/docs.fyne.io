@@ -4,7 +4,8 @@ title: fyne.ListableURI
 slug: listableuri
 
 aliases:
-- /api/v2/fyne/listableuri.html
+- /api//listableuri
+- /api//listableuri.html
 - /api/v2.0//listableuri
 - /api/v2.0//listableuri.html
 - /api/v2.1//listableuri

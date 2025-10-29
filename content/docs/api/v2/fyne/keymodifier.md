@@ -4,7 +4,8 @@ title: fyne.KeyModifier
 slug: keymodifier
 
 aliases:
-- /api/v2/fyne/keymodifier.html
+- /api//keymodifier
+- /api//keymodifier.html
 - /api/v2.0//keymodifier
 - /api/v2.0//keymodifier.html
 - /api/v2.1//keymodifier

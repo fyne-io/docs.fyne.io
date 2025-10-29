@@ -4,7 +4,8 @@ title: binding.ExternalRuneList
 slug: externalrunelist
 
 aliases:
-- /api/v2/data/binding/externalrunelist.html
+- /api/data/binding/externalrunelist
+- /api/data/binding/externalrunelist.html
 - /api/v2.0/data/binding/externalrunelist
 - /api/v2.0/data/binding/externalrunelist.html
 - /api/v2.1/data/binding/externalrunelist

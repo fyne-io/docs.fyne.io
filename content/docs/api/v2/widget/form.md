@@ -4,7 +4,8 @@ title: widget.Form
 slug: form
 
 aliases:
-- /api/v2/widget/form.html
+- /api/widget/form
+- /api/widget/form.html
 - /api/v2.0/widget/form
 - /api/v2.0/widget/form.html
 - /api/v2.1/widget/form

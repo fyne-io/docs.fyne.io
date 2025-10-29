@@ -4,7 +4,8 @@ title: widget.ButtonAlign
 slug: buttonalign
 
 aliases:
-- /api/v2/widget/buttonalign.html
+- /api/widget/buttonalign
+- /api/widget/buttonalign.html
 - /api/v2.0/widget/buttonalign
 - /api/v2.0/widget/buttonalign.html
 - /api/v2.1/widget/buttonalign

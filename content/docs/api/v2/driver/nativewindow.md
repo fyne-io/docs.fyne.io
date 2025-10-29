@@ -4,7 +4,8 @@ title: driver.NativeWindow
 slug: nativewindow
 
 aliases:
-- /api/v2/driver/nativewindow.html
+- /api/driver/nativewindow
+- /api/driver/nativewindow.html
 - /api/v2.0/driver/nativewindow
 - /api/v2.0/driver/nativewindow.html
 - /api/v2.1/driver/nativewindow

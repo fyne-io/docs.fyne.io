@@ -4,7 +4,8 @@ title: fyne.Animation
 slug: animation
 
 aliases:
-- /api/v2/fyne/animation.html
+- /api//animation
+- /api//animation.html
 - /api/v2.0//animation
 - /api/v2.0//animation.html
 - /api/v2.1//animation

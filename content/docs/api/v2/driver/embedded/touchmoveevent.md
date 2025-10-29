@@ -4,7 +4,8 @@ title: embedded.TouchMoveEvent
 slug: touchmoveevent
 
 aliases:
-- /api/v2/driver/embedded/touchmoveevent.html
+- /api/driver/embedded/touchmoveevent
+- /api/driver/embedded/touchmoveevent.html
 - /api/v2.0/driver/embedded/touchmoveevent
 - /api/v2.0/driver/embedded/touchmoveevent.html
 - /api/v2.1/driver/embedded/touchmoveevent

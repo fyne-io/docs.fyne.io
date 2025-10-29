@@ -4,7 +4,8 @@ title: widget.Importance
 slug: importance
 
 aliases:
-- /api/v2/widget/importance.html
+- /api/widget/importance
+- /api/widget/importance.html
 - /api/v2.0/widget/importance
 - /api/v2.0/widget/importance.html
 - /api/v2.1/widget/importance

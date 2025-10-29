@@ -4,7 +4,8 @@ title: widget.Label
 slug: label
 
 aliases:
-- /api/v2/widget/label.html
+- /api/widget/label
+- /api/widget/label.html
 - /api/v2.0/widget/label
 - /api/v2.0/widget/label.html
 - /api/v2.1/widget/label

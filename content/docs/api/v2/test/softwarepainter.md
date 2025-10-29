@@ -4,7 +4,8 @@ title: test.SoftwarePainter
 slug: softwarepainter
 
 aliases:
-- /api/v2/test/softwarepainter.html
+- /api/test/softwarepainter
+- /api/test/softwarepainter.html
 - /api/v2.0/test/softwarepainter
 - /api/v2.0/test/softwarepainter.html
 - /api/v2.1/test/softwarepainter

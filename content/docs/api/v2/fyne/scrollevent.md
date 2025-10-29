@@ -4,7 +4,8 @@ title: fyne.ScrollEvent
 slug: scrollevent
 
 aliases:
-- /api/v2/fyne/scrollevent.html
+- /api//scrollevent
+- /api//scrollevent.html
 - /api/v2.0//scrollevent
 - /api/v2.0//scrollevent.html
 - /api/v2.1//scrollevent

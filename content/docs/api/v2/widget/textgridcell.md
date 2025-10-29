@@ -4,7 +4,8 @@ title: widget.TextGridCell
 slug: textgridcell
 
 aliases:
-- /api/v2/widget/textgridcell.html
+- /api/widget/textgridcell
+- /api/widget/textgridcell.html
 - /api/v2.0/widget/textgridcell
 - /api/v2.0/widget/textgridcell.html
 - /api/v2.1/widget/textgridcell

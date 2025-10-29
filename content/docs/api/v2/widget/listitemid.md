@@ -4,7 +4,8 @@ title: widget.ListItemID
 slug: listitemid
 
 aliases:
-- /api/v2/widget/listitemid.html
+- /api/widget/listitemid
+- /api/widget/listitemid.html
 - /api/v2.0/widget/listitemid
 - /api/v2.0/widget/listitemid.html
 - /api/v2.1/widget/listitemid

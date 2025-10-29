@@ -4,7 +4,8 @@ title: layout.Spacer
 slug: spacer
 
 aliases:
-- /api/v2/layout/spacer.html
+- /api/layout/spacer
+- /api/layout/spacer.html
 - /api/v2.0/layout/spacer
 - /api/v2.0/layout/spacer.html
 - /api/v2.1/layout/spacer

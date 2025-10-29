@@ -4,7 +4,8 @@ title: widget.Hyperlink
 slug: hyperlink
 
 aliases:
-- /api/v2/widget/hyperlink.html
+- /api/widget/hyperlink
+- /api/widget/hyperlink.html
 - /api/v2.0/widget/hyperlink
 - /api/v2.0/widget/hyperlink.html
 - /api/v2.1/widget/hyperlink

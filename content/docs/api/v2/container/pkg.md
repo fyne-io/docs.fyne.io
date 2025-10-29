@@ -4,7 +4,8 @@ title: container (package)
 slug: (package)
 
 aliases:
-- /api/v2/container/pkg.html
+- /api/container
+- /api/container.html
 - /api/v2.0/container
 - /api/v2.0/container.html
 - /api/v2.1/container

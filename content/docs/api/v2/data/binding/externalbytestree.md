@@ -4,7 +4,8 @@ title: binding.ExternalBytesTree
 slug: externalbytestree
 
 aliases:
-- /api/v2/data/binding/externalbytestree.html
+- /api/data/binding/externalbytestree
+- /api/data/binding/externalbytestree.html
 - /api/v2.0/data/binding/externalbytestree
 - /api/v2.0/data/binding/externalbytestree.html
 - /api/v2.1/data/binding/externalbytestree

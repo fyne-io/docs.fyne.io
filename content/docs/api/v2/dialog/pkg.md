@@ -4,7 +4,8 @@ title: dialog (package)
 slug: (package)
 
 aliases:
-- /api/v2/dialog/pkg.html
+- /api/dialog
+- /api/dialog.html
 - /api/v2.0/dialog
 - /api/v2.0/dialog.html
 - /api/v2.1/dialog

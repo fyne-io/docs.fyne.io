@@ -4,7 +4,8 @@ title: desktop.MouseButton
 slug: mousebutton
 
 aliases:
-- /api/v2/driver/desktop/mousebutton.html
+- /api/driver/desktop/mousebutton
+- /api/driver/desktop/mousebutton.html
 - /api/v2.0/driver/desktop/mousebutton
 - /api/v2.0/driver/desktop/mousebutton.html
 - /api/v2.1/driver/desktop/mousebutton

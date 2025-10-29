@@ -4,7 +4,8 @@ title: canvas (package)
 slug: (package)
 
 aliases:
-- /api/v2/canvas/pkg.html
+- /api/canvas
+- /api/canvas.html
 - /api/v2.0/canvas
 - /api/v2.0/canvas.html
 - /api/v2.1/canvas

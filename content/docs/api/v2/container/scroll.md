@@ -4,7 +4,8 @@ title: container.Scroll
 slug: scroll
 
 aliases:
-- /api/v2/container/scroll.html
+- /api/container/scroll
+- /api/container/scroll.html
 - /api/v2.0/container/scroll
 - /api/v2.0/container/scroll.html
 - /api/v2.1/container/scroll

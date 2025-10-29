@@ -4,7 +4,8 @@ title: widget.TableCellID
 slug: tablecellid
 
 aliases:
-- /api/v2/widget/tablecellid.html
+- /api/widget/tablecellid
+- /api/widget/tablecellid.html
 - /api/v2.0/widget/tablecellid
 - /api/v2.0/widget/tablecellid.html
 - /api/v2.1/widget/tablecellid

@@ -4,7 +4,8 @@ title: widget.HyperlinkSegment
 slug: hyperlinksegment
 
 aliases:
-- /api/v2/widget/hyperlinksegment.html
+- /api/widget/hyperlinksegment
+- /api/widget/hyperlinksegment.html
 - /api/v2.0/widget/hyperlinksegment
 - /api/v2.0/widget/hyperlinksegment.html
 - /api/v2.1/widget/hyperlinksegment

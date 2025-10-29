@@ -4,7 +4,8 @@ title: binding.ExternalRuneTree
 slug: externalrunetree
 
 aliases:
-- /api/v2/data/binding/externalrunetree.html
+- /api/data/binding/externalrunetree
+- /api/data/binding/externalrunetree.html
 - /api/v2.0/data/binding/externalrunetree
 - /api/v2.0/data/binding/externalrunetree.html
 - /api/v2.1/data/binding/externalrunetree

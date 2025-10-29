@@ -4,7 +4,8 @@ title: binding.RuneTree
 slug: runetree
 
 aliases:
-- /api/v2/data/binding/runetree.html
+- /api/data/binding/runetree
+- /api/data/binding/runetree.html
 - /api/v2.0/data/binding/runetree
 - /api/v2.0/data/binding/runetree.html
 - /api/v2.1/data/binding/runetree

@@ -4,7 +4,8 @@ title: canvas.Text
 slug: text
 
 aliases:
-- /api/v2/canvas/text.html
+- /api/canvas/text
+- /api/canvas/text.html
 - /api/v2.0/canvas/text
 - /api/v2.0/canvas/text.html
 - /api/v2.1/canvas/text

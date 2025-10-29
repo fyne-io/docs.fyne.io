@@ -4,7 +4,8 @@ title: embedded.Driver
 slug: driver
 
 aliases:
-- /api/v2/driver/embedded/driver.html
+- /api/driver/embedded/driver
+- /api/driver/embedded/driver.html
 - /api/v2.0/driver/embedded/driver
 - /api/v2.0/driver/embedded/driver.html
 - /api/v2.1/driver/embedded/driver

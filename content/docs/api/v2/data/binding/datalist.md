@@ -4,7 +4,8 @@ title: binding.DataList
 slug: datalist
 
 aliases:
-- /api/v2/data/binding/datalist.html
+- /api/data/binding/datalist
+- /api/data/binding/datalist.html
 - /api/v2.0/data/binding/datalist
 - /api/v2.0/data/binding/datalist.html
 - /api/v2.1/data/binding/datalist

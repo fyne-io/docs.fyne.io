@@ -4,7 +4,8 @@ title: widget.TextGrid
 slug: textgrid
 
 aliases:
-- /api/v2/widget/textgrid.html
+- /api/widget/textgrid
+- /api/widget/textgrid.html
 - /api/v2.0/widget/textgrid
 - /api/v2.0/widget/textgrid.html
 - /api/v2.1/widget/textgrid

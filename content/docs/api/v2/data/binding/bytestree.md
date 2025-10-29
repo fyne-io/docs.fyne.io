@@ -4,7 +4,8 @@ title: binding.BytesTree
 slug: bytestree
 
 aliases:
-- /api/v2/data/binding/bytestree.html
+- /api/data/binding/bytestree
+- /api/data/binding/bytestree.html
 - /api/v2.0/data/binding/bytestree
 - /api/v2.0/data/binding/bytestree.html
 - /api/v2.1/data/binding/bytestree

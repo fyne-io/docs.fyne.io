@@ -4,7 +4,8 @@ title: canvas.Line
 slug: line
 
 aliases:
-- /api/v2/canvas/line.html
+- /api/canvas/line
+- /api/canvas/line.html
 - /api/v2.0/canvas/line
 - /api/v2.0/canvas/line.html
 - /api/v2.1/canvas/line

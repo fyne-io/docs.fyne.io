@@ -4,7 +4,8 @@ title: binding.URI
 slug: uri
 
 aliases:
-- /api/v2/data/binding/uri.html
+- /api/data/binding/uri
+- /api/data/binding/uri.html
 - /api/v2.0/data/binding/uri
 - /api/v2.0/data/binding/uri.html
 - /api/v2.1/data/binding/uri

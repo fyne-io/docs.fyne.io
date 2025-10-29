@@ -4,7 +4,8 @@ title: widget.Toolbar
 slug: toolbar
 
 aliases:
-- /api/v2/widget/toolbar.html
+- /api/widget/toolbar
+- /api/widget/toolbar.html
 - /api/v2.0/widget/toolbar
 - /api/v2.0/widget/toolbar.html
 - /api/v2.1/widget/toolbar

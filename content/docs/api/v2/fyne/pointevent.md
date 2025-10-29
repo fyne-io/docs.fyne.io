@@ -4,7 +4,8 @@ title: fyne.PointEvent
 slug: pointevent
 
 aliases:
-- /api/v2/fyne/pointevent.html
+- /api//pointevent
+- /api//pointevent.html
 - /api/v2.0//pointevent
 - /api/v2.0//pointevent.html
 - /api/v2.1//pointevent

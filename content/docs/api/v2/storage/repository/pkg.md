@@ -4,7 +4,8 @@ title: repository (package)
 slug: (package)
 
 aliases:
-- /api/v2/storage/repository/pkg.html
+- /api/storage/repository
+- /api/storage/repository.html
 - /api/v2.0/storage/repository
 - /api/v2.0/storage/repository.html
 - /api/v2.1/storage/repository

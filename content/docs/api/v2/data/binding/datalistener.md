@@ -4,7 +4,8 @@ title: binding.DataListener
 slug: datalistener
 
 aliases:
-- /api/v2/data/binding/datalistener.html
+- /api/data/binding/datalistener
+- /api/data/binding/datalistener.html
 - /api/v2.0/data/binding/datalistener
 - /api/v2.0/data/binding/datalistener.html
 - /api/v2.1/data/binding/datalistener

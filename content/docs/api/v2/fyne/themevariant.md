@@ -4,7 +4,8 @@ title: fyne.ThemeVariant
 slug: themevariant
 
 aliases:
-- /api/v2/fyne/themevariant.html
+- /api//themevariant
+- /api//themevariant.html
 - /api/v2.0//themevariant
 - /api/v2.0//themevariant.html
 - /api/v2.1//themevariant

@@ -4,7 +4,8 @@ title: widget.TreeNodeID
 slug: treenodeid
 
 aliases:
-- /api/v2/widget/treenodeid.html
+- /api/widget/treenodeid
+- /api/widget/treenodeid.html
 - /api/v2.0/widget/treenodeid
 - /api/v2.0/widget/treenodeid.html
 - /api/v2.1/widget/treenodeid

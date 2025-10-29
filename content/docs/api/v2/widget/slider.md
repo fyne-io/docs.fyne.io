@@ -4,7 +4,8 @@ title: widget.Slider
 slug: slider
 
 aliases:
-- /api/v2/widget/slider.html
+- /api/widget/slider
+- /api/widget/slider.html
 - /api/v2.0/widget/slider
 - /api/v2.0/widget/slider.html
 - /api/v2.1/widget/slider

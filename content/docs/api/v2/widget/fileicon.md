@@ -4,7 +4,8 @@ title: widget.FileIcon
 slug: fileicon
 
 aliases:
-- /api/v2/widget/fileicon.html
+- /api/widget/fileicon
+- /api/widget/fileicon.html
 - /api/v2.0/widget/fileicon
 - /api/v2.0/widget/fileicon.html
 - /api/v2.1/widget/fileicon

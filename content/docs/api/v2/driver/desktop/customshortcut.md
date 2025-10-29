@@ -4,7 +4,8 @@ title: desktop.CustomShortcut
 slug: customshortcut
 
 aliases:
-- /api/v2/driver/desktop/customshortcut.html
+- /api/driver/desktop/customshortcut
+- /api/driver/desktop/customshortcut.html
 - /api/v2.0/driver/desktop/customshortcut
 - /api/v2.0/driver/desktop/customshortcut.html
 - /api/v2.1/driver/desktop/customshortcut

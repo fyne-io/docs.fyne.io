@@ -4,7 +4,8 @@ title: fyne.Disableable
 slug: disableable
 
 aliases:
-- /api/v2/fyne/disableable.html
+- /api//disableable
+- /api//disableable.html
 - /api/v2.0//disableable
 - /api/v2.0//disableable.html
 - /api/v2.1//disableable

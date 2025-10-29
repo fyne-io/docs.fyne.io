@@ -4,7 +4,8 @@ title: lang (package)
 slug: (package)
 
 aliases:
-- /api/v2/lang/pkg.html
+- /api/lang
+- /api/lang.html
 - /api/v2.0/lang
 - /api/v2.0/lang.html
 - /api/v2.1/lang

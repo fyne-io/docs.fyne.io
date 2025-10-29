@@ -4,7 +4,8 @@ title: widget.RadioGroup
 slug: radiogroup
 
 aliases:
-- /api/v2/widget/radiogroup.html
+- /api/widget/radiogroup
+- /api/widget/radiogroup.html
 - /api/v2.0/widget/radiogroup
 - /api/v2.0/widget/radiogroup.html
 - /api/v2.1/widget/radiogroup

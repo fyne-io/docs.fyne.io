@@ -4,7 +4,8 @@ title: driver.X11WindowContext
 slug: x11windowcontext
 
 aliases:
-- /api/v2/driver/x11windowcontext.html
+- /api/driver/x11windowcontext
+- /api/driver/x11windowcontext.html
 - /api/v2.0/driver/x11windowcontext
 - /api/v2.0/driver/x11windowcontext.html
 - /api/v2.1/driver/x11windowcontext

@@ -4,7 +4,8 @@ title: fyne.ScrollDirection
 slug: scrolldirection
 
 aliases:
-- /api/v2/fyne/scrolldirection.html
+- /api//scrolldirection
+- /api//scrolldirection.html
 - /api/v2.0//scrolldirection
 - /api/v2.0//scrolldirection.html
 - /api/v2.1//scrolldirection

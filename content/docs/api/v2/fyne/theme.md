@@ -4,7 +4,8 @@ title: fyne.Theme
 slug: theme
 
 aliases:
-- /api/v2/fyne/theme.html
+- /api//theme
+- /api//theme.html
 - /api/v2.0//theme
 - /api/v2.0//theme.html
 - /api/v2.1//theme

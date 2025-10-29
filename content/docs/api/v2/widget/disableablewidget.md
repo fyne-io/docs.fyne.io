@@ -4,7 +4,8 @@ title: widget.DisableableWidget
 slug: disableablewidget
 
 aliases:
-- /api/v2/widget/disableablewidget.html
+- /api/widget/disableablewidget
+- /api/widget/disableablewidget.html
 - /api/v2.0/widget/disableablewidget
 - /api/v2.0/widget/disableablewidget.html
 - /api/v2.1/widget/disableablewidget

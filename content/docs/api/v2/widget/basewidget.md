@@ -4,7 +4,8 @@ title: widget.BaseWidget
 slug: basewidget
 
 aliases:
-- /api/v2/widget/basewidget.html
+- /api/widget/basewidget
+- /api/widget/basewidget.html
 - /api/v2.0/widget/basewidget
 - /api/v2.0/widget/basewidget.html
 - /api/v2.1/widget/basewidget

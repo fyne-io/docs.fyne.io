@@ -4,7 +4,8 @@ title: fyne.Storage
 slug: storage
 
 aliases:
-- /api/v2/fyne/storage.html
+- /api//storage
+- /api//storage.html
 - /api/v2.0//storage
 - /api/v2.0//storage.html
 - /api/v2.1//storage

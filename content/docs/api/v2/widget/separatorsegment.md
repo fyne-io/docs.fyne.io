@@ -4,7 +4,8 @@ title: widget.SeparatorSegment
 slug: separatorsegment
 
 aliases:
-- /api/v2/widget/separatorsegment.html
+- /api/widget/separatorsegment
+- /api/widget/separatorsegment.html
 - /api/v2.0/widget/separatorsegment
 - /api/v2.0/widget/separatorsegment.html
 - /api/v2.1/widget/separatorsegment

@@ -4,7 +4,8 @@ title: desktop (package)
 slug: (package)
 
 aliases:
-- /api/v2/driver/desktop/pkg.html
+- /api/driver/desktop
+- /api/driver/desktop.html
 - /api/v2.0/driver/desktop
 - /api/v2.0/driver/desktop.html
 - /api/v2.1/driver/desktop

@@ -4,7 +4,8 @@ title: widget.Tree
 slug: tree
 
 aliases:
-- /api/v2/widget/tree.html
+- /api/widget/tree
+- /api/widget/tree.html
 - /api/v2.0/widget/tree
 - /api/v2.0/widget/tree.html
 - /api/v2.1/widget/tree

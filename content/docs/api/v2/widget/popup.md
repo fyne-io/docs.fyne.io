@@ -4,7 +4,8 @@ title: widget.PopUp
 slug: popup
 
 aliases:
-- /api/v2/widget/popup.html
+- /api/widget/popup
+- /api/widget/popup.html
 - /api/v2.0/widget/popup
 - /api/v2.0/widget/popup.html
 - /api/v2.1/widget/popup

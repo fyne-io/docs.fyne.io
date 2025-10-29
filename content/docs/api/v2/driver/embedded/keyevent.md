@@ -4,7 +4,8 @@ title: embedded.KeyEvent
 slug: keyevent
 
 aliases:
-- /api/v2/driver/embedded/keyevent.html
+- /api/driver/embedded/keyevent
+- /api/driver/embedded/keyevent.html
 - /api/v2.0/driver/embedded/keyevent
 - /api/v2.0/driver/embedded/keyevent.html
 - /api/v2.1/driver/embedded/keyevent

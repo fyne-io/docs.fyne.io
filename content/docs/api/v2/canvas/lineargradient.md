@@ -4,7 +4,8 @@ title: canvas.LinearGradient
 slug: lineargradient
 
 aliases:
-- /api/v2/canvas/lineargradient.html
+- /api/canvas/lineargradient
+- /api/canvas/lineargradient.html
 - /api/v2.0/canvas/lineargradient
 - /api/v2.0/canvas/lineargradient.html
 - /api/v2.1/canvas/lineargradient

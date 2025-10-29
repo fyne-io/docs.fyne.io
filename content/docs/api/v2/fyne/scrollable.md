@@ -4,7 +4,8 @@ title: fyne.Scrollable
 slug: scrollable
 
 aliases:
-- /api/v2/fyne/scrollable.html
+- /api//scrollable
+- /api//scrollable.html
 - /api/v2.0//scrollable
 - /api/v2.0//scrollable.html
 - /api/v2.1//scrollable

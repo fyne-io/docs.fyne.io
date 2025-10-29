@@ -4,7 +4,8 @@ title: container.ThemeOverride
 slug: themeoverride
 
 aliases:
-- /api/v2/container/themeoverride.html
+- /api/container/themeoverride
+- /api/container/themeoverride.html
 - /api/v2.0/container/themeoverride
 - /api/v2.0/container/themeoverride.html
 - /api/v2.1/container/themeoverride

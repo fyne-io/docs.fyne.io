@@ -4,7 +4,8 @@ title: binding.BoolList
 slug: boollist
 
 aliases:
-- /api/v2/data/binding/boollist.html
+- /api/data/binding/boollist
+- /api/data/binding/boollist.html
 - /api/v2.0/data/binding/boollist
 - /api/v2.0/data/binding/boollist.html
 - /api/v2.1/data/binding/boollist

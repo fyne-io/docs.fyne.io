@@ -4,7 +4,8 @@ title: fyne.Shortcut
 slug: shortcut
 
 aliases:
-- /api/v2/fyne/shortcut.html
+- /api//shortcut
+- /api//shortcut.html
 - /api/v2.0//shortcut
 - /api/v2.0//shortcut.html
 - /api/v2.1//shortcut

@@ -4,7 +4,8 @@ title: canvas.Rectangle
 slug: rectangle
 
 aliases:
-- /api/v2/canvas/rectangle.html
+- /api/canvas/rectangle
+- /api/canvas/rectangle.html
 - /api/v2.0/canvas/rectangle
 - /api/v2.0/canvas/rectangle.html
 - /api/v2.1/canvas/rectangle

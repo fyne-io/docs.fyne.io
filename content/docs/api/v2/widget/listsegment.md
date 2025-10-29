@@ -4,7 +4,8 @@ title: widget.ListSegment
 slug: listsegment
 
 aliases:
-- /api/v2/widget/listsegment.html
+- /api/widget/listsegment
+- /api/widget/listsegment.html
 - /api/v2.0/widget/listsegment
 - /api/v2.0/widget/listsegment.html
 - /api/v2.1/widget/listsegment

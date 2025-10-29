@@ -4,7 +4,8 @@ title: widget.AccordionItem
 slug: accordionitem
 
 aliases:
-- /api/v2/widget/accordionitem.html
+- /api/widget/accordionitem
+- /api/widget/accordionitem.html
 - /api/v2.0/widget/accordionitem
 - /api/v2.0/widget/accordionitem.html
 - /api/v2.1/widget/accordionitem

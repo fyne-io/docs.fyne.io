@@ -4,7 +4,8 @@ title: canvas.ImageScale
 slug: imagescale
 
 aliases:
-- /api/v2/canvas/imagescale.html
+- /api/canvas/imagescale
+- /api/canvas/imagescale.html
 - /api/v2.0/canvas/imagescale
 - /api/v2.0/canvas/imagescale.html
 - /api/v2.1/canvas/imagescale

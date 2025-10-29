@@ -4,7 +4,8 @@ title: fyne.Settings
 slug: settings
 
 aliases:
-- /api/v2/fyne/settings.html
+- /api//settings
+- /api//settings.html
 - /api/v2.0//settings
 - /api/v2.0//settings.html
 - /api/v2.1//settings

@@ -4,7 +4,8 @@ title: fyne.Canvas
 slug: canvas
 
 aliases:
-- /api/v2/fyne/canvas.html
+- /api//canvas
+- /api//canvas.html
 - /api/v2.0//canvas
 - /api/v2.0//canvas.html
 - /api/v2.1//canvas

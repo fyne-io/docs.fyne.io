@@ -4,7 +4,8 @@ title: dialog.ProgressDialog
 slug: progressdialog
 
 aliases:
-- /api/v2/dialog/progressdialog.html
+- /api/dialog/progressdialog
+- /api/dialog/progressdialog.html
 - /api/v2.0/dialog/progressdialog
 - /api/v2.0/dialog/progressdialog.html
 - /api/v2.1/dialog/progressdialog

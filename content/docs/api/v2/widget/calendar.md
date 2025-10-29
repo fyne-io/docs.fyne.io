@@ -4,7 +4,8 @@ title: widget.Calendar
 slug: calendar
 
 aliases:
-- /api/v2/widget/calendar.html
+- /api/widget/calendar
+- /api/widget/calendar.html
 - /api/v2.0/widget/calendar
 - /api/v2.0/widget/calendar.html
 - /api/v2.1/widget/calendar

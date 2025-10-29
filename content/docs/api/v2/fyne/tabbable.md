@@ -4,7 +4,8 @@ title: fyne.Tabbable
 slug: tabbable
 
 aliases:
-- /api/v2/fyne/tabbable.html
+- /api//tabbable
+- /api//tabbable.html
 - /api/v2.0//tabbable
 - /api/v2.0//tabbable.html
 - /api/v2.1//tabbable

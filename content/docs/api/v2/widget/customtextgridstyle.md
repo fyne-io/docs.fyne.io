@@ -4,7 +4,8 @@ title: widget.CustomTextGridStyle
 slug: customtextgridstyle
 
 aliases:
-- /api/v2/widget/customtextgridstyle.html
+- /api/widget/customtextgridstyle
+- /api/widget/customtextgridstyle.html
 - /api/v2.0/widget/customtextgridstyle
 - /api/v2.0/widget/customtextgridstyle.html
 - /api/v2.1/widget/customtextgridstyle

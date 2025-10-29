@@ -4,7 +4,8 @@ title: fyne.Clipboard
 slug: clipboard
 
 aliases:
-- /api/v2/fyne/clipboard.html
+- /api//clipboard
+- /api//clipboard.html
 - /api/v2.0//clipboard
 - /api/v2.0//clipboard.html
 - /api/v2.1//clipboard

@@ -4,7 +4,8 @@ title: widget.ButtonImportance
 slug: buttonimportance
 
 aliases:
-- /api/v2/widget/buttonimportance.html
+- /api/widget/buttonimportance
+- /api/widget/buttonimportance.html
 - /api/v2.0/widget/buttonimportance
 - /api/v2.0/widget/buttonimportance.html
 - /api/v2.1/widget/buttonimportance

@@ -4,7 +4,8 @@ title: binding.StringList
 slug: stringlist
 
 aliases:
-- /api/v2/data/binding/stringlist.html
+- /api/data/binding/stringlist
+- /api/data/binding/stringlist.html
 - /api/v2.0/data/binding/stringlist
 - /api/v2.0/data/binding/stringlist.html
 - /api/v2.1/data/binding/stringlist

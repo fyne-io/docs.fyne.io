@@ -4,7 +4,8 @@ title: binding.ExternalStringList
 slug: externalstringlist
 
 aliases:
-- /api/v2/data/binding/externalstringlist.html
+- /api/data/binding/externalstringlist
+- /api/data/binding/externalstringlist.html
 - /api/v2.0/data/binding/externalstringlist
 - /api/v2.0/data/binding/externalstringlist.html
 - /api/v2.1/data/binding/externalstringlist

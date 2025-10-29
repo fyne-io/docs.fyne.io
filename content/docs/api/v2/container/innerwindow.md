@@ -4,7 +4,8 @@ title: container.InnerWindow
 slug: innerwindow
 
 aliases:
-- /api/v2/container/innerwindow.html
+- /api/container/innerwindow
+- /api/container/innerwindow.html
 - /api/v2.0/container/innerwindow
 - /api/v2.0/container/innerwindow.html
 - /api/v2.1/container/innerwindow

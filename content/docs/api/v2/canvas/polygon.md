@@ -4,7 +4,8 @@ title: canvas.Polygon
 slug: polygon
 
 aliases:
-- /api/v2/canvas/polygon.html
+- /api/canvas/polygon
+- /api/canvas/polygon.html
 - /api/v2.0/canvas/polygon
 - /api/v2.0/canvas/polygon.html
 - /api/v2.1/canvas/polygon

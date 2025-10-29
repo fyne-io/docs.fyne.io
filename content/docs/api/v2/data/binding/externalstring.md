@@ -4,7 +4,8 @@ title: binding.ExternalString
 slug: externalstring
 
 aliases:
-- /api/v2/data/binding/externalstring.html
+- /api/data/binding/externalstring
+- /api/data/binding/externalstring.html
 - /api/v2.0/data/binding/externalstring
 - /api/v2.0/data/binding/externalstring.html
 - /api/v2.1/data/binding/externalstring

@@ -4,7 +4,8 @@ title: binding.FloatTree
 slug: floattree
 
 aliases:
-- /api/v2/data/binding/floattree.html
+- /api/data/binding/floattree
+- /api/data/binding/floattree.html
 - /api/v2.0/data/binding/floattree
 - /api/v2.0/data/binding/floattree.html
 - /api/v2.1/data/binding/floattree

@@ -4,7 +4,8 @@ title: fyne.Container
 slug: container
 
 aliases:
-- /api/v2/fyne/container.html
+- /api//container
+- /api//container.html
 - /api/v2.0//container
 - /api/v2.0//container.html
 - /api/v2.1//container

@@ -4,7 +4,8 @@ title: fyne.Preferences
 slug: preferences
 
 aliases:
-- /api/v2/fyne/preferences.html
+- /api//preferences
+- /api//preferences.html
 - /api/v2.0//preferences
 - /api/v2.0//preferences.html
 - /api/v2.1//preferences

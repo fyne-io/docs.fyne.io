@@ -4,7 +4,8 @@ title: fyne.Window
 slug: window
 
 aliases:
-- /api/v2/fyne/window.html
+- /api//window
+- /api//window.html
 - /api/v2.0//window
 - /api/v2.0//window.html
 - /api/v2.1//window

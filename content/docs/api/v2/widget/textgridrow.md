@@ -4,7 +4,8 @@ title: widget.TextGridRow
 slug: textgridrow
 
 aliases:
-- /api/v2/widget/textgridrow.html
+- /api/widget/textgridrow
+- /api/widget/textgridrow.html
 - /api/v2.0/widget/textgridrow
 - /api/v2.0/widget/textgridrow.html
 - /api/v2.1/widget/textgridrow

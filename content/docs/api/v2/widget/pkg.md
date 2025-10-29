@@ -4,7 +4,8 @@ title: widget (package)
 slug: (package)
 
 aliases:
-- /api/v2/widget/pkg.html
+- /api/widget
+- /api/widget.html
 - /api/v2.0/widget
 - /api/v2.0/widget.html
 - /api/v2.1/widget

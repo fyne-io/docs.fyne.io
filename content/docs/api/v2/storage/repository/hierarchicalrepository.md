@@ -4,7 +4,8 @@ title: repository.HierarchicalRepository
 slug: hierarchicalrepository
 
 aliases:
-- /api/v2/storage/repository/hierarchicalrepository.html
+- /api/storage/repository/hierarchicalrepository
+- /api/storage/repository/hierarchicalrepository.html
 - /api/v2.0/storage/repository/hierarchicalrepository
 - /api/v2.0/storage/repository/hierarchicalrepository.html
 - /api/v2.1/storage/repository/hierarchicalrepository

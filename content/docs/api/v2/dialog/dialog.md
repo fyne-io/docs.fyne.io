@@ -4,7 +4,8 @@ title: dialog.Dialog
 slug: dialog
 
 aliases:
-- /api/v2/dialog/dialog.html
+- /api/dialog/dialog
+- /api/dialog/dialog.html
 - /api/v2.0/dialog/dialog
 - /api/v2.0/dialog/dialog.html
 - /api/v2.1/dialog/dialog

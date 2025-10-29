@@ -4,7 +4,8 @@ title: binding.Item
 slug: item
 
 aliases:
-- /api/v2/data/binding/item.html
+- /api/data/binding/item
+- /api/data/binding/item.html
 - /api/v2.0/data/binding/item
 - /api/v2.0/data/binding/item.html
 - /api/v2.1/data/binding/item

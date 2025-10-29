@@ -4,7 +4,8 @@ title: driver.WindowsWindowContext
 slug: windowswindowcontext
 
 aliases:
-- /api/v2/driver/windowswindowcontext.html
+- /api/driver/windowswindowcontext
+- /api/driver/windowswindowcontext.html
 - /api/v2.0/driver/windowswindowcontext
 - /api/v2.0/driver/windowswindowcontext.html
 - /api/v2.1/driver/windowswindowcontext

@@ -4,7 +4,8 @@ title: binding.IntList
 slug: intlist
 
 aliases:
-- /api/v2/data/binding/intlist.html
+- /api/data/binding/intlist
+- /api/data/binding/intlist.html
 - /api/v2.0/data/binding/intlist
 - /api/v2.0/data/binding/intlist.html
 - /api/v2.1/data/binding/intlist

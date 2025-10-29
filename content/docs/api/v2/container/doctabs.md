@@ -4,7 +4,8 @@ title: container.DocTabs
 slug: doctabs
 
 aliases:
-- /api/v2/container/doctabs.html
+- /api/container/doctabs
+- /api/container/doctabs.html
 - /api/v2.0/container/doctabs
 - /api/v2.0/container/doctabs.html
 - /api/v2.1/container/doctabs

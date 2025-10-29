@@ -4,7 +4,8 @@ title: widget.Select
 slug: select
 
 aliases:
-- /api/v2/widget/select.html
+- /api/widget/select
+- /api/widget/select.html
 - /api/v2.0/widget/select
 - /api/v2.0/widget/select.html
 - /api/v2.1/widget/select

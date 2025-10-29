@@ -4,7 +4,8 @@ title: desktop.Mouseable
 slug: mouseable
 
 aliases:
-- /api/v2/driver/desktop/mouseable.html
+- /api/driver/desktop/mouseable
+- /api/driver/desktop/mouseable.html
 - /api/v2.0/driver/desktop/mouseable
 - /api/v2.0/driver/desktop/mouseable.html
 - /api/v2.1/driver/desktop/mouseable

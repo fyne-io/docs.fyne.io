@@ -4,7 +4,8 @@ title: binding.ExternalUntyped
 slug: externaluntyped
 
 aliases:
-- /api/v2/data/binding/externaluntyped.html
+- /api/data/binding/externaluntyped
+- /api/data/binding/externaluntyped.html
 - /api/v2.0/data/binding/externaluntyped
 - /api/v2.0/data/binding/externaluntyped.html
 - /api/v2.1/data/binding/externaluntyped

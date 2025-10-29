@@ -4,7 +4,8 @@ title: binding.DataItem
 slug: dataitem
 
 aliases:
-- /api/v2/data/binding/dataitem.html
+- /api/data/binding/dataitem
+- /api/data/binding/dataitem.html
 - /api/v2.0/data/binding/dataitem
 - /api/v2.0/data/binding/dataitem.html
 - /api/v2.1/data/binding/dataitem

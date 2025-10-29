@@ -4,7 +4,8 @@ title: binding.ExternalFloatList
 slug: externalfloatlist
 
 aliases:
-- /api/v2/data/binding/externalfloatlist.html
+- /api/data/binding/externalfloatlist
+- /api/data/binding/externalfloatlist.html
 - /api/v2.0/data/binding/externalfloatlist
 - /api/v2.0/data/binding/externalfloatlist.html
 - /api/v2.1/data/binding/externalfloatlist

@@ -4,7 +4,8 @@ title: dialog.ConfirmDialog
 slug: confirmdialog
 
 aliases:
-- /api/v2/dialog/confirmdialog.html
+- /api/dialog/confirmdialog
+- /api/dialog/confirmdialog.html
 - /api/v2.0/dialog/confirmdialog
 - /api/v2.0/dialog/confirmdialog.html
 - /api/v2.1/dialog/confirmdialog

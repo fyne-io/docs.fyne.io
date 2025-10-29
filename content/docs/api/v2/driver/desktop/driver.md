@@ -4,7 +4,8 @@ title: desktop.Driver
 slug: driver
 
 aliases:
-- /api/v2/driver/desktop/driver.html
+- /api/driver/desktop/driver
+- /api/driver/desktop/driver.html
 - /api/v2.0/driver/desktop/driver
 - /api/v2.0/driver/desktop/driver.html
 - /api/v2.1/driver/desktop/driver

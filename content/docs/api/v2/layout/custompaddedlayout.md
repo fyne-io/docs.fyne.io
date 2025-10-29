@@ -4,7 +4,8 @@ title: layout.CustomPaddedLayout
 slug: custompaddedlayout
 
 aliases:
-- /api/v2/layout/custompaddedlayout.html
+- /api/layout/custompaddedlayout
+- /api/layout/custompaddedlayout.html
 - /api/v2.0/layout/custompaddedlayout
 - /api/v2.0/layout/custompaddedlayout.html
 - /api/v2.1/layout/custompaddedlayout

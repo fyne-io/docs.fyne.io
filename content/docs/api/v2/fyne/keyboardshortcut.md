@@ -4,7 +4,8 @@ title: fyne.KeyboardShortcut
 slug: keyboardshortcut
 
 aliases:
-- /api/v2/fyne/keyboardshortcut.html
+- /api//keyboardshortcut
+- /api//keyboardshortcut.html
 - /api/v2.0//keyboardshortcut
 - /api/v2.0//keyboardshortcut.html
 - /api/v2.1//keyboardshortcut

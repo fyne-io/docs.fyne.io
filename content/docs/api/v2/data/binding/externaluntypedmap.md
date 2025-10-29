@@ -4,7 +4,8 @@ title: binding.ExternalUntypedMap
 slug: externaluntypedmap
 
 aliases:
-- /api/v2/data/binding/externaluntypedmap.html
+- /api/data/binding/externaluntypedmap
+- /api/data/binding/externaluntypedmap.html
 - /api/v2.0/data/binding/externaluntypedmap
 - /api/v2.0/data/binding/externaluntypedmap.html
 - /api/v2.1/data/binding/externaluntypedmap

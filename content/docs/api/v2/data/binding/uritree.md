@@ -4,7 +4,8 @@ title: binding.URITree
 slug: uritree
 
 aliases:
-- /api/v2/data/binding/uritree.html
+- /api/data/binding/uritree
+- /api/data/binding/uritree.html
 - /api/v2.0/data/binding/uritree
 - /api/v2.0/data/binding/uritree.html
 - /api/v2.1/data/binding/uritree

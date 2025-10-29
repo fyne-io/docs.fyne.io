@@ -4,7 +4,8 @@ title: fyne.URIReadCloser
 slug: urireadcloser
 
 aliases:
-- /api/v2/fyne/urireadcloser.html
+- /api//urireadcloser
+- /api//urireadcloser.html
 - /api/v2.0//urireadcloser
 - /api/v2.0//urireadcloser.html
 - /api/v2.1//urireadcloser

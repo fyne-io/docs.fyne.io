@@ -4,7 +4,8 @@ title: binding.DataMap
 slug: datamap
 
 aliases:
-- /api/v2/data/binding/datamap.html
+- /api/data/binding/datamap
+- /api/data/binding/datamap.html
 - /api/v2.0/data/binding/datamap
 - /api/v2.0/data/binding/datamap.html
 - /api/v2.1/data/binding/datamap

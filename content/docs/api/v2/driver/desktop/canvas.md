@@ -4,7 +4,8 @@ title: desktop.Canvas
 slug: canvas
 
 aliases:
-- /api/v2/driver/desktop/canvas.html
+- /api/driver/desktop/canvas
+- /api/driver/desktop/canvas.html
 - /api/v2.0/driver/desktop/canvas
 - /api/v2.0/driver/desktop/canvas.html
 - /api/v2.1/driver/desktop/canvas

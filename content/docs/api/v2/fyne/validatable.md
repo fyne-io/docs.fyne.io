@@ -4,7 +4,8 @@ title: fyne.Validatable
 slug: validatable
 
 aliases:
-- /api/v2/fyne/validatable.html
+- /api//validatable
+- /api//validatable.html
 - /api/v2.0//validatable
 - /api/v2.0//validatable.html
 - /api/v2.1//validatable

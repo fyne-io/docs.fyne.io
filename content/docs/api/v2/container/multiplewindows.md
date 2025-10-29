@@ -4,7 +4,8 @@ title: container.MultipleWindows
 slug: multiplewindows
 
 aliases:
-- /api/v2/container/multiplewindows.html
+- /api/container/multiplewindows
+- /api/container/multiplewindows.html
 - /api/v2.0/container/multiplewindows
 - /api/v2.0/container/multiplewindows.html
 - /api/v2.1/container/multiplewindows

@@ -4,7 +4,8 @@ title: driver.AndroidContext
 slug: androidcontext
 
 aliases:
-- /api/v2/driver/androidcontext.html
+- /api/driver/androidcontext
+- /api/driver/androidcontext.html
 - /api/v2.0/driver/androidcontext
 - /api/v2.0/driver/androidcontext.html
 - /api/v2.1/driver/androidcontext

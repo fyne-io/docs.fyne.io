@@ -4,7 +4,8 @@ title: fyne.Focusable
 slug: focusable
 
 aliases:
-- /api/v2/fyne/focusable.html
+- /api//focusable
+- /api//focusable.html
 - /api/v2.0//focusable
 - /api/v2.0//focusable.html
 - /api/v2.1//focusable

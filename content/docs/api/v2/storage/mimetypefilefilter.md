@@ -4,7 +4,8 @@ title: storage.MimeTypeFileFilter
 slug: mimetypefilefilter
 
 aliases:
-- /api/v2/storage/mimetypefilefilter.html
+- /api/storage/mimetypefilefilter
+- /api/storage/mimetypefilefilter.html
 - /api/v2.0/storage/mimetypefilefilter
 - /api/v2.0/storage/mimetypefilefilter.html
 - /api/v2.1/storage/mimetypefilefilter

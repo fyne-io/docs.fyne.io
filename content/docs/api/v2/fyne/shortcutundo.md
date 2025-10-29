@@ -4,7 +4,8 @@ title: fyne.ShortcutUndo
 slug: shortcutundo
 
 aliases:
-- /api/v2/fyne/shortcutundo.html
+- /api//shortcutundo
+- /api//shortcutundo.html
 - /api/v2.0//shortcutundo
 - /api/v2.0//shortcutundo.html
 - /api/v2.1//shortcutundo

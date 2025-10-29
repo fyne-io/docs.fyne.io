@@ -4,7 +4,8 @@ title: widget.PopUpMenu
 slug: popupmenu
 
 aliases:
-- /api/v2/widget/popupmenu.html
+- /api/widget/popupmenu
+- /api/widget/popupmenu.html
 - /api/v2.0/widget/popupmenu
 - /api/v2.0/widget/popupmenu.html
 - /api/v2.1/widget/popupmenu

@@ -4,7 +4,8 @@ title: binding.ExternalURI
 slug: externaluri
 
 aliases:
-- /api/v2/data/binding/externaluri.html
+- /api/data/binding/externaluri
+- /api/data/binding/externaluri.html
 - /api/v2.0/data/binding/externaluri
 - /api/v2.0/data/binding/externaluri.html
 - /api/v2.1/data/binding/externaluri

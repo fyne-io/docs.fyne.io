@@ -4,7 +4,8 @@ title: app (package)
 slug: (package)
 
 aliases:
-- /api/v2/app/pkg.html
+- /api/app
+- /api/app.html
 - /api/v2.0/app
 - /api/v2.0/app.html
 - /api/v2.1/app

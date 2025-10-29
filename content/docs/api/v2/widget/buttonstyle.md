@@ -4,7 +4,8 @@ title: widget.ButtonStyle
 slug: buttonstyle
 
 aliases:
-- /api/v2/widget/buttonstyle.html
+- /api/widget/buttonstyle
+- /api/widget/buttonstyle.html
 - /api/v2.0/widget/buttonstyle
 - /api/v2.0/widget/buttonstyle.html
 - /api/v2.1/widget/buttonstyle

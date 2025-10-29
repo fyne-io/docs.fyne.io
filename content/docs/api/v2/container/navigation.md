@@ -4,7 +4,8 @@ title: container.Navigation
 slug: navigation
 
 aliases:
-- /api/v2/container/navigation.html
+- /api/container/navigation
+- /api/container/navigation.html
 - /api/v2.0/container/navigation
 - /api/v2.0/container/navigation.html
 - /api/v2.1/container/navigation

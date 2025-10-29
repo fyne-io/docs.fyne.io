@@ -4,7 +4,8 @@ title: fyne.URIWriteCloser
 slug: uriwritecloser
 
 aliases:
-- /api/v2/fyne/uriwritecloser.html
+- /api//uriwritecloser
+- /api//uriwritecloser.html
 - /api/v2.0//uriwritecloser
 - /api/v2.0//uriwritecloser.html
 - /api/v2.1//uriwritecloser
