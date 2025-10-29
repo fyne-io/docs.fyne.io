@@ -208,14 +208,26 @@ Container widgets are like regular containers but they provide some additional f
 
 {{% widget name="apptabs" %}}
 
+### Clip
+
+Clip is a container that shows only a portion of the Content, as defined by the size of the clip.
+
+{{% widget name="clip" %}}
+
+### Navigation
+
+The Navigation container provides a stack based navigation where items can be `Push`ed onto and the user can nagivate back and forwards.
+
+{{% widget name="navigation" %}}
+
 ### Scroll
 
-ScrollContainer defines a container that is smaller than the Content.
+A Scroll container defines an area that is smaller than the Content, providing scrollbars as required.
 
 {{% widget name="scroll" %}}
 
 ### Split
 
-SplitContainer defines a container whose size is split between two children.
+The Split container defines a container whose size is split between two children.
 
 {{% widget name="split" %}}

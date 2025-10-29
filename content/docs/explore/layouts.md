@@ -49,6 +49,14 @@ and objects will be top-aligned at their minimum height.
 
 {{% layout name="vbox" %}}
 
+### Border
+
+Border layout supports positioning of items at the outside of available space.
+The border is passed pointers to the objects for (top, left, bottom, right).
+All items in the container that are not positioned on a border will fill the remaining space.
+
+{{% layout name="border" %}}
+
 ### Center
 
 Center layout positions all container elements in the center of the container.
@@ -84,22 +92,6 @@ Often used in file managers or image thumbnail lists.
 
 {{% layout name="gridwrap" %}}
 
-### Border
-
-Border layout supports positioning of items at the outside of available space.
-The border is passed pointers to the objects for (top, left, bottom, right).
-All items in the container that are not positioned on a border will fill the remaining space.
-
-{{% layout name="border" %}}
-
-### Stack (was Max)
-
-Stack layout positions all container elements to fill the available space.
-The objects will all be full-sized and drawn in the order they were added
-to the container (last-most is on top).
-
-{{% layout name="max" %}}
-
 ### Padded
 
 Padded layout positions all container elements to fill the available space
@@ -112,6 +104,21 @@ to the container (last-most is on top).
 You can also specify each site separately using `CustomPadded` layout.
 
 {{% layout name="custompadded" %}}
+
+### RowWrap
+
+RowWrap layout arranges a set of different items to flow along a row, wrapping to a new row if there is insufficient space.
+All objects will be set to their minimu size, and will be bottom aligned to a consistent position leaving space for the tallest item.
+
+{{% layout name="rowwrap" %}}
+
+### Stack (was Max)
+
+Stack layout positions all container elements to fill the available space.
+The objects will all be full-sized and drawn in the order they were added
+to the container (last-most is on top).
+
+{{% layout name="max" %}}
 
 ## Combining Layouts
 
