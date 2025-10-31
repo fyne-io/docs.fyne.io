@@ -51,4 +51,4 @@ The contents of this section is as follows (with example data):
   ExecParams = "-x 42"
 ```
 
-Hint: For instructions on how to define these parameters correctly, please see the [Desktop Entry Specification](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html) from freedesktop.org.
+Hint: For instructions on how to define these parameters correctly, please see the [Desktop Entry Specification](https://specifications.freedesktop.org/desktop-entry/latest/) from freedesktop.org.
