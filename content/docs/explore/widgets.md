@@ -96,7 +96,7 @@ Hyperlink widget is a text component with appropriate padding and layout. When c
 
 ### Icon
 
-Icon widget is a basic image component that load's its resource to match the theme.
+Icon widget is a basic image component that loads its resource to match the theme.
 
 {{% widget name="icon" %}}
 
