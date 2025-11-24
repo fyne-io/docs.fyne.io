@@ -60,7 +60,7 @@ All items in the container that are not positioned on a border will fill the rem
 ### Center
 
 Center layout positions all container elements in the center of the container.
-Every object will be set to it's minimum size.
+Every object will be set to its minimum size.
 
 {{% layout name="center" %}}
 
@@ -108,7 +108,7 @@ You can also specify each site separately using `CustomPadded` layout.
 ### RowWrap
 
 RowWrap layout arranges a set of different items to flow along a row, wrapping to a new row if there is insufficient space.
-All objects will be set to their minimu size, and will be bottom aligned to a consistent position leaving space for the tallest item.
+All objects will be set to their minimum size, and will be bottom aligned to a consistent position leaving space for the tallest item.
 
 {{% layout name="rowwrap" %}}
 
