@@ -3,7 +3,7 @@ layout: page
 title: Layout and Widget Size
 slug: layout
 
-weight: 10010
+weight: 11010
 ---
 
 Intro

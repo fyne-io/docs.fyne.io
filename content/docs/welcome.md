@@ -15,7 +15,7 @@ leading cross platform apps.
 |:------:|:-------:|:-------:|
 |        If you can't wait to start building your first Fyne app, you should follow our getting started guide.| If you are new to the Go language, we recommend running through the Go tour before returning to the Fyne documentation. | For developers who prefer to learn from videos we have a collection of getting started tutorials on YouTube. |
 | <a href="/started/quick" class="btn btn-primary btn-l">Get Started</a> | <a href="https://go.dev/tour/" class="btn btn-l btn-primary" style="visibility: visible;">Take the Go Tour</a> | <a href="https://www.youtube.com/playlist?list=PLjpijTpXl1_po-ld8jORR9k5NornDNKQk" class="btn btn-l btn-primary">Tutorial Playlist</a> |
-| You can also check out the latest <a href="/api/">API documentation</a>, or if you came here with a question in mind then you may find an answer in the <a href="/faq/">FAQs</a>. | There is also an <a href="/guiintro/">introduction to GUI development</a> if this is your first time building an application. | If you have questions about the videos or want to let us know that one is missing then please <a   title="Submit feedback" href="https://fyne.io/support/">get in touch</a>.|
+| You can also check out the latest <a href="/api/v2/">API documentation</a>, or if you came here with a question in mind then you may find an answer in the <a href="/faq/">FAQs</a>. | There is also an <a href="/guiintro/">introduction to GUI development</a> if this is your first time building an application. | If you have questions about the videos or want to let us know that one is missing then please <a   title="Submit feedback" href="https://fyne.io/support/">get in touch</a>.|
 
 ---
 

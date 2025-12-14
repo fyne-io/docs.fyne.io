@@ -1,5 +1,5 @@
 ---
-weight: 10000
+weight: 11000
 title: "Frequently Asked Questions"
 slug: faq
 icon: question_mark

@@ -5,7 +5,7 @@ slug: (package)
 
 aliases:
 - /api/
-- /api/.html
+- /api/v2/
 - /api/v2.0/
 - /api/v2.0/.html
 - /api/v2.1/

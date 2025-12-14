@@ -2,7 +2,7 @@
 title: Theme and Customisation
 slug: theme
 
-weight: 10020
+weight: 11020
 ---
 
 In this page we answer some common questions about the design of Fyne themes and widgets.

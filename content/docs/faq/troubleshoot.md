@@ -2,7 +2,7 @@
 title: Troubleshooting
 slug: troubleshoot
 
-order: 10030
+order: 11030
 ---
 
 Some things can not go as expected during setup or in compiling your first app. We try to address these problems here.
