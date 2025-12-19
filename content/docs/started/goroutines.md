@@ -14,8 +14,8 @@ have a little more work to do to get the same safety and performance as internal
 ## Updating from a goroutine
 
 Any time your app invokes Fyne APIs from a goroutine your code created, you should use the
-`fyne.Do` function to tell Fyne that you want to queue updates to the rendered application,
-for example with a `canvas.Text` called `output` you may want to update the time each second.
+`fyne.Do` function. This tells Fyne that you want to queue changes to the application interface.
+For example with a `canvas.Text` called `output` you may want to update the time each second.
 The key code there would be:
 
 ```go
