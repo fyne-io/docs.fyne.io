@@ -41,7 +41,7 @@ Allow users to pick a colour from a standard set (or any color in advanced mode)
 
 ### Confirm
 
-Ask for conformation of an action.
+Ask for confirmation of an action.
 
 {{% dialog name="confirm" %}}
 
