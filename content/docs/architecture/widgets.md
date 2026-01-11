@@ -66,7 +66,7 @@ is inset by this much so that their content will align horizontally and
 vertically when placed next to each other.
 
 <p style="text-align: center;" markdown="1">
-![](/images/architecture/widget-inset.png)
+<img src="/images/architecture/widget-inset.png" width="90" />
 </p>
 
 It is recommended that custom widgets include similar dimensions 
