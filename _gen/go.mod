@@ -2,7 +2,10 @@ module github.com/fyne-io/docs.fyne.io/gen
 
 go 1.19
 
-require fyne.io/fyne/v2 v2.7.0
+require (
+	codeberg.org/sdassow/atomic v1.2.1
+	fyne.io/fyne/v2 v2.7.0
+)
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect

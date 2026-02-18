@@ -1,3 +1,5 @@
+codeberg.org/sdassow/atomic v1.2.1 h1:1U4jqLRcYFnYqY0TwKIuHDvv17GfsorH5GrIHa7b4ik=
+codeberg.org/sdassow/atomic v1.2.1/go.mod h1:68UDThlkDJQNuZF+NJaCcBBsE7QZMOAfTfGOjzCYaK8=
 fyne.io/fyne/v2 v2.7.0 h1:GvZSpE3X0liU/fqstInVvRsaboIVpIWQ4/sfjDGIGGQ=
 fyne.io/fyne/v2 v2.7.0/go.mod h1:xClVlrhxl7D+LT+BWYmcrW4Nf+dJTvkhnPgji7spAwE=
 github.com/BurntSushi/toml v1.5.0 h1:W5quZX/G/csjUnuI8SUYlsHs9M38FC7znL0lIO+DvMg=
