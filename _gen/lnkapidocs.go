@@ -123,8 +123,6 @@ func findObj(dir, funcName string) (string, string, string) {
 			return "", "", ""
 		}
 
-		log.Printf("check in %v", file)
-
 		m := re.FindStringSubmatch(string(b))
 
 		if len(m) > 0 {
