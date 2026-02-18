@@ -20,13 +20,13 @@ A new `Window` will expand whatever element is passed to `SetContent()` to fill 
 
 **A:** One of the difficulties in using a fully scalable user interface toolkit such as Fyne is that the coordinate system is device independent. This allows apps to draw at the right resolution or pixel density to get the best results based on the hardware connected. What this means for pixel based images is that their size could vary based on details not known at compile time.
 
-Due to this complication an image loaded using `canvas.NewImageFromFile()` or similar calls will not have a size set, leading to it being very small or appearing to be hidden by default. When placed in an appropriate layout the image will stretch according to its `FillMode` property. If you desire the image to always be set to a certain size (or larger) you can call `Image.SetMinSize()` and specify a device independent size for the image.
+Due to this complication an image loaded using [canvas.NewImageFromFile()](/api/v2/canvas/image/#func--newimagefromfile) or similar calls will not have a size set, leading to it being very small or appearing to be hidden by default. When placed in an appropriate layout the image will stretch according to its `FillMode` property. If you desire the image to always be set to a certain size (or larger) you can call `Image.SetMinSize()` and specify a device independent size for the image.
 
 ## Containers and Layout 
 
 **Q: How can I manually control the position of elements**
 
 **A:** In some situations you may want to have complete control over the position and size of elements in a container. To do this you create a container without a layout.
-The `container.NewWithoutLayout()` function will create a container for manual positioning - you should pass to that constructor a list of the graphical elements that you want to manage in this container.
+The [container.NewWithoutLayout()](/api/v2/container/pkg/#func--newwithoutlayout) function will create a container for manual positioning - you should pass to that constructor a list of the graphical elements that you want to manage in this container.
 
 Once set up then you can use `Move()` and `Resize()` on each element to position it as desired. When doing this be careful to note that it will not adjust as the available space changes - and it does not have an explicit minimum size either. To add either of those features you should replace your manual positioning with a [custom layout](/tutorial/custom-layout).

@@ -15,7 +15,7 @@ We can demonstrate unit testing by extending our [Hello World](/started/hello)
 app to include space for users to input their name to be greeted.
 We start by updating the user interface to have two elements,
 a `Label` for the greeting and an `Entry` for the name input.
-We display them, one above another, using `container.NewVBox` (a
+We display them, one above another, using [container.NewVBox](/api/v2/container/pkg/#func--newvbox) (a
 vertical box container). The updated user interface code will look as follows:
 
 ```go
@@ -61,7 +61,7 @@ and error the test if it is not correct. Add the following code to your test met
 
 This test will pass - next we add to the test to validate the greeter.
 We use the Fyne `fyne.io/fyne/v2/test` package which assists in
-test scenarios, calling `test.Type` to simulate user input.
+test scenarios, calling [test.Type](/api/v2/test/pkg/#func--type) to simulate user input.
 The following test code will check that the output updates when the
 user's name is input (be sure to add the import as well):
 

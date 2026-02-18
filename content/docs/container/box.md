@@ -17,7 +17,7 @@ The most commonly used layout is `layout.BoxLayout` and it has two variants,
 horizontal and vertical. A box layout arranges all elements in a single
 row or column with optional spaces to assist alignment.
 
-A horizontal box layout, created with `layout.NewHBoxLayout()` creates
+A horizontal box layout, created with [layout.NewHBoxLayout()](/api/v2/layout/pkg/#func--newhboxlayout) creates
 an arrangement of items in a single row. Every item in the box will
 have its width set to its `MinSize().Width` and the height will be
 equal for all items, the largest of all the `MinSize().Height` values.
@@ -29,7 +29,7 @@ Each item will have its height set to minimum and all the widths will
 be equal, set to the largest of the minimum widths.
 
 To create an expanding space between elements (so that some are left
-aligned and the others right aligned, for example) add a `layout.NewSpacer()`
+aligned and the others right aligned, for example) add a [layout.NewSpacer()](/api/v2/layout/pkg/#func--newspacer)
 as one of the items. A spacer will expand to fill all available space.
 Adding a spacer at the beginning of a vertical box layout will cause
 all items to be bottom aligned. You can add one to the beginning and

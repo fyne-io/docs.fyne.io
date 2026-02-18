@@ -15,8 +15,8 @@ in each row. The width of the left item will be the largest minimum
 width of all items in the first column whilst the second item in each
 row will expand to fill the space.
 
-This layout is more typically used within the `widget.Form` (for validation, submit and cancel buttons, etc) but it can
-also be used directly with `layout.NewFormLayout()` passed to the first
+This layout is more typically used within the [widget.Form](/api/v2/widget/form/#type--form) (for validation, submit and cancel buttons, etc) but it can
+also be used directly with [layout.NewFormLayout()](/api/v2/layout/pkg/#func--newformlayout) passed to the first
 parameter of `container.New(...)`.
 
 ```go

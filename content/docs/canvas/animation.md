@@ -63,7 +63,7 @@ move.AutoReverse = true
 move.Start()
 ```
 
-Because the `Move()` function of `CanvasObject` expects a `fyne.Position` argument, and so does the position
+Because the `Move()` function of `CanvasObject` expects a [fyne.Position](/api/v2/fyne/position/#type--position) argument, and so does the position
 animation callback, we can simply pass the method name instead of creating a new function
 If you add the code above just under the first animation you will see that the object moves across the window
 at the same time as it changes colour!

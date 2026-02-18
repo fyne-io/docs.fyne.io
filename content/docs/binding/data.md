@@ -14,7 +14,7 @@ that was introduced in version `v2.0.0`.
 By using data binding we can avoid manually managing many standard
 objects like `Label`s, `Button`s and `List`s.
 
-The builtin bindings support many primitive types (like `Int`, `String`, `Float` etc), lists (such as `StringList`, `BoolList`) as well as `Map` and `Struct` bindings. Each of these types can be created using a simple constructor function. For example to create a new string binding with a zero value you can use `binding.NewString()`. You can get or set the value of most data bindings using `Get` and `Set` methods.
+The builtin bindings support many primitive types (like `Int`, `String`, `Float` etc), lists (such as `StringList`, `BoolList`) as well as `Map` and `Struct` bindings. Each of these types can be created using a simple constructor function. For example to create a new string binding with a zero value you can use [binding.NewString()](/api/v2/data/binding/list/#func--newstring). You can get or set the value of most data bindings using `Get` and `Set` methods.
 
 It is also possible to bind to an existing value using similar functions who's names start `Bind` and they all accept a pointer to the type bound.
 To bind to an existing `int` we could use `binding.BindInt(&myInt)`.

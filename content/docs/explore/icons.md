@@ -9,7 +9,7 @@ Each of the following icons is available via the `theme` package as a function.
 For example `theme.InfoIcon()`.
 
 The icons are also available via their source icon name by using the `ThemeIconName` 
-with the `Icon` method on a struct implementing `fyne.Theme`. For example `theme.Icon(theme.IconNameInfo)`.
+with the `Icon` method on a struct implementing [fyne.Theme](/api/v2/fyne/theme/#type--theme). For example `theme.Icon(theme.IconNameInfo)`.
 
 ## List
 

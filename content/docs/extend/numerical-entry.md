@@ -31,7 +31,7 @@ func newNumericalEntry() *numericalEntry {
 }
 ```
 
-Now we need to make the entry accept only numbers. This can be done by overriding the `TypedRune(rune)` method that's part of the `fyne.Focusable` interface.
+Now we need to make the entry accept only numbers. This can be done by overriding the `TypedRune(rune)` method that's part of the [fyne.Focusable](/api/v2/fyne/focusable/#type--focusable) interface.
 This will allow us to intercept the standard handling of runes received from key presses and only pass through those that we want.
 Inside this method, we will use a conditional to check if the rune matches any of the numbers between zero and nine. If they do, we delegate it to the standard `TypedRune(rune)` method of the embedded entry. If they do not, we just ignore the inputs.
 This implementation will only allow integers to be entered, but can easily be extended to check for other keys in the future if necessary.
@@ -55,7 +55,7 @@ func (e *numericalEntry) TypedRune(r rune) {
 ```
 
 With this, the entry now only allows the user to enter numerical values when keys are pressed. However, the paste shortcut will still allow text to be entered.
-To fix this, we can overwrite the `TypedShortcut(fyne.Shortcut)` method that is part of the `fyne.Shortcutable` interface.
+To fix this, we can overwrite the `TypedShortcut(fyne.Shortcut)` method that is part of the [fyne.Shortcutable](/api/v2/fyne/shortcutable/#type--shortcutable) interface.
 First we need to do a type assertion to check if the given shortcut is of the type `*fyne.ShortcutPaste`. If it is not, we can just delegate the shortcut back to the embedded entry.
 If it is, we check if the clipboard content is numerical, by using `strconv.ParseFloat()` (if you want to only allow integers, `strconv.Atoi()` will be just fine), and then delegating the shortcut back to the embedded entry if the clipboard content could be parsed without errors.
 

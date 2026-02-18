@@ -14,8 +14,8 @@ have a little more work to do to get the same safety and performance as internal
 ## Updating from a goroutine
 
 Any time your app invokes Fyne APIs from a goroutine your code created, you should use the
-`fyne.Do` function. This tells Fyne that you want to queue changes to the application interface.
-For example with a `canvas.Text` called `output` you may want to update the time each second.
+[fyne.Do](/api/v2/fyne/doubletappable/#type--do) function. This tells Fyne that you want to queue changes to the application interface.
+For example with a [canvas.Text](/api/v2/canvas/text/#type--text) called `output` you may want to update the time each second.
 The key code there would be:
 
 ```go
@@ -65,9 +65,9 @@ func main() {
 
 ## Waiting for the code to run
 
-When calling `fyne.Do` the code will execute between when you request it and the next frame to draw - which could be up to 15ms later. Some times it is necessary to know when that process has finished. For example if you are updating an image buffer and do not want to start again until after it is processed for the next visual update.
+When calling [fyne.Do](/api/v2/fyne/doubletappable/#type--do) the code will execute between when you request it and the next frame to draw - which could be up to 15ms later. Some times it is necessary to know when that process has finished. For example if you are updating an image buffer and do not want to start again until after it is processed for the next visual update.
 
-To do this another function, `fyne.DoAndWait` is useful. This takes the same parameter as the `Do` version above, but it will not return until the update is complete. This means the next line in your app will happen after the user interface is updated - very useful if you want to avoid potential issues with accessing shared resources concurrently.
+To do this another function, [fyne.DoAndWait](/api/v2/fyne/pkg/#func--doandwait) is useful. This takes the same parameter as the `Do` version above, but it will not return until the update is complete. This means the next line in your app will happen after the user interface is updated - very useful if you want to avoid potential issues with accessing shared resources concurrently.
 
 {{% youtube "choFGqOPzDI" %}}
 

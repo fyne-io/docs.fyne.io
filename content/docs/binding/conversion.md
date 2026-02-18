@@ -19,7 +19,7 @@ of helpful conversion functions.
 Most commonly this will be used to convert different
 types of data into strings for displaying in `Label`
 or `Entry` widgets. See in the code how we can convert
-a `Float` to `String` using `binding.FloatToString`.
+a `Float` to `String` using [binding.FloatToString](/api/v2/data/binding/string/#func--floattostring).
 The original value can be edited by moving the slider.
 Each time the data changes it will run the conversion
 code and update any connected widgets.
