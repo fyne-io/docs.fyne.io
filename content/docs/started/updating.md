@@ -11,7 +11,7 @@ examples you will have created a basic user interface. In this page
 we see how the content of a GUI can be updated from your code.
 
 The first step is to assign the widget you want to update to a
-variable. In the hello world tutorial we passed `widget.NewLabel`
+variable. In the hello world tutorial we passed [widget.NewLabel](/api/v2/widget/label/#func--newlabel)
 directly into `SetContent()`, to update it we change that to two
 different lines, such as:
 

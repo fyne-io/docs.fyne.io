@@ -11,7 +11,7 @@ aliases:
 There are various widgets available to present the user with
 a choice, these include a checkbox, radio group and select popup.
 
-The `widget.Check` provides a simple yes/no choice and is created
+The [widget.Check](/api/v2/widget/check/#type--check) provides a simple yes/no choice and is created
 using a string label. Each of these widgets also takes a
 "changed" `func(...)` where the parameter is of the appropriate
 type. `widget.NewCheck(..)` therefore takes a `string` parameter for

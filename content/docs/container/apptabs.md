@@ -13,7 +13,7 @@ between different content panels. Tabs are either just text
 or text and an icon. It is recommended not to mix some tabs
 having icons and some without. A tab container is created
 using `container.NewAppTabs(...)` and passing
-`container.TabItem` items (that can be created using
+[container.TabItem](/api/v2/container/tabitem/#type--tabitem) items (that can be created using
 `container.NewTabItem(...)`).
 
 The tab container can be configured by setting the location

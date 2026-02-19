@@ -26,7 +26,7 @@ As well as changing the content shown using `Canvas.SetContent()`, it is
 possible to change the properties of existing canvas objects. For example, you
 can change the `FillColor` of a rectangle and then call `rect.Refresh()` to update
 its appearance. When performing such updates from a goroutine, you should
-use the `fyne.Do` function to queue the updates safely on the main goroutine,
+use the [fyne.Do](/api/v2/fyne/doubletappable/#type--do) function to queue the updates safely on the main goroutine,
 ensuring thread safety as required since Fyne v2.6.0.
 
 ```go
@@ -85,13 +85,13 @@ func setContentToCircle(c fyne.Canvas) {
 
 ## Widget
 
-A `fyne.Widget` is a special type of canvas object that has interactive elements
+A [fyne.Widget](/api/v2/fyne/widget/#type--widget) is a special type of canvas object that has interactive elements
 associated with it. In widgets, the logic is separate from the way that
 it looks (also called the `WidgetRenderer`).
 
 Widgets are also types of `CanvasObject`, so we can set the
 content of our window to a single widget. See how we create a new
-`widget.Entry` and set it as the content of the window in this example.
+[widget.Entry](/api/v2/widget/entry/#type--entry) and set it as the content of the window in this example.
 
 ```go
 package main

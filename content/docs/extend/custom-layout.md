@@ -43,7 +43,7 @@ func (d *diagonal) MinSize(objects []fyne.CanvasObject) fyne.Size {
 }
 ```
 
-To this type we add a `Layout()` function that should move all of the specified objects into the `fyne.Size` specified in the second parameter.
+To this type we add a `Layout()` function that should move all of the specified objects into the [fyne.Size](/api/v2/fyne/size/#type--size) specified in the second parameter.
 
 In our implementation we calculate the top-left of the widgets (this is `0` x parameter and has a y position that is the height of the container less the total of all child item heights).
 From the top position we simply advance each item position by the size of the previous child.
@@ -62,7 +62,7 @@ func (d *diagonal) Layout(objects []fyne.CanvasObject, containerSize fyne.Size) 
 ```
 
 That's all there is to creating a custom layout.
-Now that the code is all written we can use it as the `layout` parameter to `container.New`.
+Now that the code is all written we can use it as the `layout` parameter to [container.New](/api/v2/container/apptabs/#func--new).
 The code below sets up 3 `Label` widgets and place them in a container with our new layout.
 If you run this application you will see the diagonal widget arrangement and, upon resizing the window, they will align to the bottom left of the available space.
 

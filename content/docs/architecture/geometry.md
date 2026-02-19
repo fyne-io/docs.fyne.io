@@ -24,7 +24,7 @@ This is designed to allow code to be as self-contained as possible.
 Like other vector based GUI libraries the Fyne coordinates need to be based
 on some baseline monitor resolution. All [scaling](/architecture/scaling) is
 relative to this value. For fyne that resolution is 120DPI.
-This means that the sizes referred to in `fyne.Size` will be 1=1px when your monitor is 120DPI and scale values are all set to 1.
+This means that the sizes referred to in [fyne.Size](/api/v2/fyne/size/#type--size) will be 1=1px when your monitor is 120DPI and scale values are all set to 1.
 For a HiDPI screen, as mentioned above, the actual DPI may be closer to 240
 and on mobile devices it could even be 360 or higher.
 To manage handle this complexity the toolkit manages scaling internally so
@@ -46,7 +46,7 @@ One time that pixel sizes will matter is if you start loading bitmaps images. No
 `FillMode=fyne.FillOriginal` then the actual image size will be different
 on different devices, due to the pixel density. Normally this feature
 would be used inside a `Scroll` container.
-Fyne also defines a `canvas.Raster` primitive which will draw pixels exactly at the pixel density of the output device. This enables your code
+Fyne also defines a [canvas.Raster](/api/v2/canvas/raster/#type--raster) primitive which will draw pixels exactly at the pixel density of the output device. This enables your code
 to draw at the highest possible output resolution without knowing 
 details of the device you are running on.
 If for some reason you need "pixel perfect" positioning you need to multiply `CanvasObject.Size()` by `Canvas.Scale()`.

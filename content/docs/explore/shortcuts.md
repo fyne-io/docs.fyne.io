@@ -14,7 +14,7 @@ Shortcuts are common tasks that can be triggered by keyboard combinations or con
 
 ## Registering with a Canvas
 
-There are many standard shortcuts defined (such as `fyne.ShortcutCopy`) which are connected to standard keyboard shortcuts and right-click menus. The first step to adding a new `Shortcut` is to define the shortcut. For most uses this will be a keyboard triggered shortcut, which is a desktop extension. To do this we use `desktop.CustomShortcut`, for example to use the Tab key and Control modifier you might do the following:
+There are many standard shortcuts defined (such as [fyne.ShortcutCopy](/api/v2/fyne/shortcutcopy/#type--shortcutcopy)) which are connected to standard keyboard shortcuts and right-click menus. The first step to adding a new `Shortcut` is to define the shortcut. For most uses this will be a keyboard triggered shortcut, which is a desktop extension. To do this we use [desktop.CustomShortcut](/api/v2/driver/desktop/customshortcut/#type--customshortcut), for example to use the Tab key and Control modifier you might do the following:
 
 ```go
 	ctrlTab    := &desktop.CustomShortcut{KeyName: fyne.KeyTab, Modifier: fyne.KeyModifierControl}
@@ -39,7 +39,7 @@ Shortcuts only work in combination with modifier keys. In order to react to keyb
 
 ## Adding shortcuts to an Entry
 
-It can also be helpful to have a shortcut apply only when the current item is focused. This approach can be used for any focusable widget, and is managed by extending that widget and adding a `TypedShortcut` handler. This is much like adding key handlers, except the value passed in will be a `fyne.Shortcut`.
+It can also be helpful to have a shortcut apply only when the current item is focused. This approach can be used for any focusable widget, and is managed by extending that widget and adding a `TypedShortcut` handler. This is much like adding key handlers, except the value passed in will be a [fyne.Shortcut](/api/v2/fyne/shortcut/#type--shortcut).
 
 ```go
 type myEntry struct {

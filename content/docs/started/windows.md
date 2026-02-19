@@ -10,13 +10,13 @@ aliases:
 ---
 
 Windows are created using `App.NewWindow()` and need to be shown using
-the `Show()` function. The helper method `ShowAndRun()` on `fyne.Window`
+the `Show()` function. The helper method `ShowAndRun()` on [fyne.Window](/api/v2/fyne/window/#type--window)
 allows you to show your window and run the application at the same time.
 
 By default a window will be the right size to show its content
 by checking the `MinSize()` function (more on that in later examples).
 You can set a larger size by calling the `Window.Resize()` method.
-Into this is passed a `fyne.Size` which contains a width and height using
+Into this is passed a [fyne.Size](/api/v2/fyne/size/#type--size) which contains a width and height using
 device independent pixels (meaning that it will be the same across different
 devices), for example to make a window square by default we could:
 

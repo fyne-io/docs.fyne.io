@@ -16,7 +16,7 @@ advanced functionality. Rather than have developers build their own widgets
 it is possible to extend the existing ones.
 
 For example we will extend the icon widget to support being tapped. To do this
-we declare a new struct that embeds the `widget.Icon` type. We create a
+we declare a new struct that embeds the [widget.Icon](/api/v2/widget/icon/#type--icon) type. We create a
 constructor function that calls the important `ExtendBaseWidget` function.
 
 ```go
@@ -38,9 +38,9 @@ func newTappableIcon(res fyne.Resource) *tappableIcon {
 }
 ```
 
-> **Note:** a widget constructor like `widget.NewIcon` may not be used for extension since it already calls `ExtendBaseWidget`.
+> **Note:** a widget constructor like [widget.NewIcon](/api/v2/widget/icon/#func--newicon) may not be used for extension since it already calls `ExtendBaseWidget`.
 
-We then add new functions to implement the `fyne.Tappable` interface, with
+We then add new functions to implement the [fyne.Tappable](/api/v2/fyne/tappable/#type--tappable) interface, with
 those functions added the new `Tapped` function will be called every time the
 user taps our new icon.  The interface required has just one function,
 `Tapped(*PointEvent)` and we implement it as follows:

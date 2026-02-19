@@ -9,7 +9,7 @@ aliases:
 - /container/max
 ---
 
-The `layout.NewStackLayout()` is the simplest layout, it sets all items in
+The [layout.NewStackLayout()](/api/v2/layout/pkg/#func--newstacklayout) is the simplest layout, it sets all items in
 the container to be the same size as the container. This is not
 often useful in general containers but can be suitable when composing
 widgets.

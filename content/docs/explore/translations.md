@@ -53,7 +53,7 @@ Each file can be most easily loaded using the Go `embed` feature - place each of
 var translations embed.FS
 ```
 
-Finally you can tell Fyne to load these translations with a single function call between `app.New` and `Run()` in your `main` function:
+Finally you can tell Fyne to load these translations with a single function call between [app.New](/api/v2/app/pkg/#func--new) and `Run()` in your `main` function:
 
 ```go
 	lang.AddTranslationsFS(translations, "translation")
@@ -77,7 +77,7 @@ When your app starts it will display using the translations for the current user
 
 ## Plurals
 
-In more complex cases the string will change based on the number of items it refers to. For this the `lang.LocalizePlural` function (aliased to `lang.N`) is available.
+In more complex cases the string will change based on the number of items it refers to. For this the [lang.LocalizePlural](/api/v2/lang/pkg/#func--localizeplural) function (aliased to `lang.N`) is available.
 
 ```go
     age := widget.NewLabel(lang.N("{% raw %}{{.Years}}{% endraw %} years old", years, map[string]any{"Years": years}))

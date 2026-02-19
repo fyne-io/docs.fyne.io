@@ -8,7 +8,7 @@ aliases:
 - /tour/canvas/circle
 ---
 
-`canvas.Circle` defines a circle shape filled by the specified
+[canvas.Circle](/api/v2/canvas/circle/#type--circle) defines a circle shape filled by the specified
 colour. You may also set a `StrokeWidth` and therefore a different
 `StrokeColor` as shown in this example.
 

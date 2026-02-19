@@ -15,7 +15,7 @@ By setting OnCancel or OnSubmit the form will add a button
 bar with the specified handlers called when appropriate.
 
 The widget can be created with `widget.NewForm(...)` passing
-a list of `widget.FormItem`s, or by using the
+a list of [widget.FormItem](/api/v2/widget/formitem/#type--formitem)s, or by using the
 `&widget.Form{}` syntax illustrated in the example.
 There is also a helpful `Form.Append(label, widget)` that
 can be used for an alternative syntax.

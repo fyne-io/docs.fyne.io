@@ -8,7 +8,7 @@ aliases:
 - /tour/canvas/line
 ---
 
-The `canvas.Line` object draws a line from the `Position1` (default
+The [canvas.Line](/api/v2/canvas/line/#type--line) object draws a line from the `Position1` (default
 is top, left) to `Position2` (default is bottom, right).
 You specify its colour and can vary the stroke width which otherwise
 defaults to `1`.

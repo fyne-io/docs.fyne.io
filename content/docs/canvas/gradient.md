@@ -11,7 +11,7 @@ aliases:
 ---
 
 The last canvas primitive type is Gradient, available as
-`canvas.LinearGradient` and `canvas.RadialGradient` which is used
+[canvas.LinearGradient](/api/v2/canvas/lineargradient/#type--lineargradient) and [canvas.RadialGradient](/api/v2/canvas/radialgradient/#type--radialgradient) which is used
 to draw a gradient from one colour to another in various patterns.
 You can create gradients using `NewHorizontalGradient()`,
 `NewVerticalGradient()` or `NewRadialGradient()`.

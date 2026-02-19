@@ -11,7 +11,7 @@ aliases:
 The border layout is possibly the most widely used to construct user
 interfaces as it allows the positioning of items around a central element
 which will expand to fill the space. To create a border container you need
-to pass the `fyne.CanvasObject`s that should be positioned in a border
+to pass the [fyne.CanvasObject](/api/v2/fyne/canvasobject/#type--canvasobject)s that should be positioned in a border
 position to the constructor's first four parameters. This
 syntax is basically just
 `container.NewBorder(top, bottom, left, right, center)` as illustrated in
@@ -48,5 +48,5 @@ func main() {
 
 Note that all items in the center will expand to fill the space (as if
 they were in a [`layout.MaxLayout`](/container/max) container).
-To manage the area yourself you can use any `fyne.Container` as the
+To manage the area yourself you can use any [fyne.Container](/api/v2/fyne/container/#type--container) as the
 content instead.

@@ -18,7 +18,7 @@ types of functionality. They are as follows:
 
 `fyne.io/fyne/v2/app`
 : The app package provides the APIs that start a new application.
-: Normally you only require `app.New()` or `app.NewWithID()`.
+: Normally you only require [app.New()](/api/v2/app/pkg/#func--new) or [app.NewWithID()](/api/v2/app/pkg/#func--newwithid).
 
 `fyne.io/fyne/v2/canvas`
 : The canvas package provides all of the drawing APIs within Fyne.

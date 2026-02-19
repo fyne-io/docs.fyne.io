@@ -9,7 +9,7 @@ aliases:
 - /tutorial/custom-theme
 ---
 
-Applications are able to load custom themes that can apply small changes to the standard theme or provide a completely unique look. A theme will need to implement the functions of `fyne.Theme` interface, which is defined as follows:
+Applications are able to load custom themes that can apply small changes to the standard theme or provide a completely unique look. A theme will need to implement the functions of [fyne.Theme](/api/v2/fyne/theme/#type--theme) interface, which is defined as follows:
 
 ```go
 type Theme interface {
@@ -68,8 +68,8 @@ Of course colors are simpler than resources, we look at that for custom icons.
 
 #### Overriding default icons
 
-Icons (and Fonts) use `fyne.Resource` as values instead of simple types like `int` (for size) or `color.Color` for colors. We can build our own
-resource using `fyne.NewStaticResource`, or you could pass in a value
+Icons (and Fonts) use [fyne.Resource](/api/v2/fyne/resource/#type--resource) as values instead of simple types like `int` (for size) or `color.Color` for colors. We can build our own
+resource using [fyne.NewStaticResource](/api/v2/fyne/staticresource/#func--newstaticresource), or you could pass in a value
 that was created using [resource embedding](https://developer.fyne.io/tutorial/bundle).
 
 ```go

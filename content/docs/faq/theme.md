@@ -14,7 +14,7 @@ In this page we answer some common questions about the design of Fyne themes and
 **A:** All of the standard widgets use the current `Theme` definition to set the colour, font and sizes. To make changes to your application consider using a 
 [custom theme](/extend/custom-theme).
 
-If your application requires text that is a different colour you can use the `canvas.Text` type instead.
+If your application requires text that is a different colour you can use the [canvas.Text](/api/v2/canvas/text/#type--text) type instead.
 That allows directly setting the colour and size of the text. Be careful when doing this because a user can choose between light or dark theme variations, so you should test with both.
 
 **Q: How can I remove the background colour from my `Entry` widget?**

@@ -10,7 +10,7 @@ aliases:
 - /canvas/
 ---
 
-`canvas.Rectangle` is the simplest canvas object in Fyne. It displays
+[canvas.Rectangle](/api/v2/canvas/rectangle/#type--rectangle) is the simplest canvas object in Fyne. It displays
 a block of the specified colour. You can also set the colour using
 the `FillColor` field.
 
@@ -40,5 +40,5 @@ func main() {
 }
 ```
 
-Other `fyne.CanvasObject` types have more configuration, let us look
-[next](text) at `canvas.Text`.
+Other [fyne.CanvasObject](/api/v2/fyne/canvasobject/#type--canvasobject) types have more configuration, let us look
+[next](text) at [canvas.Text](/api/v2/canvas/text/#type--text).
