@@ -26,7 +26,7 @@ As well as changing the content shown using `Canvas.SetContent()`, it is
 possible to change the properties of existing canvas objects. For example, you
 can change the `FillColor` of a rectangle and then call `rect.Refresh()` to update
 its appearance. When performing such updates from a goroutine, you should
-use the [fyne.Do](/api/v2/fyne/doubletappable/#type--do) function to queue the updates safely on the main goroutine,
+use the [fyne.Do](/api/v2/fyne/package/#func--do) function to queue the updates safely on the main goroutine,
 ensuring thread safety as required since Fyne v2.6.0.
 
 ```go
