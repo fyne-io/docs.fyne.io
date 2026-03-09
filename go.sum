@@ -1,5 +1,7 @@
 github.com/colinwilson/lotusdocs v0.2.0 h1:vG/frwOUKPRpF3xuXk177Pw73aFrFcT2zRgTI9FiiMY=
 github.com/colinwilson/lotusdocs v0.2.0/go.mod h1:hGOYA9Ym3MA3YGmm9YHo9HkJxlHCyPNaYeFwvn/IFJY=
+github.com/colllijo/lotusdocs v0.0.0-20260307103218-a9131d38de28 h1:THC+rL32lQK6gw8/N3nngBDx6tseqQoQBGTraMRs5mE=
+github.com/colllijo/lotusdocs v0.0.0-20260307103218-a9131d38de28/go.mod h1:eSwdsT4dpBhkijvO5nZIl/A/lWMnlro15C7FuZBweRA=
 github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20400 h1:L6+F22i76xmeWWwrtijAhUbf3BiRLmpO5j34bgl1ggU=
 github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20400/go.mod h1:uekq1D4ebeXgduLj8VIZy8TgfTjrLdSl6nPtVczso78=
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
