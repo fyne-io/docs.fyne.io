@@ -48,7 +48,7 @@ type DataItem interface {
 }
 ```
 
-DataItem is the base interface for all bindable data items. All APIs on bindable data items are safe to invoke directly fron any goroutine.
+DataItem is the base interface for all bindable data items. All APIs on bindable data items are safe to invoke directly from any goroutine.
 
 
 <div class="since">Since: <code>
