@@ -48,7 +48,7 @@ named color and also provides a hint for the variant that the user desires (for 
 ```go
 // The color package has to be imported from "image/color".
 
-func (m myTheme) Color(name fyne.ThemeColorName, variant fyne.ThemeVariant) color.Color {
+func (m *myTheme) Color(name fyne.ThemeColorName, variant fyne.ThemeVariant) color.Color {
 	if name == theme.ColorNameBackground {
 		if variant == theme.VariantLight {
 			return color.White
@@ -73,7 +73,7 @@ resource using [fyne.NewStaticResource](/api/v2/fyne/staticresource/#func--newst
 that was created using [resource embedding](https://developer.fyne.io/tutorial/bundle).
 
 ```go
-func (m myTheme) Icon(name fyne.ThemeIconName) fyne.Resource {
+func (m *myTheme) Icon(name fyne.ThemeIconName) fyne.Resource {
 	if name == theme.IconNameHome {
 		return fyne.NewStaticResource("myHome", homeBytes)
 	}
@@ -92,11 +92,11 @@ Before we can load the theme you will need to implement the `Size` and `Font` me
 you are happy to use the defaults.
 
 ```go
-func (m myTheme) Font(style fyne.TextStyle) fyne.Resource {
+func (m *myTheme) Font(style fyne.TextStyle) fyne.Resource {
 	return theme.DefaultTheme().Font(style)
 }
 
-func (m myTheme) Size(name fyne.ThemeSizeName) float32 {
+func (m *myTheme) Size(name fyne.ThemeSizeName) float32 {
 	return theme.DefaultTheme().Size(name)
 }
 ```
