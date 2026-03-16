@@ -27,6 +27,7 @@ enableEmoji = true
   [params.docs]
     darkMode = true
     sidebarIcons = true
+    logoLinkURL = "https://fyne.io/"
 
 [permalinks]
   [permalinks.page]
