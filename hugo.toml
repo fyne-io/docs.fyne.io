@@ -20,9 +20,14 @@ enableEmoji = true
   [params.footer]
     copyright = "© :YEAR: The Fyne.io community. Please consider [**sponsoring**](https://fyne.io/sponsor/) our work."
 
-[params.docs]
-darkMode = true
-sidebarIcons = true
+  [params.social]
+    github = "fyne-io/docs.fyne.io"
+    twitter = "fyne_io"
+
+  [params.docs]
+    darkMode = true
+    sidebarIcons = true
+    logoLinkURL = "https://fyne.io/"
 
 [permalinks]
   [permalinks.page]
@@ -33,4 +38,3 @@ sidebarIcons = true
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
-
