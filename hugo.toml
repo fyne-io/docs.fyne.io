@@ -28,6 +28,8 @@ enableEmoji = true
     darkMode = true
     sidebarIcons = true
     logoLinkURL = "https://fyne.io/"
+    prism = true
+    prismTheme = "lotusdocs"
 
 [permalinks]
   [permalinks.page]
