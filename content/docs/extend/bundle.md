@@ -54,7 +54,6 @@ If you will be bundling many files it is recommended to save the commands in a g
 //go:generate fyne bundle -o bundled.go -append image2.png
 ```
 
-
 If you then add any assets you can update this header and run it with "go generate" to update your `bundled.go` file.
 Since "fyne bundle" uses the "embed" package, changing existing assets is done by replacing their files.
 You should then add `bundled.go` and the assets to version control so others can build your app
