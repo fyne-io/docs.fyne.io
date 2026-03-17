@@ -30,11 +30,12 @@ $
 The contents of `bundled.go` will be a list of resource variables that we can then access in our code. For example the code above will result in a file that includes the following:
 
 ```go
+//go:embed image.png
+var resourceImagePngData []byte
 var resourceImagePng = &fyne.StaticResource{
-	StaticName: "image.png",
-	StaticContent: []byte{
-...
-	}}
+        StaticName:    "image.png",
+        StaticContent: resourceImagePngData,
+}
 ```
 
 As you see the default naming is "resource\<Name\>.\<Ext\>". The name and package used in this file can be customised in command parameters. We can then use this name to,
@@ -53,7 +54,9 @@ If you will be bundling many files it is recommended to save the commands in a g
 //go:generate fyne bundle -o bundled.go -append image2.png
 ```
 
-If you then change any assets or add new ones then you can update this header and run it with "go generate" to update your `bundled.go` file.
-You should then add `bundled.go` to version control so others can build your app
+
+If you then add any assets you can update this header and run it with "go generate" to update your `bundled.go` file.
+Since "fyne bundle" uses the "embed" package, changing existing assets is done by replacing their files.
+You should then add `bundled.go` and the assets to version control so others can build your app
 without needing to run "fyne bundle".
 
