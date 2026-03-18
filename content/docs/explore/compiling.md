@@ -14,8 +14,9 @@ aliases:
 
 Fyne will typically configure your application appropriately for the target platform by selecting the driver and configuration. The following build tags are supported and can help in your development. For example if you wish to simulate a mobile application whilst running on a desktop computer you could use the following command:
 
-	go run -tags mobile main.go
-
+```sh
+go run -tags mobile main.go
+```
 
 | Tag      | Description               |
 |----------|---------------------------|

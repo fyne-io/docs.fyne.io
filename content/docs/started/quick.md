@@ -6,7 +6,7 @@ slug: quick
 weight: 1010
 
 aliases:
-- /started/started.html 
+- /started/started.html
 - /started/
 - /tour/introduction/
 - /tour/introduction/hello
@@ -34,14 +34,18 @@ The MSYS2 platform is the recommended approach for working on Windows. Proceed a
 3. Open "MSYS2 MinGW 64-bit" from the start menu
 4. Execute the following commands (if asked for install options be sure to choose "all"):
 
-        $ pacman -Syu
-        $ pacman -S git mingw-w64-x86_64-toolchain mingw-w64-x86_64-go
+    ```sh
+    pacman -Syu
+    pacman -S git mingw-w64-x86_64-toolchain mingw-w64-x86_64-go
+    ```
 
 5. You will need to add ~/Go/bin to your $PATH, for MSYS2 you can paste the following command into your terminal:
 
-        $ echo "export PATH=\$PATH:~/Go/bin" >> ~/.bashrc
+    ```sh
+    echo "export PATH=\$PATH:~/Go/bin" >> ~/.bashrc
+    ```
 
-6. For the compiler to work on other terminals you will need to set up the windows %PATH% variable to find these tools. Go to the "Edit the system environment variables" control panel, tap "Advanced" and add "C:\msys64\mingw64\bin" to the Path list.
+6. For the compiler to work on other terminals you will need to set up the windows `%PATH%` variable to find these tools. Go to the "Edit the system environment variables" control panel, tap "Advanced" and add `C:\msys64\mingw64\bin` to the Path list.
 
 {{% /tab %}}
 {{% tab tabName="macOS" %}}
@@ -49,7 +53,11 @@ The MSYS2 platform is the recommended approach for working on Windows. Proceed a
 1. Download Go from the [download page](https://golang.org/dl/) and follow instructions.
 2. Install Xcode from the [Mac App Store](https://apps.apple.com/us/app/xcode/id497799835?mt=12).
 3. Set up the Xcode command line tools by opening a Terminal window and typing the following:
-    `xcode-select --install`
+
+    ```sh
+    xcode-select --install
+    ```
+
 4. In macOS the graphics drivers will already be installed.
 
 {{% /tab %}}
@@ -57,34 +65,76 @@ The MSYS2 platform is the recommended approach for working on Windows. Proceed a
 
 You will need to install Go, GCC and the graphics library header files using your package manager. Choose the command corresponding to your distribution:
 
-* **Debian, Ubuntu and Raspberry Pi OS:**
-`sudo apt-get install golang gcc libgl1-mesa-dev xorg-dev libxkbcommon-dev`
-* **Fedora:**
-`sudo dnf install golang golang-misc gcc libXcursor-devel libXrandr-devel mesa-libGL-devel libXi-devel libXinerama-devel libXxf86vm-devel libxkbcommon-devel wayland-devel`
-* **Arch Linux:**
-`sudo pacman -S go xorg-server-devel libxcursor libxrandr libxinerama libxi libxkbcommon`
-* **Solus:**
-`sudo eopkg it -c system.devel golang mesalib-devel libxrandr-devel libxcursor-devel libxi-devel libxinerama-devel libxkbcommon-devel`
-* **openSUSE:**
-`sudo zypper install go gcc libXcursor-devel libXrandr-devel Mesa-libGL-devel libXi-devel libXinerama-devel libXxf86vm-devel libxkbcommon-devel`
-* **Void Linux:**
-`sudo xbps-install -S go base-devel xorg-server-devel libXrandr-devel libXcursor-devel libXinerama-devel libXxf86vm-devel libxkbcommon-devel wayland-devel`
-* **Alpine Linux**
-`sudo apk add go gcc libxcursor-dev libxrandr-dev libxinerama-dev libxi-dev linux-headers mesa-dev libxkbcommon-dev wayland-dev`
-* **NixOS**
-`nix-shell -p libGL pkg-config xorg.libX11.dev xorg.libXcursor xorg.libXi xorg.libXinerama xorg.libXrandr xorg.libXxf86vm libxkbcommon wayland`
+### Debian, Ubuntu and Raspberry Pi OS
+
+```sh
+sudo apt-get install golang gcc libgl1-mesa-dev xorg-dev libxkbcommon-dev
+```
+
+### Fedora
+
+```sh
+sudo dnf install golang golang-misc gcc libXcursor-devel libXrandr-devel mesa-libGL-devel libXi-devel libXinerama-devel libXxf86vm-devel libxkbcommon-devel wayland-devel
+```
+
+### Arch Linux
+
+```sh
+sudo pacman -S go xorg-server-devel libxcursor libxrandr libxinerama libxi libxkbcommon
+```
+
+### Solus
+
+```sh
+sudo eopkg it -c system.devel golang mesalib-devel libxrandr-devel libxcursor-devel libxi-devel libxinerama-devel libxkbcommon-devel
+```
+
+### openSUSE
+
+```sh
+sudo zypper install go gcc libXcursor-devel libXrandr-devel Mesa-libGL-devel libXi-devel libXinerama-devel libXxf86vm-devel libxkbcommon-devel
+```
+
+### Void Linux
+
+```sh
+sudo xbps-install -S go base-devel xorg-server-devel libXrandr-devel libXcursor-devel libXinerama-devel libXxf86vm-devel libxkbcommon-devel wayland-devel
+```
+
+### Alpine Linux
+
+```sh
+sudo apk add go gcc libxcursor-dev libxrandr-dev libxinerama-dev libxi-dev linux-headers mesa-dev libxkbcommon-dev wayland-dev
+```
+
+### NixOS
+
+```sh
+nix-shell -p libGL pkg-config xorg.libX11.dev xorg.libXcursor xorg.libXi xorg.libXinerama xorg.libXrandr xorg.libXxf86vm libxkbcommon wayland
+```
 
 {{% /tab %}}
 {{% tab tabName="BSD" %}}
 
 You will need to install Go, GCC and the graphics library header files using the package manager. Choose the command corresponding to your BSD system:
 
-* **FreeBSD:**
-`sudo pkg install go gcc xorg pkgconf`
-* **OpenBSD:**
-`sudo pkg_add go`
-* **NetBSD:**
-`sudo pkgin install go pkgconf`
+### FreeBSD
+
+```sh
+sudo pkg install go gcc xorg pkgconf
+```
+
+### OpenBSD
+
+```sh
+sudo pkg_add go
+```
+
+### NetBSD
+
+```sh
+sudo pkgin install go pkgconf
+```
 
 {{% /tab %}}
 {{% tab tabName="Android" %}}
@@ -99,7 +149,11 @@ Compiling on the Android device itself using Termux (video tutorial can be found
 
 * Install [fdroid](https://f-droid.org/) and then install [termux](https://f-droid.org/packages/com.termux/) from there.
 * Open Termux and install Go and Git:
-`pkg install golang git`
+
+    ```sh
+    pkg install golang git
+    ```
+
 * Install NDK and SDK to termux from [https://github.com/Lzhiyong/termux-ndk](https://github.com/Lzhiyong/termux-ndk) and set environment variables `ANDROID_HOME` and `ANDROID_NDK_HOME` appropriately.
 
 {{% /tab %}}
@@ -139,7 +193,7 @@ Compiling on the Android device itself using Termux (video tutorial can be found
         	clickTab(3);
         }
     });
-</script> 
+</script>
 
 ## Downloading
 
@@ -147,14 +201,18 @@ Since Go 1.16 you will need to set up the module before you can use the package.
 
 Run the following command and replace `MODULE_NAME` with your preferred module name (this should be called in a new folder specific for your application).
 
-    $ mkdir myapp
-    $ cd myapp
-    $ go mod init MODULE_NAME
+```sh
+mkdir myapp
+cd myapp
+go mod init MODULE_NAME
+```
 
-You now need to download the Fyne module and helper tool. This will be done using the following commands: 
+You now need to download the Fyne module and helper tool. This will be done using the following commands:
 
-    $ go get fyne.io/fyne/v2@latest
-    $ go install fyne.io/tools/cmd/fyne@latest
+```sh
+go get fyne.io/fyne/v2@latest
+go install fyne.io/tools/cmd/fyne@latest
+```
 
 If you are unsure of how Go modules work, consider reading [Tutorial: Create a Go module](https://golang.org/doc/tutorial/create-module).
 
@@ -176,18 +234,24 @@ If there are any problems with your installation see the [troubleshooting](/faq/
 If you want to see the Fyne toolkit in action before you start to code your own application,
 you can see our [demo app](https://github.com/fyne-io/demo/tree/main) running on your computer by executing:
 
-    $ go run fyne.io/demo@latest
+```sh
+go run fyne.io/demo@latest
+```
 
 Please note that the first run has to compile some C-code and can thus take longer than usual. Subsequent builds reuse the cache and will be much faster.
 
-### Installing
+## Installing
 
 If you want to, you can also install the demo using the following command (requires Go 1.16 or later):
 
-    $ go install fyne.io/demo@latest
+```sh
+go install fyne.io/demo@latest
+```
 
 If your `GOBIN` environment has been added to path (should be by default on macOS and Windows), you can then run the demo:
 
-    $ demo
+```sh
+demo
+```
 
 And that's all there is to it! Now you can write your own Fyne application in your IDE of choice. If you want to see some Fyne code in action then you can read [your first application](/started/firstapp).

@@ -28,7 +28,6 @@ If it seems to be missing then you should update your `PATH` environment variabl
 by a build failure. When doing a standard Go cross-compile it will automatically turn off CGo.
 To fix this be sure to set `CGO_ENABLED=1` in your compile command.
 
-
 **Q: cc1.exe: sorry, unimplemented: 64-bit mode not compiled in**
 
 **A:** Windows compilation will sometimes complain that 64 bit mode is not available.
@@ -45,4 +44,6 @@ However if you want to share your software without that cost this error may appe
 
 The fix is to remove the quarantine flag, which you can do by opening the *Terminal* and executing the following command:
 
-    sudo xattr -r -d com.apple.quarantine MyApp.app
+```sh
+sudo xattr -r -d com.apple.quarantine MyApp.app
+```
