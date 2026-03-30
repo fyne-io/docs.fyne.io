@@ -66,7 +66,7 @@ The naming of these translation files should follow the format [prefix]{{[langua
 For example:
 
 ```
-$ tree # at tranlations
+$ tree # at translations
 .
 |-- de.json
 |-- en.json
