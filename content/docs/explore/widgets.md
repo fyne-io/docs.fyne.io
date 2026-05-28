@@ -35,13 +35,13 @@ aliases:
 
 ### Accordion
 
-Accordion displays a list of AccordionItems. Each item is represented by a button that reveals a detailed view when tapped.
+[Accordion](/api/widget/accordion) displays a list of AccordionItems. Each item is represented by a button that reveals a detailed view when tapped.
 
 {{% widget name="accordion" %}}
 
 ### Activity
 
-Display an animated activity indicator.
+[Activity](/api/widget/activity) Display an animated activity indicator.
 
 {{% widget name="activity" %}}
 
@@ -53,13 +53,13 @@ Display an animated activity indicator.
 
 ### Card
 
-Card widget groups elements with a header and subheader, all are optional.
+[Card](/api/widget/card) widget groups elements with a header and subheader, all are optional.
 
 {{% widget name="card" %}}
 
 ### Check
 
-Check widget has a text label and a checked (or unchecked) icon.
+[Check](/api/widget/check) widget has a text label and a checked (or unchecked) icon.
 
 {{% widget name="check" %}}
 
@@ -71,13 +71,13 @@ Check widget has a text label and a checked (or unchecked) icon.
 {{% widget name="entry-valid" %}}
 {{% widget name="entry-invalid" %}}
 
-PasswordEntry widget hides text input and adds a button to display the text.
+[PasswordEntry](/api/widget/passwordentry) widget hides text input and adds a button to display the text.
 
 {{% widget name="password" %}}
 
 ### FileIcon
 
-FileIcon provides helpful standard icons for various types of file.
+[FileIcon](/api/widget/fileicon) provides helpful standard icons for various types of file.
 It displays the type of file as an indicator icon and shows the extension of the file type.
 
 {{% widget name="fileicon" %}}
@@ -90,13 +90,13 @@ It displays the type of file as an indicator icon and shows the extension of the
 
 ### Hyperlink
 
-Hyperlink widget is a text component with appropriate padding and layout. When clicked, the URL opens in your default web browser.
+[Hyperlink](/api/widget/hyperlink) widget is a text component with appropriate padding and layout. When clicked, the URL opens in your default web browser.
 
 {{% widget name="hyperlink" %}}
 
 ### Icon
 
-Icon widget is a basic image component that loads its resource to match the theme.
+[Icon](/api/widget/icon) widget is a basic image component that loads its resource to match the theme.
 
 {{% widget name="icon" %}}
 
@@ -112,51 +112,51 @@ Icon widget is a basic image component that loads its resource to match the them
 
 {{% widget name="progress" %}}
 
-ProgressBarInfinite widget creates a horizontal panel that indicates waiting indefinitely An infinite progress bar loops 0% -> 100% repeatedly until Stop() is called.
+[ProgressBarInfinite](/api/widget/progressbarinfinite) widget creates a horizontal panel that indicates waiting indefinitely An infinite progress bar loops 0% -> 100% repeatedly until Stop() is called.
 
 {{% widget name="progressinf" %}}
 
 ### RadioGroup
 
-RadioGroup widget has a list of text labels and radio check icons next to each.
+[RadioGroup](/api/widget/radiogroup) widget has a list of text labels and radio check icons next to each.
 
 {{% widget name="radiogroup" %}}
 
 ### RichText
 
-RichText widget is a text component that shows various styles and embedded objects.
+[RichText](/api/widget/richtext) widget is a text component that shows various styles and embedded objects.
 It supports markdown parsing to construct the widget with ease.
 
 {{% widget name="richtext" %}}
 
 ### Select
 
-Select widget has a list of options, with the current one shown, and triggers an event function when clicked.
+[Select](/api/widget/select) widget has a list of options, with the current one shown, and triggers an event function when clicked.
 
 {{% widget name="select" %}}
 
 ### SelectEntry
 
-Select entry widget adds an editable component to the select widget.
+[SelectEntry](/api/widget/selectentry) widget adds an editable component to the select widget.
 Users can select an option or enter their own value.
 
 {{% widget name="selectentry" %}}
 
 ### Separator
 
-Separator widget shows a dividing line between other elements.
+[Separator](/api/widget/separator) widget shows a dividing line between other elements.
 
 {{% widget name="separator" %}}
 
 ### Slider
 
-Slider if a widget that can slide between two fixed values.
+[Slider](/api/widget/slider) if a widget that can slide between two fixed values.
 
 {{% widget name="slider" %}}
 
 ### TextGrid
 
-TextGrid is a monospaced grid of characters. This is designed to be used by a text editor, code preview or terminal emulator.
+[TextGrid](/api/widget/textgrid) is a monospaced grid of characters. This is designed to be used by a text editor, code preview or terminal emulator.
 
 {{% widget name="textgrid" %}}
 
@@ -193,7 +193,7 @@ Each of these widgets uses a series of callbacks, the minimum set is defined by 
 
 ### GridWrap
 
-GridWrap is a collection widget that display each child item at the same size and wraps them to new lines as required.
+[GridWrap](/api/widget/gridwrap) is a collection widget that display each child item at the same size and wraps them to new lines as required.
 
 {{% widget name="gridwrap" %}}
 
@@ -210,24 +210,24 @@ Container widgets are like regular containers but they provide some additional f
 
 ### Clip
 
-Clip is a container that shows only a portion of the Content, as defined by the size of the clip.
+[Clip](/api/container/clip) is a container that shows only a portion of the Content, as defined by the size of the clip.
 
 {{% widget name="clip" %}}
 
 ### Navigation
 
-The Navigation container provides a stack based navigation where items can be `Push`ed onto and the user can nagivate back and forwards.
+The [Navigation](/api/container/navigation) container provides a stack based navigation where items can be `Push`ed onto and the user can nagivate back and forwards.
 
 {{% widget name="navigation" %}}
 
 ### Scroll
 
-A Scroll container defines an area that is smaller than the Content, providing scrollbars as required.
+A [Scroll](/api/container/scroll) container defines an area that is smaller than the Content, providing scrollbars as required.
 
 {{% widget name="scroll" %}}
 
 ### Split
 
-The Split container defines a container whose size is split between two children.
+The [Split](/api/container/split) container defines a container whose size is split between two children.
 
 {{% widget name="split" %}}
