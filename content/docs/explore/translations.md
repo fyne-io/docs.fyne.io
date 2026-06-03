@@ -98,7 +98,7 @@ The preference order for translations is:
 
 `fr-CA.json > fr.json > en.json`
 
-If both the first and second match fail, no attempt will be made to fall back to other country codes. For example, if `fr-FR.json` exists but not `fr.json`, `fr_CA` will match to `en.json`, not `fr-FR.json`. For this reason it's recommended to always have a generic file, in addition to any country-specific files, to give users not perfectly represented at least a better experience. This can be accomplished either through simple duplication or through moving the file. Similarly, the final fallback will not use a file like `en-GB.json` if `en.json` isn't present, so this file should always exist.
+If both the first and second match fail, no attempt will be made to fall back to other country codes. For example, if `fr-FR.json` exists but not `fr.json`, `fr_CA` will match to `en.json`, not `fr-FR.json`. For this reason it's recommended to always have a generic file, and to only use country-specific files when that region has been uniquely translated for. Similarly, the final fallback will not use a file like `en-GB.json` if `en.json` isn't present, so this file should always exist.
 
 Note that Go does not support symlinks within `embed.FS`.
 
