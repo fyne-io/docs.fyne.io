@@ -38,7 +38,7 @@ for LINE in $SORTED; do
   echo "<li class=\"icon-item\" data-icon-theme-method=\"${ICON}Icon\" data-icon-safeName=\"IconName${ICON}\" id=\"IconName${ICON}\">" >> $OUT
   echo "<figure>" >> $OUT
   stripDTD "$ROOT/theme/icons/$SRC" >> $OUT
-  echo "<figcaption>${ICON}Icon</figcaption></figure></li>" >> $OUT
+  echo "<figcaption>IconName${ICON}</figcaption></figure></li>" >> $OUT
 done
 echo '</ul>' >> $OUT
 

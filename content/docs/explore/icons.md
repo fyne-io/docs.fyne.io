@@ -5,11 +5,11 @@ slug: icons
 
 weight: 2060
 ---
-Each of the following icons is available via the `theme` package as a function. 
-For example `theme.InfoIcon()`.
+The following icons are available via the `theme` package, they can be looked up using the theme.Current().Icon()
+method passing the icon name). 
 
-The icons are also available via their source icon name by using the `ThemeIconName` 
-with the `Icon` method on a struct implementing [fyne.Theme](/api/v2/fyne/theme/#type--theme). For example `theme.Icon(theme.IconNameInfo)`.
+Custom themes can replace these icons by overriding the `Icon` method on a struct implementing
+[fyne.Theme](/api/v2/fyne/theme/#type--theme).
 
 ## List
 
