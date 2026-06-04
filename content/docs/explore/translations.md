@@ -73,7 +73,34 @@ $ tree # at translations
 |-- zh.json
 ```
 
+You may also include country codes in your translation files. See the section below for how they are prioritized.
+
+```
+$ tree # at translations
+.
+|-- pt-PT.json
+|-- pt-BR.json
+|-- pt.json
+|-- en.json
+```
+
 When your app starts it will display using the translations for the current user's language configuration.
+
+## Translation selection
+
+Translation selection uses BCP-47 matching to determine the best translation to use, with `en.json` as a hard-coded final fallback.
+
+For a language-country code combo:
+
+`fr_CA`
+
+The preference order for translations is:
+
+`fr-CA.json > fr.json > en.json`
+
+If both the first and second match fail, no attempt will be made to fall back to other country codes. For example, if `fr-FR.json` exists but not `fr.json`, `fr_CA` will match to `en.json`, not `fr-FR.json`. For this reason it's recommended to always have a generic file, and to only use country-specific files when that region has been uniquely translated for. Similarly, the final fallback will not use a file like `en-GB.json` if `en.json` isn't present, so this file should always exist.
+
+Note that Go does not support symlinks within `embed.FS`.
 
 ## Plurals
 
