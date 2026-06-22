@@ -51,6 +51,10 @@ aliases:
 
 {{% widget name="button" %}}
 
+You can also set Button Importance to show buttons that need to stand out, for example a high importance button will use the primary color:
+
+{{% widget name="button-primary" %}}
+
 ### Card
 
 [Card](/api/widget/card) widget groups elements with a header and subheader, all are optional.
@@ -105,6 +109,13 @@ It displays the type of file as an indicator icon and shows the extension of the
 [Label](/widget/label) widget is a label component with appropriate padding and layout.
 
 {{% widget name="label" %}}
+
+### PopUp
+
+The generic [PopUp](/api/widget/popup) widget can be used to pop any small content over an app.
+But the most useful is normally the [PopUpMenu](/api/widget/popupmenu) which looks like the following:
+
+{{% widget name="popupmenu" %}}
 
 ### Progress bar
 
@@ -204,7 +215,7 @@ Container widgets are like regular containers but they provide some additional f
 
 ### AppTabs
 
-[AppTabs](/container/apptabs) widget allows switching visible content from a list of TabItems. Each item is represented by a button at the top of the widget.
+[AppTabs](/container/apptabs) widget allows switching visible content from a list of TabItems. Each item is represented by a tab at the top of the widget. Other edges can be specified by setting the `TabLocation` field.
 
 {{% widget name="apptabs" %}}
 
@@ -213,6 +224,12 @@ Container widgets are like regular containers but they provide some additional f
 [Clip](/api/container/clip) is a container that shows only a portion of the Content, as defined by the size of the clip.
 
 {{% widget name="clip" %}}
+
+### DocTabs
+
+[DocTabs](/api/container/doctabs) widget allows managing multiple open files, users can close these tabs and open new ones (if your code supports that). Each item is represented by a tab at the top of the widget that will also include a close button. Other edges can be specified by setting the `TabLocation` field.
+
+{{% widget name="doctabs" %}}
 
 ### Navigation
 
