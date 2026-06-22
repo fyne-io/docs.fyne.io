@@ -6,12 +6,14 @@ import (
 	"image/png"
 	"os"
 	"path/filepath"
-	"time"
+	"reflect"
+	"unsafe"
 
 	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/canvas"
 	"fyne.io/fyne/v2/container"
 	"fyne.io/fyne/v2/driver/desktop"
+	"fyne.io/fyne/v2/driver/software"
 	"fyne.io/fyne/v2/storage"
 	"fyne.io/fyne/v2/test"
 	"fyne.io/fyne/v2/theme"
@@ -32,7 +34,10 @@ func makeDrawList() []drawItem {
 	prop.SetMinSize(fyne.NewSize(50, 50))
 	ac := widget.NewActivity()
 	ac.Resize(fyne.NewSize(50, 50))
-	//test.WidgetRenderer(ac).(anim).Animate(0.33)
+	tickActivity(ac, 0.3)
+
+	buttonPrimary := widget.NewButtonWithIcon("Cancel", theme.CancelIcon(), func() {})
+	buttonPrimary.Importance = widget.HighImportance
 
 	se := &widget.SelectEntry{}
 	se.Scroll = container.ScrollNone
@@ -47,6 +52,10 @@ func makeDrawList() []drawItem {
 			container.NewTabItemWithIcon("Tab1", theme.HomeIcon(), widget.NewLabel("                         ")),
 			container.NewTabItemWithIcon("Tab2", theme.MailSendIcon(), widget.NewLabel("                         ")))},
 		{"button", widget.NewButtonWithIcon("Cancel", theme.CancelIcon(), func() {})},
+		{"button-primary", buttonPrimary},
+		{"doctabs", container.NewDocTabs(
+			container.NewTabItemWithIcon("File 1", theme.FileTextIcon(), widget.NewLabel("                         ")),
+			container.NewTabItemWithIcon("File 2", theme.FileImageIcon(), widget.NewLabel("                         ")))},
 		{"card", &widget.Card{Title: "Card Title", Subtitle: "Subtitle", Image: canvas.NewImageFromResource(theme.FyneLogo())}},
 		{"check", &widget.Check{Text: "Check", Checked: true}},
 		{"clip", container.NewGridWithColumns(2, container.NewClip(container.NewStack(
@@ -73,7 +82,7 @@ func makeDrawList() []drawItem {
 		{"progress", &widget.ProgressBar{Value: 0.74}},
 		{"progressinf", widget.NewProgressBarInfinite()},
 		{"radiogroup", &widget.RadioGroup{Options: []string{"Item 1", "Item 2"}, OnChanged: func(string) {}, Selected: "Item 1"}},
-		{"richtext", widget.NewRichTextFromMarkdown("## Title\n\n* List item")},
+		{"richtext", widget.NewRichTextFromMarkdown(`## Title\n\n* List item`)},
 		{"scroll", container.NewScroll(widget.NewLabel("Scroll"))},
 		{"select", widget.NewSelect([]string{"1", "2"}, func(string) {})},
 		{"selectentry", se},
@@ -95,10 +104,11 @@ func makeDrawList() []drawItem {
 func makeGridWrap() *widget.GridWrap {
 	l := widget.NewGridWrap(func() int { return 5 },
 		func() fyne.CanvasObject {
-			return container.NewHBox(widget.NewIcon(theme.DocumentIcon()), widget.NewLabel("It\n01"))
+			return container.NewHBox(widget.NewIcon(theme.DocumentIcon()), widget.NewLabel("#\n01"))
 		},
 		func(i int, item fyne.CanvasObject) {
-			item.(*fyne.Container).Objects[1].(*widget.Label).SetText(fmt.Sprintf("It\n%d", i+1))
+			item.(*fyne.Container).
+				Objects[1].(*widget.Label).SetText(fmt.Sprintf("#\n%d", i+1))
 		})
 
 	return l
@@ -170,6 +180,27 @@ func makeTree() *widget.Tree {
 	return t
 }
 
+// tickActivity advances a running activity's animation to the given fraction (0-1).
+func tickActivity(p *widget.Activity, done float32) {
+	r := test.WidgetRenderer(p)
+	f := reflect.ValueOf(r).Elem().FieldByName("anim")
+	anim := reflect.NewAt(f.Type(), unsafe.Pointer(f.UnsafeAddr())).Elem().Interface().(*fyne.Animation)
+	if anim.Tick != nil {
+		anim.Tick(done)
+	}
+}
+
+// tickProgressInf advances a running infinite progress bar's animation to the
+// given fraction (0-1).
+func tickProgressInf(p *widget.ProgressBarInfinite, done float32) {
+	r := test.WidgetRenderer(p)
+	f := reflect.ValueOf(r).Elem().FieldByName("animation")
+	anim := reflect.NewAt(f.Type(), unsafe.Pointer(f.UnsafeAddr())).Elem().Interface().(fyne.Animation)
+	if anim.Tick != nil {
+		anim.Tick(done)
+	}
+}
+
 func draw(obj fyne.CanvasObject, name string, c fyne.Canvas, themeName string) {
 	fileName := filepath.Join(imgDir, name+"-"+themeName+".png")
 	file, err := os.Create(fileName)
@@ -182,24 +213,39 @@ func draw(obj fyne.CanvasObject, name string, c fyne.Canvas, themeName string) {
 		}
 	}
 
-	c.(test.WindowlessCanvas).SetScale(2.0) // get HiDPI output so we can render nicely on fancy screens :)
+	c.(software.WindowlessCanvas).SetScale(2.0) // get HiDPI output so we can render nicely on fancy screens :)
+	s := obj.Size()
+	if s.IsZero() {
+		s = obj.MinSize()
+	}
 	c.SetContent(obj)
+	c.(software.WindowlessCanvas).Resize(s.Add(fyne.NewSquareSize(theme.Padding() * 2)))
 	if name == "progressinf" {
-		time.Sleep(time.Second)
+		p := obj.(*widget.ProgressBarInfinite)
+		p.Start()
+		tickProgressInf(p, 0.5)
 	} else if name == "separator" {
-		c.(test.WindowlessCanvas).Resize(obj.MinSize().Add(fyne.NewSize(120+theme.Padding()*2, theme.Padding()*2)))
+		c.(software.WindowlessCanvas).Resize(obj.MinSize().Add(fyne.NewSize(120+theme.Padding()*2, theme.Padding()*2)))
+	} else if name == "apptabs" {
+		c.(software.WindowlessCanvas).Resize(fyne.NewSize(160+theme.Padding()*2, 40+theme.Padding()*2))
+	} else if name == "doctabs" {
+		c.(software.WindowlessCanvas).Resize(obj.MinSize().Add(fyne.NewSize(120+theme.Padding()*2, -40+theme.Padding()*2)))
 	} else if name == "list" || name == "table" || name == "tree" || name == "gridwrap" || name == "accordion" || name == "clip" {
-		c.(test.WindowlessCanvas).Resize(fyne.NewSize(136, 120))
-		test.TapCanvas(c, fyne.NewPos(50, 60))
+		c.(software.WindowlessCanvas).Resize(fyne.NewSize(136, 120))
+		if name == "gridwrap" {
+			test.TapCanvas(c, fyne.NewPos(50, 80))
+		} else {
+			test.TapCanvas(c, fyne.NewPos(50, 60))
+		}
 	}
 	img := c.Capture()
-	
+
 	if name == "navigation" {
-		c.Content().(*container.Navigation).PushWithTitle(widget.NewLabel("Child Content"), "Title")
-		c.(test.WindowlessCanvas).Resize(c.Size().AddWidthHeight(1, 1))
+		c.Content().(*container.Navigation).PushWithTitle(widget.NewLabel("Screen\nContent"), "Screen2")
+		c.(test.WindowlessCanvas).Resize(fyne.NewSize(160, 120))
 		img = c.Capture()
 	}
-	
+
 	err = png.Encode(file, img)
 	if err != nil {
 		fyne.LogError("Unable to write image", err)
