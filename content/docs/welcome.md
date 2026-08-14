@@ -25,7 +25,7 @@ If you have not used Fyne before then the following steps will get you up and ru
 
 1. Install Go
 1. Install Gcc
-1. `go get fyne.io/fyne/v2@latest` (or, if using Go before 1.16, then `go get fyne.io/fyne/v2`)
+1. `go install fyne.io/tools/cmd/fyne@latest`
 1. You can test your installation using the [Fyne Setup](https://geoffrey-artefacts.fynelabs.com/github/andydotxyz/fyne-io/setup/latest/) app.
 
 For more details including the exact commands for your operating system see
